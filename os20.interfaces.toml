@@ -1,0 +1,40 @@
+# Native OS20 interface document for @acme/pressure-sensor.
+# Synthetic educational OS20 fixture. Not a medical device, not a validated ventilator, and not regulatory, clinical, or safety evidence.
+
+[[interfaces]]
+id = "port-plus"
+package = "@acme/pressure-sensor"
+owner = "PressureSensor"
+name = "port-plus"
+kind = "core:interface/fluid/gas"
+direction = "input"
+
+[[interfaces]]
+id = "port-minus"
+package = "@acme/pressure-sensor"
+owner = "PressureSensor"
+name = "port-minus"
+kind = "core:interface/fluid/gas"
+direction = "input"
+
+[[interfaces]]
+id = "excitation"
+package = "@acme/pressure-sensor"
+owner = "PressureSensor"
+name = "excitation"
+kind = "core:interface/electrical/power"
+direction = "input"
+
+[interfaces.properties]
+voltage = "5 V"
+
+[[interfaces]]
+id = "signal"
+package = "@acme/pressure-sensor"
+owner = "PressureSensor"
+name = "signal"
+kind = "core:interface/electrical/signal"
+direction = "output"
+
+[interfaces.properties]
+protocol = "example-analog-ratiometric"

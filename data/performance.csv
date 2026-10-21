@@ -1,0 +1,4 @@
+quantity,value,unit,status,provenance
+mass,0.09,kilogram,synthetic,synthetic-fixture
+cost,95,USD,synthetic,synthetic-fixture
+example_span,10,kilopascal,synthetic,synthetic-fixture
