@@ -8,9 +8,9 @@ description = "Sensor subsystem. Synthetic educational OS20 fixture. Not a medic
 acme = "@acme/icu-ontology@1.0.0"
 
 [dependencies]
-"@acme/icu-ontology" = { path = "../icu-ontology" }
-"@acme/pressure-sensor" = { path = "../pressure-sensor" }
-"@acme/flow-sensor" = { path = "../flow-sensor" }
-"@acme/oxygen-sensor" = { path = "../oxygen-sensor" }
-"@acme/temperature-sensor" = { path = "../temperature-sensor" }
-"@acme/sensor-interface-board" = { path = "../sensor-interface-board" }
+"@acme/flow-sensor" = "@acme/flow-sensor@^1.0"
+"@acme/icu-ontology" = "@acme/icu-ontology@^1.0"
+"@acme/oxygen-sensor" = "@acme/oxygen-sensor@^1.0"
+"@acme/pressure-sensor" = "@acme/pressure-sensor@^1.0"
+"@acme/sensor-interface-board" = "@acme/sensor-interface-board@^1.0"
+"@acme/temperature-sensor" = "@acme/temperature-sensor@^1.0"

@@ -1,0 +1,66 @@
+format = 1
+
+[[package]]
+name = "@acme/flow-sensor"
+version = "1.0.0"
+source = "registry"
+repository = "https://github.com/os2-0/acme-icu-ventilator-packages"
+commit = "5a3592c4c1e2726d5fd521a8a199c690f5c272d5"
+tree = "b4da114dbc1b0cf76c9f87833e26d21c372263e9"
+manifest_digest = "sha256:34017b76d41532f88063cc9bfa532d2a2fbfac29a3968e8bded2a1544b5fb5c0"
+dependencies = ["@acme/icu-ontology@1.0.0"]
+ontologies = ["@acme/icu-ontology@1.0.0"]
+
+[[package]]
+name = "@acme/icu-ontology"
+version = "1.0.0"
+source = "registry"
+repository = "https://github.com/os2-0/acme-icu-ventilator-packages"
+commit = "5898c295243ba16ece4b5203b6eb1beddab7d308"
+tree = "63f8da6f1cee8092931777b5e6936420529e7aa3"
+manifest_digest = "sha256:bdaac3d2756b9c5797a9909252e7134cb7b1c785285c6db97536ee176f317d00"
+dependencies = []
+
+[[package]]
+name = "@acme/oxygen-sensor"
+version = "1.0.0"
+source = "registry"
+repository = "https://github.com/os2-0/acme-icu-ventilator-packages"
+commit = "5ed2b6fbf4e8ca06c9c88fb3f6b7b15e9bf6bce4"
+tree = "c04b73678466ea6e141a9f5e1764e4c84340a126"
+manifest_digest = "sha256:e3786a32d8c292a237539dc6f77cc67ca0b2069a22c15a07cdf2e7846e031e69"
+dependencies = ["@acme/icu-ontology@1.0.0"]
+ontologies = ["@acme/icu-ontology@1.0.0"]
+
+[[package]]
+name = "@acme/pressure-sensor"
+version = "1.0.0"
+source = "registry"
+repository = "https://github.com/os2-0/acme-icu-ventilator-packages"
+commit = "0ff3923ba2f4724168d9d6e9747f9c207b99d29c"
+tree = "37e4b9e281ca8ad52558008a14792d30c111be50"
+manifest_digest = "sha256:c5b7b0de32f7e8c5beedce0bbdc3016c56542e81689e1b7f2a121aee431bad95"
+dependencies = ["@acme/icu-ontology@1.0.0"]
+ontologies = ["@acme/icu-ontology@1.0.0"]
+
+[[package]]
+name = "@acme/sensor-interface-board"
+version = "1.0.0"
+source = "registry"
+repository = "https://github.com/os2-0/acme-icu-ventilator-packages"
+commit = "ddb8ec1574b7d635d7c4b7904b26eae79187716e"
+tree = "268da6a8ca1972693b340c71f1a3b3208e52b875"
+manifest_digest = "sha256:e648f85144f31cef358c0c6b53a24581ad50123ef7cbf69de5445fb9770980d8"
+dependencies = ["@acme/icu-ontology@1.0.0"]
+ontologies = ["@acme/icu-ontology@1.0.0"]
+
+[[package]]
+name = "@acme/temperature-sensor"
+version = "1.0.0"
+source = "registry"
+repository = "https://github.com/os2-0/acme-icu-ventilator-packages"
+commit = "fe49b90b7bf626822981a73e669a31f61ee37b9e"
+tree = "ca38bbd27992ff38fb6922068375eafe3510f173"
+manifest_digest = "sha256:5e77b805d903381ae5c24f62e8c51239aaa48d465afa584c94fe1cf67d96a5e1"
+dependencies = ["@acme/icu-ontology@1.0.0"]
+ontologies = ["@acme/icu-ontology@1.0.0"]
