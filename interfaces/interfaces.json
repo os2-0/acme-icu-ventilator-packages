@@ -1,0 +1,49 @@
+{
+  "schema": "os20-fixture-interfaces-v1",
+  "disclaimer": "Synthetic educational OS20 fixture. Not a medical device, not a validated ventilator, and not regulatory, clinical, or safety evidence.",
+  "package": "@acme/oxygen-valve",
+  "native_document": "os20.interfaces.toml",
+  "ports": [
+    {
+      "id": "@acme/oxygen-valve#iface.inlet",
+      "local_id": "inlet",
+      "kind": "core:interface/fluid/gas",
+      "direction": "input",
+      "properties": {
+        "medium": "oxygen"
+      },
+      "owner_definition": "@acme/oxygen-valve#OxygenValve",
+      "note": "Connect by mounted occurrence and port, not by package name alone."
+    },
+    {
+      "id": "@acme/oxygen-valve#iface.outlet",
+      "local_id": "outlet",
+      "kind": "core:interface/fluid/gas",
+      "direction": "output",
+      "properties": {},
+      "owner_definition": "@acme/oxygen-valve#OxygenValve",
+      "note": "Connect by mounted occurrence and port, not by package name alone."
+    },
+    {
+      "id": "@acme/oxygen-valve#iface.coil",
+      "local_id": "coil",
+      "kind": "core:interface/electrical/power",
+      "direction": "input",
+      "properties": {
+        "voltage": "24 V"
+      },
+      "owner_definition": "@acme/oxygen-valve#OxygenValve",
+      "note": "Connect by mounted occurrence and port, not by package name alone."
+    },
+    {
+      "id": "@acme/oxygen-valve#iface.command",
+      "local_id": "command",
+      "kind": "core:interface/electrical/signal",
+      "direction": "input",
+      "properties": {},
+      "owner_definition": "@acme/oxygen-valve#OxygenValve",
+      "note": "Connect by mounted occurrence and port, not by package name alone."
+    }
+  ],
+  "sibling_references": []
+}

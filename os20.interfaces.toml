@@ -1,0 +1,40 @@
+# Native OS20 interface document for @acme/oxygen-valve.
+# Synthetic educational OS20 fixture. Not a medical device, not a validated ventilator, and not regulatory, clinical, or safety evidence.
+
+[[interfaces]]
+id = "inlet"
+package = "@acme/oxygen-valve"
+owner = "OxygenValve"
+name = "inlet"
+kind = "core:interface/fluid/gas"
+direction = "input"
+
+[interfaces.properties]
+medium = "oxygen"
+
+[[interfaces]]
+id = "outlet"
+package = "@acme/oxygen-valve"
+owner = "OxygenValve"
+name = "outlet"
+kind = "core:interface/fluid/gas"
+direction = "output"
+
+[[interfaces]]
+id = "coil"
+package = "@acme/oxygen-valve"
+owner = "OxygenValve"
+name = "coil"
+kind = "core:interface/electrical/power"
+direction = "input"
+
+[interfaces.properties]
+voltage = "24 V"
+
+[[interfaces]]
+id = "command"
+package = "@acme/oxygen-valve"
+owner = "OxygenValve"
+name = "command"
+kind = "core:interface/electrical/signal"
+direction = "input"

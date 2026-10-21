@@ -1,0 +1,45 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 4 0 R /Resources << /Font << /F1 5 0 R >> >> >>
+endobj
+4 0 obj
+<< /Length 709 >>
+stream
+BT
+/F1 12 Tf
+1 0 0 1 50 720 Tm (Proportional oxygen valve datasheet \(synthetic\)) Tj
+1 0 0 1 50 704 Tm () Tj
+1 0 0 1 50 688 Tm (@acme/oxygen-valve@1.0.0) Tj
+1 0 0 1 50 672 Tm (Demonstration proportional valve body and coil. No orifice map is supplied as clinical data.) Tj
+1 0 0 1 50 656 Tm (Envelope mm: \(55, 32, 32\)) Tj
+1 0 0 1 50 640 Tm (Mass kg: 0.28) Tj
+1 0 0 1 50 624 Tm (This PDF is generated fixture text, not a manufacturer datasheet.) Tj
+1 0 0 1 50 608 Tm () Tj
+1 0 0 1 50 592 Tm (Synthetic educational OS20 fixture. Not a medical device, not a validated ventilator, and not regulatory, clinical, or safety evidence.) Tj
+1 0 0 1 50 576 Tm (Generated 2026-10-21 ∑ os20-ventilator-fixture-v1) Tj
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000121 00000 n 
+0000000247 00000 n 
+0000001007 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+1077
+%%EOF

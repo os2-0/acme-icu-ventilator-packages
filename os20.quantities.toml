@@ -1,0 +1,20 @@
+[[quantity]]
+id = "oxygen-valve-mass"
+kind = "@os20/core#Mass"
+value = "0.28"
+unit = "kilogram"
+scope = "own"
+policy = "sum"
+owner = "@acme/oxygen-valve#OxygenValve"
+provenance = "authored"
+
+[[quantity]]
+id = "oxygen-valve-cost"
+kind = "@os20/quantity#Cost"
+value = "74"
+unit = "USD"
+scope = "own"
+policy = "sum"
+owner = "@acme/oxygen-valve#OxygenValve"
+basis = "one-time"
+provenance = "authored"
