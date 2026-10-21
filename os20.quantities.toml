@@ -1,0 +1,20 @@
+[[quantity]]
+id = "sensor-interface-board-mass"
+kind = "@os20/core#Mass"
+value = "0.21"
+unit = "kilogram"
+scope = "own"
+policy = "sum"
+owner = "@acme/sensor-interface-board#SensorInterfaceBoard"
+provenance = "authored"
+
+[[quantity]]
+id = "sensor-interface-board-cost"
+kind = "@os20/quantity#Cost"
+value = "75"
+unit = "USD"
+scope = "own"
+policy = "sum"
+owner = "@acme/sensor-interface-board#SensorInterfaceBoard"
+basis = "one-time"
+provenance = "authored"

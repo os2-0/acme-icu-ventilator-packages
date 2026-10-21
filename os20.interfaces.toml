@@ -1,0 +1,35 @@
+# Native OS20 interface document for @acme/sensor-interface-board.
+# Synthetic educational OS20 fixture. Not a medical device, not a validated ventilator, and not regulatory, clinical, or safety evidence.
+
+[[interfaces]]
+id = "analog-in"
+package = "@acme/sensor-interface-board"
+owner = "SensorInterfaceBoard"
+name = "analog-in"
+kind = "core:interface/electrical/signal"
+direction = "input"
+
+[interfaces.properties]
+channels = "8"
+
+[[interfaces]]
+id = "digital-bus"
+package = "@acme/sensor-interface-board"
+owner = "SensorInterfaceBoard"
+name = "digital-bus"
+kind = "core:interface/electrical/signal"
+direction = "output"
+
+[interfaces.properties]
+protocol = "example-spi"
+
+[[interfaces]]
+id = "board-power"
+package = "@acme/sensor-interface-board"
+owner = "SensorInterfaceBoard"
+name = "board-power"
+kind = "core:interface/electrical/power"
+direction = "input"
+
+[interfaces.properties]
+voltage = "5 V"

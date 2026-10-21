@@ -1,0 +1,16 @@
+schema = "os20-behavior-v1"
+
+[[behavior]]
+id = "sensor-interface-board"
+owner = "@acme/sensor-interface-board#SensorInterfaceBoard"
+artifact = "behavior/lifecycle.scxml"
+policy = "concurrent-children"
+
+[[interface]]
+id = "lifecycle"
+owner = "@acme/sensor-interface-board#SensorInterfaceBoard"
+behavior = "sensor-interface-board"
+direction = "input"
+event = "configure"
+semantic_type = "@acme/icu-ontology#LifecycleEvent"
+provenance = "authored"
