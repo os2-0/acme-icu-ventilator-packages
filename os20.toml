@@ -8,7 +8,7 @@ description = "Patient circuit assembly. Synthetic educational OS20 fixture. Not
 acme = "@acme/icu-ontology@1.0.0"
 
 [dependencies]
-"@acme/icu-ontology" = { path = "../icu-ontology" }
-"@acme/inspiratory-tube" = { path = "../inspiratory-tube" }
-"@acme/expiratory-tube" = { path = "../expiratory-tube" }
-"@acme/patient-connector" = { path = "../patient-connector" }
+"@acme/expiratory-tube" = "@acme/expiratory-tube@^1.0"
+"@acme/icu-ontology" = "@acme/icu-ontology@^1.0"
+"@acme/inspiratory-tube" = "@acme/inspiratory-tube@^1.0"
+"@acme/patient-connector" = "@acme/patient-connector@^1.0"

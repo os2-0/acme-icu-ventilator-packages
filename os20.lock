@@ -1,0 +1,44 @@
+format = 1
+
+[[package]]
+name = "@acme/expiratory-tube"
+version = "1.0.0"
+source = "registry"
+repository = "https://github.com/os2-0/acme-icu-ventilator-packages"
+commit = "98ca6c68a01f55856f8a1a4a7f60ea811c785569"
+tree = "051b0a09d4fbda20b4cf12c66913d784cc5f815b"
+manifest_digest = "sha256:072b1f5cd0f815202d66ebe48c8108c6abbb213c1d92794a20f329e3c81cec6c"
+dependencies = ["@acme/icu-ontology@1.0.0"]
+ontologies = ["@acme/icu-ontology@1.0.0"]
+
+[[package]]
+name = "@acme/icu-ontology"
+version = "1.0.0"
+source = "registry"
+repository = "https://github.com/os2-0/acme-icu-ventilator-packages"
+commit = "5898c295243ba16ece4b5203b6eb1beddab7d308"
+tree = "63f8da6f1cee8092931777b5e6936420529e7aa3"
+manifest_digest = "sha256:bdaac3d2756b9c5797a9909252e7134cb7b1c785285c6db97536ee176f317d00"
+dependencies = []
+
+[[package]]
+name = "@acme/inspiratory-tube"
+version = "1.0.0"
+source = "registry"
+repository = "https://github.com/os2-0/acme-icu-ventilator-packages"
+commit = "22899718523ae15faef69f0f9c65906fca9bc639"
+tree = "bec66789c2707d6ecfde1ab54ba72dad1b4d8541"
+manifest_digest = "sha256:7cbeb344384035a786def4b5f760e4374d95735c4451cad0ef445db5a9429891"
+dependencies = ["@acme/icu-ontology@1.0.0"]
+ontologies = ["@acme/icu-ontology@1.0.0"]
+
+[[package]]
+name = "@acme/patient-connector"
+version = "1.0.0"
+source = "registry"
+repository = "https://github.com/os2-0/acme-icu-ventilator-packages"
+commit = "8cf00787c1b3bcc4bdbbc125f210559a4800e2f8"
+tree = "8af5d89a382de063e1b9f329b35d2385d2eee759"
+manifest_digest = "sha256:0b2089370af89abb063568e4fb90df852114fa3feceed21f2b52964ed5d4887d"
+dependencies = ["@acme/icu-ontology@1.0.0"]
+ontologies = ["@acme/icu-ontology@1.0.0"]
