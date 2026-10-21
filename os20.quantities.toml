@@ -1,37 +1,33 @@
 [[quantity]]
-id = "power-system-mass-@acme/power-system"
+id = "power-system-mass-package"
 kind = "@os20/core#Mass"
 scope = "own"
 policy = "derive-from-children"
 owner = "@acme/power-system"
-
 provenance = "authored"
 
 [[quantity]]
-id = "power-system-cost-@acme/power-system"
+id = "power-system-cost-package"
 kind = "@os20/quantity#Cost"
 scope = "own"
 policy = "derive-from-children"
 owner = "@acme/power-system"
 basis = "one-time"
-
 provenance = "authored"
 
 [[quantity]]
-id = "power-system-mass-powersystem"
+id = "power-system-mass-definition"
 kind = "@os20/core#Mass"
 scope = "own"
 policy = "derive-from-children"
 owner = "@acme/power-system#PowerSystem"
-
 provenance = "authored"
 
 [[quantity]]
-id = "power-system-cost-powersystem"
+id = "power-system-cost-definition"
 kind = "@os20/quantity#Cost"
 scope = "own"
 policy = "derive-from-children"
 owner = "@acme/power-system#PowerSystem"
 basis = "one-time"
-
 provenance = "authored"

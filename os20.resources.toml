@@ -1,0 +1,78 @@
+# Git resources for @acme/power-system. repository = "." is this package Git repo.
+
+[[resource]]
+id = "sysml"
+provider = "git"
+repository = "."
+revision = "f2d29ede3448e7504d5b7b98ec471337fa83e170"
+path = "sysml/component.sysml"
+
+[[resource]]
+id = "scxml"
+provider = "git"
+repository = "."
+revision = "f2d29ede3448e7504d5b7b98ec471337fa83e170"
+path = "behavior/lifecycle.scxml"
+
+[[resource]]
+id = "spec"
+provider = "git"
+repository = "."
+revision = "f2d29ede3448e7504d5b7b98ec471337fa83e170"
+path = "documents/technical-specification.md"
+
+[[resource]]
+id = "step"
+provider = "git"
+repository = "."
+revision = "f2d29ede3448e7504d5b7b98ec471337fa83e170"
+path = "cad/component.step"
+
+[[resource]]
+id = "svg-block"
+provider = "git"
+repository = "."
+revision = "f2d29ede3448e7504d5b7b98ec471337fa83e170"
+path = "diagrams/block.svg"
+
+[[resource]]
+id = "datasheet"
+provider = "git"
+repository = "."
+revision = "f2d29ede3448e7504d5b7b98ec471337fa83e170"
+path = "documents/datasheet.pdf"
+
+[[resource]]
+id = "csv"
+provider = "git"
+repository = "."
+revision = "f2d29ede3448e7504d5b7b98ec471337fa83e170"
+path = "data/performance.csv"
+
+[[resource]]
+id = "architecture"
+provider = "git"
+repository = "."
+revision = "f2d29ede3448e7504d5b7b98ec471337fa83e170"
+path = "system/architecture.sysml"
+
+[[resource]]
+id = "bom"
+provider = "git"
+repository = "."
+revision = "f2d29ede3448e7504d5b7b98ec471337fa83e170"
+path = "system/bom.json"
+
+[[resource]]
+id = "svg-pneumatic"
+provider = "git"
+repository = "."
+revision = "f2d29ede3448e7504d5b7b98ec471337fa83e170"
+path = "diagrams/pneumatic.svg"
+
+[[resource]]
+id = "svg-electrical"
+provider = "git"
+repository = "."
+revision = "f2d29ede3448e7504d5b7b98ec471337fa83e170"
+path = "diagrams/electrical.svg"
