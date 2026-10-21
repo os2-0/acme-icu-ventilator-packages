@@ -1,0 +1,50 @@
+# Git resources for @acme/enclosure. repository = "." is this package Git repo.
+
+[[resource]]
+id = "sysml"
+provider = "git"
+repository = "."
+revision = "95ab2f72e670f4c5ede11df58483090c3426376c"
+path = "sysml/component.sysml"
+
+[[resource]]
+id = "scxml"
+provider = "git"
+repository = "."
+revision = "95ab2f72e670f4c5ede11df58483090c3426376c"
+path = "behavior/lifecycle.scxml"
+
+[[resource]]
+id = "spec"
+provider = "git"
+repository = "."
+revision = "95ab2f72e670f4c5ede11df58483090c3426376c"
+path = "documents/technical-specification.md"
+
+[[resource]]
+id = "step"
+provider = "git"
+repository = "."
+revision = "95ab2f72e670f4c5ede11df58483090c3426376c"
+path = "cad/component.step"
+
+[[resource]]
+id = "svg-block"
+provider = "git"
+repository = "."
+revision = "95ab2f72e670f4c5ede11df58483090c3426376c"
+path = "diagrams/block.svg"
+
+[[resource]]
+id = "datasheet"
+provider = "git"
+repository = "."
+revision = "95ab2f72e670f4c5ede11df58483090c3426376c"
+path = "documents/datasheet.pdf"
+
+[[resource]]
+id = "csv"
+provider = "git"
+repository = "."
+revision = "95ab2f72e670f4c5ede11df58483090c3426376c"
+path = "data/performance.csv"
