@@ -1,0 +1,29 @@
+# Native OS20 interface document for @acme/enclosure.
+# Synthetic educational OS20 fixture. Not a medical device, not a validated ventilator, and not regulatory, clinical, or safety evidence.
+
+[[interfaces]]
+id = "frame-bosses"
+package = "@acme/enclosure"
+owner = "Enclosure"
+name = "frame-bosses"
+kind = "core:interface/mechanical/boss"
+direction = "input"
+
+[interfaces.properties]
+holes = "12x M4"
+
+[[interfaces]]
+id = "display-cutout"
+package = "@acme/enclosure"
+owner = "Enclosure"
+name = "display-cutout"
+kind = "core:interface/mechanical/panel"
+direction = "output"
+
+[[interfaces]]
+id = "inlet-grille"
+package = "@acme/enclosure"
+owner = "Enclosure"
+name = "inlet-grille"
+kind = "core:interface/fluid/gas"
+direction = "input"

@@ -1,0 +1,38 @@
+{
+  "schema": "os20-fixture-interfaces-v1",
+  "disclaimer": "Synthetic educational OS20 fixture. Not a medical device, not a validated ventilator, and not regulatory, clinical, or safety evidence.",
+  "package": "@acme/enclosure",
+  "native_document": "os20.interfaces.toml",
+  "ports": [
+    {
+      "id": "@acme/enclosure#iface.frame-bosses",
+      "local_id": "frame-bosses",
+      "kind": "core:interface/mechanical/boss",
+      "direction": "input",
+      "properties": {
+        "holes": "12x M4"
+      },
+      "owner_definition": "@acme/enclosure#Enclosure",
+      "note": "Connect by mounted occurrence and port, not by package name alone."
+    },
+    {
+      "id": "@acme/enclosure#iface.display-cutout",
+      "local_id": "display-cutout",
+      "kind": "core:interface/mechanical/panel",
+      "direction": "output",
+      "properties": {},
+      "owner_definition": "@acme/enclosure#Enclosure",
+      "note": "Connect by mounted occurrence and port, not by package name alone."
+    },
+    {
+      "id": "@acme/enclosure#iface.inlet-grille",
+      "local_id": "inlet-grille",
+      "kind": "core:interface/fluid/gas",
+      "direction": "input",
+      "properties": {},
+      "owner_definition": "@acme/enclosure#Enclosure",
+      "note": "Connect by mounted occurrence and port, not by package name alone."
+    }
+  ],
+  "sibling_references": []
+}
