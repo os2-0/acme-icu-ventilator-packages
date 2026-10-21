@@ -1,0 +1,23 @@
+# Companion view of os20.occurrences.toml for @acme/blower-assembly. OS20 does not read this file.
+root: @acme/blower-assembly#occ-tree
+children:
+  - role: motor
+    occurrence: @acme/blower-assembly#occ.motor
+    definition: @acme/brushless-motor#BrushlessMotor
+    package: @acme/brushless-motor@1.0.0
+    predicate: os20:HasPart
+  - role: impeller
+    occurrence: @acme/blower-assembly#occ.impeller
+    definition: @acme/impeller#Impeller
+    package: @acme/impeller@1.0.0
+    predicate: os20:HasPart
+  - role: driver
+    occurrence: @acme/blower-assembly#occ.driver
+    definition: @acme/motor-driver#MotorDriver
+    package: @acme/motor-driver@1.0.0
+    predicate: os20:HasPart
+  - role: housing
+    occurrence: @acme/blower-assembly#occ.housing
+    definition: @acme/blower-housing#BlowerHousing
+    package: @acme/blower-housing@1.0.0
+    predicate: os20:HasPart

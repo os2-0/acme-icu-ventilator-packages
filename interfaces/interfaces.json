@@ -1,0 +1,79 @@
+{
+  "schema": "os20-fixture-interfaces-v1",
+  "disclaimer": "Synthetic educational OS20 fixture. Not a medical device, not a validated ventilator, and not regulatory, clinical, or safety evidence.",
+  "package": "@acme/blower-assembly",
+  "native_document": "os20.interfaces.toml",
+  "ports": [
+    {
+      "id": "@acme/blower-assembly#iface.shaft",
+      "local_id": "shaft",
+      "kind": "core:interface/mechanical/shaft",
+      "direction": "output",
+      "properties": {
+        "diameter": "8 mm"
+      },
+      "owner_definition": "@acme/blower-assembly#BlowerAssembly",
+      "note": "Connect by mounted occurrence and port, not by package name alone."
+    },
+    {
+      "id": "@acme/blower-assembly#iface.air-in",
+      "local_id": "air-in",
+      "kind": "core:interface/fluid/gas",
+      "direction": "input",
+      "properties": {},
+      "owner_definition": "@acme/blower-assembly#BlowerAssembly",
+      "note": "Connect by mounted occurrence and port, not by package name alone."
+    },
+    {
+      "id": "@acme/blower-assembly#iface.air-out",
+      "local_id": "air-out",
+      "kind": "core:interface/fluid/gas",
+      "direction": "output",
+      "properties": {},
+      "owner_definition": "@acme/blower-assembly#BlowerAssembly",
+      "note": "Connect by mounted occurrence and port, not by package name alone."
+    },
+    {
+      "id": "@acme/blower-assembly#iface.drive-power",
+      "local_id": "drive-power",
+      "kind": "core:interface/electrical/power",
+      "direction": "input",
+      "properties": {
+        "voltage": "48 V"
+      },
+      "owner_definition": "@acme/blower-assembly#BlowerAssembly",
+      "note": "Connect by mounted occurrence and port, not by package name alone."
+    },
+    {
+      "id": "@acme/blower-assembly#iface.drive-command",
+      "local_id": "drive-command",
+      "kind": "core:interface/electrical/signal",
+      "direction": "input",
+      "properties": {
+        "protocol": "example-pwm"
+      },
+      "owner_definition": "@acme/blower-assembly#BlowerAssembly",
+      "note": "Connect by mounted occurrence and port, not by package name alone."
+    }
+  ],
+  "sibling_references": [
+    {
+      "from": "@acme/blower-assembly#occ.motor",
+      "to": "@acme/blower-assembly#occ.impeller",
+      "predicate": "acme:connectedTo",
+      "native": "os20.occurrences.toml [[reference]]"
+    },
+    {
+      "from": "@acme/blower-assembly#occ.driver",
+      "to": "@acme/blower-assembly#occ.motor",
+      "predicate": "acme:connectedTo",
+      "native": "os20.occurrences.toml [[reference]]"
+    },
+    {
+      "from": "@acme/blower-assembly#occ.housing",
+      "to": "@acme/blower-assembly#occ.motor",
+      "predicate": "acme:connectedTo",
+      "native": "os20.occurrences.toml [[reference]]"
+    }
+  ]
+}

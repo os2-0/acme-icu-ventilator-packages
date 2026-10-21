@@ -1,0 +1,81 @@
+[namespaces]
+acme = "@acme/icu-ontology#"
+os20 = "@os20/core#"
+
+[[definition]]
+id = "@acme/blower-assembly#BlowerAssembly"
+
+[[definition]]
+id = "@acme/brushless-motor#BrushlessMotor"
+package = "@acme/brushless-motor"
+version = "1.0.0"
+
+[[definition]]
+id = "@acme/impeller#Impeller"
+package = "@acme/impeller"
+version = "1.0.0"
+
+[[definition]]
+id = "@acme/motor-driver#MotorDriver"
+package = "@acme/motor-driver"
+version = "1.0.0"
+
+[[definition]]
+id = "@acme/blower-housing#BlowerHousing"
+package = "@acme/blower-housing"
+version = "1.0.0"
+
+[[occurrence]]
+id = "@acme/blower-assembly#occ.motor"
+role = "motor"
+predicate = "os20:HasPart"
+
+[occurrence.definition]
+id = "@acme/brushless-motor#BrushlessMotor"
+package = "@acme/brushless-motor"
+version = "1.0.0"
+
+[[occurrence]]
+id = "@acme/blower-assembly#occ.impeller"
+role = "impeller"
+predicate = "os20:HasPart"
+
+[occurrence.definition]
+id = "@acme/impeller#Impeller"
+package = "@acme/impeller"
+version = "1.0.0"
+
+[[occurrence]]
+id = "@acme/blower-assembly#occ.driver"
+role = "driver"
+predicate = "os20:HasPart"
+
+[occurrence.definition]
+id = "@acme/motor-driver#MotorDriver"
+package = "@acme/motor-driver"
+version = "1.0.0"
+
+[[occurrence]]
+id = "@acme/blower-assembly#occ.housing"
+role = "housing"
+predicate = "os20:HasPart"
+
+[occurrence.definition]
+id = "@acme/blower-housing#BlowerHousing"
+package = "@acme/blower-housing"
+version = "1.0.0"
+
+[[reference]]
+from = "@acme/blower-assembly#occ.motor"
+to = "@acme/blower-assembly#occ.impeller"
+predicate = "acme:connectedTo"
+
+[[reference]]
+from = "@acme/blower-assembly#occ.driver"
+to = "@acme/blower-assembly#occ.motor"
+predicate = "acme:connectedTo"
+
+[[reference]]
+from = "@acme/blower-assembly#occ.housing"
+to = "@acme/blower-assembly#occ.motor"
+predicate = "acme:connectedTo"

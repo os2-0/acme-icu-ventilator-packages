@@ -1,0 +1,47 @@
+{
+  "schema": "os20-fixture-bom-v1",
+  "disclaimer": "Synthetic educational OS20 fixture. Not a medical device, not a validated ventilator, and not regulatory, clinical, or safety evidence.",
+  "package": "@acme/blower-assembly",
+  "items": [
+    {
+      "occurrence": "@acme/blower-assembly#occ.motor",
+      "role": "motor",
+      "package": "@acme/brushless-motor",
+      "version": "1.0.0",
+      "definition": "@acme/brushless-motor#BrushlessMotor",
+      "qty": 1,
+      "mass_kg_own": 1.85,
+      "note": "Occurrence count, not dependency-graph count"
+    },
+    {
+      "occurrence": "@acme/blower-assembly#occ.impeller",
+      "role": "impeller",
+      "package": "@acme/impeller",
+      "version": "1.0.0",
+      "definition": "@acme/impeller#Impeller",
+      "qty": 1,
+      "mass_kg_own": 0.42,
+      "note": "Occurrence count, not dependency-graph count"
+    },
+    {
+      "occurrence": "@acme/blower-assembly#occ.driver",
+      "role": "driver",
+      "package": "@acme/motor-driver",
+      "version": "1.0.0",
+      "definition": "@acme/motor-driver#MotorDriver",
+      "qty": 1,
+      "mass_kg_own": 0.31,
+      "note": "Occurrence count, not dependency-graph count"
+    },
+    {
+      "occurrence": "@acme/blower-assembly#occ.housing",
+      "role": "housing",
+      "package": "@acme/blower-housing",
+      "version": "1.0.0",
+      "definition": "@acme/blower-housing#BlowerHousing",
+      "qty": 1,
+      "mass_kg_own": 1.2,
+      "note": "Occurrence count, not dependency-graph count"
+    }
+  ]
+}

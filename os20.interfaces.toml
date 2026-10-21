@@ -1,0 +1,69 @@
+# Native OS20 interface document for @acme/blower-assembly.
+# Synthetic educational OS20 fixture. Not a medical device, not a validated ventilator, and not regulatory, clinical, or safety evidence.
+
+[[interfaces]]
+id = "shaft"
+package = "@acme/blower-assembly"
+owner = "BlowerAssembly"
+name = "shaft"
+kind = "core:interface/mechanical/shaft"
+direction = "output"
+
+[interfaces.properties]
+diameter = "8 mm"
+
+[[interfaces]]
+id = "air-in"
+package = "@acme/blower-assembly"
+owner = "BlowerAssembly"
+name = "air-in"
+kind = "core:interface/fluid/gas"
+direction = "input"
+
+[[interfaces]]
+id = "air-out"
+package = "@acme/blower-assembly"
+owner = "BlowerAssembly"
+name = "air-out"
+kind = "core:interface/fluid/gas"
+direction = "output"
+
+[[interfaces]]
+id = "drive-power"
+package = "@acme/blower-assembly"
+owner = "BlowerAssembly"
+name = "drive-power"
+kind = "core:interface/electrical/power"
+direction = "input"
+
+[interfaces.properties]
+voltage = "48 V"
+
+[[interfaces]]
+id = "drive-command"
+package = "@acme/blower-assembly"
+owner = "BlowerAssembly"
+name = "drive-command"
+kind = "core:interface/electrical/signal"
+direction = "input"
+
+[interfaces.properties]
+protocol = "example-pwm"
+
+[[connections]]
+from = "BrushlessMotor.shaft"
+to = "Impeller.bore"
+relation = "core:connectedTo"
+required = true
+
+[[connections]]
+from = "MotorDriver.dc-in"
+to = "BrushlessMotor.shaft"
+relation = "core:connectedTo"
+required = true
+
+[[connections]]
+from = "BlowerHousing.motor-flange"
+to = "BrushlessMotor.shaft"
+relation = "core:connectedTo"
+required = true

@@ -1,0 +1,14 @@
+# Companion view of [[reference]] / [[connections]] for @acme/blower-assembly. OS20 does not read this file.
+connections:
+  - from_occurrence: @acme/blower-assembly#occ.motor
+    to_occurrence: @acme/blower-assembly#occ.impeller
+    predicate: acme:connectedTo
+    note: specific mounted occurrence, not package name
+  - from_occurrence: @acme/blower-assembly#occ.driver
+    to_occurrence: @acme/blower-assembly#occ.motor
+    predicate: acme:connectedTo
+    note: specific mounted occurrence, not package name
+  - from_occurrence: @acme/blower-assembly#occ.housing
+    to_occurrence: @acme/blower-assembly#occ.motor
+    predicate: acme:connectedTo
+    note: specific mounted occurrence, not package name

@@ -1,0 +1,37 @@
+[[quantity]]
+id = "blower-assembly-mass-@acme/blower-assembly"
+kind = "@os20/core#Mass"
+scope = "own"
+policy = "derive-from-children"
+owner = "@acme/blower-assembly"
+
+provenance = "authored"
+
+[[quantity]]
+id = "blower-assembly-cost-@acme/blower-assembly"
+kind = "@os20/quantity#Cost"
+scope = "own"
+policy = "derive-from-children"
+owner = "@acme/blower-assembly"
+basis = "one-time"
+
+provenance = "authored"
+
+[[quantity]]
+id = "blower-assembly-mass-blowerassembly"
+kind = "@os20/core#Mass"
+scope = "own"
+policy = "derive-from-children"
+owner = "@acme/blower-assembly#BlowerAssembly"
+
+provenance = "authored"
+
+[[quantity]]
+id = "blower-assembly-cost-blowerassembly"
+kind = "@os20/quantity#Cost"
+scope = "own"
+policy = "derive-from-children"
+owner = "@acme/blower-assembly#BlowerAssembly"
+basis = "one-time"
+
+provenance = "authored"
