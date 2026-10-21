@@ -46,8 +46,17 @@ package = "@acme/mechanical-system"
 version = "1.0.0"
 
 [[occurrence]]
+id = "@acme/icu-ventilator#occ.ventilator"
+role = "ventilator"
+predicate = "os20:HasPart"
+
+[occurrence.definition]
+id = "@acme/icu-ventilator#IcuVentilator"
+
+[[occurrence]]
 id = "@acme/icu-ventilator#occ.gas-delivery"
 role = "gas-delivery"
+parent = "@acme/icu-ventilator#occ.ventilator"
 predicate = "os20:HasPart"
 
 [occurrence.definition]
@@ -58,6 +67,7 @@ version = "1.0.0"
 [[occurrence]]
 id = "@acme/icu-ventilator#occ.breathing-circuit"
 role = "breathing-circuit"
+parent = "@acme/icu-ventilator#occ.ventilator"
 predicate = "os20:HasPart"
 
 [occurrence.definition]
@@ -68,6 +78,7 @@ version = "1.0.0"
 [[occurrence]]
 id = "@acme/icu-ventilator#occ.sensor-system"
 role = "sensor-system"
+parent = "@acme/icu-ventilator#occ.ventilator"
 predicate = "os20:HasPart"
 
 [occurrence.definition]
@@ -78,6 +89,7 @@ version = "1.0.0"
 [[occurrence]]
 id = "@acme/icu-ventilator#occ.control-system"
 role = "control-system"
+parent = "@acme/icu-ventilator#occ.ventilator"
 predicate = "os20:HasPart"
 
 [occurrence.definition]
@@ -88,6 +100,7 @@ version = "1.0.0"
 [[occurrence]]
 id = "@acme/icu-ventilator#occ.power-system"
 role = "power-system"
+parent = "@acme/icu-ventilator#occ.ventilator"
 predicate = "os20:HasPart"
 
 [occurrence.definition]
@@ -98,6 +111,7 @@ version = "1.0.0"
 [[occurrence]]
 id = "@acme/icu-ventilator#occ.user-interface"
 role = "user-interface"
+parent = "@acme/icu-ventilator#occ.ventilator"
 predicate = "os20:HasPart"
 
 [occurrence.definition]
@@ -108,6 +122,7 @@ version = "1.0.0"
 [[occurrence]]
 id = "@acme/icu-ventilator#occ.safety-system"
 role = "safety-system"
+parent = "@acme/icu-ventilator#occ.ventilator"
 predicate = "os20:HasPart"
 
 [occurrence.definition]
@@ -118,6 +133,7 @@ version = "1.0.0"
 [[occurrence]]
 id = "@acme/icu-ventilator#occ.mechanical-system"
 role = "mechanical-system"
+parent = "@acme/icu-ventilator#occ.ventilator"
 predicate = "os20:HasPart"
 
 [occurrence.definition]
