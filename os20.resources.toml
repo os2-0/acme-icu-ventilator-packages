@@ -1,0 +1,50 @@
+# Git resources for @acme/oxygen-valve. repository = "." is this package Git repo.
+
+[[resource]]
+id = "sysml"
+provider = "git"
+repository = "."
+revision = "cd1b5e1499e6ff1fbf407824190de67ec6d93cf2"
+path = "sysml/component.sysml"
+
+[[resource]]
+id = "scxml"
+provider = "git"
+repository = "."
+revision = "cd1b5e1499e6ff1fbf407824190de67ec6d93cf2"
+path = "behavior/lifecycle.scxml"
+
+[[resource]]
+id = "spec"
+provider = "git"
+repository = "."
+revision = "cd1b5e1499e6ff1fbf407824190de67ec6d93cf2"
+path = "documents/technical-specification.md"
+
+[[resource]]
+id = "step"
+provider = "git"
+repository = "."
+revision = "cd1b5e1499e6ff1fbf407824190de67ec6d93cf2"
+path = "cad/component.step"
+
+[[resource]]
+id = "svg-block"
+provider = "git"
+repository = "."
+revision = "cd1b5e1499e6ff1fbf407824190de67ec6d93cf2"
+path = "diagrams/block.svg"
+
+[[resource]]
+id = "datasheet"
+provider = "git"
+repository = "."
+revision = "cd1b5e1499e6ff1fbf407824190de67ec6d93cf2"
+path = "documents/datasheet.pdf"
+
+[[resource]]
+id = "csv"
+provider = "git"
+repository = "."
+revision = "cd1b5e1499e6ff1fbf407824190de67ec6d93cf2"
+path = "data/performance.csv"
