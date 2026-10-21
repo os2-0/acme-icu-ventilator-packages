@@ -1,0 +1,29 @@
+# Native OS20 interface document for @acme/watchdog-module.
+# Synthetic educational OS20 fixture. Not a medical device, not a validated ventilator, and not regulatory, clinical, or safety evidence.
+
+[[interfaces]]
+id = "kick"
+package = "@acme/watchdog-module"
+owner = "WatchdogModule"
+name = "kick"
+kind = "core:interface/electrical/signal"
+direction = "input"
+
+[[interfaces]]
+id = "reset-out"
+package = "@acme/watchdog-module"
+owner = "WatchdogModule"
+name = "reset-out"
+kind = "core:interface/electrical/signal"
+direction = "output"
+
+[[interfaces]]
+id = "logic-power"
+package = "@acme/watchdog-module"
+owner = "WatchdogModule"
+name = "logic-power"
+kind = "core:interface/electrical/power"
+direction = "input"
+
+[interfaces.properties]
+voltage = "5 V"

@@ -1,0 +1,33 @@
+# Synthetic educational OS20 fixture. Not a medical device, not a validated ventilator, and not regulatory, clinical, or safety evidence.
+package: @acme/watchdog-module
+kind: requirement-definition
+status: authored-unverified
+requirements:
+  - id: REQ-WATCHDOG_MODULE-001
+    title: "Watchdog module identity and package boundary"
+    text: "The definition @acme/watchdog-module#WatchdogModule shall be published as package @acme/watchdog-module@1.0.0."
+    kind: definition
+    evidence: missing
+    verified: false
+    owner: @acme/watchdog-module#WatchdogModule
+  - id: REQ-WATCHDOG_MODULE-002
+    title: "Watchdog module interface declaration"
+    text: "Watchdog module shall declare its ports in os20.interfaces.toml. Connection is by occurrence and port."
+    kind: definition
+    evidence: missing
+    verified: false
+    owner: @acme/watchdog-module#WatchdogModule
+  - id: REQ-WATCHDOG_MODULE-003
+    title: "Watchdog module evidence distinction"
+    text: "Verification records in this package are procedure definitions only. They are not test results, certification, or clinical validation."
+    kind: definition
+    evidence: missing
+    verified: false
+    owner: @acme/watchdog-module#WatchdogModule
+  - id: REQ-WATCHDOG_MODULE-004
+    title: "Watchdog module mass declaration"
+    text: "Own mass shall be authored as 0.07 kilogram with provenance synthetic-fixture."
+    kind: definition
+    evidence: missing
+    verified: false
+    owner: @acme/watchdog-module#WatchdogModule

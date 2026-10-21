@@ -1,0 +1,38 @@
+{
+  "schema": "os20-fixture-interfaces-v1",
+  "disclaimer": "Synthetic educational OS20 fixture. Not a medical device, not a validated ventilator, and not regulatory, clinical, or safety evidence.",
+  "package": "@acme/watchdog-module",
+  "native_document": "os20.interfaces.toml",
+  "ports": [
+    {
+      "id": "@acme/watchdog-module#iface.kick",
+      "local_id": "kick",
+      "kind": "core:interface/electrical/signal",
+      "direction": "input",
+      "properties": {},
+      "owner_definition": "@acme/watchdog-module#WatchdogModule",
+      "note": "Connect by mounted occurrence and port, not by package name alone."
+    },
+    {
+      "id": "@acme/watchdog-module#iface.reset-out",
+      "local_id": "reset-out",
+      "kind": "core:interface/electrical/signal",
+      "direction": "output",
+      "properties": {},
+      "owner_definition": "@acme/watchdog-module#WatchdogModule",
+      "note": "Connect by mounted occurrence and port, not by package name alone."
+    },
+    {
+      "id": "@acme/watchdog-module#iface.logic-power",
+      "local_id": "logic-power",
+      "kind": "core:interface/electrical/power",
+      "direction": "input",
+      "properties": {
+        "voltage": "5 V"
+      },
+      "owner_definition": "@acme/watchdog-module#WatchdogModule",
+      "note": "Connect by mounted occurrence and port, not by package name alone."
+    }
+  ],
+  "sibling_references": []
+}

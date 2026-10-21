@@ -1,0 +1,11 @@
+[package]
+name = "@acme/watchdog-module"
+version = "1.0.0"
+edition = "2026"
+description = "Watchdog module. Synthetic educational OS20 fixture. Not a medical device, not a validated ventilator, and not regulatory, clinical, or safety evidence."
+
+[ontology]
+acme = "@acme/icu-ontology@1.0.0"
+
+[dependencies]
+"@acme/icu-ontology" = { path = "../icu-ontology" }
