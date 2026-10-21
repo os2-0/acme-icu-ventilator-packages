@@ -4,75 +4,75 @@
 id = "sysml"
 provider = "git"
 repository = "."
-revision = "f2d29ede3448e7504d5b7b98ec471337fa83e170"
+revision = "cf6ad3d21f92e0a94a719720f699791582c39dd2"
 path = "sysml/component.sysml"
 
 [[resource]]
 id = "scxml"
 provider = "git"
 repository = "."
-revision = "f2d29ede3448e7504d5b7b98ec471337fa83e170"
+revision = "0dddde3607622d43f139a5dbe28a0f1e20340476"
 path = "behavior/lifecycle.scxml"
 
 [[resource]]
 id = "spec"
 provider = "git"
 repository = "."
-revision = "f2d29ede3448e7504d5b7b98ec471337fa83e170"
+revision = "cf6ad3d21f92e0a94a719720f699791582c39dd2"
 path = "documents/technical-specification.md"
 
 [[resource]]
 id = "step"
 provider = "git"
 repository = "."
-revision = "f2d29ede3448e7504d5b7b98ec471337fa83e170"
+revision = "cf6ad3d21f92e0a94a719720f699791582c39dd2"
 path = "cad/component.step"
 
 [[resource]]
 id = "svg-block"
 provider = "git"
 repository = "."
-revision = "f2d29ede3448e7504d5b7b98ec471337fa83e170"
+revision = "cf6ad3d21f92e0a94a719720f699791582c39dd2"
 path = "diagrams/block.svg"
 
 [[resource]]
 id = "datasheet"
 provider = "git"
 repository = "."
-revision = "f2d29ede3448e7504d5b7b98ec471337fa83e170"
+revision = "cf6ad3d21f92e0a94a719720f699791582c39dd2"
 path = "documents/datasheet.pdf"
 
 [[resource]]
 id = "csv"
 provider = "git"
 repository = "."
-revision = "f2d29ede3448e7504d5b7b98ec471337fa83e170"
+revision = "cf6ad3d21f92e0a94a719720f699791582c39dd2"
 path = "data/performance.csv"
 
 [[resource]]
 id = "architecture"
 provider = "git"
 repository = "."
-revision = "f2d29ede3448e7504d5b7b98ec471337fa83e170"
+revision = "cf6ad3d21f92e0a94a719720f699791582c39dd2"
 path = "system/architecture.sysml"
 
 [[resource]]
 id = "bom"
 provider = "git"
 repository = "."
-revision = "f2d29ede3448e7504d5b7b98ec471337fa83e170"
+revision = "cf6ad3d21f92e0a94a719720f699791582c39dd2"
 path = "system/bom.json"
 
 [[resource]]
 id = "svg-pneumatic"
 provider = "git"
 repository = "."
-revision = "f2d29ede3448e7504d5b7b98ec471337fa83e170"
+revision = "cf6ad3d21f92e0a94a719720f699791582c39dd2"
 path = "diagrams/pneumatic.svg"
 
 [[resource]]
 id = "svg-electrical"
 provider = "git"
 repository = "."
-revision = "f2d29ede3448e7504d5b7b98ec471337fa83e170"
+revision = "cf6ad3d21f92e0a94a719720f699791582c39dd2"
 path = "diagrams/electrical.svg"
