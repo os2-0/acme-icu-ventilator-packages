@@ -1,7 +1,7 @@
 schema = "os20-processor-v1"
 package = "@acme/icu-ontology"
 version = "1.0.0"
-revision = "591b006b6438fd18590f4a52edcd661b0708bfdd"
+revision = "dc5a87fa9adc193cc684da2ff478c0cd398eef6d"
 
 [namespaces]
 acme = "@acme/icu-ontology#"
