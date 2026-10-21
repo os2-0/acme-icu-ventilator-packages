@@ -1,0 +1,31 @@
+{
+  "schema": "os20-fixture-interfaces-v1",
+  "disclaimer": "Synthetic educational OS20 fixture. Not a medical device, not a validated ventilator, and not regulatory, clinical, or safety evidence.",
+  "package": "@acme/expiratory-tube",
+  "native_document": "os20.interfaces.toml",
+  "ports": [
+    {
+      "id": "@acme/expiratory-tube#iface.proximal",
+      "local_id": "proximal",
+      "kind": "core:interface/fluid/gas",
+      "direction": "output",
+      "properties": {
+        "size": "22 mm"
+      },
+      "owner_definition": "@acme/expiratory-tube#ExpiratoryTube",
+      "note": "Connect by mounted occurrence and port, not by package name alone."
+    },
+    {
+      "id": "@acme/expiratory-tube#iface.distal",
+      "local_id": "distal",
+      "kind": "core:interface/fluid/gas",
+      "direction": "input",
+      "properties": {
+        "size": "22 mm"
+      },
+      "owner_definition": "@acme/expiratory-tube#ExpiratoryTube",
+      "note": "Connect by mounted occurrence and port, not by package name alone."
+    }
+  ],
+  "sibling_references": []
+}

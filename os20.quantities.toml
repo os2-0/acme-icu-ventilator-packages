@@ -1,0 +1,20 @@
+[[quantity]]
+id = "expiratory-tube-mass"
+kind = "@os20/core#Mass"
+value = "0.16"
+unit = "kilogram"
+scope = "own"
+policy = "sum"
+owner = "@acme/expiratory-tube#ExpiratoryTube"
+provenance = "authored"
+
+[[quantity]]
+id = "expiratory-tube-cost"
+kind = "@os20/quantity#Cost"
+value = "12"
+unit = "USD"
+scope = "own"
+policy = "sum"
+owner = "@acme/expiratory-tube#ExpiratoryTube"
+basis = "one-time"
+provenance = "authored"
