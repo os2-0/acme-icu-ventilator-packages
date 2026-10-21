@@ -1,0 +1,11 @@
+format = 1
+
+[[package]]
+name = "@acme/icu-ontology"
+version = "1.0.0"
+source = "registry"
+repository = "https://github.com/os2-0/acme-icu-ventilator-packages"
+commit = "5898c295243ba16ece4b5203b6eb1beddab7d308"
+tree = "63f8da6f1cee8092931777b5e6936420529e7aa3"
+manifest_digest = "sha256:bdaac3d2756b9c5797a9909252e7134cb7b1c785285c6db97536ee176f317d00"
+dependencies = []
