@@ -1,0 +1,20 @@
+[[quantity]]
+id = "ac-dc-power-supply-mass"
+kind = "@os20/core#Mass"
+value = "1.45"
+unit = "kilogram"
+scope = "own"
+policy = "sum"
+owner = "@acme/ac-dc-power-supply#AcDcPowerSupply"
+provenance = "authored"
+
+[[quantity]]
+id = "ac-dc-power-supply-cost"
+kind = "@os20/quantity#Cost"
+value = "125"
+unit = "USD"
+scope = "own"
+policy = "sum"
+owner = "@acme/ac-dc-power-supply#AcDcPowerSupply"
+basis = "one-time"
+provenance = "authored"

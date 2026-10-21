@@ -1,0 +1,34 @@
+# Native OS20 interface document for @acme/ac-dc-power-supply.
+# Synthetic educational OS20 fixture. Not a medical device, not a validated ventilator, and not regulatory, clinical, or safety evidence.
+
+[[interfaces]]
+id = "ac-in"
+package = "@acme/ac-dc-power-supply"
+owner = "AcDcPowerSupply"
+name = "ac-in"
+kind = "core:interface/electrical/power"
+direction = "input"
+
+[interfaces.properties]
+voltage = "100-240 V"
+frequency = "50/60 Hz"
+
+[[interfaces]]
+id = "dc-out"
+package = "@acme/ac-dc-power-supply"
+owner = "AcDcPowerSupply"
+name = "dc-out"
+kind = "core:interface/electrical/power"
+direction = "output"
+
+[interfaces.properties]
+voltage = "48 V"
+example-current = "8 A fixture"
+
+[[interfaces]]
+id = "chassis-earth"
+package = "@acme/ac-dc-power-supply"
+owner = "AcDcPowerSupply"
+name = "chassis-earth"
+kind = "core:interface/electrical/earth"
+direction = "input"

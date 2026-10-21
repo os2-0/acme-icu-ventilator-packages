@@ -1,0 +1,42 @@
+{
+  "schema": "os20-fixture-interfaces-v1",
+  "disclaimer": "Synthetic educational OS20 fixture. Not a medical device, not a validated ventilator, and not regulatory, clinical, or safety evidence.",
+  "package": "@acme/ac-dc-power-supply",
+  "native_document": "os20.interfaces.toml",
+  "ports": [
+    {
+      "id": "@acme/ac-dc-power-supply#iface.ac-in",
+      "local_id": "ac-in",
+      "kind": "core:interface/electrical/power",
+      "direction": "input",
+      "properties": {
+        "voltage": "100-240 V",
+        "frequency": "50/60 Hz"
+      },
+      "owner_definition": "@acme/ac-dc-power-supply#AcDcPowerSupply",
+      "note": "Connect by mounted occurrence and port, not by package name alone."
+    },
+    {
+      "id": "@acme/ac-dc-power-supply#iface.dc-out",
+      "local_id": "dc-out",
+      "kind": "core:interface/electrical/power",
+      "direction": "output",
+      "properties": {
+        "voltage": "48 V",
+        "example-current": "8 A fixture"
+      },
+      "owner_definition": "@acme/ac-dc-power-supply#AcDcPowerSupply",
+      "note": "Connect by mounted occurrence and port, not by package name alone."
+    },
+    {
+      "id": "@acme/ac-dc-power-supply#iface.chassis-earth",
+      "local_id": "chassis-earth",
+      "kind": "core:interface/electrical/earth",
+      "direction": "input",
+      "properties": {},
+      "owner_definition": "@acme/ac-dc-power-supply#AcDcPowerSupply",
+      "note": "Connect by mounted occurrence and port, not by package name alone."
+    }
+  ],
+  "sibling_references": []
+}
