@@ -1,0 +1,47 @@
+# Native OS20 interface document for @acme/breathing-circuit.
+# Synthetic educational OS20 fixture. Not a medical device, not a validated ventilator, and not regulatory, clinical, or safety evidence.
+
+[[interfaces]]
+id = "gas-in"
+package = "@acme/breathing-circuit"
+owner = "BreathingCircuit"
+name = "gas-in"
+kind = "core:interface/fluid/gas"
+direction = "input"
+
+[[interfaces]]
+id = "patient-port"
+package = "@acme/breathing-circuit"
+owner = "BreathingCircuit"
+name = "patient-port"
+kind = "core:interface/fluid/gas"
+direction = "bidirectional"
+
+[interfaces.properties]
+size = "22 mm"
+
+[[interfaces]]
+id = "exhaust"
+package = "@acme/breathing-circuit"
+owner = "BreathingCircuit"
+name = "exhaust"
+kind = "core:interface/fluid/gas"
+direction = "output"
+
+[[connections]]
+from = "InspiratoryValve.inlet"
+to = "PatientCircuit.machine-insp"
+relation = "core:connectedTo"
+required = true
+
+[[connections]]
+from = "PatientCircuit.machine-insp"
+to = "ExpiratoryValve.inlet"
+relation = "core:connectedTo"
+required = true
+
+[[connections]]
+from = "HumidifierModule.gas-in"
+to = "InspiratoryValve.inlet"
+relation = "core:connectedTo"
+required = true

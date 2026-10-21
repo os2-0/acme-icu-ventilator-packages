@@ -1,0 +1,47 @@
+{
+  "schema": "os20-fixture-bom-v1",
+  "disclaimer": "Synthetic educational OS20 fixture. Not a medical device, not a validated ventilator, and not regulatory, clinical, or safety evidence.",
+  "package": "@acme/breathing-circuit",
+  "items": [
+    {
+      "occurrence": "@acme/breathing-circuit#occ.inspiratory-valve",
+      "role": "inspiratory-valve",
+      "package": "@acme/inspiratory-valve",
+      "version": "1.0.0",
+      "definition": "@acme/inspiratory-valve#InspiratoryValve",
+      "qty": 1,
+      "mass_kg_own": 0.22,
+      "note": "Occurrence count, not dependency-graph count"
+    },
+    {
+      "occurrence": "@acme/breathing-circuit#occ.expiratory-valve",
+      "role": "expiratory-valve",
+      "package": "@acme/expiratory-valve",
+      "version": "1.0.0",
+      "definition": "@acme/expiratory-valve#ExpiratoryValve",
+      "qty": 1,
+      "mass_kg_own": 0.24,
+      "note": "Occurrence count, not dependency-graph count"
+    },
+    {
+      "occurrence": "@acme/breathing-circuit#occ.patient-circuit",
+      "role": "patient-circuit",
+      "package": "@acme/patient-circuit",
+      "version": "1.0.0",
+      "definition": "@acme/patient-circuit#PatientCircuit",
+      "qty": 1,
+      "mass_kg_own": null,
+      "note": "Occurrence count, not dependency-graph count"
+    },
+    {
+      "occurrence": "@acme/breathing-circuit#occ.humidifier-module",
+      "role": "humidifier-module",
+      "package": "@acme/humidifier-module",
+      "version": "1.0.0",
+      "definition": "@acme/humidifier-module#HumidifierModule",
+      "qty": 1,
+      "mass_kg_own": 1.1,
+      "note": "Occurrence count, not dependency-graph count"
+    }
+  ]
+}

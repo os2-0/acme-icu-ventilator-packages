@@ -1,0 +1,14 @@
+# Companion view of [[reference]] / [[connections]] for @acme/breathing-circuit. OS20 does not read this file.
+connections:
+  - from_occurrence: @acme/breathing-circuit#occ.inspiratory-valve
+    to_occurrence: @acme/breathing-circuit#occ.patient-circuit
+    predicate: acme:connectedTo
+    note: specific mounted occurrence, not package name
+  - from_occurrence: @acme/breathing-circuit#occ.patient-circuit
+    to_occurrence: @acme/breathing-circuit#occ.expiratory-valve
+    predicate: acme:connectedTo
+    note: specific mounted occurrence, not package name
+  - from_occurrence: @acme/breathing-circuit#occ.humidifier-module
+    to_occurrence: @acme/breathing-circuit#occ.inspiratory-valve
+    predicate: acme:connectedTo
+    note: specific mounted occurrence, not package name

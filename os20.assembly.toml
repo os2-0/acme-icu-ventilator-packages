@@ -1,0 +1,59 @@
+schema = "os20-assembly-v1"
+
+[[geometry]]
+id = "self"
+owner = "@acme/breathing-circuit#BreathingCircuit"
+representation = "step:ap242"
+path = "cad/component.step"
+package = "@acme/breathing-circuit"
+unit = "millimeter"
+verified = false
+
+[[frame]]
+id = "origin"
+owner = "@acme/breathing-circuit#BreathingCircuit"
+geometry = "self"
+
+[[placement]]
+id = "inspiratory-valve"
+parent = "@acme/breathing-circuit#BreathingCircuit"
+child = "@acme/inspiratory-valve#InspiratoryValve"
+geometry = "self"
+frame = "origin"
+translation = ["0", "0", "20"]
+rotation = ["1", "0", "0", "0"]
+unit = "millimeter"
+required = true
+
+[[placement]]
+id = "expiratory-valve"
+parent = "@acme/breathing-circuit#BreathingCircuit"
+child = "@acme/expiratory-valve#ExpiratoryValve"
+geometry = "self"
+frame = "origin"
+translation = ["0", "0", "40"]
+rotation = ["1", "0", "0", "0"]
+unit = "millimeter"
+required = true
+
+[[placement]]
+id = "patient-circuit"
+parent = "@acme/breathing-circuit#BreathingCircuit"
+child = "@acme/patient-circuit#PatientCircuit"
+geometry = "self"
+frame = "origin"
+translation = ["0", "0", "60"]
+rotation = ["1", "0", "0", "0"]
+unit = "millimeter"
+required = true
+
+[[placement]]
+id = "humidifier-module"
+parent = "@acme/breathing-circuit#BreathingCircuit"
+child = "@acme/humidifier-module#HumidifierModule"
+geometry = "self"
+frame = "origin"
+translation = ["0", "0", "80"]
+rotation = ["1", "0", "0", "0"]
+unit = "millimeter"
+required = true

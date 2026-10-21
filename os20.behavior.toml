@@ -1,0 +1,16 @@
+schema = "os20-behavior-v1"
+
+[[behavior]]
+id = "breathing-circuit"
+owner = "@acme/breathing-circuit#BreathingCircuit"
+artifact = "behavior/lifecycle.scxml"
+policy = "concurrent-children"
+
+[[interface]]
+id = "lifecycle"
+owner = "@acme/breathing-circuit#BreathingCircuit"
+behavior = "breathing-circuit"
+direction = "input"
+event = "configure"
+semantic_type = "@acme/icu-ontology#LifecycleEvent"
+provenance = "authored"

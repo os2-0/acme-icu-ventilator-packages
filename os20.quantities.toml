@@ -1,0 +1,37 @@
+[[quantity]]
+id = "breathing-circuit-mass-@acme/breathing-circuit"
+kind = "@os20/core#Mass"
+scope = "own"
+policy = "derive-from-children"
+owner = "@acme/breathing-circuit"
+
+provenance = "authored"
+
+[[quantity]]
+id = "breathing-circuit-cost-@acme/breathing-circuit"
+kind = "@os20/quantity#Cost"
+scope = "own"
+policy = "derive-from-children"
+owner = "@acme/breathing-circuit"
+basis = "one-time"
+
+provenance = "authored"
+
+[[quantity]]
+id = "breathing-circuit-mass-breathingcircuit"
+kind = "@os20/core#Mass"
+scope = "own"
+policy = "derive-from-children"
+owner = "@acme/breathing-circuit#BreathingCircuit"
+
+provenance = "authored"
+
+[[quantity]]
+id = "breathing-circuit-cost-breathingcircuit"
+kind = "@os20/quantity#Cost"
+scope = "own"
+policy = "derive-from-children"
+owner = "@acme/breathing-circuit#BreathingCircuit"
+basis = "one-time"
+
+provenance = "authored"

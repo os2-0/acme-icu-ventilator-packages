@@ -1,0 +1,23 @@
+# Companion view of os20.occurrences.toml for @acme/breathing-circuit. OS20 does not read this file.
+root: @acme/breathing-circuit#occ-tree
+children:
+  - role: inspiratory-valve
+    occurrence: @acme/breathing-circuit#occ.inspiratory-valve
+    definition: @acme/inspiratory-valve#InspiratoryValve
+    package: @acme/inspiratory-valve@1.0.0
+    predicate: os20:HasPart
+  - role: expiratory-valve
+    occurrence: @acme/breathing-circuit#occ.expiratory-valve
+    definition: @acme/expiratory-valve#ExpiratoryValve
+    package: @acme/expiratory-valve@1.0.0
+    predicate: os20:HasPart
+  - role: patient-circuit
+    occurrence: @acme/breathing-circuit#occ.patient-circuit
+    definition: @acme/patient-circuit#PatientCircuit
+    package: @acme/patient-circuit@1.0.0
+    predicate: os20:HasPart
+  - role: humidifier-module
+    occurrence: @acme/breathing-circuit#occ.humidifier-module
+    definition: @acme/humidifier-module#HumidifierModule
+    package: @acme/humidifier-module@1.0.0
+    predicate: os20:HasPart

@@ -1,0 +1,57 @@
+{
+  "schema": "os20-fixture-interfaces-v1",
+  "disclaimer": "Synthetic educational OS20 fixture. Not a medical device, not a validated ventilator, and not regulatory, clinical, or safety evidence.",
+  "package": "@acme/breathing-circuit",
+  "native_document": "os20.interfaces.toml",
+  "ports": [
+    {
+      "id": "@acme/breathing-circuit#iface.gas-in",
+      "local_id": "gas-in",
+      "kind": "core:interface/fluid/gas",
+      "direction": "input",
+      "properties": {},
+      "owner_definition": "@acme/breathing-circuit#BreathingCircuit",
+      "note": "Connect by mounted occurrence and port, not by package name alone."
+    },
+    {
+      "id": "@acme/breathing-circuit#iface.patient-port",
+      "local_id": "patient-port",
+      "kind": "core:interface/fluid/gas",
+      "direction": "bidirectional",
+      "properties": {
+        "size": "22 mm"
+      },
+      "owner_definition": "@acme/breathing-circuit#BreathingCircuit",
+      "note": "Connect by mounted occurrence and port, not by package name alone."
+    },
+    {
+      "id": "@acme/breathing-circuit#iface.exhaust",
+      "local_id": "exhaust",
+      "kind": "core:interface/fluid/gas",
+      "direction": "output",
+      "properties": {},
+      "owner_definition": "@acme/breathing-circuit#BreathingCircuit",
+      "note": "Connect by mounted occurrence and port, not by package name alone."
+    }
+  ],
+  "sibling_references": [
+    {
+      "from": "@acme/breathing-circuit#occ.inspiratory-valve",
+      "to": "@acme/breathing-circuit#occ.patient-circuit",
+      "predicate": "acme:connectedTo",
+      "native": "os20.occurrences.toml [[reference]]"
+    },
+    {
+      "from": "@acme/breathing-circuit#occ.patient-circuit",
+      "to": "@acme/breathing-circuit#occ.expiratory-valve",
+      "predicate": "acme:connectedTo",
+      "native": "os20.occurrences.toml [[reference]]"
+    },
+    {
+      "from": "@acme/breathing-circuit#occ.humidifier-module",
+      "to": "@acme/breathing-circuit#occ.inspiratory-valve",
+      "predicate": "acme:connectedTo",
+      "native": "os20.occurrences.toml [[reference]]"
+    }
+  ]
+}

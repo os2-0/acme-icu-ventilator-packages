@@ -1,0 +1,81 @@
+[namespaces]
+acme = "@acme/icu-ontology#"
+os20 = "@os20/core#"
+
+[[definition]]
+id = "@acme/breathing-circuit#BreathingCircuit"
+
+[[definition]]
+id = "@acme/inspiratory-valve#InspiratoryValve"
+package = "@acme/inspiratory-valve"
+version = "1.0.0"
+
+[[definition]]
+id = "@acme/expiratory-valve#ExpiratoryValve"
+package = "@acme/expiratory-valve"
+version = "1.0.0"
+
+[[definition]]
+id = "@acme/patient-circuit#PatientCircuit"
+package = "@acme/patient-circuit"
+version = "1.0.0"
+
+[[definition]]
+id = "@acme/humidifier-module#HumidifierModule"
+package = "@acme/humidifier-module"
+version = "1.0.0"
+
+[[occurrence]]
+id = "@acme/breathing-circuit#occ.inspiratory-valve"
+role = "inspiratory-valve"
+predicate = "os20:HasPart"
+
+[occurrence.definition]
+id = "@acme/inspiratory-valve#InspiratoryValve"
+package = "@acme/inspiratory-valve"
+version = "1.0.0"
+
+[[occurrence]]
+id = "@acme/breathing-circuit#occ.expiratory-valve"
+role = "expiratory-valve"
+predicate = "os20:HasPart"
+
+[occurrence.definition]
+id = "@acme/expiratory-valve#ExpiratoryValve"
+package = "@acme/expiratory-valve"
+version = "1.0.0"
+
+[[occurrence]]
+id = "@acme/breathing-circuit#occ.patient-circuit"
+role = "patient-circuit"
+predicate = "os20:HasPart"
+
+[occurrence.definition]
+id = "@acme/patient-circuit#PatientCircuit"
+package = "@acme/patient-circuit"
+version = "1.0.0"
+
+[[occurrence]]
+id = "@acme/breathing-circuit#occ.humidifier-module"
+role = "humidifier-module"
+predicate = "os20:HasPart"
+
+[occurrence.definition]
+id = "@acme/humidifier-module#HumidifierModule"
+package = "@acme/humidifier-module"
+version = "1.0.0"
+
+[[reference]]
+from = "@acme/breathing-circuit#occ.inspiratory-valve"
+to = "@acme/breathing-circuit#occ.patient-circuit"
+predicate = "acme:connectedTo"
+
+[[reference]]
+from = "@acme/breathing-circuit#occ.patient-circuit"
+to = "@acme/breathing-circuit#occ.expiratory-valve"
+predicate = "acme:connectedTo"
+
+[[reference]]
+from = "@acme/breathing-circuit#occ.humidifier-module"
+to = "@acme/breathing-circuit#occ.inspiratory-valve"
+predicate = "acme:connectedTo"
