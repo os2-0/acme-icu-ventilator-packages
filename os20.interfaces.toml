@@ -1,0 +1,37 @@
+# Native OS20 interface document for @acme/flow-sensor.
+# Synthetic educational OS20 fixture. Not a medical device, not a validated ventilator, and not regulatory, clinical, or safety evidence.
+
+[[interfaces]]
+id = "flow-in"
+package = "@acme/flow-sensor"
+owner = "FlowSensor"
+name = "flow-in"
+kind = "core:interface/fluid/gas"
+direction = "input"
+
+[[interfaces]]
+id = "flow-out"
+package = "@acme/flow-sensor"
+owner = "FlowSensor"
+name = "flow-out"
+kind = "core:interface/fluid/gas"
+direction = "output"
+
+[[interfaces]]
+id = "excitation"
+package = "@acme/flow-sensor"
+owner = "FlowSensor"
+name = "excitation"
+kind = "core:interface/electrical/power"
+direction = "input"
+
+[interfaces.properties]
+voltage = "5 V"
+
+[[interfaces]]
+id = "signal"
+package = "@acme/flow-sensor"
+owner = "FlowSensor"
+name = "signal"
+kind = "core:interface/electrical/signal"
+direction = "output"

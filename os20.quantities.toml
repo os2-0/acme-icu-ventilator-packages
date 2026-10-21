@@ -1,0 +1,20 @@
+[[quantity]]
+id = "flow-sensor-mass"
+kind = "@os20/core#Mass"
+value = "0.11"
+unit = "kilogram"
+scope = "own"
+policy = "sum"
+owner = "@acme/flow-sensor#FlowSensor"
+provenance = "authored"
+
+[[quantity]]
+id = "flow-sensor-cost"
+kind = "@os20/quantity#Cost"
+value = "110"
+unit = "USD"
+scope = "own"
+policy = "sum"
+owner = "@acme/flow-sensor#FlowSensor"
+basis = "one-time"
+provenance = "authored"
