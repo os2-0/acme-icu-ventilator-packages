@@ -1,0 +1,50 @@
+# Git resources for @acme/communication-module. repository = "." is this package Git repo.
+
+[[resource]]
+id = "sysml"
+provider = "git"
+repository = "."
+revision = "e1af6a1313e9d1931e4615e8e30da07848233594"
+path = "sysml/component.sysml"
+
+[[resource]]
+id = "scxml"
+provider = "git"
+repository = "."
+revision = "e1af6a1313e9d1931e4615e8e30da07848233594"
+path = "behavior/lifecycle.scxml"
+
+[[resource]]
+id = "spec"
+provider = "git"
+repository = "."
+revision = "e1af6a1313e9d1931e4615e8e30da07848233594"
+path = "documents/technical-specification.md"
+
+[[resource]]
+id = "step"
+provider = "git"
+repository = "."
+revision = "e1af6a1313e9d1931e4615e8e30da07848233594"
+path = "cad/component.step"
+
+[[resource]]
+id = "svg-block"
+provider = "git"
+repository = "."
+revision = "e1af6a1313e9d1931e4615e8e30da07848233594"
+path = "diagrams/block.svg"
+
+[[resource]]
+id = "datasheet"
+provider = "git"
+repository = "."
+revision = "e1af6a1313e9d1931e4615e8e30da07848233594"
+path = "documents/datasheet.pdf"
+
+[[resource]]
+id = "csv"
+provider = "git"
+repository = "."
+revision = "e1af6a1313e9d1931e4615e8e30da07848233594"
+path = "data/performance.csv"
