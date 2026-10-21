@@ -8,8 +8,8 @@ description = "User interface subsystem. Synthetic educational OS20 fixture. Not
 acme = "@acme/icu-ontology@1.0.0"
 
 [dependencies]
-"@acme/icu-ontology" = { path = "../icu-ontology" }
-"@acme/touch-display" = { path = "../touch-display" }
-"@acme/operator-controls" = { path = "../operator-controls" }
-"@acme/alarm-indicator" = { path = "../alarm-indicator" }
-"@acme/buzzer" = { path = "../buzzer" }
+"@acme/alarm-indicator" = "@acme/alarm-indicator@^1.0"
+"@acme/buzzer" = "@acme/buzzer@^1.0"
+"@acme/icu-ontology" = "@acme/icu-ontology@^1.0"
+"@acme/operator-controls" = "@acme/operator-controls@^1.0"
+"@acme/touch-display" = "@acme/touch-display@^1.0"
