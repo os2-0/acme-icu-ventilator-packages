@@ -1,0 +1,47 @@
+{
+  "schema": "os20-fixture-materials-v1",
+  "disclaimer": "Synthetic educational OS20 fixture. Not a medical device, not a validated ventilator, and not regulatory, clinical, or safety evidence.",
+  "package": "@acme/touch-display",
+  "definition": "@acme/touch-display#TouchDisplay",
+  "provenance": {
+    "source": "os20-ventilator-fixture-v1",
+    "kind": "synthetic-fixture",
+    "date": "2026-10-21"
+  },
+  "usage_note": "Assemblies list constituent materials. OS20 does not aggregate materials.json; mass rollup uses os20.quantities.toml by mounted occurrence.",
+  "materials": [
+    {
+      "id": "borosilicate-fixture",
+      "classification": "glass",
+      "usage": "display-cover",
+      "density_kg_m3": 2230,
+      "notes": "Synthetic cover-glass example for the display.",
+      "synthetic": true,
+      "confidence": "synthetic-fixture",
+      "source": "os20-ventilator-fixture-v1"
+    },
+    {
+      "id": "al-6061-t6-fixture",
+      "classification": "aluminum-alloy",
+      "usage": "structural-housing",
+      "density_kg_m3": 2700,
+      "notes": "Synthetic 6061-T6-like alloy used for demonstration housings.",
+      "synthetic": true,
+      "confidence": "synthetic-fixture",
+      "source": "os20-ventilator-fixture-v1",
+      "yield_mpa": 276,
+      "thermal_conductivity_w_mk": 167
+    },
+    {
+      "id": "fr4-laminate-fixture",
+      "classification": "glass-epoxy-laminate",
+      "usage": "printed-circuit-board",
+      "density_kg_m3": 1850,
+      "notes": "Synthetic FR-4-like laminate for demonstration circuit boards.",
+      "synthetic": true,
+      "confidence": "synthetic-fixture",
+      "source": "os20-ventilator-fixture-v1",
+      "tg_c": 130
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "schema": "os20-fixture-interfaces-v1",
+  "disclaimer": "Synthetic educational OS20 fixture. Not a medical device, not a validated ventilator, and not regulatory, clinical, or safety evidence.",
+  "package": "@acme/touch-display",
+  "native_document": "os20.interfaces.toml",
+  "ports": [
+    {
+      "id": "@acme/touch-display#iface.lvds",
+      "local_id": "lvds",
+      "kind": "core:interface/electrical/signal",
+      "direction": "input",
+      "properties": {
+        "protocol": "example-lvds"
+      },
+      "owner_definition": "@acme/touch-display#TouchDisplay",
+      "note": "Connect by mounted occurrence and port, not by package name alone."
+    },
+    {
+      "id": "@acme/touch-display#iface.touch",
+      "local_id": "touch",
+      "kind": "core:interface/electrical/signal",
+      "direction": "output",
+      "properties": {
+        "protocol": "example-i2c"
+      },
+      "owner_definition": "@acme/touch-display#TouchDisplay",
+      "note": "Connect by mounted occurrence and port, not by package name alone."
+    },
+    {
+      "id": "@acme/touch-display#iface.backlight",
+      "local_id": "backlight",
+      "kind": "core:interface/electrical/power",
+      "direction": "input",
+      "properties": {
+        "voltage": "12 V"
+      },
+      "owner_definition": "@acme/touch-display#TouchDisplay",
+      "note": "Connect by mounted occurrence and port, not by package name alone."
+    },
+    {
+      "id": "@acme/touch-display#iface.bezel",
+      "local_id": "bezel",
+      "kind": "core:interface/mechanical/bezel",
+      "direction": "input",
+      "properties": {},
+      "owner_definition": "@acme/touch-display#TouchDisplay",
+      "note": "Connect by mounted occurrence and port, not by package name alone."
+    }
+  ],
+  "sibling_references": []
+}

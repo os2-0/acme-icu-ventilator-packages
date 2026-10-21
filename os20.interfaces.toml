@@ -1,0 +1,43 @@
+# Native OS20 interface document for @acme/touch-display.
+# Synthetic educational OS20 fixture. Not a medical device, not a validated ventilator, and not regulatory, clinical, or safety evidence.
+
+[[interfaces]]
+id = "lvds"
+package = "@acme/touch-display"
+owner = "TouchDisplay"
+name = "lvds"
+kind = "core:interface/electrical/signal"
+direction = "input"
+
+[interfaces.properties]
+protocol = "example-lvds"
+
+[[interfaces]]
+id = "touch"
+package = "@acme/touch-display"
+owner = "TouchDisplay"
+name = "touch"
+kind = "core:interface/electrical/signal"
+direction = "output"
+
+[interfaces.properties]
+protocol = "example-i2c"
+
+[[interfaces]]
+id = "backlight"
+package = "@acme/touch-display"
+owner = "TouchDisplay"
+name = "backlight"
+kind = "core:interface/electrical/power"
+direction = "input"
+
+[interfaces.properties]
+voltage = "12 V"
+
+[[interfaces]]
+id = "bezel"
+package = "@acme/touch-display"
+owner = "TouchDisplay"
+name = "bezel"
+kind = "core:interface/mechanical/bezel"
+direction = "input"
