@@ -8,4 +8,4 @@ description = "Safety monitor. Synthetic educational OS20 fixture. Not a medical
 acme = "@acme/icu-ontology@1.0.0"
 
 [dependencies]
-"@acme/icu-ontology" = { path = "../icu-ontology" }
+"@acme/icu-ontology" = "@acme/icu-ontology@^1.0"
