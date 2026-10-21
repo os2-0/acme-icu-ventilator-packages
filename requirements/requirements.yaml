@@ -1,0 +1,33 @@
+# Synthetic educational OS20 fixture. Not a medical device, not a validated ventilator, and not regulatory, clinical, or safety evidence.
+package: @acme/oxygen-sensor
+kind: requirement-definition
+status: authored-unverified
+requirements:
+  - id: REQ-OXYGEN_SENSOR-001
+    title: "Oxygen fraction sensor identity and package boundary"
+    text: "The definition @acme/oxygen-sensor#OxygenSensor shall be published as package @acme/oxygen-sensor@1.0.0."
+    kind: definition
+    evidence: missing
+    verified: false
+    owner: @acme/oxygen-sensor#OxygenSensor
+  - id: REQ-OXYGEN_SENSOR-002
+    title: "Oxygen fraction sensor interface declaration"
+    text: "Oxygen fraction sensor shall declare its ports in os20.interfaces.toml. Connection is by occurrence and port."
+    kind: definition
+    evidence: missing
+    verified: false
+    owner: @acme/oxygen-sensor#OxygenSensor
+  - id: REQ-OXYGEN_SENSOR-003
+    title: "Oxygen fraction sensor evidence distinction"
+    text: "Verification records in this package are procedure definitions only. They are not test results, certification, or clinical validation."
+    kind: definition
+    evidence: missing
+    verified: false
+    owner: @acme/oxygen-sensor#OxygenSensor
+  - id: REQ-OXYGEN_SENSOR-004
+    title: "Oxygen fraction sensor mass declaration"
+    text: "Own mass shall be authored as 0.13 kilogram with provenance synthetic-fixture."
+    kind: definition
+    evidence: missing
+    verified: false
+    owner: @acme/oxygen-sensor#OxygenSensor

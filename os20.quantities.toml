@@ -1,0 +1,20 @@
+[[quantity]]
+id = "oxygen-sensor-mass"
+kind = "@os20/core#Mass"
+value = "0.13"
+unit = "kilogram"
+scope = "own"
+policy = "sum"
+owner = "@acme/oxygen-sensor#OxygenSensor"
+provenance = "authored"
+
+[[quantity]]
+id = "oxygen-sensor-cost"
+kind = "@os20/quantity#Cost"
+value = "210"
+unit = "USD"
+scope = "own"
+policy = "sum"
+owner = "@acme/oxygen-sensor#OxygenSensor"
+basis = "one-time"
+provenance = "authored"

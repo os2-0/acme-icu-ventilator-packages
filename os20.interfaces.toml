@@ -1,0 +1,32 @@
+# Native OS20 interface document for @acme/oxygen-sensor.
+# Synthetic educational OS20 fixture. Not a medical device, not a validated ventilator, and not regulatory, clinical, or safety evidence.
+
+[[interfaces]]
+id = "sample"
+package = "@acme/oxygen-sensor"
+owner = "OxygenSensor"
+name = "sample"
+kind = "core:interface/fluid/gas"
+direction = "input"
+
+[interfaces.properties]
+medium = "gas-mixture"
+
+[[interfaces]]
+id = "signal"
+package = "@acme/oxygen-sensor"
+owner = "OxygenSensor"
+name = "signal"
+kind = "core:interface/electrical/signal"
+direction = "output"
+
+[[interfaces]]
+id = "excitation"
+package = "@acme/oxygen-sensor"
+owner = "OxygenSensor"
+name = "excitation"
+kind = "core:interface/electrical/power"
+direction = "input"
+
+[interfaces.properties]
+voltage = "5 V"

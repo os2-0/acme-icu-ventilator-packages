@@ -1,0 +1,40 @@
+{
+  "schema": "os20-fixture-interfaces-v1",
+  "disclaimer": "Synthetic educational OS20 fixture. Not a medical device, not a validated ventilator, and not regulatory, clinical, or safety evidence.",
+  "package": "@acme/oxygen-sensor",
+  "native_document": "os20.interfaces.toml",
+  "ports": [
+    {
+      "id": "@acme/oxygen-sensor#iface.sample",
+      "local_id": "sample",
+      "kind": "core:interface/fluid/gas",
+      "direction": "input",
+      "properties": {
+        "medium": "gas-mixture"
+      },
+      "owner_definition": "@acme/oxygen-sensor#OxygenSensor",
+      "note": "Connect by mounted occurrence and port, not by package name alone."
+    },
+    {
+      "id": "@acme/oxygen-sensor#iface.signal",
+      "local_id": "signal",
+      "kind": "core:interface/electrical/signal",
+      "direction": "output",
+      "properties": {},
+      "owner_definition": "@acme/oxygen-sensor#OxygenSensor",
+      "note": "Connect by mounted occurrence and port, not by package name alone."
+    },
+    {
+      "id": "@acme/oxygen-sensor#iface.excitation",
+      "local_id": "excitation",
+      "kind": "core:interface/electrical/power",
+      "direction": "input",
+      "properties": {
+        "voltage": "5 V"
+      },
+      "owner_definition": "@acme/oxygen-sensor#OxygenSensor",
+      "note": "Connect by mounted occurrence and port, not by package name alone."
+    }
+  ],
+  "sibling_references": []
+}
