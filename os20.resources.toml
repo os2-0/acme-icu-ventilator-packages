@@ -1,0 +1,50 @@
+# Git resources for @acme/fastener-set. repository = "." is this package Git repo.
+
+[[resource]]
+id = "sysml"
+provider = "git"
+repository = "."
+revision = "dec1a399c44558c87a370643f43b3412caad22fa"
+path = "sysml/component.sysml"
+
+[[resource]]
+id = "scxml"
+provider = "git"
+repository = "."
+revision = "dec1a399c44558c87a370643f43b3412caad22fa"
+path = "behavior/lifecycle.scxml"
+
+[[resource]]
+id = "spec"
+provider = "git"
+repository = "."
+revision = "dec1a399c44558c87a370643f43b3412caad22fa"
+path = "documents/technical-specification.md"
+
+[[resource]]
+id = "step"
+provider = "git"
+repository = "."
+revision = "dec1a399c44558c87a370643f43b3412caad22fa"
+path = "cad/component.step"
+
+[[resource]]
+id = "svg-block"
+provider = "git"
+repository = "."
+revision = "dec1a399c44558c87a370643f43b3412caad22fa"
+path = "diagrams/block.svg"
+
+[[resource]]
+id = "datasheet"
+provider = "git"
+repository = "."
+revision = "dec1a399c44558c87a370643f43b3412caad22fa"
+path = "documents/datasheet.pdf"
+
+[[resource]]
+id = "csv"
+provider = "git"
+repository = "."
+revision = "dec1a399c44558c87a370643f43b3412caad22fa"
+path = "data/performance.csv"
