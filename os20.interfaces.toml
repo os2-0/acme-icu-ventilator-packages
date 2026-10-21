@@ -1,0 +1,81 @@
+# Native OS20 interface document for @acme/icu-ventilator.
+# Synthetic educational OS20 fixture. Not a medical device, not a validated ventilator, and not regulatory, clinical, or safety evidence.
+
+[[interfaces]]
+id = "mains-inlet"
+package = "@acme/icu-ventilator"
+owner = "IcuVentilator"
+name = "mains-inlet"
+kind = "core:interface/electrical/power"
+direction = "input"
+
+[interfaces.properties]
+voltage = "100-240 V"
+frequency = "50/60 Hz"
+
+[[interfaces]]
+id = "patient-port"
+package = "@acme/icu-ventilator"
+owner = "IcuVentilator"
+name = "patient-port"
+kind = "core:interface/fluid/gas"
+direction = "bidirectional"
+
+[interfaces.properties]
+size = "22 mm ISO-taper-example"
+
+[[interfaces]]
+id = "operator-display"
+package = "@acme/icu-ventilator"
+owner = "IcuVentilator"
+name = "operator-display"
+kind = "core:interface/human/display"
+direction = "output"
+
+[[connections]]
+from = "GasDelivery.ambient-air-in"
+to = "BreathingCircuit.gas-in"
+relation = "core:connectedTo"
+required = true
+
+[[connections]]
+from = "BreathingCircuit.gas-in"
+to = "SensorSystem.insp-pressure-tap"
+relation = "core:connectedTo"
+required = true
+
+[[connections]]
+from = "SensorSystem.insp-pressure-tap"
+to = "ControlSystem.logic-power"
+relation = "core:connectedTo"
+required = true
+
+[[connections]]
+from = "ControlSystem.logic-power"
+to = "PowerSystem.mains-in"
+relation = "core:connectedTo"
+required = true
+
+[[connections]]
+from = "ControlSystem.logic-power"
+to = "UserInterface.ui-link"
+relation = "core:connectedTo"
+required = true
+
+[[connections]]
+from = "SafetySystem.relief-port"
+to = "GasDelivery.ambient-air-in"
+relation = "core:connectedTo"
+required = true
+
+[[connections]]
+from = "MechanicalSystem.floor-feet"
+to = "GasDelivery.ambient-air-in"
+relation = "core:connectedTo"
+required = true
+
+[[connections]]
+from = "PowerSystem.mains-in"
+to = "MechanicalSystem.floor-feet"
+relation = "core:connectedTo"
+required = true

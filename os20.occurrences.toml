@@ -1,0 +1,166 @@
+[namespaces]
+acme = "@acme/icu-ontology#"
+os20 = "@os20/core#"
+
+[[definition]]
+id = "@acme/icu-ventilator#IcuVentilator"
+
+[[definition]]
+id = "@acme/gas-delivery#GasDelivery"
+package = "@acme/gas-delivery"
+version = "1.0.0"
+
+[[definition]]
+id = "@acme/breathing-circuit#BreathingCircuit"
+package = "@acme/breathing-circuit"
+version = "1.0.0"
+
+[[definition]]
+id = "@acme/sensor-system#SensorSystem"
+package = "@acme/sensor-system"
+version = "1.0.0"
+
+[[definition]]
+id = "@acme/control-system#ControlSystem"
+package = "@acme/control-system"
+version = "1.0.0"
+
+[[definition]]
+id = "@acme/power-system#PowerSystem"
+package = "@acme/power-system"
+version = "1.0.0"
+
+[[definition]]
+id = "@acme/user-interface#UserInterface"
+package = "@acme/user-interface"
+version = "1.0.0"
+
+[[definition]]
+id = "@acme/safety-system#SafetySystem"
+package = "@acme/safety-system"
+version = "1.0.0"
+
+[[definition]]
+id = "@acme/mechanical-system#MechanicalSystem"
+package = "@acme/mechanical-system"
+version = "1.0.0"
+
+[[occurrence]]
+id = "@acme/icu-ventilator#occ.gas-delivery"
+role = "gas-delivery"
+predicate = "os20:HasPart"
+
+[occurrence.definition]
+id = "@acme/gas-delivery#GasDelivery"
+package = "@acme/gas-delivery"
+version = "1.0.0"
+
+[[occurrence]]
+id = "@acme/icu-ventilator#occ.breathing-circuit"
+role = "breathing-circuit"
+predicate = "os20:HasPart"
+
+[occurrence.definition]
+id = "@acme/breathing-circuit#BreathingCircuit"
+package = "@acme/breathing-circuit"
+version = "1.0.0"
+
+[[occurrence]]
+id = "@acme/icu-ventilator#occ.sensor-system"
+role = "sensor-system"
+predicate = "os20:HasPart"
+
+[occurrence.definition]
+id = "@acme/sensor-system#SensorSystem"
+package = "@acme/sensor-system"
+version = "1.0.0"
+
+[[occurrence]]
+id = "@acme/icu-ventilator#occ.control-system"
+role = "control-system"
+predicate = "os20:HasPart"
+
+[occurrence.definition]
+id = "@acme/control-system#ControlSystem"
+package = "@acme/control-system"
+version = "1.0.0"
+
+[[occurrence]]
+id = "@acme/icu-ventilator#occ.power-system"
+role = "power-system"
+predicate = "os20:HasPart"
+
+[occurrence.definition]
+id = "@acme/power-system#PowerSystem"
+package = "@acme/power-system"
+version = "1.0.0"
+
+[[occurrence]]
+id = "@acme/icu-ventilator#occ.user-interface"
+role = "user-interface"
+predicate = "os20:HasPart"
+
+[occurrence.definition]
+id = "@acme/user-interface#UserInterface"
+package = "@acme/user-interface"
+version = "1.0.0"
+
+[[occurrence]]
+id = "@acme/icu-ventilator#occ.safety-system"
+role = "safety-system"
+predicate = "os20:HasPart"
+
+[occurrence.definition]
+id = "@acme/safety-system#SafetySystem"
+package = "@acme/safety-system"
+version = "1.0.0"
+
+[[occurrence]]
+id = "@acme/icu-ventilator#occ.mechanical-system"
+role = "mechanical-system"
+predicate = "os20:HasPart"
+
+[occurrence.definition]
+id = "@acme/mechanical-system#MechanicalSystem"
+package = "@acme/mechanical-system"
+version = "1.0.0"
+
+[[reference]]
+from = "@acme/icu-ventilator#occ.gas-delivery"
+to = "@acme/icu-ventilator#occ.breathing-circuit"
+predicate = "acme:connectedTo"
+
+[[reference]]
+from = "@acme/icu-ventilator#occ.breathing-circuit"
+to = "@acme/icu-ventilator#occ.sensor-system"
+predicate = "acme:connectedTo"
+
+[[reference]]
+from = "@acme/icu-ventilator#occ.sensor-system"
+to = "@acme/icu-ventilator#occ.control-system"
+predicate = "acme:connectedTo"
+
+[[reference]]
+from = "@acme/icu-ventilator#occ.control-system"
+to = "@acme/icu-ventilator#occ.power-system"
+predicate = "acme:connectedTo"
+
+[[reference]]
+from = "@acme/icu-ventilator#occ.control-system"
+to = "@acme/icu-ventilator#occ.user-interface"
+predicate = "acme:connectedTo"
+
+[[reference]]
+from = "@acme/icu-ventilator#occ.safety-system"
+to = "@acme/icu-ventilator#occ.gas-delivery"
+predicate = "acme:connectedTo"
+
+[[reference]]
+from = "@acme/icu-ventilator#occ.mechanical-system"
+to = "@acme/icu-ventilator#occ.gas-delivery"
+predicate = "acme:connectedTo"
+
+[[reference]]
+from = "@acme/icu-ventilator#occ.power-system"
+to = "@acme/icu-ventilator#occ.mechanical-system"
+predicate = "acme:connectedTo"

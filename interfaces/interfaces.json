@@ -1,0 +1,90 @@
+{
+  "schema": "os20-fixture-interfaces-v1",
+  "disclaimer": "Synthetic educational OS20 fixture. Not a medical device, not a validated ventilator, and not regulatory, clinical, or safety evidence.",
+  "package": "@acme/icu-ventilator",
+  "native_document": "os20.interfaces.toml",
+  "ports": [
+    {
+      "id": "@acme/icu-ventilator#iface.mains-inlet",
+      "local_id": "mains-inlet",
+      "kind": "core:interface/electrical/power",
+      "direction": "input",
+      "properties": {
+        "voltage": "100-240 V",
+        "frequency": "50/60 Hz"
+      },
+      "owner_definition": "@acme/icu-ventilator#IcuVentilator",
+      "note": "Connect by mounted occurrence and port, not by package name alone."
+    },
+    {
+      "id": "@acme/icu-ventilator#iface.patient-port",
+      "local_id": "patient-port",
+      "kind": "core:interface/fluid/gas",
+      "direction": "bidirectional",
+      "properties": {
+        "size": "22 mm ISO-taper-example"
+      },
+      "owner_definition": "@acme/icu-ventilator#IcuVentilator",
+      "note": "Connect by mounted occurrence and port, not by package name alone."
+    },
+    {
+      "id": "@acme/icu-ventilator#iface.operator-display",
+      "local_id": "operator-display",
+      "kind": "core:interface/human/display",
+      "direction": "output",
+      "properties": {},
+      "owner_definition": "@acme/icu-ventilator#IcuVentilator",
+      "note": "Connect by mounted occurrence and port, not by package name alone."
+    }
+  ],
+  "sibling_references": [
+    {
+      "from": "@acme/icu-ventilator#occ.gas-delivery",
+      "to": "@acme/icu-ventilator#occ.breathing-circuit",
+      "predicate": "acme:connectedTo",
+      "native": "os20.occurrences.toml [[reference]]"
+    },
+    {
+      "from": "@acme/icu-ventilator#occ.breathing-circuit",
+      "to": "@acme/icu-ventilator#occ.sensor-system",
+      "predicate": "acme:connectedTo",
+      "native": "os20.occurrences.toml [[reference]]"
+    },
+    {
+      "from": "@acme/icu-ventilator#occ.sensor-system",
+      "to": "@acme/icu-ventilator#occ.control-system",
+      "predicate": "acme:connectedTo",
+      "native": "os20.occurrences.toml [[reference]]"
+    },
+    {
+      "from": "@acme/icu-ventilator#occ.control-system",
+      "to": "@acme/icu-ventilator#occ.power-system",
+      "predicate": "acme:connectedTo",
+      "native": "os20.occurrences.toml [[reference]]"
+    },
+    {
+      "from": "@acme/icu-ventilator#occ.control-system",
+      "to": "@acme/icu-ventilator#occ.user-interface",
+      "predicate": "acme:connectedTo",
+      "native": "os20.occurrences.toml [[reference]]"
+    },
+    {
+      "from": "@acme/icu-ventilator#occ.safety-system",
+      "to": "@acme/icu-ventilator#occ.gas-delivery",
+      "predicate": "acme:connectedTo",
+      "native": "os20.occurrences.toml [[reference]]"
+    },
+    {
+      "from": "@acme/icu-ventilator#occ.mechanical-system",
+      "to": "@acme/icu-ventilator#occ.gas-delivery",
+      "predicate": "acme:connectedTo",
+      "native": "os20.occurrences.toml [[reference]]"
+    },
+    {
+      "from": "@acme/icu-ventilator#occ.power-system",
+      "to": "@acme/icu-ventilator#occ.mechanical-system",
+      "predicate": "acme:connectedTo",
+      "native": "os20.occurrences.toml [[reference]]"
+    }
+  ]
+}

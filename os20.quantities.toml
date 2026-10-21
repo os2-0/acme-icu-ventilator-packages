@@ -1,0 +1,37 @@
+[[quantity]]
+id = "icu-ventilator-mass-@acme/icu-ventilator"
+kind = "@os20/core#Mass"
+scope = "own"
+policy = "derive-from-children"
+owner = "@acme/icu-ventilator"
+
+provenance = "authored"
+
+[[quantity]]
+id = "icu-ventilator-cost-@acme/icu-ventilator"
+kind = "@os20/quantity#Cost"
+scope = "own"
+policy = "derive-from-children"
+owner = "@acme/icu-ventilator"
+basis = "one-time"
+
+provenance = "authored"
+
+[[quantity]]
+id = "icu-ventilator-mass-icuventilator"
+kind = "@os20/core#Mass"
+scope = "own"
+policy = "derive-from-children"
+owner = "@acme/icu-ventilator#IcuVentilator"
+
+provenance = "authored"
+
+[[quantity]]
+id = "icu-ventilator-cost-icuventilator"
+kind = "@os20/quantity#Cost"
+scope = "own"
+policy = "derive-from-children"
+owner = "@acme/icu-ventilator#IcuVentilator"
+basis = "one-time"
+
+provenance = "authored"

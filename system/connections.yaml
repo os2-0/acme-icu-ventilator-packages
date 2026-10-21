@@ -1,0 +1,34 @@
+# Companion view of [[reference]] / [[connections]] for @acme/icu-ventilator. OS20 does not read this file.
+connections:
+  - from_occurrence: @acme/icu-ventilator#occ.gas-delivery
+    to_occurrence: @acme/icu-ventilator#occ.breathing-circuit
+    predicate: acme:connectedTo
+    note: specific mounted occurrence, not package name
+  - from_occurrence: @acme/icu-ventilator#occ.breathing-circuit
+    to_occurrence: @acme/icu-ventilator#occ.sensor-system
+    predicate: acme:connectedTo
+    note: specific mounted occurrence, not package name
+  - from_occurrence: @acme/icu-ventilator#occ.sensor-system
+    to_occurrence: @acme/icu-ventilator#occ.control-system
+    predicate: acme:connectedTo
+    note: specific mounted occurrence, not package name
+  - from_occurrence: @acme/icu-ventilator#occ.control-system
+    to_occurrence: @acme/icu-ventilator#occ.power-system
+    predicate: acme:connectedTo
+    note: specific mounted occurrence, not package name
+  - from_occurrence: @acme/icu-ventilator#occ.control-system
+    to_occurrence: @acme/icu-ventilator#occ.user-interface
+    predicate: acme:connectedTo
+    note: specific mounted occurrence, not package name
+  - from_occurrence: @acme/icu-ventilator#occ.safety-system
+    to_occurrence: @acme/icu-ventilator#occ.gas-delivery
+    predicate: acme:connectedTo
+    note: specific mounted occurrence, not package name
+  - from_occurrence: @acme/icu-ventilator#occ.mechanical-system
+    to_occurrence: @acme/icu-ventilator#occ.gas-delivery
+    predicate: acme:connectedTo
+    note: specific mounted occurrence, not package name
+  - from_occurrence: @acme/icu-ventilator#occ.power-system
+    to_occurrence: @acme/icu-ventilator#occ.mechanical-system
+    predicate: acme:connectedTo
+    note: specific mounted occurrence, not package name

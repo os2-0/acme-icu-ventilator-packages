@@ -1,0 +1,19 @@
+[package]
+name = "@acme/icu-ventilator"
+version = "1.0.0"
+edition = "2026"
+description = "ICU ventilator (synthetic educational system). Synthetic educational OS20 fixture. Not a medical device, not a validated ventilator, and not regulatory, clinical, or safety evidence."
+
+[ontology]
+acme = "@acme/icu-ontology@1.0.0"
+
+[dependencies]
+"@acme/icu-ontology" = { path = "../icu-ontology" }
+"@acme/gas-delivery" = { path = "../gas-delivery" }
+"@acme/breathing-circuit" = { path = "../breathing-circuit" }
+"@acme/sensor-system" = { path = "../sensor-system" }
+"@acme/control-system" = { path = "../control-system" }
+"@acme/power-system" = { path = "../power-system" }
+"@acme/user-interface" = { path = "../user-interface" }
+"@acme/safety-system" = { path = "../safety-system" }
+"@acme/mechanical-system" = { path = "../mechanical-system" }

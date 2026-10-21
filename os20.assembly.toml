@@ -1,0 +1,103 @@
+schema = "os20-assembly-v1"
+
+[[geometry]]
+id = "self"
+owner = "@acme/icu-ventilator#IcuVentilator"
+representation = "step:ap242"
+path = "cad/component.step"
+package = "@acme/icu-ventilator"
+unit = "millimeter"
+verified = false
+
+[[frame]]
+id = "origin"
+owner = "@acme/icu-ventilator#IcuVentilator"
+geometry = "self"
+
+[[placement]]
+id = "gas-delivery"
+parent = "@acme/icu-ventilator#IcuVentilator"
+child = "@acme/gas-delivery#GasDelivery"
+geometry = "self"
+frame = "origin"
+translation = ["0", "0", "20"]
+rotation = ["1", "0", "0", "0"]
+unit = "millimeter"
+required = true
+
+[[placement]]
+id = "breathing-circuit"
+parent = "@acme/icu-ventilator#IcuVentilator"
+child = "@acme/breathing-circuit#BreathingCircuit"
+geometry = "self"
+frame = "origin"
+translation = ["0", "0", "40"]
+rotation = ["1", "0", "0", "0"]
+unit = "millimeter"
+required = true
+
+[[placement]]
+id = "sensor-system"
+parent = "@acme/icu-ventilator#IcuVentilator"
+child = "@acme/sensor-system#SensorSystem"
+geometry = "self"
+frame = "origin"
+translation = ["0", "0", "60"]
+rotation = ["1", "0", "0", "0"]
+unit = "millimeter"
+required = true
+
+[[placement]]
+id = "control-system"
+parent = "@acme/icu-ventilator#IcuVentilator"
+child = "@acme/control-system#ControlSystem"
+geometry = "self"
+frame = "origin"
+translation = ["0", "0", "80"]
+rotation = ["1", "0", "0", "0"]
+unit = "millimeter"
+required = true
+
+[[placement]]
+id = "power-system"
+parent = "@acme/icu-ventilator#IcuVentilator"
+child = "@acme/power-system#PowerSystem"
+geometry = "self"
+frame = "origin"
+translation = ["0", "0", "100"]
+rotation = ["1", "0", "0", "0"]
+unit = "millimeter"
+required = true
+
+[[placement]]
+id = "user-interface"
+parent = "@acme/icu-ventilator#IcuVentilator"
+child = "@acme/user-interface#UserInterface"
+geometry = "self"
+frame = "origin"
+translation = ["0", "0", "120"]
+rotation = ["1", "0", "0", "0"]
+unit = "millimeter"
+required = true
+
+[[placement]]
+id = "safety-system"
+parent = "@acme/icu-ventilator#IcuVentilator"
+child = "@acme/safety-system#SafetySystem"
+geometry = "self"
+frame = "origin"
+translation = ["0", "0", "140"]
+rotation = ["1", "0", "0", "0"]
+unit = "millimeter"
+required = true
+
+[[placement]]
+id = "mechanical-system"
+parent = "@acme/icu-ventilator#IcuVentilator"
+child = "@acme/mechanical-system#MechanicalSystem"
+geometry = "self"
+frame = "origin"
+translation = ["0", "0", "160"]
+rotation = ["1", "0", "0", "0"]
+unit = "millimeter"
+required = true

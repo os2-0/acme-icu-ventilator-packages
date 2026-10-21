@@ -1,0 +1,43 @@
+# Companion view of os20.occurrences.toml for @acme/icu-ventilator. OS20 does not read this file.
+root: @acme/icu-ventilator#occ-tree
+children:
+  - role: gas-delivery
+    occurrence: @acme/icu-ventilator#occ.gas-delivery
+    definition: @acme/gas-delivery#GasDelivery
+    package: @acme/gas-delivery@1.0.0
+    predicate: os20:HasPart
+  - role: breathing-circuit
+    occurrence: @acme/icu-ventilator#occ.breathing-circuit
+    definition: @acme/breathing-circuit#BreathingCircuit
+    package: @acme/breathing-circuit@1.0.0
+    predicate: os20:HasPart
+  - role: sensor-system
+    occurrence: @acme/icu-ventilator#occ.sensor-system
+    definition: @acme/sensor-system#SensorSystem
+    package: @acme/sensor-system@1.0.0
+    predicate: os20:HasPart
+  - role: control-system
+    occurrence: @acme/icu-ventilator#occ.control-system
+    definition: @acme/control-system#ControlSystem
+    package: @acme/control-system@1.0.0
+    predicate: os20:HasPart
+  - role: power-system
+    occurrence: @acme/icu-ventilator#occ.power-system
+    definition: @acme/power-system#PowerSystem
+    package: @acme/power-system@1.0.0
+    predicate: os20:HasPart
+  - role: user-interface
+    occurrence: @acme/icu-ventilator#occ.user-interface
+    definition: @acme/user-interface#UserInterface
+    package: @acme/user-interface@1.0.0
+    predicate: os20:HasPart
+  - role: safety-system
+    occurrence: @acme/icu-ventilator#occ.safety-system
+    definition: @acme/safety-system#SafetySystem
+    package: @acme/safety-system@1.0.0
+    predicate: os20:HasPart
+  - role: mechanical-system
+    occurrence: @acme/icu-ventilator#occ.mechanical-system
+    definition: @acme/mechanical-system#MechanicalSystem
+    package: @acme/mechanical-system@1.0.0
+    predicate: os20:HasPart

@@ -1,0 +1,87 @@
+{
+  "schema": "os20-fixture-bom-v1",
+  "disclaimer": "Synthetic educational OS20 fixture. Not a medical device, not a validated ventilator, and not regulatory, clinical, or safety evidence.",
+  "package": "@acme/icu-ventilator",
+  "items": [
+    {
+      "occurrence": "@acme/icu-ventilator#occ.gas-delivery",
+      "role": "gas-delivery",
+      "package": "@acme/gas-delivery",
+      "version": "1.0.0",
+      "definition": "@acme/gas-delivery#GasDelivery",
+      "qty": 1,
+      "mass_kg_own": null,
+      "note": "Occurrence count, not dependency-graph count"
+    },
+    {
+      "occurrence": "@acme/icu-ventilator#occ.breathing-circuit",
+      "role": "breathing-circuit",
+      "package": "@acme/breathing-circuit",
+      "version": "1.0.0",
+      "definition": "@acme/breathing-circuit#BreathingCircuit",
+      "qty": 1,
+      "mass_kg_own": null,
+      "note": "Occurrence count, not dependency-graph count"
+    },
+    {
+      "occurrence": "@acme/icu-ventilator#occ.sensor-system",
+      "role": "sensor-system",
+      "package": "@acme/sensor-system",
+      "version": "1.0.0",
+      "definition": "@acme/sensor-system#SensorSystem",
+      "qty": 1,
+      "mass_kg_own": null,
+      "note": "Occurrence count, not dependency-graph count"
+    },
+    {
+      "occurrence": "@acme/icu-ventilator#occ.control-system",
+      "role": "control-system",
+      "package": "@acme/control-system",
+      "version": "1.0.0",
+      "definition": "@acme/control-system#ControlSystem",
+      "qty": 1,
+      "mass_kg_own": null,
+      "note": "Occurrence count, not dependency-graph count"
+    },
+    {
+      "occurrence": "@acme/icu-ventilator#occ.power-system",
+      "role": "power-system",
+      "package": "@acme/power-system",
+      "version": "1.0.0",
+      "definition": "@acme/power-system#PowerSystem",
+      "qty": 1,
+      "mass_kg_own": null,
+      "note": "Occurrence count, not dependency-graph count"
+    },
+    {
+      "occurrence": "@acme/icu-ventilator#occ.user-interface",
+      "role": "user-interface",
+      "package": "@acme/user-interface",
+      "version": "1.0.0",
+      "definition": "@acme/user-interface#UserInterface",
+      "qty": 1,
+      "mass_kg_own": null,
+      "note": "Occurrence count, not dependency-graph count"
+    },
+    {
+      "occurrence": "@acme/icu-ventilator#occ.safety-system",
+      "role": "safety-system",
+      "package": "@acme/safety-system",
+      "version": "1.0.0",
+      "definition": "@acme/safety-system#SafetySystem",
+      "qty": 1,
+      "mass_kg_own": null,
+      "note": "Occurrence count, not dependency-graph count"
+    },
+    {
+      "occurrence": "@acme/icu-ventilator#occ.mechanical-system",
+      "role": "mechanical-system",
+      "package": "@acme/mechanical-system",
+      "version": "1.0.0",
+      "definition": "@acme/mechanical-system#MechanicalSystem",
+      "qty": 1,
+      "mass_kg_own": null,
+      "note": "Occurrence count, not dependency-graph count"
+    }
+  ]
+}
