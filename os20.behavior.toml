@@ -1,0 +1,16 @@
+schema = "os20-behavior-v1"
+
+[[behavior]]
+id = "battery-pack"
+owner = "@acme/battery-pack#BatteryPack"
+artifact = "behavior/lifecycle.scxml"
+policy = "concurrent-children"
+
+[[interface]]
+id = "lifecycle"
+owner = "@acme/battery-pack#BatteryPack"
+behavior = "battery-pack"
+direction = "input"
+event = "configure"
+semantic_type = "@acme/icu-ontology#LifecycleEvent"
+provenance = "authored"

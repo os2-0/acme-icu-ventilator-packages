@@ -1,0 +1,37 @@
+# Native OS20 interface document for @acme/battery-pack.
+# Synthetic educational OS20 fixture. Not a medical device, not a validated ventilator, and not regulatory, clinical, or safety evidence.
+
+[[interfaces]]
+id = "pack-plus"
+package = "@acme/battery-pack"
+owner = "BatteryPack"
+name = "pack-plus"
+kind = "core:interface/electrical/power"
+direction = "output"
+
+[interfaces.properties]
+voltage = "44.4 V nominal-fixture"
+
+[[interfaces]]
+id = "pack-minus"
+package = "@acme/battery-pack"
+owner = "BatteryPack"
+name = "pack-minus"
+kind = "core:interface/electrical/power"
+direction = "output"
+
+[[interfaces]]
+id = "sense-harness"
+package = "@acme/battery-pack"
+owner = "BatteryPack"
+name = "sense-harness"
+kind = "core:interface/electrical/signal"
+direction = "output"
+
+[[interfaces]]
+id = "tray"
+package = "@acme/battery-pack"
+owner = "BatteryPack"
+name = "tray"
+kind = "core:interface/mechanical/tray"
+direction = "input"

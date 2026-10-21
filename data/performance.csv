@@ -1,0 +1,4 @@
+quantity,value,unit,status,provenance
+mass,2.8,kilogram,synthetic,synthetic-fixture
+cost,210,USD,synthetic,synthetic-fixture
+example_capacity,5.0,ampere-hour,synthetic,synthetic-fixture

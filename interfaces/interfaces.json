@@ -1,0 +1,47 @@
+{
+  "schema": "os20-fixture-interfaces-v1",
+  "disclaimer": "Synthetic educational OS20 fixture. Not a medical device, not a validated ventilator, and not regulatory, clinical, or safety evidence.",
+  "package": "@acme/battery-pack",
+  "native_document": "os20.interfaces.toml",
+  "ports": [
+    {
+      "id": "@acme/battery-pack#iface.pack-plus",
+      "local_id": "pack-plus",
+      "kind": "core:interface/electrical/power",
+      "direction": "output",
+      "properties": {
+        "voltage": "44.4 V nominal-fixture"
+      },
+      "owner_definition": "@acme/battery-pack#BatteryPack",
+      "note": "Connect by mounted occurrence and port, not by package name alone."
+    },
+    {
+      "id": "@acme/battery-pack#iface.pack-minus",
+      "local_id": "pack-minus",
+      "kind": "core:interface/electrical/power",
+      "direction": "output",
+      "properties": {},
+      "owner_definition": "@acme/battery-pack#BatteryPack",
+      "note": "Connect by mounted occurrence and port, not by package name alone."
+    },
+    {
+      "id": "@acme/battery-pack#iface.sense-harness",
+      "local_id": "sense-harness",
+      "kind": "core:interface/electrical/signal",
+      "direction": "output",
+      "properties": {},
+      "owner_definition": "@acme/battery-pack#BatteryPack",
+      "note": "Connect by mounted occurrence and port, not by package name alone."
+    },
+    {
+      "id": "@acme/battery-pack#iface.tray",
+      "local_id": "tray",
+      "kind": "core:interface/mechanical/tray",
+      "direction": "input",
+      "properties": {},
+      "owner_definition": "@acme/battery-pack#BatteryPack",
+      "note": "Connect by mounted occurrence and port, not by package name alone."
+    }
+  ],
+  "sibling_references": []
+}

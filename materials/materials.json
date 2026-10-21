@@ -1,0 +1,47 @@
+{
+  "schema": "os20-fixture-materials-v1",
+  "disclaimer": "Synthetic educational OS20 fixture. Not a medical device, not a validated ventilator, and not regulatory, clinical, or safety evidence.",
+  "package": "@acme/battery-pack",
+  "definition": "@acme/battery-pack#BatteryPack",
+  "provenance": {
+    "source": "os20-ventilator-fixture-v1",
+    "kind": "synthetic-fixture",
+    "date": "2026-10-21"
+  },
+  "usage_note": "Assemblies list constituent materials. OS20 does not aggregate materials.json; mass rollup uses os20.quantities.toml by mounted occurrence.",
+  "materials": [
+    {
+      "id": "nmc-cell-fixture",
+      "classification": "lithium-ion-cell-example",
+      "usage": "energy-storage",
+      "density_kg_m3": 2500,
+      "notes": "Synthetic cell chemistry label for demonstration only. Not a cell specification.",
+      "synthetic": true,
+      "confidence": "synthetic-fixture",
+      "source": "os20-ventilator-fixture-v1"
+    },
+    {
+      "id": "al-6061-t6-fixture",
+      "classification": "aluminum-alloy",
+      "usage": "structural-housing",
+      "density_kg_m3": 2700,
+      "notes": "Synthetic 6061-T6-like alloy used for demonstration housings.",
+      "synthetic": true,
+      "confidence": "synthetic-fixture",
+      "source": "os20-ventilator-fixture-v1",
+      "yield_mpa": 276,
+      "thermal_conductivity_w_mk": 167
+    },
+    {
+      "id": "polycarbonate-fixture",
+      "classification": "thermoplastic",
+      "usage": "covers-and-windows",
+      "density_kg_m3": 1200,
+      "notes": "Synthetic polycarbonate-like polymer for demonstration covers.",
+      "synthetic": true,
+      "confidence": "synthetic-fixture",
+      "source": "os20-ventilator-fixture-v1",
+      "max_service_c": 115
+    }
+  ]
+}

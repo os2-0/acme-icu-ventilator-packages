@@ -1,0 +1,33 @@
+# Synthetic educational OS20 fixture. Not a medical device, not a validated ventilator, and not regulatory, clinical, or safety evidence.
+package: @acme/battery-pack
+kind: requirement-definition
+status: authored-unverified
+requirements:
+  - id: REQ-BATTERY_PACK-001
+    title: "Battery pack identity and package boundary"
+    text: "The definition @acme/battery-pack#BatteryPack shall be published as package @acme/battery-pack@1.0.0."
+    kind: definition
+    evidence: missing
+    verified: false
+    owner: @acme/battery-pack#BatteryPack
+  - id: REQ-BATTERY_PACK-002
+    title: "Battery pack interface declaration"
+    text: "Battery pack shall declare its ports in os20.interfaces.toml. Connection is by occurrence and port."
+    kind: definition
+    evidence: missing
+    verified: false
+    owner: @acme/battery-pack#BatteryPack
+  - id: REQ-BATTERY_PACK-003
+    title: "Battery pack evidence distinction"
+    text: "Verification records in this package are procedure definitions only. They are not test results, certification, or clinical validation."
+    kind: definition
+    evidence: missing
+    verified: false
+    owner: @acme/battery-pack#BatteryPack
+  - id: REQ-BATTERY_PACK-004
+    title: "Battery pack mass declaration"
+    text: "Own mass shall be authored as 2.8 kilogram with provenance synthetic-fixture."
+    kind: definition
+    evidence: missing
+    verified: false
+    owner: @acme/battery-pack#BatteryPack

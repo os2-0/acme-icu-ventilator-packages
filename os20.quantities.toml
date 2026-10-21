@@ -1,0 +1,20 @@
+[[quantity]]
+id = "battery-pack-mass"
+kind = "@os20/core#Mass"
+value = "2.8"
+unit = "kilogram"
+scope = "own"
+policy = "sum"
+owner = "@acme/battery-pack#BatteryPack"
+provenance = "authored"
+
+[[quantity]]
+id = "battery-pack-cost"
+kind = "@os20/quantity#Cost"
+value = "210"
+unit = "USD"
+scope = "own"
+policy = "sum"
+owner = "@acme/battery-pack#BatteryPack"
+basis = "one-time"
+provenance = "authored"
