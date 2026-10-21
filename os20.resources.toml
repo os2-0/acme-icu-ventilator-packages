@@ -1,0 +1,50 @@
+# Git resources for @acme/safety-monitor. repository = "." is this package Git repo.
+
+[[resource]]
+id = "sysml"
+provider = "git"
+repository = "."
+revision = "50d96a4da77224e7bace000df0e4256e7ff6f587"
+path = "sysml/component.sysml"
+
+[[resource]]
+id = "scxml"
+provider = "git"
+repository = "."
+revision = "50d96a4da77224e7bace000df0e4256e7ff6f587"
+path = "behavior/lifecycle.scxml"
+
+[[resource]]
+id = "spec"
+provider = "git"
+repository = "."
+revision = "50d96a4da77224e7bace000df0e4256e7ff6f587"
+path = "documents/technical-specification.md"
+
+[[resource]]
+id = "step"
+provider = "git"
+repository = "."
+revision = "50d96a4da77224e7bace000df0e4256e7ff6f587"
+path = "cad/component.step"
+
+[[resource]]
+id = "svg-block"
+provider = "git"
+repository = "."
+revision = "50d96a4da77224e7bace000df0e4256e7ff6f587"
+path = "diagrams/block.svg"
+
+[[resource]]
+id = "datasheet"
+provider = "git"
+repository = "."
+revision = "50d96a4da77224e7bace000df0e4256e7ff6f587"
+path = "documents/datasheet.pdf"
+
+[[resource]]
+id = "csv"
+provider = "git"
+repository = "."
+revision = "50d96a4da77224e7bace000df0e4256e7ff6f587"
+path = "data/performance.csv"
