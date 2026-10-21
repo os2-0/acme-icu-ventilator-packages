@@ -8,8 +8,8 @@ description = "Power subsystem. Synthetic educational OS20 fixture. Not a medica
 acme = "@acme/icu-ontology@1.0.0"
 
 [dependencies]
-"@acme/icu-ontology" = { path = "../icu-ontology" }
-"@acme/ac-dc-power-supply" = { path = "../ac-dc-power-supply" }
-"@acme/battery-pack" = { path = "../battery-pack" }
-"@acme/battery-management" = { path = "../battery-management" }
-"@acme/power-distribution-board" = { path = "../power-distribution-board" }
+"@acme/ac-dc-power-supply" = "@acme/ac-dc-power-supply@^1.0"
+"@acme/battery-management" = "@acme/battery-management@^1.0"
+"@acme/battery-pack" = "@acme/battery-pack@^1.0"
+"@acme/icu-ontology" = "@acme/icu-ontology@^1.0"
+"@acme/power-distribution-board" = "@acme/power-distribution-board@^1.0"
