@@ -1,0 +1,50 @@
+# Git resources for @acme/blower-housing. repository = "." is this package Git repo.
+
+[[resource]]
+id = "sysml"
+provider = "git"
+repository = "."
+revision = "a284f4aba717015c0ccec4d25b498bb808bad9ff"
+path = "sysml/component.sysml"
+
+[[resource]]
+id = "scxml"
+provider = "git"
+repository = "."
+revision = "a284f4aba717015c0ccec4d25b498bb808bad9ff"
+path = "behavior/lifecycle.scxml"
+
+[[resource]]
+id = "spec"
+provider = "git"
+repository = "."
+revision = "a284f4aba717015c0ccec4d25b498bb808bad9ff"
+path = "documents/technical-specification.md"
+
+[[resource]]
+id = "step"
+provider = "git"
+repository = "."
+revision = "a284f4aba717015c0ccec4d25b498bb808bad9ff"
+path = "cad/component.step"
+
+[[resource]]
+id = "svg-block"
+provider = "git"
+repository = "."
+revision = "a284f4aba717015c0ccec4d25b498bb808bad9ff"
+path = "diagrams/block.svg"
+
+[[resource]]
+id = "datasheet"
+provider = "git"
+repository = "."
+revision = "a284f4aba717015c0ccec4d25b498bb808bad9ff"
+path = "documents/datasheet.pdf"
+
+[[resource]]
+id = "csv"
+provider = "git"
+repository = "."
+revision = "a284f4aba717015c0ccec4d25b498bb808bad9ff"
+path = "data/performance.csv"
