@@ -1,0 +1,50 @@
+# Git resources for @acme/emergency-power-monitor. repository = "." is this package Git repo.
+
+[[resource]]
+id = "sysml"
+provider = "git"
+repository = "."
+revision = "5a771268d9535440e40f24cf837f2760d69a4050"
+path = "sysml/component.sysml"
+
+[[resource]]
+id = "scxml"
+provider = "git"
+repository = "."
+revision = "5a771268d9535440e40f24cf837f2760d69a4050"
+path = "behavior/lifecycle.scxml"
+
+[[resource]]
+id = "spec"
+provider = "git"
+repository = "."
+revision = "5a771268d9535440e40f24cf837f2760d69a4050"
+path = "documents/technical-specification.md"
+
+[[resource]]
+id = "step"
+provider = "git"
+repository = "."
+revision = "5a771268d9535440e40f24cf837f2760d69a4050"
+path = "cad/component.step"
+
+[[resource]]
+id = "svg-block"
+provider = "git"
+repository = "."
+revision = "5a771268d9535440e40f24cf837f2760d69a4050"
+path = "diagrams/block.svg"
+
+[[resource]]
+id = "datasheet"
+provider = "git"
+repository = "."
+revision = "5a771268d9535440e40f24cf837f2760d69a4050"
+path = "documents/datasheet.pdf"
+
+[[resource]]
+id = "csv"
+provider = "git"
+repository = "."
+revision = "5a771268d9535440e40f24cf837f2760d69a4050"
+path = "data/performance.csv"
