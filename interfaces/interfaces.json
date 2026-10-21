@@ -1,0 +1,38 @@
+{
+  "schema": "os20-fixture-interfaces-v1",
+  "disclaimer": "Synthetic educational OS20 fixture. Not a medical device, not a validated ventilator, and not regulatory, clinical, or safety evidence.",
+  "package": "@acme/impeller",
+  "native_document": "os20.interfaces.toml",
+  "ports": [
+    {
+      "id": "@acme/impeller#iface.bore",
+      "local_id": "bore",
+      "kind": "core:interface/mechanical/shaft",
+      "direction": "input",
+      "properties": {
+        "diameter": "8 mm"
+      },
+      "owner_definition": "@acme/impeller#Impeller",
+      "note": "Connect by mounted occurrence and port, not by package name alone."
+    },
+    {
+      "id": "@acme/impeller#iface.inlet",
+      "local_id": "inlet",
+      "kind": "core:interface/fluid/gas",
+      "direction": "input",
+      "properties": {},
+      "owner_definition": "@acme/impeller#Impeller",
+      "note": "Connect by mounted occurrence and port, not by package name alone."
+    },
+    {
+      "id": "@acme/impeller#iface.outlet",
+      "local_id": "outlet",
+      "kind": "core:interface/fluid/gas",
+      "direction": "output",
+      "properties": {},
+      "owner_definition": "@acme/impeller#Impeller",
+      "note": "Connect by mounted occurrence and port, not by package name alone."
+    }
+  ],
+  "sibling_references": []
+}

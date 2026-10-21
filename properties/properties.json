@@ -1,0 +1,48 @@
+{
+  "schema": "os20-fixture-properties-v1",
+  "disclaimer": "Synthetic educational OS20 fixture. Not a medical device, not a validated ventilator, and not regulatory, clinical, or safety evidence.",
+  "package": "@acme/impeller",
+  "properties": [
+    {
+      "id": "@acme/impeller#prop.identity",
+      "kind": "identity",
+      "value": "@acme/impeller",
+      "unit": null,
+      "quantity_type": null,
+      "status": "authored",
+      "provenance": "synthetic-fixture",
+      "applicability": "this-definition",
+      "owner": "@acme/impeller#Impeller"
+    },
+    {
+      "id": "@acme/impeller#prop.mass",
+      "kind": "@os20/core#Mass",
+      "value": 0.42,
+      "unit": "kilogram",
+      "quantity_type": "mass",
+      "status": "authored-synthetic",
+      "provenance": "synthetic-fixture",
+      "applicability": "own-definition; counted once per mounted occurrence",
+      "owner": "@acme/impeller#Impeller",
+      "aggregatable": true,
+      "os20_quantity_id": "impeller-mass"
+    },
+    {
+      "id": "@acme/impeller#prop.envelope",
+      "kind": "envelope",
+      "value": {
+        "x": 110,
+        "y": 110,
+        "z": 28
+      },
+      "unit": "millimetre",
+      "quantity_type": "length",
+      "status": "authored-synthetic",
+      "provenance": "synthetic-fixture",
+      "applicability": "axis-aligned bounding box example",
+      "owner": "@acme/impeller#Impeller",
+      "aggregatable": false,
+      "note": "Envelope lengths are not summed by os20 system run quantity."
+    }
+  ]
+}

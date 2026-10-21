@@ -1,0 +1,33 @@
+# Synthetic educational OS20 fixture. Not a medical device, not a validated ventilator, and not regulatory, clinical, or safety evidence.
+package: @acme/impeller
+kind: requirement-definition
+status: authored-unverified
+requirements:
+  - id: REQ-IMPELLER-001
+    title: "Radial impeller identity and package boundary"
+    text: "The definition @acme/impeller#Impeller shall be published as package @acme/impeller@1.0.0."
+    kind: definition
+    evidence: missing
+    verified: false
+    owner: @acme/impeller#Impeller
+  - id: REQ-IMPELLER-002
+    title: "Radial impeller interface declaration"
+    text: "Radial impeller shall declare its ports in os20.interfaces.toml. Connection is by occurrence and port."
+    kind: definition
+    evidence: missing
+    verified: false
+    owner: @acme/impeller#Impeller
+  - id: REQ-IMPELLER-003
+    title: "Radial impeller evidence distinction"
+    text: "Verification records in this package are procedure definitions only. They are not test results, certification, or clinical validation."
+    kind: definition
+    evidence: missing
+    verified: false
+    owner: @acme/impeller#Impeller
+  - id: REQ-IMPELLER-004
+    title: "Radial impeller mass declaration"
+    text: "Own mass shall be authored as 0.42 kilogram with provenance synthetic-fixture."
+    kind: definition
+    evidence: missing
+    verified: false
+    owner: @acme/impeller#Impeller
