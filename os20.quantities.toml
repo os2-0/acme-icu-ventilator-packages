@@ -1,0 +1,20 @@
+[[quantity]]
+id = "gas-regulator-mass"
+kind = "@os20/core#Mass"
+value = "0.39"
+unit = "kilogram"
+scope = "own"
+policy = "sum"
+owner = "@acme/gas-regulator#GasRegulator"
+provenance = "authored"
+
+[[quantity]]
+id = "gas-regulator-cost"
+kind = "@os20/quantity#Cost"
+value = "93"
+unit = "USD"
+scope = "own"
+policy = "sum"
+owner = "@acme/gas-regulator#GasRegulator"
+basis = "one-time"
+provenance = "authored"

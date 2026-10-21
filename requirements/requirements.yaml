@@ -1,0 +1,33 @@
+# Synthetic educational OS20 fixture. Not a medical device, not a validated ventilator, and not regulatory, clinical, or safety evidence.
+package: @acme/gas-regulator
+kind: requirement-definition
+status: authored-unverified
+requirements:
+  - id: REQ-GAS_REGULATOR-001
+    title: "Gas pressure regulator identity and package boundary"
+    text: "The definition @acme/gas-regulator#GasRegulator shall be published as package @acme/gas-regulator@1.0.0."
+    kind: definition
+    evidence: missing
+    verified: false
+    owner: @acme/gas-regulator#GasRegulator
+  - id: REQ-GAS_REGULATOR-002
+    title: "Gas pressure regulator interface declaration"
+    text: "Gas pressure regulator shall declare its ports in os20.interfaces.toml. Connection is by occurrence and port."
+    kind: definition
+    evidence: missing
+    verified: false
+    owner: @acme/gas-regulator#GasRegulator
+  - id: REQ-GAS_REGULATOR-003
+    title: "Gas pressure regulator evidence distinction"
+    text: "Verification records in this package are procedure definitions only. They are not test results, certification, or clinical validation."
+    kind: definition
+    evidence: missing
+    verified: false
+    owner: @acme/gas-regulator#GasRegulator
+  - id: REQ-GAS_REGULATOR-004
+    title: "Gas pressure regulator mass declaration"
+    text: "Own mass shall be authored as 0.39 kilogram with provenance synthetic-fixture."
+    kind: definition
+    evidence: missing
+    verified: false
+    owner: @acme/gas-regulator#GasRegulator

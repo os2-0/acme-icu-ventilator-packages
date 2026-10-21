@@ -1,0 +1,24 @@
+# Native OS20 interface document for @acme/gas-regulator.
+# Synthetic educational OS20 fixture. Not a medical device, not a validated ventilator, and not regulatory, clinical, or safety evidence.
+
+[[interfaces]]
+id = "inlet"
+package = "@acme/gas-regulator"
+owner = "GasRegulator"
+name = "inlet"
+kind = "core:interface/fluid/gas"
+direction = "input"
+
+[interfaces.properties]
+pressure = "example 2.8 bar fixture"
+
+[[interfaces]]
+id = "outlet"
+package = "@acme/gas-regulator"
+owner = "GasRegulator"
+name = "outlet"
+kind = "core:interface/fluid/gas"
+direction = "output"
+
+[interfaces.properties]
+pressure = "example 0.5 bar fixture"
