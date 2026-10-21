@@ -1,0 +1,72 @@
+{
+  "schema": "os20-fixture-interfaces-v1",
+  "disclaimer": "Synthetic educational OS20 fixture. Not a medical device, not a validated ventilator, and not regulatory, clinical, or safety evidence.",
+  "package": "@acme/power-system",
+  "native_document": "os20.interfaces.toml",
+  "ports": [
+    {
+      "id": "@acme/power-system#iface.mains-in",
+      "local_id": "mains-in",
+      "kind": "core:interface/electrical/power",
+      "direction": "input",
+      "properties": {
+        "voltage": "100-240 V"
+      },
+      "owner_definition": "@acme/power-system#PowerSystem",
+      "note": "Connect by mounted occurrence and port, not by package name alone."
+    },
+    {
+      "id": "@acme/power-system#iface.dc-48",
+      "local_id": "dc-48",
+      "kind": "core:interface/electrical/power",
+      "direction": "output",
+      "properties": {
+        "voltage": "48 V"
+      },
+      "owner_definition": "@acme/power-system#PowerSystem",
+      "note": "Connect by mounted occurrence and port, not by package name alone."
+    },
+    {
+      "id": "@acme/power-system#iface.dc-24",
+      "local_id": "dc-24",
+      "kind": "core:interface/electrical/power",
+      "direction": "output",
+      "properties": {
+        "voltage": "24 V"
+      },
+      "owner_definition": "@acme/power-system#PowerSystem",
+      "note": "Connect by mounted occurrence and port, not by package name alone."
+    },
+    {
+      "id": "@acme/power-system#iface.dc-5",
+      "local_id": "dc-5",
+      "kind": "core:interface/electrical/power",
+      "direction": "output",
+      "properties": {
+        "voltage": "5 V"
+      },
+      "owner_definition": "@acme/power-system#PowerSystem",
+      "note": "Connect by mounted occurrence and port, not by package name alone."
+    }
+  ],
+  "sibling_references": [
+    {
+      "from": "@acme/power-system#occ.ac-dc-power-supply",
+      "to": "@acme/power-system#occ.power-distribution-board",
+      "predicate": "acme:connectedTo",
+      "native": "os20.occurrences.toml [[reference]]"
+    },
+    {
+      "from": "@acme/power-system#occ.battery-pack",
+      "to": "@acme/power-system#occ.battery-management",
+      "predicate": "acme:connectedTo",
+      "native": "os20.occurrences.toml [[reference]]"
+    },
+    {
+      "from": "@acme/power-system#occ.battery-management",
+      "to": "@acme/power-system#occ.power-distribution-board",
+      "predicate": "acme:connectedTo",
+      "native": "os20.occurrences.toml [[reference]]"
+    }
+  ]
+}

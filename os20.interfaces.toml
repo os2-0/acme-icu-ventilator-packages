@@ -1,0 +1,64 @@
+# Native OS20 interface document for @acme/power-system.
+# Synthetic educational OS20 fixture. Not a medical device, not a validated ventilator, and not regulatory, clinical, or safety evidence.
+
+[[interfaces]]
+id = "mains-in"
+package = "@acme/power-system"
+owner = "PowerSystem"
+name = "mains-in"
+kind = "core:interface/electrical/power"
+direction = "input"
+
+[interfaces.properties]
+voltage = "100-240 V"
+
+[[interfaces]]
+id = "dc-48"
+package = "@acme/power-system"
+owner = "PowerSystem"
+name = "dc-48"
+kind = "core:interface/electrical/power"
+direction = "output"
+
+[interfaces.properties]
+voltage = "48 V"
+
+[[interfaces]]
+id = "dc-24"
+package = "@acme/power-system"
+owner = "PowerSystem"
+name = "dc-24"
+kind = "core:interface/electrical/power"
+direction = "output"
+
+[interfaces.properties]
+voltage = "24 V"
+
+[[interfaces]]
+id = "dc-5"
+package = "@acme/power-system"
+owner = "PowerSystem"
+name = "dc-5"
+kind = "core:interface/electrical/power"
+direction = "output"
+
+[interfaces.properties]
+voltage = "5 V"
+
+[[connections]]
+from = "AcDcPowerSupply.ac-in"
+to = "PowerDistributionBoard.48-in"
+relation = "core:connectedTo"
+required = true
+
+[[connections]]
+from = "BatteryPack.pack-plus"
+to = "BatteryManagement.cell-sense"
+relation = "core:connectedTo"
+required = true
+
+[[connections]]
+from = "BatteryManagement.cell-sense"
+to = "PowerDistributionBoard.48-in"
+relation = "core:connectedTo"
+required = true

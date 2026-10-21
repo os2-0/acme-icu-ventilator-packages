@@ -1,0 +1,59 @@
+schema = "os20-assembly-v1"
+
+[[geometry]]
+id = "self"
+owner = "@acme/power-system#PowerSystem"
+representation = "step:ap242"
+path = "cad/component.step"
+package = "@acme/power-system"
+unit = "millimeter"
+verified = false
+
+[[frame]]
+id = "origin"
+owner = "@acme/power-system#PowerSystem"
+geometry = "self"
+
+[[placement]]
+id = "ac-dc-power-supply"
+parent = "@acme/power-system#PowerSystem"
+child = "@acme/ac-dc-power-supply#AcDcPowerSupply"
+geometry = "self"
+frame = "origin"
+translation = ["0", "0", "20"]
+rotation = ["1", "0", "0", "0"]
+unit = "millimeter"
+required = true
+
+[[placement]]
+id = "battery-pack"
+parent = "@acme/power-system#PowerSystem"
+child = "@acme/battery-pack#BatteryPack"
+geometry = "self"
+frame = "origin"
+translation = ["0", "0", "40"]
+rotation = ["1", "0", "0", "0"]
+unit = "millimeter"
+required = true
+
+[[placement]]
+id = "battery-management"
+parent = "@acme/power-system#PowerSystem"
+child = "@acme/battery-management#BatteryManagement"
+geometry = "self"
+frame = "origin"
+translation = ["0", "0", "60"]
+rotation = ["1", "0", "0", "0"]
+unit = "millimeter"
+required = true
+
+[[placement]]
+id = "power-distribution-board"
+parent = "@acme/power-system#PowerSystem"
+child = "@acme/power-distribution-board#PowerDistributionBoard"
+geometry = "self"
+frame = "origin"
+translation = ["0", "0", "80"]
+rotation = ["1", "0", "0", "0"]
+unit = "millimeter"
+required = true

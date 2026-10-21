@@ -1,0 +1,23 @@
+# Companion view of os20.occurrences.toml for @acme/power-system. OS20 does not read this file.
+root: @acme/power-system#occ-tree
+children:
+  - role: ac-dc-power-supply
+    occurrence: @acme/power-system#occ.ac-dc-power-supply
+    definition: @acme/ac-dc-power-supply#AcDcPowerSupply
+    package: @acme/ac-dc-power-supply@1.0.0
+    predicate: os20:HasPart
+  - role: battery-pack
+    occurrence: @acme/power-system#occ.battery-pack
+    definition: @acme/battery-pack#BatteryPack
+    package: @acme/battery-pack@1.0.0
+    predicate: os20:HasPart
+  - role: battery-management
+    occurrence: @acme/power-system#occ.battery-management
+    definition: @acme/battery-management#BatteryManagement
+    package: @acme/battery-management@1.0.0
+    predicate: os20:HasPart
+  - role: power-distribution-board
+    occurrence: @acme/power-system#occ.power-distribution-board
+    definition: @acme/power-distribution-board#PowerDistributionBoard
+    package: @acme/power-distribution-board@1.0.0
+    predicate: os20:HasPart

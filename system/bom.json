@@ -1,0 +1,47 @@
+{
+  "schema": "os20-fixture-bom-v1",
+  "disclaimer": "Synthetic educational OS20 fixture. Not a medical device, not a validated ventilator, and not regulatory, clinical, or safety evidence.",
+  "package": "@acme/power-system",
+  "items": [
+    {
+      "occurrence": "@acme/power-system#occ.ac-dc-power-supply",
+      "role": "ac-dc-power-supply",
+      "package": "@acme/ac-dc-power-supply",
+      "version": "1.0.0",
+      "definition": "@acme/ac-dc-power-supply#AcDcPowerSupply",
+      "qty": 1,
+      "mass_kg_own": 1.45,
+      "note": "Occurrence count, not dependency-graph count"
+    },
+    {
+      "occurrence": "@acme/power-system#occ.battery-pack",
+      "role": "battery-pack",
+      "package": "@acme/battery-pack",
+      "version": "1.0.0",
+      "definition": "@acme/battery-pack#BatteryPack",
+      "qty": 1,
+      "mass_kg_own": 2.8,
+      "note": "Occurrence count, not dependency-graph count"
+    },
+    {
+      "occurrence": "@acme/power-system#occ.battery-management",
+      "role": "battery-management",
+      "package": "@acme/battery-management",
+      "version": "1.0.0",
+      "definition": "@acme/battery-management#BatteryManagement",
+      "qty": 1,
+      "mass_kg_own": 0.19,
+      "note": "Occurrence count, not dependency-graph count"
+    },
+    {
+      "occurrence": "@acme/power-system#occ.power-distribution-board",
+      "role": "power-distribution-board",
+      "package": "@acme/power-distribution-board",
+      "version": "1.0.0",
+      "definition": "@acme/power-distribution-board#PowerDistributionBoard",
+      "qty": 1,
+      "mass_kg_own": 0.26,
+      "note": "Occurrence count, not dependency-graph count"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+[namespaces]
+acme = "@acme/icu-ontology#"
+os20 = "@os20/core#"
+
+[[definition]]
+id = "@acme/power-system#PowerSystem"
+
+[[definition]]
+id = "@acme/ac-dc-power-supply#AcDcPowerSupply"
+package = "@acme/ac-dc-power-supply"
+version = "1.0.0"
+
+[[definition]]
+id = "@acme/battery-pack#BatteryPack"
+package = "@acme/battery-pack"
+version = "1.0.0"
+
+[[definition]]
+id = "@acme/battery-management#BatteryManagement"
+package = "@acme/battery-management"
+version = "1.0.0"
+
+[[definition]]
+id = "@acme/power-distribution-board#PowerDistributionBoard"
+package = "@acme/power-distribution-board"
+version = "1.0.0"
+
+[[occurrence]]
+id = "@acme/power-system#occ.ac-dc-power-supply"
+role = "ac-dc-power-supply"
+predicate = "os20:HasPart"
+
+[occurrence.definition]
+id = "@acme/ac-dc-power-supply#AcDcPowerSupply"
+package = "@acme/ac-dc-power-supply"
+version = "1.0.0"
+
+[[occurrence]]
+id = "@acme/power-system#occ.battery-pack"
+role = "battery-pack"
+predicate = "os20:HasPart"
+
+[occurrence.definition]
+id = "@acme/battery-pack#BatteryPack"
+package = "@acme/battery-pack"
+version = "1.0.0"
+
+[[occurrence]]
+id = "@acme/power-system#occ.battery-management"
+role = "battery-management"
+predicate = "os20:HasPart"
+
+[occurrence.definition]
+id = "@acme/battery-management#BatteryManagement"
+package = "@acme/battery-management"
+version = "1.0.0"
+
+[[occurrence]]
+id = "@acme/power-system#occ.power-distribution-board"
+role = "power-distribution-board"
+predicate = "os20:HasPart"
+
+[occurrence.definition]
+id = "@acme/power-distribution-board#PowerDistributionBoard"
+package = "@acme/power-distribution-board"
+version = "1.0.0"
+
+[[reference]]
+from = "@acme/power-system#occ.ac-dc-power-supply"
+to = "@acme/power-system#occ.power-distribution-board"
+predicate = "acme:connectedTo"
+
+[[reference]]
+from = "@acme/power-system#occ.battery-pack"
+to = "@acme/power-system#occ.battery-management"
+predicate = "acme:connectedTo"
+
+[[reference]]
+from = "@acme/power-system#occ.battery-management"
+to = "@acme/power-system#occ.power-distribution-board"
+predicate = "acme:connectedTo"

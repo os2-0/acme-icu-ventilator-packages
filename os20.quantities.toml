@@ -1,0 +1,37 @@
+[[quantity]]
+id = "power-system-mass-@acme/power-system"
+kind = "@os20/core#Mass"
+scope = "own"
+policy = "derive-from-children"
+owner = "@acme/power-system"
+
+provenance = "authored"
+
+[[quantity]]
+id = "power-system-cost-@acme/power-system"
+kind = "@os20/quantity#Cost"
+scope = "own"
+policy = "derive-from-children"
+owner = "@acme/power-system"
+basis = "one-time"
+
+provenance = "authored"
+
+[[quantity]]
+id = "power-system-mass-powersystem"
+kind = "@os20/core#Mass"
+scope = "own"
+policy = "derive-from-children"
+owner = "@acme/power-system#PowerSystem"
+
+provenance = "authored"
+
+[[quantity]]
+id = "power-system-cost-powersystem"
+kind = "@os20/quantity#Cost"
+scope = "own"
+policy = "derive-from-children"
+owner = "@acme/power-system#PowerSystem"
+basis = "one-time"
+
+provenance = "authored"

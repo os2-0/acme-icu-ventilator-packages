@@ -1,0 +1,14 @@
+# Companion view of [[reference]] / [[connections]] for @acme/power-system. OS20 does not read this file.
+connections:
+  - from_occurrence: @acme/power-system#occ.ac-dc-power-supply
+    to_occurrence: @acme/power-system#occ.power-distribution-board
+    predicate: acme:connectedTo
+    note: specific mounted occurrence, not package name
+  - from_occurrence: @acme/power-system#occ.battery-pack
+    to_occurrence: @acme/power-system#occ.battery-management
+    predicate: acme:connectedTo
+    note: specific mounted occurrence, not package name
+  - from_occurrence: @acme/power-system#occ.battery-management
+    to_occurrence: @acme/power-system#occ.power-distribution-board
+    predicate: acme:connectedTo
+    note: specific mounted occurrence, not package name
