@@ -1,0 +1,78 @@
+# Git resources for @acme/sensor-system. repository = "." is this package Git repo.
+
+[[resource]]
+id = "sysml"
+provider = "git"
+repository = "."
+revision = "6136313f5b236e79698130f39ea3302f6f607812"
+path = "sysml/component.sysml"
+
+[[resource]]
+id = "scxml"
+provider = "git"
+repository = "."
+revision = "6136313f5b236e79698130f39ea3302f6f607812"
+path = "behavior/lifecycle.scxml"
+
+[[resource]]
+id = "spec"
+provider = "git"
+repository = "."
+revision = "6136313f5b236e79698130f39ea3302f6f607812"
+path = "documents/technical-specification.md"
+
+[[resource]]
+id = "step"
+provider = "git"
+repository = "."
+revision = "6136313f5b236e79698130f39ea3302f6f607812"
+path = "cad/component.step"
+
+[[resource]]
+id = "svg-block"
+provider = "git"
+repository = "."
+revision = "6136313f5b236e79698130f39ea3302f6f607812"
+path = "diagrams/block.svg"
+
+[[resource]]
+id = "datasheet"
+provider = "git"
+repository = "."
+revision = "6136313f5b236e79698130f39ea3302f6f607812"
+path = "documents/datasheet.pdf"
+
+[[resource]]
+id = "csv"
+provider = "git"
+repository = "."
+revision = "6136313f5b236e79698130f39ea3302f6f607812"
+path = "data/performance.csv"
+
+[[resource]]
+id = "architecture"
+provider = "git"
+repository = "."
+revision = "6136313f5b236e79698130f39ea3302f6f607812"
+path = "system/architecture.sysml"
+
+[[resource]]
+id = "bom"
+provider = "git"
+repository = "."
+revision = "6136313f5b236e79698130f39ea3302f6f607812"
+path = "system/bom.json"
+
+[[resource]]
+id = "svg-pneumatic"
+provider = "git"
+repository = "."
+revision = "6136313f5b236e79698130f39ea3302f6f607812"
+path = "diagrams/pneumatic.svg"
+
+[[resource]]
+id = "svg-electrical"
+provider = "git"
+repository = "."
+revision = "6136313f5b236e79698130f39ea3302f6f607812"
+path = "diagrams/electrical.svg"

@@ -11,11 +11,6 @@ package = "@acme/pressure-sensor"
 version = "1.0.0"
 
 [[definition]]
-id = "@acme/pressure-sensor#PressureSensor"
-package = "@acme/pressure-sensor"
-version = "1.0.0"
-
-[[definition]]
 id = "@acme/flow-sensor#FlowSensor"
 package = "@acme/flow-sensor"
 version = "1.0.0"

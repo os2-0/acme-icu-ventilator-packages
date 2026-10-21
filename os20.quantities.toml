@@ -1,37 +1,33 @@
 [[quantity]]
-id = "sensor-system-mass-@acme/sensor-system"
+id = "sensor-system-mass-package"
 kind = "@os20/core#Mass"
 scope = "own"
 policy = "derive-from-children"
 owner = "@acme/sensor-system"
-
 provenance = "authored"
 
 [[quantity]]
-id = "sensor-system-cost-@acme/sensor-system"
+id = "sensor-system-cost-package"
 kind = "@os20/quantity#Cost"
 scope = "own"
 policy = "derive-from-children"
 owner = "@acme/sensor-system"
 basis = "one-time"
-
 provenance = "authored"
 
 [[quantity]]
-id = "sensor-system-mass-sensorsystem"
+id = "sensor-system-mass-definition"
 kind = "@os20/core#Mass"
 scope = "own"
 policy = "derive-from-children"
 owner = "@acme/sensor-system#SensorSystem"
-
 provenance = "authored"
 
 [[quantity]]
-id = "sensor-system-cost-sensorsystem"
+id = "sensor-system-cost-definition"
 kind = "@os20/quantity#Cost"
 scope = "own"
 policy = "derive-from-children"
 owner = "@acme/sensor-system#SensorSystem"
 basis = "one-time"
-
 provenance = "authored"
