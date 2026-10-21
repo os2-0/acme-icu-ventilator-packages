@@ -1,0 +1,20 @@
+[[quantity]]
+id = "alarm-indicator-mass"
+kind = "@os20/core#Mass"
+value = "0.04"
+unit = "kilogram"
+scope = "own"
+policy = "sum"
+owner = "@acme/alarm-indicator#AlarmIndicator"
+provenance = "authored"
+
+[[quantity]]
+id = "alarm-indicator-cost"
+kind = "@os20/quantity#Cost"
+value = "12"
+unit = "USD"
+scope = "own"
+policy = "sum"
+owner = "@acme/alarm-indicator#AlarmIndicator"
+basis = "one-time"
+provenance = "authored"

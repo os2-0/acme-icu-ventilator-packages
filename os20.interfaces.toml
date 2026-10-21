@@ -1,0 +1,18 @@
+# Native OS20 interface document for @acme/alarm-indicator.
+# Synthetic educational OS20 fixture. Not a medical device, not a validated ventilator, and not regulatory, clinical, or safety evidence.
+
+[[interfaces]]
+id = "leds"
+package = "@acme/alarm-indicator"
+owner = "AlarmIndicator"
+name = "leds"
+kind = "core:interface/electrical/signal"
+direction = "input"
+
+[[interfaces]]
+id = "panel-mount"
+package = "@acme/alarm-indicator"
+owner = "AlarmIndicator"
+name = "panel-mount"
+kind = "core:interface/mechanical/panel"
+direction = "input"

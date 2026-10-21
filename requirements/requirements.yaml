@@ -1,0 +1,33 @@
+# Synthetic educational OS20 fixture. Not a medical device, not a validated ventilator, and not regulatory, clinical, or safety evidence.
+package: @acme/alarm-indicator
+kind: requirement-definition
+status: authored-unverified
+requirements:
+  - id: REQ-ALARM_INDICATOR-001
+    title: "Alarm indicator identity and package boundary"
+    text: "The definition @acme/alarm-indicator#AlarmIndicator shall be published as package @acme/alarm-indicator@1.0.0."
+    kind: definition
+    evidence: missing
+    verified: false
+    owner: @acme/alarm-indicator#AlarmIndicator
+  - id: REQ-ALARM_INDICATOR-002
+    title: "Alarm indicator interface declaration"
+    text: "Alarm indicator shall declare its ports in os20.interfaces.toml. Connection is by occurrence and port."
+    kind: definition
+    evidence: missing
+    verified: false
+    owner: @acme/alarm-indicator#AlarmIndicator
+  - id: REQ-ALARM_INDICATOR-003
+    title: "Alarm indicator evidence distinction"
+    text: "Verification records in this package are procedure definitions only. They are not test results, certification, or clinical validation."
+    kind: definition
+    evidence: missing
+    verified: false
+    owner: @acme/alarm-indicator#AlarmIndicator
+  - id: REQ-ALARM_INDICATOR-004
+    title: "Alarm indicator mass declaration"
+    text: "Own mass shall be authored as 0.04 kilogram with provenance synthetic-fixture."
+    kind: definition
+    evidence: missing
+    verified: false
+    owner: @acme/alarm-indicator#AlarmIndicator

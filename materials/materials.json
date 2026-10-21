@@ -1,0 +1,36 @@
+{
+  "schema": "os20-fixture-materials-v1",
+  "disclaimer": "Synthetic educational OS20 fixture. Not a medical device, not a validated ventilator, and not regulatory, clinical, or safety evidence.",
+  "package": "@acme/alarm-indicator",
+  "definition": "@acme/alarm-indicator#AlarmIndicator",
+  "provenance": {
+    "source": "os20-ventilator-fixture-v1",
+    "kind": "synthetic-fixture",
+    "date": "2026-10-21"
+  },
+  "usage_note": "Assemblies list constituent materials. OS20 does not aggregate materials.json; mass rollup uses os20.quantities.toml by mounted occurrence.",
+  "materials": [
+    {
+      "id": "polycarbonate-fixture",
+      "classification": "thermoplastic",
+      "usage": "covers-and-windows",
+      "density_kg_m3": 1200,
+      "notes": "Synthetic polycarbonate-like polymer for demonstration covers.",
+      "synthetic": true,
+      "confidence": "synthetic-fixture",
+      "source": "os20-ventilator-fixture-v1",
+      "max_service_c": 115
+    },
+    {
+      "id": "fr4-laminate-fixture",
+      "classification": "glass-epoxy-laminate",
+      "usage": "printed-circuit-board",
+      "density_kg_m3": 1850,
+      "notes": "Synthetic FR-4-like laminate for demonstration circuit boards.",
+      "synthetic": true,
+      "confidence": "synthetic-fixture",
+      "source": "os20-ventilator-fixture-v1",
+      "tg_c": 130
+    }
+  ]
+}
