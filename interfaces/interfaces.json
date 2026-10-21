@@ -1,0 +1,42 @@
+{
+  "schema": "os20-fixture-interfaces-v1",
+  "disclaimer": "Synthetic educational OS20 fixture. Not a medical device, not a validated ventilator, and not regulatory, clinical, or safety evidence.",
+  "package": "@acme/patient-connector",
+  "native_document": "os20.interfaces.toml",
+  "ports": [
+    {
+      "id": "@acme/patient-connector#iface.insp",
+      "local_id": "insp",
+      "kind": "core:interface/fluid/gas",
+      "direction": "input",
+      "properties": {
+        "size": "22 mm"
+      },
+      "owner_definition": "@acme/patient-connector#PatientConnector",
+      "note": "Connect by mounted occurrence and port, not by package name alone."
+    },
+    {
+      "id": "@acme/patient-connector#iface.exp",
+      "local_id": "exp",
+      "kind": "core:interface/fluid/gas",
+      "direction": "output",
+      "properties": {
+        "size": "22 mm"
+      },
+      "owner_definition": "@acme/patient-connector#PatientConnector",
+      "note": "Connect by mounted occurrence and port, not by package name alone."
+    },
+    {
+      "id": "@acme/patient-connector#iface.patient",
+      "local_id": "patient",
+      "kind": "core:interface/fluid/gas",
+      "direction": "bidirectional",
+      "properties": {
+        "size": "22 mm"
+      },
+      "owner_definition": "@acme/patient-connector#PatientConnector",
+      "note": "Connect by mounted occurrence and port, not by package name alone."
+    }
+  ],
+  "sibling_references": []
+}

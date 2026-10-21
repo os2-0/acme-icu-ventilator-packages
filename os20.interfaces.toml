@@ -1,0 +1,35 @@
+# Native OS20 interface document for @acme/patient-connector.
+# Synthetic educational OS20 fixture. Not a medical device, not a validated ventilator, and not regulatory, clinical, or safety evidence.
+
+[[interfaces]]
+id = "insp"
+package = "@acme/patient-connector"
+owner = "PatientConnector"
+name = "insp"
+kind = "core:interface/fluid/gas"
+direction = "input"
+
+[interfaces.properties]
+size = "22 mm"
+
+[[interfaces]]
+id = "exp"
+package = "@acme/patient-connector"
+owner = "PatientConnector"
+name = "exp"
+kind = "core:interface/fluid/gas"
+direction = "output"
+
+[interfaces.properties]
+size = "22 mm"
+
+[[interfaces]]
+id = "patient"
+package = "@acme/patient-connector"
+owner = "PatientConnector"
+name = "patient"
+kind = "core:interface/fluid/gas"
+direction = "bidirectional"
+
+[interfaces.properties]
+size = "22 mm"

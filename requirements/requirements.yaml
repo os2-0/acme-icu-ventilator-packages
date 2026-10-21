@@ -1,0 +1,33 @@
+# Synthetic educational OS20 fixture. Not a medical device, not a validated ventilator, and not regulatory, clinical, or safety evidence.
+package: @acme/patient-connector
+kind: requirement-definition
+status: authored-unverified
+requirements:
+  - id: REQ-PATIENT_CONNECTOR-001
+    title: "Patient Y-connector identity and package boundary"
+    text: "The definition @acme/patient-connector#PatientConnector shall be published as package @acme/patient-connector@1.0.0."
+    kind: definition
+    evidence: missing
+    verified: false
+    owner: @acme/patient-connector#PatientConnector
+  - id: REQ-PATIENT_CONNECTOR-002
+    title: "Patient Y-connector interface declaration"
+    text: "Patient Y-connector shall declare its ports in os20.interfaces.toml. Connection is by occurrence and port."
+    kind: definition
+    evidence: missing
+    verified: false
+    owner: @acme/patient-connector#PatientConnector
+  - id: REQ-PATIENT_CONNECTOR-003
+    title: "Patient Y-connector evidence distinction"
+    text: "Verification records in this package are procedure definitions only. They are not test results, certification, or clinical validation."
+    kind: definition
+    evidence: missing
+    verified: false
+    owner: @acme/patient-connector#PatientConnector
+  - id: REQ-PATIENT_CONNECTOR-004
+    title: "Patient Y-connector mass declaration"
+    text: "Own mass shall be authored as 0.08 kilogram with provenance synthetic-fixture."
+    kind: definition
+    evidence: missing
+    verified: false
+    owner: @acme/patient-connector#PatientConnector
