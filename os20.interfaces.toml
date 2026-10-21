@@ -1,0 +1,26 @@
+# Native OS20 interface document for @acme/battery-management.
+# Synthetic educational OS20 fixture. Not a medical device, not a validated ventilator, and not regulatory, clinical, or safety evidence.
+
+[[interfaces]]
+id = "cell-sense"
+package = "@acme/battery-management"
+owner = "BatteryManagement"
+name = "cell-sense"
+kind = "core:interface/electrical/signal"
+direction = "input"
+
+[[interfaces]]
+id = "pack-power"
+package = "@acme/battery-management"
+owner = "BatteryManagement"
+name = "pack-power"
+kind = "core:interface/electrical/power"
+direction = "bidirectional"
+
+[[interfaces]]
+id = "status"
+package = "@acme/battery-management"
+owner = "BatteryManagement"
+name = "status"
+kind = "core:interface/electrical/signal"
+direction = "output"
