@@ -1,37 +1,33 @@
 [[quantity]]
-id = "mechanical-system-mass-@acme/mechanical-system"
+id = "mechanical-system-mass-package"
 kind = "@os20/core#Mass"
 scope = "own"
 policy = "derive-from-children"
 owner = "@acme/mechanical-system"
-
 provenance = "authored"
 
 [[quantity]]
-id = "mechanical-system-cost-@acme/mechanical-system"
+id = "mechanical-system-cost-package"
 kind = "@os20/quantity#Cost"
 scope = "own"
 policy = "derive-from-children"
 owner = "@acme/mechanical-system"
 basis = "one-time"
-
 provenance = "authored"
 
 [[quantity]]
-id = "mechanical-system-mass-mechanicalsystem"
+id = "mechanical-system-mass-definition"
 kind = "@os20/core#Mass"
 scope = "own"
 policy = "derive-from-children"
 owner = "@acme/mechanical-system#MechanicalSystem"
-
 provenance = "authored"
 
 [[quantity]]
-id = "mechanical-system-cost-mechanicalsystem"
+id = "mechanical-system-cost-definition"
 kind = "@os20/quantity#Cost"
 scope = "own"
 policy = "derive-from-children"
 owner = "@acme/mechanical-system#MechanicalSystem"
 basis = "one-time"
-
 provenance = "authored"
