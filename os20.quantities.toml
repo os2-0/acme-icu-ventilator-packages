@@ -1,37 +1,33 @@
 [[quantity]]
-id = "control-system-mass-@acme/control-system"
+id = "control-system-mass-package"
 kind = "@os20/core#Mass"
 scope = "own"
 policy = "derive-from-children"
 owner = "@acme/control-system"
-
 provenance = "authored"
 
 [[quantity]]
-id = "control-system-cost-@acme/control-system"
+id = "control-system-cost-package"
 kind = "@os20/quantity#Cost"
 scope = "own"
 policy = "derive-from-children"
 owner = "@acme/control-system"
 basis = "one-time"
-
 provenance = "authored"
 
 [[quantity]]
-id = "control-system-mass-controlsystem"
+id = "control-system-mass-definition"
 kind = "@os20/core#Mass"
 scope = "own"
 policy = "derive-from-children"
 owner = "@acme/control-system#ControlSystem"
-
 provenance = "authored"
 
 [[quantity]]
-id = "control-system-cost-controlsystem"
+id = "control-system-cost-definition"
 kind = "@os20/quantity#Cost"
 scope = "own"
 policy = "derive-from-children"
 owner = "@acme/control-system#ControlSystem"
 basis = "one-time"
-
 provenance = "authored"

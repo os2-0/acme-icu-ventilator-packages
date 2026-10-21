@@ -1,0 +1,78 @@
+# Git resources for @acme/control-system. repository = "." is this package Git repo.
+
+[[resource]]
+id = "sysml"
+provider = "git"
+repository = "."
+revision = "485cf43a69eaf51178cac43222686890621363ae"
+path = "sysml/component.sysml"
+
+[[resource]]
+id = "scxml"
+provider = "git"
+repository = "."
+revision = "485cf43a69eaf51178cac43222686890621363ae"
+path = "behavior/lifecycle.scxml"
+
+[[resource]]
+id = "spec"
+provider = "git"
+repository = "."
+revision = "485cf43a69eaf51178cac43222686890621363ae"
+path = "documents/technical-specification.md"
+
+[[resource]]
+id = "step"
+provider = "git"
+repository = "."
+revision = "485cf43a69eaf51178cac43222686890621363ae"
+path = "cad/component.step"
+
+[[resource]]
+id = "svg-block"
+provider = "git"
+repository = "."
+revision = "485cf43a69eaf51178cac43222686890621363ae"
+path = "diagrams/block.svg"
+
+[[resource]]
+id = "datasheet"
+provider = "git"
+repository = "."
+revision = "485cf43a69eaf51178cac43222686890621363ae"
+path = "documents/datasheet.pdf"
+
+[[resource]]
+id = "csv"
+provider = "git"
+repository = "."
+revision = "485cf43a69eaf51178cac43222686890621363ae"
+path = "data/performance.csv"
+
+[[resource]]
+id = "architecture"
+provider = "git"
+repository = "."
+revision = "485cf43a69eaf51178cac43222686890621363ae"
+path = "system/architecture.sysml"
+
+[[resource]]
+id = "bom"
+provider = "git"
+repository = "."
+revision = "485cf43a69eaf51178cac43222686890621363ae"
+path = "system/bom.json"
+
+[[resource]]
+id = "svg-pneumatic"
+provider = "git"
+repository = "."
+revision = "485cf43a69eaf51178cac43222686890621363ae"
+path = "diagrams/pneumatic.svg"
+
+[[resource]]
+id = "svg-electrical"
+provider = "git"
+repository = "."
+revision = "485cf43a69eaf51178cac43222686890621363ae"
+path = "diagrams/electrical.svg"
