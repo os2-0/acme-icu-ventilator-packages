@@ -1,0 +1,21 @@
+# Native OS20 interface document for @acme/control-software.
+# Synthetic educational OS20 fixture. Not a medical device, not a validated ventilator, and not regulatory, clinical, or safety evidence.
+
+[[interfaces]]
+id = "image-slot"
+package = "@acme/control-software"
+owner = "ControlSoftware"
+name = "image-slot"
+kind = "core:interface/software/image"
+direction = "output"
+
+[interfaces.properties]
+format = "synthetic-slot-v1"
+
+[[interfaces]]
+id = "config-api"
+package = "@acme/control-software"
+owner = "ControlSoftware"
+name = "config-api"
+kind = "core:interface/software/api"
+direction = "bidirectional"

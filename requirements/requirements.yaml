@@ -1,0 +1,33 @@
+# Synthetic educational OS20 fixture. Not a medical device, not a validated ventilator, and not regulatory, clinical, or safety evidence.
+package: @acme/control-software
+kind: requirement-definition
+status: authored-unverified
+requirements:
+  - id: REQ-CONTROL_SOFTWARE-001
+    title: "Control software image identity and package boundary"
+    text: "The definition @acme/control-software#ControlSoftware shall be published as package @acme/control-software@1.0.0."
+    kind: definition
+    evidence: missing
+    verified: false
+    owner: @acme/control-software#ControlSoftware
+  - id: REQ-CONTROL_SOFTWARE-002
+    title: "Control software image interface declaration"
+    text: "Control software image shall declare its ports in os20.interfaces.toml. Connection is by occurrence and port."
+    kind: definition
+    evidence: missing
+    verified: false
+    owner: @acme/control-software#ControlSoftware
+  - id: REQ-CONTROL_SOFTWARE-003
+    title: "Control software image evidence distinction"
+    text: "Verification records in this package are procedure definitions only. They are not test results, certification, or clinical validation."
+    kind: definition
+    evidence: missing
+    verified: false
+    owner: @acme/control-software#ControlSoftware
+  - id: REQ-CONTROL_SOFTWARE-004
+    title: "Control software image mass declaration"
+    text: "Own mass shall be authored as 0.02 kilogram with provenance synthetic-fixture."
+    kind: definition
+    evidence: missing
+    verified: false
+    owner: @acme/control-software#ControlSoftware

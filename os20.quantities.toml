@@ -1,0 +1,20 @@
+[[quantity]]
+id = "control-software-mass"
+kind = "@os20/core#Mass"
+value = "0.02"
+unit = "kilogram"
+scope = "own"
+policy = "sum"
+owner = "@acme/control-software#ControlSoftware"
+provenance = "authored"
+
+[[quantity]]
+id = "control-software-cost"
+kind = "@os20/quantity#Cost"
+value = "40"
+unit = "USD"
+scope = "own"
+policy = "sum"
+owner = "@acme/control-software#ControlSoftware"
+basis = "one-time"
+provenance = "authored"

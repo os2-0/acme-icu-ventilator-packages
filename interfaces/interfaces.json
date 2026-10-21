@@ -1,0 +1,29 @@
+{
+  "schema": "os20-fixture-interfaces-v1",
+  "disclaimer": "Synthetic educational OS20 fixture. Not a medical device, not a validated ventilator, and not regulatory, clinical, or safety evidence.",
+  "package": "@acme/control-software",
+  "native_document": "os20.interfaces.toml",
+  "ports": [
+    {
+      "id": "@acme/control-software#iface.image-slot",
+      "local_id": "image-slot",
+      "kind": "core:interface/software/image",
+      "direction": "output",
+      "properties": {
+        "format": "synthetic-slot-v1"
+      },
+      "owner_definition": "@acme/control-software#ControlSoftware",
+      "note": "Connect by mounted occurrence and port, not by package name alone."
+    },
+    {
+      "id": "@acme/control-software#iface.config-api",
+      "local_id": "config-api",
+      "kind": "core:interface/software/api",
+      "direction": "bidirectional",
+      "properties": {},
+      "owner_definition": "@acme/control-software#ControlSoftware",
+      "note": "Connect by mounted occurrence and port, not by package name alone."
+    }
+  ],
+  "sibling_references": []
+}
