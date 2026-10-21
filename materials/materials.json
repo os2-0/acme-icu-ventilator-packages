@@ -1,0 +1,35 @@
+{
+  "schema": "os20-fixture-materials-v1",
+  "disclaimer": "Synthetic educational OS20 fixture. Not a medical device, not a validated ventilator, and not regulatory, clinical, or safety evidence.",
+  "package": "@acme/air-inlet-filter",
+  "definition": "@acme/air-inlet-filter#AirInletFilter",
+  "provenance": {
+    "source": "os20-ventilator-fixture-v1",
+    "kind": "synthetic-fixture",
+    "date": "2026-10-21"
+  },
+  "usage_note": "Assemblies list constituent materials. OS20 does not aggregate materials.json; mass rollup uses os20.quantities.toml by mounted occurrence.",
+  "materials": [
+    {
+      "id": "polypropylene-filter-fixture",
+      "classification": "polypropylene-media",
+      "usage": "filtration-media",
+      "density_kg_m3": 910,
+      "notes": "Synthetic polypropylene-like filter media.",
+      "synthetic": true,
+      "confidence": "synthetic-fixture",
+      "source": "os20-ventilator-fixture-v1"
+    },
+    {
+      "id": "abs-fixture",
+      "classification": "thermoplastic",
+      "usage": "enclosures-and-bezels",
+      "density_kg_m3": 1040,
+      "notes": "Synthetic ABS-like polymer for demonstration enclosure parts.",
+      "synthetic": true,
+      "confidence": "synthetic-fixture",
+      "source": "os20-ventilator-fixture-v1",
+      "max_service_c": 80
+    }
+  ]
+}

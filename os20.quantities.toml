@@ -1,0 +1,20 @@
+[[quantity]]
+id = "air-inlet-filter-mass"
+kind = "@os20/core#Mass"
+value = "0.18"
+unit = "kilogram"
+scope = "own"
+policy = "sum"
+owner = "@acme/air-inlet-filter#AirInletFilter"
+provenance = "authored"
+
+[[quantity]]
+id = "air-inlet-filter-cost"
+kind = "@os20/quantity#Cost"
+value = "18"
+unit = "USD"
+scope = "own"
+policy = "sum"
+owner = "@acme/air-inlet-filter#AirInletFilter"
+basis = "one-time"
+provenance = "authored"
