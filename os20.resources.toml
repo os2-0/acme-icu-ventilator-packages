@@ -1,0 +1,50 @@
+# Git resources for @acme/alarm-indicator. repository = "." is this package Git repo.
+
+[[resource]]
+id = "sysml"
+provider = "git"
+repository = "."
+revision = "6a112e5010793d3013df45a90eb182f251fbf0de"
+path = "sysml/component.sysml"
+
+[[resource]]
+id = "scxml"
+provider = "git"
+repository = "."
+revision = "6a112e5010793d3013df45a90eb182f251fbf0de"
+path = "behavior/lifecycle.scxml"
+
+[[resource]]
+id = "spec"
+provider = "git"
+repository = "."
+revision = "6a112e5010793d3013df45a90eb182f251fbf0de"
+path = "documents/technical-specification.md"
+
+[[resource]]
+id = "step"
+provider = "git"
+repository = "."
+revision = "6a112e5010793d3013df45a90eb182f251fbf0de"
+path = "cad/component.step"
+
+[[resource]]
+id = "svg-block"
+provider = "git"
+repository = "."
+revision = "6a112e5010793d3013df45a90eb182f251fbf0de"
+path = "diagrams/block.svg"
+
+[[resource]]
+id = "datasheet"
+provider = "git"
+repository = "."
+revision = "6a112e5010793d3013df45a90eb182f251fbf0de"
+path = "documents/datasheet.pdf"
+
+[[resource]]
+id = "csv"
+provider = "git"
+repository = "."
+revision = "6a112e5010793d3013df45a90eb182f251fbf0de"
+path = "data/performance.csv"
