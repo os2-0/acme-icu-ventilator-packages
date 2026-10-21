@@ -4,47 +4,47 @@
 id = "sysml"
 provider = "git"
 repository = "."
-revision = "5a771268d9535440e40f24cf837f2760d69a4050"
+revision = "756c31479071bbb564b325b6b556a27f60a4a0ad"
 path = "sysml/component.sysml"
 
 [[resource]]
 id = "scxml"
 provider = "git"
 repository = "."
-revision = "5a771268d9535440e40f24cf837f2760d69a4050"
+revision = "b7e4ad2b063d452fcb65a1b5db2b1698ad31c6a7"
 path = "behavior/lifecycle.scxml"
 
 [[resource]]
 id = "spec"
 provider = "git"
 repository = "."
-revision = "5a771268d9535440e40f24cf837f2760d69a4050"
+revision = "756c31479071bbb564b325b6b556a27f60a4a0ad"
 path = "documents/technical-specification.md"
 
 [[resource]]
 id = "step"
 provider = "git"
 repository = "."
-revision = "5a771268d9535440e40f24cf837f2760d69a4050"
+revision = "756c31479071bbb564b325b6b556a27f60a4a0ad"
 path = "cad/component.step"
 
 [[resource]]
 id = "svg-block"
 provider = "git"
 repository = "."
-revision = "5a771268d9535440e40f24cf837f2760d69a4050"
+revision = "756c31479071bbb564b325b6b556a27f60a4a0ad"
 path = "diagrams/block.svg"
 
 [[resource]]
 id = "datasheet"
 provider = "git"
 repository = "."
-revision = "5a771268d9535440e40f24cf837f2760d69a4050"
+revision = "756c31479071bbb564b325b6b556a27f60a4a0ad"
 path = "documents/datasheet.pdf"
 
 [[resource]]
 id = "csv"
 provider = "git"
 repository = "."
-revision = "5a771268d9535440e40f24cf837f2760d69a4050"
+revision = "756c31479071bbb564b325b6b556a27f60a4a0ad"
 path = "data/performance.csv"
