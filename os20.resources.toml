@@ -1,0 +1,50 @@
+# Git resources for @acme/gas-regulator. repository = "." is this package Git repo.
+
+[[resource]]
+id = "sysml"
+provider = "git"
+repository = "."
+revision = "d7e530f915a03804c155ceb58a3cb0f5893e9ecf"
+path = "sysml/component.sysml"
+
+[[resource]]
+id = "scxml"
+provider = "git"
+repository = "."
+revision = "d7e530f915a03804c155ceb58a3cb0f5893e9ecf"
+path = "behavior/lifecycle.scxml"
+
+[[resource]]
+id = "spec"
+provider = "git"
+repository = "."
+revision = "d7e530f915a03804c155ceb58a3cb0f5893e9ecf"
+path = "documents/technical-specification.md"
+
+[[resource]]
+id = "step"
+provider = "git"
+repository = "."
+revision = "d7e530f915a03804c155ceb58a3cb0f5893e9ecf"
+path = "cad/component.step"
+
+[[resource]]
+id = "svg-block"
+provider = "git"
+repository = "."
+revision = "d7e530f915a03804c155ceb58a3cb0f5893e9ecf"
+path = "diagrams/block.svg"
+
+[[resource]]
+id = "datasheet"
+provider = "git"
+repository = "."
+revision = "d7e530f915a03804c155ceb58a3cb0f5893e9ecf"
+path = "documents/datasheet.pdf"
+
+[[resource]]
+id = "csv"
+provider = "git"
+repository = "."
+revision = "d7e530f915a03804c155ceb58a3cb0f5893e9ecf"
+path = "data/performance.csv"
