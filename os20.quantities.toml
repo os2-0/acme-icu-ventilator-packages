@@ -1,0 +1,20 @@
+[[quantity]]
+id = "blower-housing-mass"
+kind = "@os20/core#Mass"
+value = "1.2"
+unit = "kilogram"
+scope = "own"
+policy = "sum"
+owner = "@acme/blower-housing#BlowerHousing"
+provenance = "authored"
+
+[[quantity]]
+id = "blower-housing-cost"
+kind = "@os20/quantity#Cost"
+value = "55"
+unit = "USD"
+scope = "own"
+policy = "sum"
+owner = "@acme/blower-housing#BlowerHousing"
+basis = "one-time"
+provenance = "authored"

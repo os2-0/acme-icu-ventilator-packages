@@ -1,0 +1,35 @@
+# Native OS20 interface document for @acme/blower-housing.
+# Synthetic educational OS20 fixture. Not a medical device, not a validated ventilator, and not regulatory, clinical, or safety evidence.
+
+[[interfaces]]
+id = "motor-flange"
+package = "@acme/blower-housing"
+owner = "BlowerHousing"
+name = "motor-flange"
+kind = "core:interface/mechanical/flange"
+direction = "output"
+
+[interfaces.properties]
+pattern = "4x M4"
+
+[[interfaces]]
+id = "scroll-outlet"
+package = "@acme/blower-housing"
+owner = "BlowerHousing"
+name = "scroll-outlet"
+kind = "core:interface/fluid/gas"
+direction = "output"
+
+[interfaces.properties]
+size = "22 mm"
+
+[[interfaces]]
+id = "frame-mount"
+package = "@acme/blower-housing"
+owner = "BlowerHousing"
+name = "frame-mount"
+kind = "core:interface/mechanical/bracket"
+direction = "input"
+
+[interfaces.properties]
+holes = "4x M5"
