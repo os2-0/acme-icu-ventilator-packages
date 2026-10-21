@@ -1,0 +1,47 @@
+{
+  "schema": "os20-fixture-interfaces-v1",
+  "disclaimer": "Synthetic educational OS20 fixture. Not a medical device, not a validated ventilator, and not regulatory, clinical, or safety evidence.",
+  "package": "@acme/humidifier-module",
+  "native_document": "os20.interfaces.toml",
+  "ports": [
+    {
+      "id": "@acme/humidifier-module#iface.gas-in",
+      "local_id": "gas-in",
+      "kind": "core:interface/fluid/gas",
+      "direction": "input",
+      "properties": {},
+      "owner_definition": "@acme/humidifier-module#HumidifierModule",
+      "note": "Connect by mounted occurrence and port, not by package name alone."
+    },
+    {
+      "id": "@acme/humidifier-module#iface.gas-out",
+      "local_id": "gas-out",
+      "kind": "core:interface/fluid/gas",
+      "direction": "output",
+      "properties": {},
+      "owner_definition": "@acme/humidifier-module#HumidifierModule",
+      "note": "Connect by mounted occurrence and port, not by package name alone."
+    },
+    {
+      "id": "@acme/humidifier-module#iface.heater-power",
+      "local_id": "heater-power",
+      "kind": "core:interface/electrical/power",
+      "direction": "input",
+      "properties": {
+        "voltage": "24 V"
+      },
+      "owner_definition": "@acme/humidifier-module#HumidifierModule",
+      "note": "Connect by mounted occurrence and port, not by package name alone."
+    },
+    {
+      "id": "@acme/humidifier-module#iface.chamber-latch",
+      "local_id": "chamber-latch",
+      "kind": "core:interface/mechanical/latch",
+      "direction": "input",
+      "properties": {},
+      "owner_definition": "@acme/humidifier-module#HumidifierModule",
+      "note": "Connect by mounted occurrence and port, not by package name alone."
+    }
+  ],
+  "sibling_references": []
+}

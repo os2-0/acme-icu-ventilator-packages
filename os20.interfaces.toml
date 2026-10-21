@@ -1,0 +1,37 @@
+# Native OS20 interface document for @acme/humidifier-module.
+# Synthetic educational OS20 fixture. Not a medical device, not a validated ventilator, and not regulatory, clinical, or safety evidence.
+
+[[interfaces]]
+id = "gas-in"
+package = "@acme/humidifier-module"
+owner = "HumidifierModule"
+name = "gas-in"
+kind = "core:interface/fluid/gas"
+direction = "input"
+
+[[interfaces]]
+id = "gas-out"
+package = "@acme/humidifier-module"
+owner = "HumidifierModule"
+name = "gas-out"
+kind = "core:interface/fluid/gas"
+direction = "output"
+
+[[interfaces]]
+id = "heater-power"
+package = "@acme/humidifier-module"
+owner = "HumidifierModule"
+name = "heater-power"
+kind = "core:interface/electrical/power"
+direction = "input"
+
+[interfaces.properties]
+voltage = "24 V"
+
+[[interfaces]]
+id = "chamber-latch"
+package = "@acme/humidifier-module"
+owner = "HumidifierModule"
+name = "chamber-latch"
+kind = "core:interface/mechanical/latch"
+direction = "input"

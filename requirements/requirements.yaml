@@ -1,0 +1,33 @@
+# Synthetic educational OS20 fixture. Not a medical device, not a validated ventilator, and not regulatory, clinical, or safety evidence.
+package: @acme/humidifier-module
+kind: requirement-definition
+status: authored-unverified
+requirements:
+  - id: REQ-HUMIDIFIER_MODULE-001
+    title: "Humidifier module identity and package boundary"
+    text: "The definition @acme/humidifier-module#HumidifierModule shall be published as package @acme/humidifier-module@1.0.0."
+    kind: definition
+    evidence: missing
+    verified: false
+    owner: @acme/humidifier-module#HumidifierModule
+  - id: REQ-HUMIDIFIER_MODULE-002
+    title: "Humidifier module interface declaration"
+    text: "Humidifier module shall declare its ports in os20.interfaces.toml. Connection is by occurrence and port."
+    kind: definition
+    evidence: missing
+    verified: false
+    owner: @acme/humidifier-module#HumidifierModule
+  - id: REQ-HUMIDIFIER_MODULE-003
+    title: "Humidifier module evidence distinction"
+    text: "Verification records in this package are procedure definitions only. They are not test results, certification, or clinical validation."
+    kind: definition
+    evidence: missing
+    verified: false
+    owner: @acme/humidifier-module#HumidifierModule
+  - id: REQ-HUMIDIFIER_MODULE-004
+    title: "Humidifier module mass declaration"
+    text: "Own mass shall be authored as 1.1 kilogram with provenance synthetic-fixture."
+    kind: definition
+    evidence: missing
+    verified: false
+    owner: @acme/humidifier-module#HumidifierModule
