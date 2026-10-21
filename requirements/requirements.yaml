@@ -1,0 +1,33 @@
+# Synthetic educational OS20 fixture. Not a medical device, not a validated ventilator, and not regulatory, clinical, or safety evidence.
+package: @acme/mounting-bracket
+kind: requirement-definition
+status: authored-unverified
+requirements:
+  - id: REQ-MOUNTING_BRACKET-001
+    title: "Mounting bracket identity and package boundary"
+    text: "The definition @acme/mounting-bracket#MountingBracket shall be published as package @acme/mounting-bracket@1.0.0."
+    kind: definition
+    evidence: missing
+    verified: false
+    owner: @acme/mounting-bracket#MountingBracket
+  - id: REQ-MOUNTING_BRACKET-002
+    title: "Mounting bracket interface declaration"
+    text: "Mounting bracket shall declare its ports in os20.interfaces.toml. Connection is by occurrence and port."
+    kind: definition
+    evidence: missing
+    verified: false
+    owner: @acme/mounting-bracket#MountingBracket
+  - id: REQ-MOUNTING_BRACKET-003
+    title: "Mounting bracket evidence distinction"
+    text: "Verification records in this package are procedure definitions only. They are not test results, certification, or clinical validation."
+    kind: definition
+    evidence: missing
+    verified: false
+    owner: @acme/mounting-bracket#MountingBracket
+  - id: REQ-MOUNTING_BRACKET-004
+    title: "Mounting bracket mass declaration"
+    text: "Own mass shall be authored as 0.33 kilogram with provenance synthetic-fixture."
+    kind: definition
+    evidence: missing
+    verified: false
+    owner: @acme/mounting-bracket#MountingBracket

@@ -1,0 +1,31 @@
+{
+  "schema": "os20-fixture-interfaces-v1",
+  "disclaimer": "Synthetic educational OS20 fixture. Not a medical device, not a validated ventilator, and not regulatory, clinical, or safety evidence.",
+  "package": "@acme/mounting-bracket",
+  "native_document": "os20.interfaces.toml",
+  "ports": [
+    {
+      "id": "@acme/mounting-bracket#iface.frame-face",
+      "local_id": "frame-face",
+      "kind": "core:interface/mechanical/bracket",
+      "direction": "input",
+      "properties": {
+        "holes": "2x M5"
+      },
+      "owner_definition": "@acme/mounting-bracket#MountingBracket",
+      "note": "Connect by mounted occurrence and port, not by package name alone."
+    },
+    {
+      "id": "@acme/mounting-bracket#iface.payload-face",
+      "local_id": "payload-face",
+      "kind": "core:interface/mechanical/bracket",
+      "direction": "output",
+      "properties": {
+        "holes": "2x M4"
+      },
+      "owner_definition": "@acme/mounting-bracket#MountingBracket",
+      "note": "Connect by mounted occurrence and port, not by package name alone."
+    }
+  ],
+  "sibling_references": []
+}

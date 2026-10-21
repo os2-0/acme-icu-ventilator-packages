@@ -1,0 +1,24 @@
+# Native OS20 interface document for @acme/mounting-bracket.
+# Synthetic educational OS20 fixture. Not a medical device, not a validated ventilator, and not regulatory, clinical, or safety evidence.
+
+[[interfaces]]
+id = "frame-face"
+package = "@acme/mounting-bracket"
+owner = "MountingBracket"
+name = "frame-face"
+kind = "core:interface/mechanical/bracket"
+direction = "input"
+
+[interfaces.properties]
+holes = "2x M5"
+
+[[interfaces]]
+id = "payload-face"
+package = "@acme/mounting-bracket"
+owner = "MountingBracket"
+name = "payload-face"
+kind = "core:interface/mechanical/bracket"
+direction = "output"
+
+[interfaces.properties]
+holes = "2x M4"
