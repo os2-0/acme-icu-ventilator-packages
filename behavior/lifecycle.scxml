@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scxml xmlns="http://www.w3.org/2005/07/scxml" version="1.0" initial="Unavailable" name="inspiratory-valve">
+  <!-- Engineering lifecycle model for @acme/inspiratory-valve. Synthetic educational OS20 fixture. Not a medical device, not a validated ventilator, and not regulatory, clinical, or safety evidence. -->
+  <state id="Unavailable">
+    <transition event="configure" target="Ready"/>
+    <transition event="fault" target="Fault"/>
+  </state>
+  <state id="Ready">
+    <transition event="enable" target="Enabled"/>
+    <transition event="disable" target="Disabled"/>
+    <transition event="fault" target="Fault"/>
+  </state>
+  <state id="Enabled">
+    <transition event="disable" target="Disabled"/>
+    <transition event="fault" target="Fault"/>
+  </state>
+  <state id="Disabled">
+    <transition event="enable" target="Enabled"/>
+    <transition event="fault" target="Fault"/>
+  </state>
+  <state id="Fault">
+    <transition event="reset" target="Unavailable"/>
+  </state>
+</scxml>

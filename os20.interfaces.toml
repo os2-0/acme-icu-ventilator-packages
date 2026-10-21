@@ -1,0 +1,29 @@
+# Native OS20 interface document for @acme/inspiratory-valve.
+# Synthetic educational OS20 fixture. Not a medical device, not a validated ventilator, and not regulatory, clinical, or safety evidence.
+
+[[interfaces]]
+id = "inlet"
+package = "@acme/inspiratory-valve"
+owner = "InspiratoryValve"
+name = "inlet"
+kind = "core:interface/fluid/gas"
+direction = "input"
+
+[[interfaces]]
+id = "outlet"
+package = "@acme/inspiratory-valve"
+owner = "InspiratoryValve"
+name = "outlet"
+kind = "core:interface/fluid/gas"
+direction = "output"
+
+[[interfaces]]
+id = "actuator"
+package = "@acme/inspiratory-valve"
+owner = "InspiratoryValve"
+name = "actuator"
+kind = "core:interface/electrical/power"
+direction = "input"
+
+[interfaces.properties]
+voltage = "24 V"
