@@ -1,0 +1,50 @@
+# Git resources for @acme/touch-display. repository = "." is this package Git repo.
+
+[[resource]]
+id = "sysml"
+provider = "git"
+repository = "."
+revision = "1b5b06acc27e1a1554d3b4f2e9b72d4da6b81b2f"
+path = "sysml/component.sysml"
+
+[[resource]]
+id = "scxml"
+provider = "git"
+repository = "."
+revision = "1b5b06acc27e1a1554d3b4f2e9b72d4da6b81b2f"
+path = "behavior/lifecycle.scxml"
+
+[[resource]]
+id = "spec"
+provider = "git"
+repository = "."
+revision = "1b5b06acc27e1a1554d3b4f2e9b72d4da6b81b2f"
+path = "documents/technical-specification.md"
+
+[[resource]]
+id = "step"
+provider = "git"
+repository = "."
+revision = "1b5b06acc27e1a1554d3b4f2e9b72d4da6b81b2f"
+path = "cad/component.step"
+
+[[resource]]
+id = "svg-block"
+provider = "git"
+repository = "."
+revision = "1b5b06acc27e1a1554d3b4f2e9b72d4da6b81b2f"
+path = "diagrams/block.svg"
+
+[[resource]]
+id = "datasheet"
+provider = "git"
+repository = "."
+revision = "1b5b06acc27e1a1554d3b4f2e9b72d4da6b81b2f"
+path = "documents/datasheet.pdf"
+
+[[resource]]
+id = "csv"
+provider = "git"
+repository = "."
+revision = "1b5b06acc27e1a1554d3b4f2e9b72d4da6b81b2f"
+path = "data/performance.csv"
