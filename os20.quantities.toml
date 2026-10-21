@@ -1,37 +1,33 @@
 [[quantity]]
-id = "user-interface-mass-@acme/user-interface"
+id = "user-interface-mass-package"
 kind = "@os20/core#Mass"
 scope = "own"
 policy = "derive-from-children"
 owner = "@acme/user-interface"
-
 provenance = "authored"
 
 [[quantity]]
-id = "user-interface-cost-@acme/user-interface"
+id = "user-interface-cost-package"
 kind = "@os20/quantity#Cost"
 scope = "own"
 policy = "derive-from-children"
 owner = "@acme/user-interface"
 basis = "one-time"
-
 provenance = "authored"
 
 [[quantity]]
-id = "user-interface-mass-userinterface"
+id = "user-interface-mass-definition"
 kind = "@os20/core#Mass"
 scope = "own"
 policy = "derive-from-children"
 owner = "@acme/user-interface#UserInterface"
-
 provenance = "authored"
 
 [[quantity]]
-id = "user-interface-cost-userinterface"
+id = "user-interface-cost-definition"
 kind = "@os20/quantity#Cost"
 scope = "own"
 policy = "derive-from-children"
 owner = "@acme/user-interface#UserInterface"
 basis = "one-time"
-
 provenance = "authored"
