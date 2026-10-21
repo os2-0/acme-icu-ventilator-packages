@@ -8,8 +8,8 @@ description = "Control subsystem. Synthetic educational OS20 fixture. Not a medi
 acme = "@acme/icu-ontology@1.0.0"
 
 [dependencies]
-"@acme/icu-ontology" = { path = "../icu-ontology" }
-"@acme/main-controller" = { path = "../main-controller" }
-"@acme/control-software" = { path = "../control-software" }
-"@acme/watchdog-module" = { path = "../watchdog-module" }
-"@acme/communication-module" = { path = "../communication-module" }
+"@acme/communication-module" = "@acme/communication-module@^1.0"
+"@acme/control-software" = "@acme/control-software@^1.0"
+"@acme/icu-ontology" = "@acme/icu-ontology@^1.0"
+"@acme/main-controller" = "@acme/main-controller@^1.0"
+"@acme/watchdog-module" = "@acme/watchdog-module@^1.0"

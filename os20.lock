@@ -1,0 +1,55 @@
+format = 1
+
+[[package]]
+name = "@acme/communication-module"
+version = "1.0.0"
+source = "registry"
+repository = "https://github.com/os2-0/acme-icu-ventilator-packages"
+commit = "c7b7e742a8d5e850d5861c29bb2a7f6074b07b87"
+tree = "7aff06e76caefca0a455d10b5f286e9a647b9b35"
+manifest_digest = "sha256:81e606b32d704bbe84c579e7f9d56201747a360c15ee8a1fa2563c9328ecd38d"
+dependencies = ["@acme/icu-ontology@1.0.0"]
+ontologies = ["@acme/icu-ontology@1.0.0"]
+
+[[package]]
+name = "@acme/control-software"
+version = "1.0.0"
+source = "registry"
+repository = "https://github.com/os2-0/acme-icu-ventilator-packages"
+commit = "308ce35835482e7af21e9386dd710e74f3967b48"
+tree = "04097db95c9a3f1011bdc1480e87cdac17aa62cd"
+manifest_digest = "sha256:1d29ec90281ec5954f9905ae7a375a0e3c284d7bd6610728a420059b92295bec"
+dependencies = ["@acme/icu-ontology@1.0.0"]
+ontologies = ["@acme/icu-ontology@1.0.0"]
+
+[[package]]
+name = "@acme/icu-ontology"
+version = "1.0.0"
+source = "registry"
+repository = "https://github.com/os2-0/acme-icu-ventilator-packages"
+commit = "5898c295243ba16ece4b5203b6eb1beddab7d308"
+tree = "63f8da6f1cee8092931777b5e6936420529e7aa3"
+manifest_digest = "sha256:bdaac3d2756b9c5797a9909252e7134cb7b1c785285c6db97536ee176f317d00"
+dependencies = []
+
+[[package]]
+name = "@acme/main-controller"
+version = "1.0.0"
+source = "registry"
+repository = "https://github.com/os2-0/acme-icu-ventilator-packages"
+commit = "128e28f21f880ed3019947ca087f8fd58c57f69e"
+tree = "2c3608e7e36a8e3eb3e107d26c7e284bd8ab4d6c"
+manifest_digest = "sha256:eebf362d9deacba780ce23c0e0f2cf107e6708ba8f4dc759c0f194ffa81053bf"
+dependencies = ["@acme/icu-ontology@1.0.0"]
+ontologies = ["@acme/icu-ontology@1.0.0"]
+
+[[package]]
+name = "@acme/watchdog-module"
+version = "1.0.0"
+source = "registry"
+repository = "https://github.com/os2-0/acme-icu-ventilator-packages"
+commit = "92f9e52a5f0cfed85c227eb0365b0c3b2773dcd2"
+tree = "5f9378ae586ca02c180f70caa60d0b7e98f8484f"
+manifest_digest = "sha256:c01a455267dc02987f547b5cd3f958ff4a066b2783f8cb1aceb403b96878d93e"
+dependencies = ["@acme/icu-ontology@1.0.0"]
+ontologies = ["@acme/icu-ontology@1.0.0"]
