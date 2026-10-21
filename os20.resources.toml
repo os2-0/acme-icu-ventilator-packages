@@ -1,0 +1,78 @@
+# Git resources for @acme/gas-delivery. repository = "." is this package Git repo.
+
+[[resource]]
+id = "sysml"
+provider = "git"
+repository = "."
+revision = "f5daaaf262c2fec712d03a3292689f0164a0828c"
+path = "sysml/component.sysml"
+
+[[resource]]
+id = "scxml"
+provider = "git"
+repository = "."
+revision = "f5daaaf262c2fec712d03a3292689f0164a0828c"
+path = "behavior/lifecycle.scxml"
+
+[[resource]]
+id = "spec"
+provider = "git"
+repository = "."
+revision = "f5daaaf262c2fec712d03a3292689f0164a0828c"
+path = "documents/technical-specification.md"
+
+[[resource]]
+id = "step"
+provider = "git"
+repository = "."
+revision = "f5daaaf262c2fec712d03a3292689f0164a0828c"
+path = "cad/component.step"
+
+[[resource]]
+id = "svg-block"
+provider = "git"
+repository = "."
+revision = "f5daaaf262c2fec712d03a3292689f0164a0828c"
+path = "diagrams/block.svg"
+
+[[resource]]
+id = "datasheet"
+provider = "git"
+repository = "."
+revision = "f5daaaf262c2fec712d03a3292689f0164a0828c"
+path = "documents/datasheet.pdf"
+
+[[resource]]
+id = "csv"
+provider = "git"
+repository = "."
+revision = "f5daaaf262c2fec712d03a3292689f0164a0828c"
+path = "data/performance.csv"
+
+[[resource]]
+id = "architecture"
+provider = "git"
+repository = "."
+revision = "f5daaaf262c2fec712d03a3292689f0164a0828c"
+path = "system/architecture.sysml"
+
+[[resource]]
+id = "bom"
+provider = "git"
+repository = "."
+revision = "f5daaaf262c2fec712d03a3292689f0164a0828c"
+path = "system/bom.json"
+
+[[resource]]
+id = "svg-pneumatic"
+provider = "git"
+repository = "."
+revision = "f5daaaf262c2fec712d03a3292689f0164a0828c"
+path = "diagrams/pneumatic.svg"
+
+[[resource]]
+id = "svg-electrical"
+provider = "git"
+repository = "."
+revision = "f5daaaf262c2fec712d03a3292689f0164a0828c"
+path = "diagrams/electrical.svg"

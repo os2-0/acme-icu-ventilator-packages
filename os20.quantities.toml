@@ -1,37 +1,33 @@
 [[quantity]]
-id = "gas-delivery-mass-@acme/gas-delivery"
+id = "gas-delivery-mass-package"
 kind = "@os20/core#Mass"
 scope = "own"
 policy = "derive-from-children"
 owner = "@acme/gas-delivery"
-
 provenance = "authored"
 
 [[quantity]]
-id = "gas-delivery-cost-@acme/gas-delivery"
+id = "gas-delivery-cost-package"
 kind = "@os20/quantity#Cost"
 scope = "own"
 policy = "derive-from-children"
 owner = "@acme/gas-delivery"
 basis = "one-time"
-
 provenance = "authored"
 
 [[quantity]]
-id = "gas-delivery-mass-gasdelivery"
+id = "gas-delivery-mass-definition"
 kind = "@os20/core#Mass"
 scope = "own"
 policy = "derive-from-children"
 owner = "@acme/gas-delivery#GasDelivery"
-
 provenance = "authored"
 
 [[quantity]]
-id = "gas-delivery-cost-gasdelivery"
+id = "gas-delivery-cost-definition"
 kind = "@os20/quantity#Cost"
 scope = "own"
 policy = "derive-from-children"
 owner = "@acme/gas-delivery#GasDelivery"
 basis = "one-time"
-
 provenance = "authored"
