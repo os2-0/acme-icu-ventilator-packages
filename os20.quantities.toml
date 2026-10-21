@@ -1,0 +1,20 @@
+[[quantity]]
+id = "communication-module-mass"
+kind = "@os20/core#Mass"
+value = "0.12"
+unit = "kilogram"
+scope = "own"
+policy = "sum"
+owner = "@acme/communication-module#CommunicationModule"
+provenance = "authored"
+
+[[quantity]]
+id = "communication-module-cost"
+kind = "@os20/quantity#Cost"
+value = "80"
+unit = "USD"
+scope = "own"
+policy = "sum"
+owner = "@acme/communication-module#CommunicationModule"
+basis = "one-time"
+provenance = "authored"

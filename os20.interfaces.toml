@@ -1,0 +1,35 @@
+# Native OS20 interface document for @acme/communication-module.
+# Synthetic educational OS20 fixture. Not a medical device, not a validated ventilator, and not regulatory, clinical, or safety evidence.
+
+[[interfaces]]
+id = "host"
+package = "@acme/communication-module"
+owner = "CommunicationModule"
+name = "host"
+kind = "core:interface/electrical/signal"
+direction = "bidirectional"
+
+[interfaces.properties]
+protocol = "example-uart"
+
+[[interfaces]]
+id = "network"
+package = "@acme/communication-module"
+owner = "CommunicationModule"
+name = "network"
+kind = "core:interface/electrical/signal"
+direction = "bidirectional"
+
+[interfaces.properties]
+protocol = "example-ethernet"
+
+[[interfaces]]
+id = "logic-power"
+package = "@acme/communication-module"
+owner = "CommunicationModule"
+name = "logic-power"
+kind = "core:interface/electrical/power"
+direction = "input"
+
+[interfaces.properties]
+voltage = "5 V"
