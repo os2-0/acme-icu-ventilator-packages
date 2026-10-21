@@ -1,0 +1,40 @@
+schema = "os20-processor-v1"
+package = "@acme/icu-ontology"
+version = "1.0.0"
+revision = "4ff8e99cce3db9281c0c94fee56afad95a567a91"
+
+[namespaces]
+acme = "@acme/icu-ontology#"
+os20 = "@os20/core#"
+
+[[processor]]
+predicate = "acme:totalMass"
+operation = "aggregate"
+policy = "sum"
+representation = "os20:quantity@1"
+capability = "quantity.aggregate"
+participation = "aggregate"
+
+[[processor]]
+predicate = "acme:dependsOn"
+operation = "reference"
+policy = "link"
+representation = "os20:reference"
+capability = ""
+participation = "reference"
+
+[[processor]]
+predicate = "acme:connectedTo"
+operation = "reference"
+policy = "link"
+representation = "os20:reference"
+capability = ""
+participation = "reference"
+
+[[processor]]
+predicate = "acme:controlBehavior"
+operation = "compose"
+policy = "concurrent-children"
+representation = "scxml:subset-v1"
+capability = "behavior.scxml"
+participation = "compose"
