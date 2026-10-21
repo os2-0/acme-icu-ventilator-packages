@@ -1,0 +1,56 @@
+[namespaces]
+acme = "@acme/icu-ontology#"
+os20 = "@os20/core#"
+
+[[definition]]
+id = "@acme/safety-system#SafetySystem"
+
+[[definition]]
+id = "@acme/pressure-relief-assembly#PressureReliefAssembly"
+package = "@acme/pressure-relief-assembly"
+version = "1.0.0"
+
+[[definition]]
+id = "@acme/safety-monitor#SafetyMonitor"
+package = "@acme/safety-monitor"
+version = "1.0.0"
+
+[[definition]]
+id = "@acme/emergency-power-monitor#EmergencyPowerMonitor"
+package = "@acme/emergency-power-monitor"
+version = "1.0.0"
+
+[[occurrence]]
+id = "@acme/safety-system#occ.pressure-relief-assembly"
+role = "pressure-relief-assembly"
+predicate = "os20:HasPart"
+
+[occurrence.definition]
+id = "@acme/pressure-relief-assembly#PressureReliefAssembly"
+package = "@acme/pressure-relief-assembly"
+version = "1.0.0"
+
+[[occurrence]]
+id = "@acme/safety-system#occ.safety-monitor"
+role = "safety-monitor"
+predicate = "os20:HasPart"
+
+[occurrence.definition]
+id = "@acme/safety-monitor#SafetyMonitor"
+package = "@acme/safety-monitor"
+version = "1.0.0"
+
+[[occurrence]]
+id = "@acme/safety-system#occ.emergency-power-monitor"
+role = "emergency-power-monitor"
+predicate = "os20:HasPart"
+
+[occurrence.definition]
+id = "@acme/emergency-power-monitor#EmergencyPowerMonitor"
+package = "@acme/emergency-power-monitor"
+version = "1.0.0"
+
+[[reference]]
+from = "@acme/safety-system#occ.safety-monitor"
+to = "@acme/safety-system#occ.emergency-power-monitor"
+predicate = "acme:connectedTo"

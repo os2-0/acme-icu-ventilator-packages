@@ -1,0 +1,35 @@
+# Native OS20 interface document for @acme/safety-system.
+# Synthetic educational OS20 fixture. Not a medical device, not a validated ventilator, and not regulatory, clinical, or safety evidence.
+
+[[interfaces]]
+id = "relief-port"
+package = "@acme/safety-system"
+owner = "SafetySystem"
+name = "relief-port"
+kind = "core:interface/fluid/gas"
+direction = "output"
+
+[[interfaces]]
+id = "monitor-bus"
+package = "@acme/safety-system"
+owner = "SafetySystem"
+name = "monitor-bus"
+kind = "core:interface/electrical/signal"
+direction = "input"
+
+[[interfaces]]
+id = "logic-power"
+package = "@acme/safety-system"
+owner = "SafetySystem"
+name = "logic-power"
+kind = "core:interface/electrical/power"
+direction = "input"
+
+[interfaces.properties]
+voltage = "5 V"
+
+[[connections]]
+from = "SafetyMonitor.sense"
+to = "EmergencyPowerMonitor.rail-sense"
+relation = "core:connectedTo"
+required = true

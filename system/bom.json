@@ -1,0 +1,37 @@
+{
+  "schema": "os20-fixture-bom-v1",
+  "disclaimer": "Synthetic educational OS20 fixture. Not a medical device, not a validated ventilator, and not regulatory, clinical, or safety evidence.",
+  "package": "@acme/safety-system",
+  "items": [
+    {
+      "occurrence": "@acme/safety-system#occ.pressure-relief-assembly",
+      "role": "pressure-relief-assembly",
+      "package": "@acme/pressure-relief-assembly",
+      "version": "1.0.0",
+      "definition": "@acme/pressure-relief-assembly#PressureReliefAssembly",
+      "qty": 1,
+      "mass_kg_own": 0.36,
+      "note": "Occurrence count, not dependency-graph count"
+    },
+    {
+      "occurrence": "@acme/safety-system#occ.safety-monitor",
+      "role": "safety-monitor",
+      "package": "@acme/safety-monitor",
+      "version": "1.0.0",
+      "definition": "@acme/safety-monitor#SafetyMonitor",
+      "qty": 1,
+      "mass_kg_own": 0.14,
+      "note": "Occurrence count, not dependency-graph count"
+    },
+    {
+      "occurrence": "@acme/safety-system#occ.emergency-power-monitor",
+      "role": "emergency-power-monitor",
+      "package": "@acme/emergency-power-monitor",
+      "version": "1.0.0",
+      "definition": "@acme/emergency-power-monitor#EmergencyPowerMonitor",
+      "qty": 1,
+      "mass_kg_own": 0.09,
+      "note": "Occurrence count, not dependency-graph count"
+    }
+  ]
+}

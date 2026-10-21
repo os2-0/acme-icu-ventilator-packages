@@ -1,0 +1,18 @@
+# Companion view of os20.occurrences.toml for @acme/safety-system. OS20 does not read this file.
+root: @acme/safety-system#occ-tree
+children:
+  - role: pressure-relief-assembly
+    occurrence: @acme/safety-system#occ.pressure-relief-assembly
+    definition: @acme/pressure-relief-assembly#PressureReliefAssembly
+    package: @acme/pressure-relief-assembly@1.0.0
+    predicate: os20:HasPart
+  - role: safety-monitor
+    occurrence: @acme/safety-system#occ.safety-monitor
+    definition: @acme/safety-monitor#SafetyMonitor
+    package: @acme/safety-monitor@1.0.0
+    predicate: os20:HasPart
+  - role: emergency-power-monitor
+    occurrence: @acme/safety-system#occ.emergency-power-monitor
+    definition: @acme/emergency-power-monitor#EmergencyPowerMonitor
+    package: @acme/emergency-power-monitor@1.0.0
+    predicate: os20:HasPart

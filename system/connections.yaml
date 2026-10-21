@@ -1,0 +1,6 @@
+# Companion view of [[reference]] / [[connections]] for @acme/safety-system. OS20 does not read this file.
+connections:
+  - from_occurrence: @acme/safety-system#occ.safety-monitor
+    to_occurrence: @acme/safety-system#occ.emergency-power-monitor
+    predicate: acme:connectedTo
+    note: specific mounted occurrence, not package name

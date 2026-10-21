@@ -1,0 +1,16 @@
+schema = "os20-behavior-v1"
+
+[[behavior]]
+id = "safety-system"
+owner = "@acme/safety-system#SafetySystem"
+artifact = "behavior/lifecycle.scxml"
+policy = "concurrent-children"
+
+[[interface]]
+id = "lifecycle"
+owner = "@acme/safety-system#SafetySystem"
+behavior = "safety-system"
+direction = "input"
+event = "configure"
+semantic_type = "@acme/icu-ontology#LifecycleEvent"
+provenance = "authored"

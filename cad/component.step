@@ -1,0 +1,15 @@
+ISO-10303-21;
+HEADER;
+FILE_DESCRIPTION(('OS20 synthetic educational geometry for @acme/safety-system'),'2;1');
+FILE_NAME('safety-system.step','2026-10-21T00:00:00',('synthetic-fixture'),('OS20 educational example'),'OS20 ventilator-os20','','');
+FILE_SCHEMA(('AUTOMOTIVE_DESIGN'));
+ENDSEC;
+DATA;
+#1=APPLICATION_CONTEXT('automotive design');
+#2=CARTESIAN_POINT('origin',(0.0,0.0,0.0));
+#3=DIRECTION('z',(0.0,0.0,1.0));
+#4=DIRECTION('x',(1.0,0.0,0.0));
+#5=AXIS2_PLACEMENT_3D('safety-system-placement',#2,#3,#4);
+#6=BLOCK('safety-system-envelope',#5,160.0,80.0,50.0);
+ENDSEC;
+END-ISO-10303-21;
