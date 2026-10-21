@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scxml xmlns="http://www.w3.org/2005/07/scxml" version="1.0" initial="Uninstalled" name="fastener-set">
+  <!-- Engineering lifecycle model for @acme/fastener-set. Synthetic educational OS20 fixture. Not a medical device, not a validated ventilator, and not regulatory, clinical, or safety evidence. -->
+  <state id="Uninstalled">
+    <transition event="install" target="Installed"/>
+  </state>
+  <state id="Installed">
+    <transition event="retire" target="Retired"/>
+  </state>
+  <state id="Retired">
+  </state>
+</scxml>

@@ -1,0 +1,25 @@
+{
+  "schema": "os20-fixture-materials-v1",
+  "disclaimer": "Synthetic educational OS20 fixture. Not a medical device, not a validated ventilator, and not regulatory, clinical, or safety evidence.",
+  "package": "@acme/fastener-set",
+  "definition": "@acme/fastener-set#FastenerSet",
+  "provenance": {
+    "source": "os20-ventilator-fixture-v1",
+    "kind": "synthetic-fixture",
+    "date": "2026-10-21"
+  },
+  "usage_note": "Assemblies list constituent materials. OS20 does not aggregate materials.json; mass rollup uses os20.quantities.toml by mounted occurrence.",
+  "materials": [
+    {
+      "id": "stainless-304-fixture",
+      "classification": "austenitic-stainless-steel",
+      "usage": "fasteners-and-shafts",
+      "density_kg_m3": 8000,
+      "notes": "Synthetic 304-like stainless for demonstration fasteners and shafts.",
+      "synthetic": true,
+      "confidence": "synthetic-fixture",
+      "source": "os20-ventilator-fixture-v1",
+      "yield_mpa": 215
+    }
+  ]
+}

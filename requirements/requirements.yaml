@@ -1,0 +1,33 @@
+# Synthetic educational OS20 fixture. Not a medical device, not a validated ventilator, and not regulatory, clinical, or safety evidence.
+package: @acme/fastener-set
+kind: requirement-definition
+status: authored-unverified
+requirements:
+  - id: REQ-FASTENER_SET-001
+    title: "Fastener set identity and package boundary"
+    text: "The definition @acme/fastener-set#FastenerSet shall be published as package @acme/fastener-set@1.0.0."
+    kind: definition
+    evidence: missing
+    verified: false
+    owner: @acme/fastener-set#FastenerSet
+  - id: REQ-FASTENER_SET-002
+    title: "Fastener set interface declaration"
+    text: "Fastener set shall declare its ports in os20.interfaces.toml. Connection is by occurrence and port."
+    kind: definition
+    evidence: missing
+    verified: false
+    owner: @acme/fastener-set#FastenerSet
+  - id: REQ-FASTENER_SET-003
+    title: "Fastener set evidence distinction"
+    text: "Verification records in this package are procedure definitions only. They are not test results, certification, or clinical validation."
+    kind: definition
+    evidence: missing
+    verified: false
+    owner: @acme/fastener-set#FastenerSet
+  - id: REQ-FASTENER_SET-004
+    title: "Fastener set mass declaration"
+    text: "Own mass shall be authored as 0.25 kilogram with provenance synthetic-fixture."
+    kind: definition
+    evidence: missing
+    verified: false
+    owner: @acme/fastener-set#FastenerSet

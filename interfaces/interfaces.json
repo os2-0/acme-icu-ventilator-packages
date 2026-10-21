@@ -1,0 +1,20 @@
+{
+  "schema": "os20-fixture-interfaces-v1",
+  "disclaimer": "Synthetic educational OS20 fixture. Not a medical device, not a validated ventilator, and not regulatory, clinical, or safety evidence.",
+  "package": "@acme/fastener-set",
+  "native_document": "os20.interfaces.toml",
+  "ports": [
+    {
+      "id": "@acme/fastener-set#iface.kit",
+      "local_id": "kit",
+      "kind": "core:interface/mechanical/fastener-kit",
+      "direction": "output",
+      "properties": {
+        "contents": "M3-M5 example mix"
+      },
+      "owner_definition": "@acme/fastener-set#FastenerSet",
+      "note": "Connect by mounted occurrence and port, not by package name alone."
+    }
+  ],
+  "sibling_references": []
+}

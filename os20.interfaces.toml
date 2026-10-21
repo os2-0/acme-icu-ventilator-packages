@@ -1,0 +1,13 @@
+# Native OS20 interface document for @acme/fastener-set.
+# Synthetic educational OS20 fixture. Not a medical device, not a validated ventilator, and not regulatory, clinical, or safety evidence.
+
+[[interfaces]]
+id = "kit"
+package = "@acme/fastener-set"
+owner = "FastenerSet"
+name = "kit"
+kind = "core:interface/mechanical/fastener-kit"
+direction = "output"
+
+[interfaces.properties]
+contents = "M3-M5 example mix"

@@ -1,0 +1,20 @@
+[[quantity]]
+id = "fastener-set-mass"
+kind = "@os20/core#Mass"
+value = "0.25"
+unit = "kilogram"
+scope = "own"
+policy = "sum"
+owner = "@acme/fastener-set#FastenerSet"
+provenance = "authored"
+
+[[quantity]]
+id = "fastener-set-cost"
+kind = "@os20/quantity#Cost"
+value = "8"
+unit = "USD"
+scope = "own"
+policy = "sum"
+owner = "@acme/fastener-set#FastenerSet"
+basis = "one-time"
+provenance = "authored"
