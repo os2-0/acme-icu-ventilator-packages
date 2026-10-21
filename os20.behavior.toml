@@ -1,0 +1,16 @@
+schema = "os20-behavior-v1"
+
+[[behavior]]
+id = "emergency-power-monitor"
+owner = "@acme/emergency-power-monitor#EmergencyPowerMonitor"
+artifact = "behavior/lifecycle.scxml"
+policy = "concurrent-children"
+
+[[interface]]
+id = "lifecycle"
+owner = "@acme/emergency-power-monitor#EmergencyPowerMonitor"
+behavior = "emergency-power-monitor"
+direction = "input"
+event = "configure"
+semantic_type = "@acme/icu-ontology#LifecycleEvent"
+provenance = "authored"

@@ -1,0 +1,18 @@
+# Native OS20 interface document for @acme/emergency-power-monitor.
+# Synthetic educational OS20 fixture. Not a medical device, not a validated ventilator, and not regulatory, clinical, or safety evidence.
+
+[[interfaces]]
+id = "rail-sense"
+package = "@acme/emergency-power-monitor"
+owner = "EmergencyPowerMonitor"
+name = "rail-sense"
+kind = "core:interface/electrical/power"
+direction = "input"
+
+[[interfaces]]
+id = "status"
+package = "@acme/emergency-power-monitor"
+owner = "EmergencyPowerMonitor"
+name = "status"
+kind = "core:interface/electrical/signal"
+direction = "output"

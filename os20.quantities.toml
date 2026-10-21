@@ -1,0 +1,20 @@
+[[quantity]]
+id = "emergency-power-monitor-mass"
+kind = "@os20/core#Mass"
+value = "0.09"
+unit = "kilogram"
+scope = "own"
+policy = "sum"
+owner = "@acme/emergency-power-monitor#EmergencyPowerMonitor"
+provenance = "authored"
+
+[[quantity]]
+id = "emergency-power-monitor-cost"
+kind = "@os20/quantity#Cost"
+value = "38"
+unit = "USD"
+scope = "own"
+policy = "sum"
+owner = "@acme/emergency-power-monitor#EmergencyPowerMonitor"
+basis = "one-time"
+provenance = "authored"

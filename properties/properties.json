@@ -1,0 +1,48 @@
+{
+  "schema": "os20-fixture-properties-v1",
+  "disclaimer": "Synthetic educational OS20 fixture. Not a medical device, not a validated ventilator, and not regulatory, clinical, or safety evidence.",
+  "package": "@acme/emergency-power-monitor",
+  "properties": [
+    {
+      "id": "@acme/emergency-power-monitor#prop.identity",
+      "kind": "identity",
+      "value": "@acme/emergency-power-monitor",
+      "unit": null,
+      "quantity_type": null,
+      "status": "authored",
+      "provenance": "synthetic-fixture",
+      "applicability": "this-definition",
+      "owner": "@acme/emergency-power-monitor#EmergencyPowerMonitor"
+    },
+    {
+      "id": "@acme/emergency-power-monitor#prop.mass",
+      "kind": "@os20/core#Mass",
+      "value": 0.09,
+      "unit": "kilogram",
+      "quantity_type": "mass",
+      "status": "authored-synthetic",
+      "provenance": "synthetic-fixture",
+      "applicability": "own-definition; counted once per mounted occurrence",
+      "owner": "@acme/emergency-power-monitor#EmergencyPowerMonitor",
+      "aggregatable": true,
+      "os20_quantity_id": "emergency-power-monitor-mass"
+    },
+    {
+      "id": "@acme/emergency-power-monitor#prop.envelope",
+      "kind": "envelope",
+      "value": {
+        "x": 45,
+        "y": 30,
+        "z": 10
+      },
+      "unit": "millimetre",
+      "quantity_type": "length",
+      "status": "authored-synthetic",
+      "provenance": "synthetic-fixture",
+      "applicability": "axis-aligned bounding box example",
+      "owner": "@acme/emergency-power-monitor#EmergencyPowerMonitor",
+      "aggregatable": false,
+      "note": "Envelope lengths are not summed by os20 system run quantity."
+    }
+  ]
+}
