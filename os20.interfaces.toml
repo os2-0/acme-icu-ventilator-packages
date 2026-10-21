@@ -1,0 +1,18 @@
+# Native OS20 interface document for @acme/temperature-sensor.
+# Synthetic educational OS20 fixture. Not a medical device, not a validated ventilator, and not regulatory, clinical, or safety evidence.
+
+[[interfaces]]
+id = "probe"
+package = "@acme/temperature-sensor"
+owner = "TemperatureSensor"
+name = "probe"
+kind = "core:interface/thermal/probe"
+direction = "input"
+
+[[interfaces]]
+id = "leads"
+package = "@acme/temperature-sensor"
+owner = "TemperatureSensor"
+name = "leads"
+kind = "core:interface/electrical/signal"
+direction = "output"

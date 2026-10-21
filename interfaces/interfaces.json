@@ -1,0 +1,27 @@
+{
+  "schema": "os20-fixture-interfaces-v1",
+  "disclaimer": "Synthetic educational OS20 fixture. Not a medical device, not a validated ventilator, and not regulatory, clinical, or safety evidence.",
+  "package": "@acme/temperature-sensor",
+  "native_document": "os20.interfaces.toml",
+  "ports": [
+    {
+      "id": "@acme/temperature-sensor#iface.probe",
+      "local_id": "probe",
+      "kind": "core:interface/thermal/probe",
+      "direction": "input",
+      "properties": {},
+      "owner_definition": "@acme/temperature-sensor#TemperatureSensor",
+      "note": "Connect by mounted occurrence and port, not by package name alone."
+    },
+    {
+      "id": "@acme/temperature-sensor#iface.leads",
+      "local_id": "leads",
+      "kind": "core:interface/electrical/signal",
+      "direction": "output",
+      "properties": {},
+      "owner_definition": "@acme/temperature-sensor#TemperatureSensor",
+      "note": "Connect by mounted occurrence and port, not by package name alone."
+    }
+  ],
+  "sibling_references": []
+}

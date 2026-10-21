@@ -1,0 +1,20 @@
+[[quantity]]
+id = "temperature-sensor-mass"
+kind = "@os20/core#Mass"
+value = "0.05"
+unit = "kilogram"
+scope = "own"
+policy = "sum"
+owner = "@acme/temperature-sensor#TemperatureSensor"
+provenance = "authored"
+
+[[quantity]]
+id = "temperature-sensor-cost"
+kind = "@os20/quantity#Cost"
+value = "22"
+unit = "USD"
+scope = "own"
+policy = "sum"
+owner = "@acme/temperature-sensor#TemperatureSensor"
+basis = "one-time"
+provenance = "authored"
