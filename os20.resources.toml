@@ -1,0 +1,85 @@
+# Git resources for @acme/icu-ventilator. repository = "." is this package Git repo.
+
+[[resource]]
+id = "sysml"
+provider = "git"
+repository = "."
+revision = "32001fc1791b03f1ccd9de8c38cf64801022769f"
+path = "sysml/component.sysml"
+
+[[resource]]
+id = "scxml"
+provider = "git"
+repository = "."
+revision = "32001fc1791b03f1ccd9de8c38cf64801022769f"
+path = "behavior/lifecycle.scxml"
+
+[[resource]]
+id = "spec"
+provider = "git"
+repository = "."
+revision = "32001fc1791b03f1ccd9de8c38cf64801022769f"
+path = "documents/technical-specification.md"
+
+[[resource]]
+id = "step"
+provider = "git"
+repository = "."
+revision = "32001fc1791b03f1ccd9de8c38cf64801022769f"
+path = "cad/component.step"
+
+[[resource]]
+id = "svg-block"
+provider = "git"
+repository = "."
+revision = "32001fc1791b03f1ccd9de8c38cf64801022769f"
+path = "diagrams/block.svg"
+
+[[resource]]
+id = "datasheet"
+provider = "git"
+repository = "."
+revision = "32001fc1791b03f1ccd9de8c38cf64801022769f"
+path = "documents/datasheet.pdf"
+
+[[resource]]
+id = "csv"
+provider = "git"
+repository = "."
+revision = "32001fc1791b03f1ccd9de8c38cf64801022769f"
+path = "data/performance.csv"
+
+[[resource]]
+id = "architecture"
+provider = "git"
+repository = "."
+revision = "32001fc1791b03f1ccd9de8c38cf64801022769f"
+path = "system/architecture.sysml"
+
+[[resource]]
+id = "bom"
+provider = "git"
+repository = "."
+revision = "32001fc1791b03f1ccd9de8c38cf64801022769f"
+path = "system/bom.json"
+
+[[resource]]
+id = "svg-pneumatic"
+provider = "git"
+repository = "."
+revision = "32001fc1791b03f1ccd9de8c38cf64801022769f"
+path = "diagrams/pneumatic.svg"
+
+[[resource]]
+id = "svg-electrical"
+provider = "git"
+repository = "."
+revision = "32001fc1791b03f1ccd9de8c38cf64801022769f"
+path = "diagrams/electrical.svg"
+
+[[resource]]
+id = "fmu"
+provider = "git"
+repository = "."
+revision = "32001fc1791b03f1ccd9de8c38cf64801022769f"
+path = "simulation/model.fmu"
