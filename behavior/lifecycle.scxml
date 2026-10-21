@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <scxml xmlns="http://www.w3.org/2005/07/scxml" version="1.0" initial="Unavailable" name="oxygen-mixer">
-  <!-- Engineering lifecycle model for @acme/oxygen-mixer. Synthetic educational OS20 fixture. Not a medical device, not a validated ventilator, and not regulatory, clinical, or safety evidence. -->
-  <state id="Unavailable">
+    <state id="Unavailable">
     <transition event="configure" target="Ready"/>
     <transition event="fault" target="Fault"/>
   </state>
