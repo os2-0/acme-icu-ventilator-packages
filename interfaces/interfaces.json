@@ -1,0 +1,51 @@
+{
+  "schema": "os20-fixture-interfaces-v1",
+  "disclaimer": "Synthetic educational OS20 fixture. Not a medical device, not a validated ventilator, and not regulatory, clinical, or safety evidence.",
+  "package": "@acme/gas-manifold",
+  "native_document": "os20.interfaces.toml",
+  "ports": [
+    {
+      "id": "@acme/gas-manifold#iface.port-a",
+      "local_id": "port-a",
+      "kind": "core:interface/fluid/gas",
+      "direction": "bidirectional",
+      "properties": {
+        "size": "6 mm"
+      },
+      "owner_definition": "@acme/gas-manifold#GasManifold",
+      "note": "Connect by mounted occurrence and port, not by package name alone."
+    },
+    {
+      "id": "@acme/gas-manifold#iface.port-b",
+      "local_id": "port-b",
+      "kind": "core:interface/fluid/gas",
+      "direction": "bidirectional",
+      "properties": {
+        "size": "6 mm"
+      },
+      "owner_definition": "@acme/gas-manifold#GasManifold",
+      "note": "Connect by mounted occurrence and port, not by package name alone."
+    },
+    {
+      "id": "@acme/gas-manifold#iface.port-c",
+      "local_id": "port-c",
+      "kind": "core:interface/fluid/gas",
+      "direction": "bidirectional",
+      "properties": {
+        "size": "8 mm"
+      },
+      "owner_definition": "@acme/gas-manifold#GasManifold",
+      "note": "Connect by mounted occurrence and port, not by package name alone."
+    },
+    {
+      "id": "@acme/gas-manifold#iface.block-mount",
+      "local_id": "block-mount",
+      "kind": "core:interface/mechanical/bracket",
+      "direction": "input",
+      "properties": {},
+      "owner_definition": "@acme/gas-manifold#GasManifold",
+      "note": "Connect by mounted occurrence and port, not by package name alone."
+    }
+  ],
+  "sibling_references": []
+}

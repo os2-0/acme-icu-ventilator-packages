@@ -1,0 +1,33 @@
+# Synthetic educational OS20 fixture. Not a medical device, not a validated ventilator, and not regulatory, clinical, or safety evidence.
+package: @acme/gas-manifold
+kind: requirement-definition
+status: authored-unverified
+requirements:
+  - id: REQ-GAS_MANIFOLD-001
+    title: "Gas manifold identity and package boundary"
+    text: "The definition @acme/gas-manifold#GasManifold shall be published as package @acme/gas-manifold@1.0.0."
+    kind: definition
+    evidence: missing
+    verified: false
+    owner: @acme/gas-manifold#GasManifold
+  - id: REQ-GAS_MANIFOLD-002
+    title: "Gas manifold interface declaration"
+    text: "Gas manifold shall declare its ports in os20.interfaces.toml. Connection is by occurrence and port."
+    kind: definition
+    evidence: missing
+    verified: false
+    owner: @acme/gas-manifold#GasManifold
+  - id: REQ-GAS_MANIFOLD-003
+    title: "Gas manifold evidence distinction"
+    text: "Verification records in this package are procedure definitions only. They are not test results, certification, or clinical validation."
+    kind: definition
+    evidence: missing
+    verified: false
+    owner: @acme/gas-manifold#GasManifold
+  - id: REQ-GAS_MANIFOLD-004
+    title: "Gas manifold mass declaration"
+    text: "Own mass shall be authored as 0.67 kilogram with provenance synthetic-fixture."
+    kind: definition
+    evidence: missing
+    verified: false
+    owner: @acme/gas-manifold#GasManifold

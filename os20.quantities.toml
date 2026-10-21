@@ -1,0 +1,20 @@
+[[quantity]]
+id = "gas-manifold-mass"
+kind = "@os20/core#Mass"
+value = "0.67"
+unit = "kilogram"
+scope = "own"
+policy = "sum"
+owner = "@acme/gas-manifold#GasManifold"
+provenance = "authored"
+
+[[quantity]]
+id = "gas-manifold-cost"
+kind = "@os20/quantity#Cost"
+value = "61"
+unit = "USD"
+scope = "own"
+policy = "sum"
+owner = "@acme/gas-manifold#GasManifold"
+basis = "one-time"
+provenance = "authored"

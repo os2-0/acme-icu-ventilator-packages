@@ -1,0 +1,37 @@
+{
+  "schema": "os20-fixture-materials-v1",
+  "disclaimer": "Synthetic educational OS20 fixture. Not a medical device, not a validated ventilator, and not regulatory, clinical, or safety evidence.",
+  "package": "@acme/gas-manifold",
+  "definition": "@acme/gas-manifold#GasManifold",
+  "provenance": {
+    "source": "os20-ventilator-fixture-v1",
+    "kind": "synthetic-fixture",
+    "date": "2026-10-21"
+  },
+  "usage_note": "Assemblies list constituent materials. OS20 does not aggregate materials.json; mass rollup uses os20.quantities.toml by mounted occurrence.",
+  "materials": [
+    {
+      "id": "al-6061-t6-fixture",
+      "classification": "aluminum-alloy",
+      "usage": "structural-housing",
+      "density_kg_m3": 2700,
+      "notes": "Synthetic 6061-T6-like alloy used for demonstration housings.",
+      "synthetic": true,
+      "confidence": "synthetic-fixture",
+      "source": "os20-ventilator-fixture-v1",
+      "yield_mpa": 276,
+      "thermal_conductivity_w_mk": 167
+    },
+    {
+      "id": "silicone-elastomer-fixture",
+      "classification": "elastomer",
+      "usage": "seals-and-tubing",
+      "density_kg_m3": 1100,
+      "notes": "Synthetic silicone-like elastomer for demonstration seals and tubes.",
+      "synthetic": true,
+      "confidence": "synthetic-fixture",
+      "source": "os20-ventilator-fixture-v1",
+      "hardness_shore_a": 50
+    }
+  ]
+}

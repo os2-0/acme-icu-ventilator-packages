@@ -1,0 +1,43 @@
+# Native OS20 interface document for @acme/gas-manifold.
+# Synthetic educational OS20 fixture. Not a medical device, not a validated ventilator, and not regulatory, clinical, or safety evidence.
+
+[[interfaces]]
+id = "port-a"
+package = "@acme/gas-manifold"
+owner = "GasManifold"
+name = "port-a"
+kind = "core:interface/fluid/gas"
+direction = "bidirectional"
+
+[interfaces.properties]
+size = "6 mm"
+
+[[interfaces]]
+id = "port-b"
+package = "@acme/gas-manifold"
+owner = "GasManifold"
+name = "port-b"
+kind = "core:interface/fluid/gas"
+direction = "bidirectional"
+
+[interfaces.properties]
+size = "6 mm"
+
+[[interfaces]]
+id = "port-c"
+package = "@acme/gas-manifold"
+owner = "GasManifold"
+name = "port-c"
+kind = "core:interface/fluid/gas"
+direction = "bidirectional"
+
+[interfaces.properties]
+size = "8 mm"
+
+[[interfaces]]
+id = "block-mount"
+package = "@acme/gas-manifold"
+owner = "GasManifold"
+name = "block-mount"
+kind = "core:interface/mechanical/bracket"
+direction = "input"
