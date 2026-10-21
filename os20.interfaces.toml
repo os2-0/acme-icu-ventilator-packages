@@ -1,0 +1,32 @@
+# Native OS20 interface document for @acme/main-controller.
+# Synthetic educational OS20 fixture. Not a medical device, not a validated ventilator, and not regulatory, clinical, or safety evidence.
+
+[[interfaces]]
+id = "logic-power"
+package = "@acme/main-controller"
+owner = "MainController"
+name = "logic-power"
+kind = "core:interface/electrical/power"
+direction = "input"
+
+[interfaces.properties]
+voltage = "5 V"
+
+[[interfaces]]
+id = "debug"
+package = "@acme/main-controller"
+owner = "MainController"
+name = "debug"
+kind = "core:interface/electrical/signal"
+direction = "bidirectional"
+
+[interfaces.properties]
+protocol = "example-swd"
+
+[[interfaces]]
+id = "mezzanine"
+package = "@acme/main-controller"
+owner = "MainController"
+name = "mezzanine"
+kind = "core:interface/mechanical/board-to-board"
+direction = "output"
