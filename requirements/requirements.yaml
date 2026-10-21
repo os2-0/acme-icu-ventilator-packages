@@ -1,0 +1,33 @@
+# Synthetic educational OS20 fixture. Not a medical device, not a validated ventilator, and not regulatory, clinical, or safety evidence.
+package: @acme/internal-frame
+kind: requirement-definition
+status: authored-unverified
+requirements:
+  - id: REQ-INTERNAL_FRAME-001
+    title: "Internal frame identity and package boundary"
+    text: "The definition @acme/internal-frame#InternalFrame shall be published as package @acme/internal-frame@1.0.0."
+    kind: definition
+    evidence: missing
+    verified: false
+    owner: @acme/internal-frame#InternalFrame
+  - id: REQ-INTERNAL_FRAME-002
+    title: "Internal frame interface declaration"
+    text: "Internal frame shall declare its ports in os20.interfaces.toml. Connection is by occurrence and port."
+    kind: definition
+    evidence: missing
+    verified: false
+    owner: @acme/internal-frame#InternalFrame
+  - id: REQ-INTERNAL_FRAME-003
+    title: "Internal frame evidence distinction"
+    text: "Verification records in this package are procedure definitions only. They are not test results, certification, or clinical validation."
+    kind: definition
+    evidence: missing
+    verified: false
+    owner: @acme/internal-frame#InternalFrame
+  - id: REQ-INTERNAL_FRAME-004
+    title: "Internal frame mass declaration"
+    text: "Own mass shall be authored as 3.1 kilogram with provenance synthetic-fixture."
+    kind: definition
+    evidence: missing
+    verified: false
+    owner: @acme/internal-frame#InternalFrame

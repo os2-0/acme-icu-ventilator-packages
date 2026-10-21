@@ -1,0 +1,16 @@
+schema = "os20-behavior-v1"
+
+[[behavior]]
+id = "internal-frame"
+owner = "@acme/internal-frame#InternalFrame"
+artifact = "behavior/lifecycle.scxml"
+policy = "concurrent-children"
+
+[[interface]]
+id = "lifecycle"
+owner = "@acme/internal-frame#InternalFrame"
+behavior = "internal-frame"
+direction = "input"
+event = "configure"
+semantic_type = "@acme/icu-ontology#LifecycleEvent"
+provenance = "authored"

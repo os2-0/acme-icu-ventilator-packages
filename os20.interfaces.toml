@@ -1,0 +1,26 @@
+# Native OS20 interface document for @acme/internal-frame.
+# Synthetic educational OS20 fixture. Not a medical device, not a validated ventilator, and not regulatory, clinical, or safety evidence.
+
+[[interfaces]]
+id = "blower-mount"
+package = "@acme/internal-frame"
+owner = "InternalFrame"
+name = "blower-mount"
+kind = "core:interface/mechanical/bracket"
+direction = "output"
+
+[[interfaces]]
+id = "psu-mount"
+package = "@acme/internal-frame"
+owner = "InternalFrame"
+name = "psu-mount"
+kind = "core:interface/mechanical/bracket"
+direction = "output"
+
+[[interfaces]]
+id = "enclosure-bosses"
+package = "@acme/internal-frame"
+owner = "InternalFrame"
+name = "enclosure-bosses"
+kind = "core:interface/mechanical/boss"
+direction = "output"
