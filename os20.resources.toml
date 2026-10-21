@@ -1,0 +1,50 @@
+# Git resources for @acme/mounting-bracket. repository = "." is this package Git repo.
+
+[[resource]]
+id = "sysml"
+provider = "git"
+repository = "."
+revision = "8e3878e8ae2ca266030d3b75d72213f2f53fed8a"
+path = "sysml/component.sysml"
+
+[[resource]]
+id = "scxml"
+provider = "git"
+repository = "."
+revision = "8e3878e8ae2ca266030d3b75d72213f2f53fed8a"
+path = "behavior/lifecycle.scxml"
+
+[[resource]]
+id = "spec"
+provider = "git"
+repository = "."
+revision = "8e3878e8ae2ca266030d3b75d72213f2f53fed8a"
+path = "documents/technical-specification.md"
+
+[[resource]]
+id = "step"
+provider = "git"
+repository = "."
+revision = "8e3878e8ae2ca266030d3b75d72213f2f53fed8a"
+path = "cad/component.step"
+
+[[resource]]
+id = "svg-block"
+provider = "git"
+repository = "."
+revision = "8e3878e8ae2ca266030d3b75d72213f2f53fed8a"
+path = "diagrams/block.svg"
+
+[[resource]]
+id = "datasheet"
+provider = "git"
+repository = "."
+revision = "8e3878e8ae2ca266030d3b75d72213f2f53fed8a"
+path = "documents/datasheet.pdf"
+
+[[resource]]
+id = "csv"
+provider = "git"
+repository = "."
+revision = "8e3878e8ae2ca266030d3b75d72213f2f53fed8a"
+path = "data/performance.csv"
