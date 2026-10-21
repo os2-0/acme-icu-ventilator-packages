@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <scxml xmlns="http://www.w3.org/2005/07/scxml" version="1.0" initial="Stopped" name="main-controller">
-  <!-- Engineering lifecycle model for @acme/main-controller. Synthetic educational OS20 fixture. Not a medical device, not a validated ventilator, and not regulatory, clinical, or safety evidence. -->
-  <state id="Stopped">
+    <state id="Stopped">
     <transition event="boot" target="Initializing"/>
   </state>
   <state id="Initializing">
