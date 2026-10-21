@@ -1,0 +1,50 @@
+# Git resources for @acme/inspiratory-valve. repository = "." is this package Git repo.
+
+[[resource]]
+id = "sysml"
+provider = "git"
+repository = "."
+revision = "2db4eac6a00265a9dd0c99d2d4a733b0e2080250"
+path = "sysml/component.sysml"
+
+[[resource]]
+id = "scxml"
+provider = "git"
+repository = "."
+revision = "2db4eac6a00265a9dd0c99d2d4a733b0e2080250"
+path = "behavior/lifecycle.scxml"
+
+[[resource]]
+id = "spec"
+provider = "git"
+repository = "."
+revision = "2db4eac6a00265a9dd0c99d2d4a733b0e2080250"
+path = "documents/technical-specification.md"
+
+[[resource]]
+id = "step"
+provider = "git"
+repository = "."
+revision = "2db4eac6a00265a9dd0c99d2d4a733b0e2080250"
+path = "cad/component.step"
+
+[[resource]]
+id = "svg-block"
+provider = "git"
+repository = "."
+revision = "2db4eac6a00265a9dd0c99d2d4a733b0e2080250"
+path = "diagrams/block.svg"
+
+[[resource]]
+id = "datasheet"
+provider = "git"
+repository = "."
+revision = "2db4eac6a00265a9dd0c99d2d4a733b0e2080250"
+path = "documents/datasheet.pdf"
+
+[[resource]]
+id = "csv"
+provider = "git"
+repository = "."
+revision = "2db4eac6a00265a9dd0c99d2d4a733b0e2080250"
+path = "data/performance.csv"
