@@ -1,0 +1,33 @@
+# Synthetic educational OS20 fixture. Not a medical device, not a validated ventilator, and not regulatory, clinical, or safety evidence.
+package: @acme/cooling-fan
+kind: requirement-definition
+status: authored-unverified
+requirements:
+  - id: REQ-COOLING_FAN-001
+    title: "Electronics cooling fan identity and package boundary"
+    text: "The definition @acme/cooling-fan#CoolingFan shall be published as package @acme/cooling-fan@1.0.0."
+    kind: definition
+    evidence: missing
+    verified: false
+    owner: @acme/cooling-fan#CoolingFan
+  - id: REQ-COOLING_FAN-002
+    title: "Electronics cooling fan interface declaration"
+    text: "Electronics cooling fan shall declare its ports in os20.interfaces.toml. Connection is by occurrence and port."
+    kind: definition
+    evidence: missing
+    verified: false
+    owner: @acme/cooling-fan#CoolingFan
+  - id: REQ-COOLING_FAN-003
+    title: "Electronics cooling fan evidence distinction"
+    text: "Verification records in this package are procedure definitions only. They are not test results, certification, or clinical validation."
+    kind: definition
+    evidence: missing
+    verified: false
+    owner: @acme/cooling-fan#CoolingFan
+  - id: REQ-COOLING_FAN-004
+    title: "Electronics cooling fan mass declaration"
+    text: "Own mass shall be authored as 0.29 kilogram with provenance synthetic-fixture."
+    kind: definition
+    evidence: missing
+    verified: false
+    owner: @acme/cooling-fan#CoolingFan

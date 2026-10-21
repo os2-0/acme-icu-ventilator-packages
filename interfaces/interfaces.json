@@ -1,0 +1,47 @@
+{
+  "schema": "os20-fixture-interfaces-v1",
+  "disclaimer": "Synthetic educational OS20 fixture. Not a medical device, not a validated ventilator, and not regulatory, clinical, or safety evidence.",
+  "package": "@acme/cooling-fan",
+  "native_document": "os20.interfaces.toml",
+  "ports": [
+    {
+      "id": "@acme/cooling-fan#iface.air-in",
+      "local_id": "air-in",
+      "kind": "core:interface/fluid/gas",
+      "direction": "input",
+      "properties": {},
+      "owner_definition": "@acme/cooling-fan#CoolingFan",
+      "note": "Connect by mounted occurrence and port, not by package name alone."
+    },
+    {
+      "id": "@acme/cooling-fan#iface.air-out",
+      "local_id": "air-out",
+      "kind": "core:interface/fluid/gas",
+      "direction": "output",
+      "properties": {},
+      "owner_definition": "@acme/cooling-fan#CoolingFan",
+      "note": "Connect by mounted occurrence and port, not by package name alone."
+    },
+    {
+      "id": "@acme/cooling-fan#iface.fan-power",
+      "local_id": "fan-power",
+      "kind": "core:interface/electrical/power",
+      "direction": "input",
+      "properties": {
+        "voltage": "12 V"
+      },
+      "owner_definition": "@acme/cooling-fan#CoolingFan",
+      "note": "Connect by mounted occurrence and port, not by package name alone."
+    },
+    {
+      "id": "@acme/cooling-fan#iface.frame-mount",
+      "local_id": "frame-mount",
+      "kind": "core:interface/mechanical/flange",
+      "direction": "input",
+      "properties": {},
+      "owner_definition": "@acme/cooling-fan#CoolingFan",
+      "note": "Connect by mounted occurrence and port, not by package name alone."
+    }
+  ],
+  "sibling_references": []
+}
