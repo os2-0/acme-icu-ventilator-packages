@@ -1,0 +1,61 @@
+[namespaces]
+acme = "@acme/icu-ontology#"
+os20 = "@os20/core#"
+
+[[definition]]
+id = "@acme/gas-delivery#GasDelivery"
+
+[[definition]]
+id = "@acme/blower-assembly#BlowerAssembly"
+package = "@acme/blower-assembly"
+version = "1.0.0"
+
+[[definition]]
+id = "@acme/oxygen-mixer#OxygenMixer"
+package = "@acme/oxygen-mixer"
+version = "1.0.0"
+
+[[definition]]
+id = "@acme/air-inlet-filter#AirInletFilter"
+package = "@acme/air-inlet-filter"
+version = "1.0.0"
+
+[[occurrence]]
+id = "@acme/gas-delivery#occ.blower-assembly"
+role = "blower-assembly"
+predicate = "os20:HasPart"
+
+[occurrence.definition]
+id = "@acme/blower-assembly#BlowerAssembly"
+package = "@acme/blower-assembly"
+version = "1.0.0"
+
+[[occurrence]]
+id = "@acme/gas-delivery#occ.oxygen-mixer"
+role = "oxygen-mixer"
+predicate = "os20:HasPart"
+
+[occurrence.definition]
+id = "@acme/oxygen-mixer#OxygenMixer"
+package = "@acme/oxygen-mixer"
+version = "1.0.0"
+
+[[occurrence]]
+id = "@acme/gas-delivery#occ.air-inlet-filter"
+role = "air-inlet-filter"
+predicate = "os20:HasPart"
+
+[occurrence.definition]
+id = "@acme/air-inlet-filter#AirInletFilter"
+package = "@acme/air-inlet-filter"
+version = "1.0.0"
+
+[[reference]]
+from = "@acme/gas-delivery#occ.air-inlet-filter"
+to = "@acme/gas-delivery#occ.blower-assembly"
+predicate = "acme:connectedTo"
+
+[[reference]]
+from = "@acme/gas-delivery#occ.blower-assembly"
+to = "@acme/gas-delivery#occ.oxygen-mixer"
+predicate = "acme:connectedTo"

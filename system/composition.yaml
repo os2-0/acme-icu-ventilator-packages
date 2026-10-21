@@ -1,0 +1,18 @@
+# Companion view of os20.occurrences.toml for @acme/gas-delivery. OS20 does not read this file.
+root: @acme/gas-delivery#occ-tree
+children:
+  - role: blower-assembly
+    occurrence: @acme/gas-delivery#occ.blower-assembly
+    definition: @acme/blower-assembly#BlowerAssembly
+    package: @acme/blower-assembly@1.0.0
+    predicate: os20:HasPart
+  - role: oxygen-mixer
+    occurrence: @acme/gas-delivery#occ.oxygen-mixer
+    definition: @acme/oxygen-mixer#OxygenMixer
+    package: @acme/oxygen-mixer@1.0.0
+    predicate: os20:HasPart
+  - role: air-inlet-filter
+    occurrence: @acme/gas-delivery#occ.air-inlet-filter
+    definition: @acme/air-inlet-filter#AirInletFilter
+    package: @acme/air-inlet-filter@1.0.0
+    predicate: os20:HasPart

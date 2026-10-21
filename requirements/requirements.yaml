@@ -1,0 +1,33 @@
+# Synthetic educational OS20 fixture. Not a medical device, not a validated ventilator, and not regulatory, clinical, or safety evidence.
+package: @acme/gas-delivery
+kind: requirement-definition
+status: authored-unverified
+requirements:
+  - id: REQ-GAS_DELIVERY-001
+    title: "Gas delivery subsystem identity and package boundary"
+    text: "The definition @acme/gas-delivery#GasDelivery shall be published as package @acme/gas-delivery@1.0.0."
+    kind: definition
+    evidence: missing
+    verified: false
+    owner: @acme/gas-delivery#GasDelivery
+  - id: REQ-GAS_DELIVERY-002
+    title: "Gas delivery subsystem interface declaration"
+    text: "Gas delivery subsystem shall declare its ports in os20.interfaces.toml. Connection is by occurrence and port."
+    kind: definition
+    evidence: missing
+    verified: false
+    owner: @acme/gas-delivery#GasDelivery
+  - id: REQ-GAS_DELIVERY-003
+    title: "Gas delivery subsystem evidence distinction"
+    text: "Verification records in this package are procedure definitions only. They are not test results, certification, or clinical validation."
+    kind: definition
+    evidence: missing
+    verified: false
+    owner: @acme/gas-delivery#GasDelivery
+  - id: REQ-GAS_DELIVERY-004
+    title: "Gas delivery subsystem mass rollup"
+    text: "Composite mass shall be derived from structural child occurrences. Duplicate package dependencies shall not be counted twice."
+    kind: definition
+    evidence: missing
+    verified: false
+    owner: @acme/gas-delivery#GasDelivery

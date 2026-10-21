@@ -1,0 +1,56 @@
+# Native OS20 interface document for @acme/gas-delivery.
+# Synthetic educational OS20 fixture. Not a medical device, not a validated ventilator, and not regulatory, clinical, or safety evidence.
+
+[[interfaces]]
+id = "ambient-air-in"
+package = "@acme/gas-delivery"
+owner = "GasDelivery"
+name = "ambient-air-in"
+kind = "core:interface/fluid/gas"
+direction = "input"
+
+[interfaces.properties]
+medium = "air"
+
+[[interfaces]]
+id = "oxygen-in"
+package = "@acme/gas-delivery"
+owner = "GasDelivery"
+name = "oxygen-in"
+kind = "core:interface/fluid/gas"
+direction = "input"
+
+[interfaces.properties]
+medium = "oxygen"
+pressure = "example 2.8 bar fixture"
+
+[[interfaces]]
+id = "mixed-gas-out"
+package = "@acme/gas-delivery"
+owner = "GasDelivery"
+name = "mixed-gas-out"
+kind = "core:interface/fluid/gas"
+direction = "output"
+
+[[interfaces]]
+id = "blower-power"
+package = "@acme/gas-delivery"
+owner = "GasDelivery"
+name = "blower-power"
+kind = "core:interface/electrical/power"
+direction = "input"
+
+[interfaces.properties]
+voltage = "48 V"
+
+[[connections]]
+from = "AirInletFilter.inlet"
+to = "BlowerAssembly.shaft"
+relation = "core:connectedTo"
+required = true
+
+[[connections]]
+from = "BlowerAssembly.shaft"
+to = "OxygenMixer.o2-in"
+relation = "core:connectedTo"
+required = true

@@ -1,0 +1,65 @@
+{
+  "schema": "os20-fixture-interfaces-v1",
+  "disclaimer": "Synthetic educational OS20 fixture. Not a medical device, not a validated ventilator, and not regulatory, clinical, or safety evidence.",
+  "package": "@acme/gas-delivery",
+  "native_document": "os20.interfaces.toml",
+  "ports": [
+    {
+      "id": "@acme/gas-delivery#iface.ambient-air-in",
+      "local_id": "ambient-air-in",
+      "kind": "core:interface/fluid/gas",
+      "direction": "input",
+      "properties": {
+        "medium": "air"
+      },
+      "owner_definition": "@acme/gas-delivery#GasDelivery",
+      "note": "Connect by mounted occurrence and port, not by package name alone."
+    },
+    {
+      "id": "@acme/gas-delivery#iface.oxygen-in",
+      "local_id": "oxygen-in",
+      "kind": "core:interface/fluid/gas",
+      "direction": "input",
+      "properties": {
+        "medium": "oxygen",
+        "pressure": "example 2.8 bar fixture"
+      },
+      "owner_definition": "@acme/gas-delivery#GasDelivery",
+      "note": "Connect by mounted occurrence and port, not by package name alone."
+    },
+    {
+      "id": "@acme/gas-delivery#iface.mixed-gas-out",
+      "local_id": "mixed-gas-out",
+      "kind": "core:interface/fluid/gas",
+      "direction": "output",
+      "properties": {},
+      "owner_definition": "@acme/gas-delivery#GasDelivery",
+      "note": "Connect by mounted occurrence and port, not by package name alone."
+    },
+    {
+      "id": "@acme/gas-delivery#iface.blower-power",
+      "local_id": "blower-power",
+      "kind": "core:interface/electrical/power",
+      "direction": "input",
+      "properties": {
+        "voltage": "48 V"
+      },
+      "owner_definition": "@acme/gas-delivery#GasDelivery",
+      "note": "Connect by mounted occurrence and port, not by package name alone."
+    }
+  ],
+  "sibling_references": [
+    {
+      "from": "@acme/gas-delivery#occ.air-inlet-filter",
+      "to": "@acme/gas-delivery#occ.blower-assembly",
+      "predicate": "acme:connectedTo",
+      "native": "os20.occurrences.toml [[reference]]"
+    },
+    {
+      "from": "@acme/gas-delivery#occ.blower-assembly",
+      "to": "@acme/gas-delivery#occ.oxygen-mixer",
+      "predicate": "acme:connectedTo",
+      "native": "os20.occurrences.toml [[reference]]"
+    }
+  ]
+}

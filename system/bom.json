@@ -1,0 +1,37 @@
+{
+  "schema": "os20-fixture-bom-v1",
+  "disclaimer": "Synthetic educational OS20 fixture. Not a medical device, not a validated ventilator, and not regulatory, clinical, or safety evidence.",
+  "package": "@acme/gas-delivery",
+  "items": [
+    {
+      "occurrence": "@acme/gas-delivery#occ.blower-assembly",
+      "role": "blower-assembly",
+      "package": "@acme/blower-assembly",
+      "version": "1.0.0",
+      "definition": "@acme/blower-assembly#BlowerAssembly",
+      "qty": 1,
+      "mass_kg_own": null,
+      "note": "Occurrence count, not dependency-graph count"
+    },
+    {
+      "occurrence": "@acme/gas-delivery#occ.oxygen-mixer",
+      "role": "oxygen-mixer",
+      "package": "@acme/oxygen-mixer",
+      "version": "1.0.0",
+      "definition": "@acme/oxygen-mixer#OxygenMixer",
+      "qty": 1,
+      "mass_kg_own": null,
+      "note": "Occurrence count, not dependency-graph count"
+    },
+    {
+      "occurrence": "@acme/gas-delivery#occ.air-inlet-filter",
+      "role": "air-inlet-filter",
+      "package": "@acme/air-inlet-filter",
+      "version": "1.0.0",
+      "definition": "@acme/air-inlet-filter#AirInletFilter",
+      "qty": 1,
+      "mass_kg_own": 0.18,
+      "note": "Occurrence count, not dependency-graph count"
+    }
+  ]
+}

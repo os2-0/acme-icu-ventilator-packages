@@ -1,0 +1,10 @@
+# Companion view of [[reference]] / [[connections]] for @acme/gas-delivery. OS20 does not read this file.
+connections:
+  - from_occurrence: @acme/gas-delivery#occ.air-inlet-filter
+    to_occurrence: @acme/gas-delivery#occ.blower-assembly
+    predicate: acme:connectedTo
+    note: specific mounted occurrence, not package name
+  - from_occurrence: @acme/gas-delivery#occ.blower-assembly
+    to_occurrence: @acme/gas-delivery#occ.oxygen-mixer
+    predicate: acme:connectedTo
+    note: specific mounted occurrence, not package name
