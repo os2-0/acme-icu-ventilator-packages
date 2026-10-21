@@ -1,0 +1,50 @@
+# Git resources for @acme/impeller. repository = "." is this package Git repo.
+
+[[resource]]
+id = "sysml"
+provider = "git"
+repository = "."
+revision = "2e5e8e835b7d87193918adca2e532b84c0766d5a"
+path = "sysml/component.sysml"
+
+[[resource]]
+id = "scxml"
+provider = "git"
+repository = "."
+revision = "2e5e8e835b7d87193918adca2e532b84c0766d5a"
+path = "behavior/lifecycle.scxml"
+
+[[resource]]
+id = "spec"
+provider = "git"
+repository = "."
+revision = "2e5e8e835b7d87193918adca2e532b84c0766d5a"
+path = "documents/technical-specification.md"
+
+[[resource]]
+id = "step"
+provider = "git"
+repository = "."
+revision = "2e5e8e835b7d87193918adca2e532b84c0766d5a"
+path = "cad/component.step"
+
+[[resource]]
+id = "svg-block"
+provider = "git"
+repository = "."
+revision = "2e5e8e835b7d87193918adca2e532b84c0766d5a"
+path = "diagrams/block.svg"
+
+[[resource]]
+id = "datasheet"
+provider = "git"
+repository = "."
+revision = "2e5e8e835b7d87193918adca2e532b84c0766d5a"
+path = "documents/datasheet.pdf"
+
+[[resource]]
+id = "csv"
+provider = "git"
+repository = "."
+revision = "2e5e8e835b7d87193918adca2e532b84c0766d5a"
+path = "data/performance.csv"
