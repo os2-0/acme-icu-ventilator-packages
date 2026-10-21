@@ -1,0 +1,37 @@
+# Native OS20 interface document for @acme/brushless-motor.
+# Synthetic educational OS20 fixture. Not a medical device, not a validated ventilator, and not regulatory, clinical, or safety evidence.
+
+[[interfaces]]
+id = "shaft"
+package = "@acme/brushless-motor"
+owner = "BrushlessMotor"
+name = "shaft"
+kind = "core:interface/mechanical/shaft"
+direction = "output"
+
+[interfaces.properties]
+diameter = "8 mm"
+torque-available = "1.2 N·m example"
+
+[[interfaces]]
+id = "phase-leads"
+package = "@acme/brushless-motor"
+owner = "BrushlessMotor"
+name = "phase-leads"
+kind = "core:interface/electrical/power"
+direction = "input"
+
+[interfaces.properties]
+voltage = "48 V"
+poles = "8"
+
+[[interfaces]]
+id = "housing-mount"
+package = "@acme/brushless-motor"
+owner = "BrushlessMotor"
+name = "housing-mount"
+kind = "core:interface/mechanical/flange"
+direction = "input"
+
+[interfaces.properties]
+pattern = "4x M4"

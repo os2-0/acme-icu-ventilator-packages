@@ -1,0 +1,20 @@
+[[quantity]]
+id = "brushless-motor-mass"
+kind = "@os20/core#Mass"
+value = "1.85"
+unit = "kilogram"
+scope = "own"
+policy = "sum"
+owner = "@acme/brushless-motor#BrushlessMotor"
+provenance = "authored"
+
+[[quantity]]
+id = "brushless-motor-cost"
+kind = "@os20/quantity#Cost"
+value = "186"
+unit = "USD"
+scope = "own"
+policy = "sum"
+owner = "@acme/brushless-motor#BrushlessMotor"
+basis = "one-time"
+provenance = "authored"

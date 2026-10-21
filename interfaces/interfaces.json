@@ -1,0 +1,44 @@
+{
+  "schema": "os20-fixture-interfaces-v1",
+  "disclaimer": "Synthetic educational OS20 fixture. Not a medical device, not a validated ventilator, and not regulatory, clinical, or safety evidence.",
+  "package": "@acme/brushless-motor",
+  "native_document": "os20.interfaces.toml",
+  "ports": [
+    {
+      "id": "@acme/brushless-motor#iface.shaft",
+      "local_id": "shaft",
+      "kind": "core:interface/mechanical/shaft",
+      "direction": "output",
+      "properties": {
+        "diameter": "8 mm",
+        "torque-available": "1.2 N·m example"
+      },
+      "owner_definition": "@acme/brushless-motor#BrushlessMotor",
+      "note": "Connect by mounted occurrence and port, not by package name alone."
+    },
+    {
+      "id": "@acme/brushless-motor#iface.phase-leads",
+      "local_id": "phase-leads",
+      "kind": "core:interface/electrical/power",
+      "direction": "input",
+      "properties": {
+        "voltage": "48 V",
+        "poles": "8"
+      },
+      "owner_definition": "@acme/brushless-motor#BrushlessMotor",
+      "note": "Connect by mounted occurrence and port, not by package name alone."
+    },
+    {
+      "id": "@acme/brushless-motor#iface.housing-mount",
+      "local_id": "housing-mount",
+      "kind": "core:interface/mechanical/flange",
+      "direction": "input",
+      "properties": {
+        "pattern": "4x M4"
+      },
+      "owner_definition": "@acme/brushless-motor#BrushlessMotor",
+      "note": "Connect by mounted occurrence and port, not by package name alone."
+    }
+  ],
+  "sibling_references": []
+}

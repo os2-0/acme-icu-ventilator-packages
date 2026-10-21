@@ -1,0 +1,4 @@
+quantity,value,unit,status,provenance
+mass,1.85,kilogram,synthetic,synthetic-fixture
+cost,186,USD,synthetic,synthetic-fixture
+example_speed,18000,revolution-per-minute,synthetic,synthetic-fixture
