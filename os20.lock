@@ -1,0 +1,44 @@
+format = 1
+
+[[package]]
+name = "@acme/emergency-power-monitor"
+version = "1.0.0"
+source = "registry"
+repository = "https://github.com/os2-0/acme-icu-ventilator-packages"
+commit = "d7a833a3741811130d050c6b8044f9dc4ab607a9"
+tree = "b1dcde549bbd4db11f39e50e04893bdc72c02759"
+manifest_digest = "sha256:cafa5e231ee8c2862852dff45c4f17bf6d37442e0c24b29a141bf415fdb7efab"
+dependencies = ["@acme/icu-ontology@1.0.0"]
+ontologies = ["@acme/icu-ontology@1.0.0"]
+
+[[package]]
+name = "@acme/icu-ontology"
+version = "1.0.0"
+source = "registry"
+repository = "https://github.com/os2-0/acme-icu-ventilator-packages"
+commit = "5898c295243ba16ece4b5203b6eb1beddab7d308"
+tree = "63f8da6f1cee8092931777b5e6936420529e7aa3"
+manifest_digest = "sha256:bdaac3d2756b9c5797a9909252e7134cb7b1c785285c6db97536ee176f317d00"
+dependencies = []
+
+[[package]]
+name = "@acme/pressure-relief-assembly"
+version = "1.0.0"
+source = "registry"
+repository = "https://github.com/os2-0/acme-icu-ventilator-packages"
+commit = "e70bb52bab413671e6f295edacf5ca20776ea988"
+tree = "e9d874c03ab49701c5bf7d9cf5bdf7e4f0b3d1d5"
+manifest_digest = "sha256:917b5187d60eb4a37114b7652d96930a3f08364af50aca6d69b773ad5b16aefd"
+dependencies = ["@acme/icu-ontology@1.0.0"]
+ontologies = ["@acme/icu-ontology@1.0.0"]
+
+[[package]]
+name = "@acme/safety-monitor"
+version = "1.0.0"
+source = "registry"
+repository = "https://github.com/os2-0/acme-icu-ventilator-packages"
+commit = "566d434a1b33f15d26ba7f37c76294f69b29f6d9"
+tree = "3327e665511bf6bd6ab876e411960315ebaf532a"
+manifest_digest = "sha256:9d093a17720a8ec51c4b7f5f08cd326e39a9a60147840ea8bffcdb30416406fa"
+dependencies = ["@acme/icu-ontology@1.0.0"]
+ontologies = ["@acme/icu-ontology@1.0.0"]

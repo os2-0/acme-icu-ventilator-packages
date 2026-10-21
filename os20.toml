@@ -8,7 +8,7 @@ description = "Safety subsystem (demonstration). Synthetic educational OS20 fixt
 acme = "@acme/icu-ontology@1.0.0"
 
 [dependencies]
-"@acme/icu-ontology" = { path = "../icu-ontology" }
-"@acme/pressure-relief-assembly" = { path = "../pressure-relief-assembly" }
-"@acme/safety-monitor" = { path = "../safety-monitor" }
-"@acme/emergency-power-monitor" = { path = "../emergency-power-monitor" }
+"@acme/emergency-power-monitor" = "@acme/emergency-power-monitor@^1.0"
+"@acme/icu-ontology" = "@acme/icu-ontology@^1.0"
+"@acme/pressure-relief-assembly" = "@acme/pressure-relief-assembly@^1.0"
+"@acme/safety-monitor" = "@acme/safety-monitor@^1.0"
