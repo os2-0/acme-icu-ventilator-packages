@@ -8,8 +8,8 @@ description = "Blower assembly. Synthetic educational OS20 fixture. Not a medica
 acme = "@acme/icu-ontology@1.0.0"
 
 [dependencies]
-"@acme/icu-ontology" = { path = "../icu-ontology" }
-"@acme/brushless-motor" = { path = "../brushless-motor" }
-"@acme/impeller" = { path = "../impeller" }
-"@acme/motor-driver" = { path = "../motor-driver" }
-"@acme/blower-housing" = { path = "../blower-housing" }
+"@acme/blower-housing" = "@acme/blower-housing@^1.0"
+"@acme/brushless-motor" = "@acme/brushless-motor@^1.0"
+"@acme/icu-ontology" = "@acme/icu-ontology@^1.0"
+"@acme/impeller" = "@acme/impeller@^1.0"
+"@acme/motor-driver" = "@acme/motor-driver@^1.0"

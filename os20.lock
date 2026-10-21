@@ -1,0 +1,55 @@
+format = 1
+
+[[package]]
+name = "@acme/blower-housing"
+version = "1.0.0"
+source = "registry"
+repository = "https://github.com/os2-0/acme-icu-ventilator-packages"
+commit = "c1f05ef50f3f962b44df56b46cc4c9910890f9b4"
+tree = "a9cb6c4a13019e141033317ff63432fda8d5eb28"
+manifest_digest = "sha256:a7629e5158b4aaa1c2cd388865b95538f26cc9fce4694f1453ca4a0c645e64ed"
+dependencies = ["@acme/icu-ontology@1.0.0"]
+ontologies = ["@acme/icu-ontology@1.0.0"]
+
+[[package]]
+name = "@acme/brushless-motor"
+version = "1.0.0"
+source = "registry"
+repository = "https://github.com/os2-0/acme-icu-ventilator-packages"
+commit = "35147a6a09f3ca9553bf30fc60adef01dc14c71e"
+tree = "cbd013895894c4f602769122fd36cae0652e536a"
+manifest_digest = "sha256:f0606080efc0997142cb6ec3f3a125b5a5651328b75c22cb88eb00f262eabe64"
+dependencies = ["@acme/icu-ontology@1.0.0"]
+ontologies = ["@acme/icu-ontology@1.0.0"]
+
+[[package]]
+name = "@acme/icu-ontology"
+version = "1.0.0"
+source = "registry"
+repository = "https://github.com/os2-0/acme-icu-ventilator-packages"
+commit = "5898c295243ba16ece4b5203b6eb1beddab7d308"
+tree = "63f8da6f1cee8092931777b5e6936420529e7aa3"
+manifest_digest = "sha256:bdaac3d2756b9c5797a9909252e7134cb7b1c785285c6db97536ee176f317d00"
+dependencies = []
+
+[[package]]
+name = "@acme/impeller"
+version = "1.0.0"
+source = "registry"
+repository = "https://github.com/os2-0/acme-icu-ventilator-packages"
+commit = "f021e7107025a57ac92acffd0afc1303f5b6bfb1"
+tree = "b3138f9b5e0e3d2b9c16d8ebde05c85384542d71"
+manifest_digest = "sha256:38302650b85d01732608b6e21908cacbcf9cfe4dd73c4ae58681d720d93bef76"
+dependencies = ["@acme/icu-ontology@1.0.0"]
+ontologies = ["@acme/icu-ontology@1.0.0"]
+
+[[package]]
+name = "@acme/motor-driver"
+version = "1.0.0"
+source = "registry"
+repository = "https://github.com/os2-0/acme-icu-ventilator-packages"
+commit = "3670a62697399bf22227c8e8f9bae0bb9de6f27f"
+tree = "a0e03c4061e92992f38a1d3d0a6adcec9959aff5"
+manifest_digest = "sha256:bf0d551019f325af79b00381c770a5eede189cf0f161e93a1244a2252999780e"
+dependencies = ["@acme/icu-ontology@1.0.0"]
+ontologies = ["@acme/icu-ontology@1.0.0"]
