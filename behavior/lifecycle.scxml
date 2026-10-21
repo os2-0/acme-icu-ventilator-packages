@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <scxml xmlns="http://www.w3.org/2005/07/scxml" version="1.0" initial="Initialization" name="flow-sensor">
-  <!-- Engineering lifecycle model for @acme/flow-sensor. Synthetic educational OS20 fixture. Not a medical device, not a validated ventilator, and not regulatory, clinical, or safety evidence. -->
-  <state id="Initialization">
+    <state id="Initialization">
     <transition event="ready" target="Available"/>
     <transition event="fault" target="Fault"/>
   </state>
