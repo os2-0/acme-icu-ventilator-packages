@@ -1,37 +1,33 @@
 [[quantity]]
-id = "safety-system-mass-@acme/safety-system"
+id = "safety-system-mass-package"
 kind = "@os20/core#Mass"
 scope = "own"
 policy = "derive-from-children"
 owner = "@acme/safety-system"
-
 provenance = "authored"
 
 [[quantity]]
-id = "safety-system-cost-@acme/safety-system"
+id = "safety-system-cost-package"
 kind = "@os20/quantity#Cost"
 scope = "own"
 policy = "derive-from-children"
 owner = "@acme/safety-system"
 basis = "one-time"
-
 provenance = "authored"
 
 [[quantity]]
-id = "safety-system-mass-safetysystem"
+id = "safety-system-mass-definition"
 kind = "@os20/core#Mass"
 scope = "own"
 policy = "derive-from-children"
 owner = "@acme/safety-system#SafetySystem"
-
 provenance = "authored"
 
 [[quantity]]
-id = "safety-system-cost-safetysystem"
+id = "safety-system-cost-definition"
 kind = "@os20/quantity#Cost"
 scope = "own"
 policy = "derive-from-children"
 owner = "@acme/safety-system#SafetySystem"
 basis = "one-time"
-
 provenance = "authored"
