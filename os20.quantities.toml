@@ -1,0 +1,20 @@
+[[quantity]]
+id = "buzzer-mass"
+kind = "@os20/core#Mass"
+value = "0.03"
+unit = "kilogram"
+scope = "own"
+policy = "sum"
+owner = "@acme/buzzer#Buzzer"
+provenance = "authored"
+
+[[quantity]]
+id = "buzzer-cost"
+kind = "@os20/quantity#Cost"
+value = "6"
+unit = "USD"
+scope = "own"
+policy = "sum"
+owner = "@acme/buzzer#Buzzer"
+basis = "one-time"
+provenance = "authored"

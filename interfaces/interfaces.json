@@ -1,0 +1,27 @@
+{
+  "schema": "os20-fixture-interfaces-v1",
+  "disclaimer": "Synthetic educational OS20 fixture. Not a medical device, not a validated ventilator, and not regulatory, clinical, or safety evidence.",
+  "package": "@acme/buzzer",
+  "native_document": "os20.interfaces.toml",
+  "ports": [
+    {
+      "id": "@acme/buzzer#iface.drive",
+      "local_id": "drive",
+      "kind": "core:interface/electrical/signal",
+      "direction": "input",
+      "properties": {},
+      "owner_definition": "@acme/buzzer#Buzzer",
+      "note": "Connect by mounted occurrence and port, not by package name alone."
+    },
+    {
+      "id": "@acme/buzzer#iface.panel-mount",
+      "local_id": "panel-mount",
+      "kind": "core:interface/mechanical/panel",
+      "direction": "input",
+      "properties": {},
+      "owner_definition": "@acme/buzzer#Buzzer",
+      "note": "Connect by mounted occurrence and port, not by package name alone."
+    }
+  ],
+  "sibling_references": []
+}
