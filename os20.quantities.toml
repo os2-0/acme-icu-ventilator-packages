@@ -1,37 +1,33 @@
 [[quantity]]
-id = "oxygen-mixer-mass-@acme/oxygen-mixer"
+id = "oxygen-mixer-mass-package"
 kind = "@os20/core#Mass"
 scope = "own"
 policy = "derive-from-children"
 owner = "@acme/oxygen-mixer"
-
 provenance = "authored"
 
 [[quantity]]
-id = "oxygen-mixer-cost-@acme/oxygen-mixer"
+id = "oxygen-mixer-cost-package"
 kind = "@os20/quantity#Cost"
 scope = "own"
 policy = "derive-from-children"
 owner = "@acme/oxygen-mixer"
 basis = "one-time"
-
 provenance = "authored"
 
 [[quantity]]
-id = "oxygen-mixer-mass-oxygenmixer"
+id = "oxygen-mixer-mass-definition"
 kind = "@os20/core#Mass"
 scope = "own"
 policy = "derive-from-children"
 owner = "@acme/oxygen-mixer#OxygenMixer"
-
 provenance = "authored"
 
 [[quantity]]
-id = "oxygen-mixer-cost-oxygenmixer"
+id = "oxygen-mixer-cost-definition"
 kind = "@os20/quantity#Cost"
 scope = "own"
 policy = "derive-from-children"
 owner = "@acme/oxygen-mixer#OxygenMixer"
 basis = "one-time"
-
 provenance = "authored"

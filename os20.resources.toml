@@ -1,0 +1,78 @@
+# Git resources for @acme/oxygen-mixer. repository = "." is this package Git repo.
+
+[[resource]]
+id = "sysml"
+provider = "git"
+repository = "."
+revision = "691d21971339e8cd59c7b1509e40f8f43b24f51b"
+path = "sysml/component.sysml"
+
+[[resource]]
+id = "scxml"
+provider = "git"
+repository = "."
+revision = "691d21971339e8cd59c7b1509e40f8f43b24f51b"
+path = "behavior/lifecycle.scxml"
+
+[[resource]]
+id = "spec"
+provider = "git"
+repository = "."
+revision = "691d21971339e8cd59c7b1509e40f8f43b24f51b"
+path = "documents/technical-specification.md"
+
+[[resource]]
+id = "step"
+provider = "git"
+repository = "."
+revision = "691d21971339e8cd59c7b1509e40f8f43b24f51b"
+path = "cad/component.step"
+
+[[resource]]
+id = "svg-block"
+provider = "git"
+repository = "."
+revision = "691d21971339e8cd59c7b1509e40f8f43b24f51b"
+path = "diagrams/block.svg"
+
+[[resource]]
+id = "datasheet"
+provider = "git"
+repository = "."
+revision = "691d21971339e8cd59c7b1509e40f8f43b24f51b"
+path = "documents/datasheet.pdf"
+
+[[resource]]
+id = "csv"
+provider = "git"
+repository = "."
+revision = "691d21971339e8cd59c7b1509e40f8f43b24f51b"
+path = "data/performance.csv"
+
+[[resource]]
+id = "architecture"
+provider = "git"
+repository = "."
+revision = "691d21971339e8cd59c7b1509e40f8f43b24f51b"
+path = "system/architecture.sysml"
+
+[[resource]]
+id = "bom"
+provider = "git"
+repository = "."
+revision = "691d21971339e8cd59c7b1509e40f8f43b24f51b"
+path = "system/bom.json"
+
+[[resource]]
+id = "svg-pneumatic"
+provider = "git"
+repository = "."
+revision = "691d21971339e8cd59c7b1509e40f8f43b24f51b"
+path = "diagrams/pneumatic.svg"
+
+[[resource]]
+id = "svg-electrical"
+provider = "git"
+repository = "."
+revision = "691d21971339e8cd59c7b1509e40f8f43b24f51b"
+path = "diagrams/electrical.svg"
