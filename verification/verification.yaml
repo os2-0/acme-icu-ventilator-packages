@@ -1,0 +1,25 @@
+# Synthetic educational OS20 fixture. Not a medical device, not a validated ventilator, and not regulatory, clinical, or safety evidence.
+package: @acme/motor-driver
+kind: verification-procedure-definition
+results_present: false
+certified: false
+clinically_validated: false
+procedures:
+  - id: VER-MOTOR_DRIVER-001
+    verifies: REQ-MOTOR_DRIVER-001
+    title: "Inspect package identity against os20.toml"
+    method: inspection
+    result: not-executed
+    evidence: missing
+  - id: VER-MOTOR_DRIVER-002
+    verifies: REQ-MOTOR_DRIVER-002
+    title: "Inspect os20.interfaces.toml well-formedness"
+    method: inspection
+    result: not-executed
+    evidence: missing
+  - id: VER-MOTOR_DRIVER-003
+    verifies: REQ-MOTOR_DRIVER-003
+    title: "Confirm verification records are unmarked as certified"
+    method: inspection
+    result: not-executed
+    evidence: missing

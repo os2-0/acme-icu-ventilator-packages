@@ -1,0 +1,48 @@
+{
+  "schema": "os20-fixture-materials-v1",
+  "disclaimer": "Synthetic educational OS20 fixture. Not a medical device, not a validated ventilator, and not regulatory, clinical, or safety evidence.",
+  "package": "@acme/motor-driver",
+  "definition": "@acme/motor-driver#MotorDriver",
+  "provenance": {
+    "source": "os20-ventilator-fixture-v1",
+    "kind": "synthetic-fixture",
+    "date": "2026-10-21"
+  },
+  "usage_note": "Assemblies list constituent materials. OS20 does not aggregate materials.json; mass rollup uses os20.quantities.toml by mounted occurrence.",
+  "materials": [
+    {
+      "id": "fr4-laminate-fixture",
+      "classification": "glass-epoxy-laminate",
+      "usage": "printed-circuit-board",
+      "density_kg_m3": 1850,
+      "notes": "Synthetic FR-4-like laminate for demonstration circuit boards.",
+      "synthetic": true,
+      "confidence": "synthetic-fixture",
+      "source": "os20-ventilator-fixture-v1",
+      "tg_c": 130
+    },
+    {
+      "id": "copper-winding-fixture",
+      "classification": "copper",
+      "usage": "electrical-conductors",
+      "density_kg_m3": 8960,
+      "notes": "Synthetic copper for demonstration windings and traces.",
+      "synthetic": true,
+      "confidence": "synthetic-fixture",
+      "source": "os20-ventilator-fixture-v1",
+      "conductivity_ms_m": 58
+    },
+    {
+      "id": "al-6061-t6-fixture",
+      "classification": "aluminum-alloy",
+      "usage": "structural-housing",
+      "density_kg_m3": 2700,
+      "notes": "Synthetic 6061-T6-like alloy used for demonstration housings.",
+      "synthetic": true,
+      "confidence": "synthetic-fixture",
+      "source": "os20-ventilator-fixture-v1",
+      "yield_mpa": 276,
+      "thermal_conductivity_w_mk": 167
+    }
+  ]
+}

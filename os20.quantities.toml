@@ -1,0 +1,20 @@
+[[quantity]]
+id = "motor-driver-mass"
+kind = "@os20/core#Mass"
+value = "0.31"
+unit = "kilogram"
+scope = "own"
+policy = "sum"
+owner = "@acme/motor-driver#MotorDriver"
+provenance = "authored"
+
+[[quantity]]
+id = "motor-driver-cost"
+kind = "@os20/quantity#Cost"
+value = "88"
+unit = "USD"
+scope = "own"
+policy = "sum"
+owner = "@acme/motor-driver#MotorDriver"
+basis = "one-time"
+provenance = "authored"

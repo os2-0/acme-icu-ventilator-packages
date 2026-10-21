@@ -1,0 +1,33 @@
+# Synthetic educational OS20 fixture. Not a medical device, not a validated ventilator, and not regulatory, clinical, or safety evidence.
+package: @acme/motor-driver
+kind: requirement-definition
+status: authored-unverified
+requirements:
+  - id: REQ-MOTOR_DRIVER-001
+    title: "Three-phase motor driver identity and package boundary"
+    text: "The definition @acme/motor-driver#MotorDriver shall be published as package @acme/motor-driver@1.0.0."
+    kind: definition
+    evidence: missing
+    verified: false
+    owner: @acme/motor-driver#MotorDriver
+  - id: REQ-MOTOR_DRIVER-002
+    title: "Three-phase motor driver interface declaration"
+    text: "Three-phase motor driver shall declare its ports in os20.interfaces.toml. Connection is by occurrence and port."
+    kind: definition
+    evidence: missing
+    verified: false
+    owner: @acme/motor-driver#MotorDriver
+  - id: REQ-MOTOR_DRIVER-003
+    title: "Three-phase motor driver evidence distinction"
+    text: "Verification records in this package are procedure definitions only. They are not test results, certification, or clinical validation."
+    kind: definition
+    evidence: missing
+    verified: false
+    owner: @acme/motor-driver#MotorDriver
+  - id: REQ-MOTOR_DRIVER-004
+    title: "Three-phase motor driver mass declaration"
+    text: "Own mass shall be authored as 0.31 kilogram with provenance synthetic-fixture."
+    kind: definition
+    evidence: missing
+    verified: false
+    owner: @acme/motor-driver#MotorDriver

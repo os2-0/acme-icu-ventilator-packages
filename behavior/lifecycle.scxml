@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scxml xmlns="http://www.w3.org/2005/07/scxml" version="1.0" initial="Initialization" name="motor-driver">
+  <!-- Engineering lifecycle model for @acme/motor-driver. Synthetic educational OS20 fixture. Not a medical device, not a validated ventilator, and not regulatory, clinical, or safety evidence. -->
+  <state id="Initialization">
+    <transition event="ready" target="Ready"/>
+    <transition event="fault" target="Fault"/>
+  </state>
+  <state id="Ready">
+    <transition event="enable" target="Active"/>
+    <transition event="fault" target="Fault"/>
+  </state>
+  <state id="Active">
+    <transition event="disable" target="Ready"/>
+    <transition event="fault" target="Fault"/>
+  </state>
+  <state id="Fault">
+    <transition event="reset" target="Initialization"/>
+  </state>
+</scxml>

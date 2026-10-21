@@ -1,0 +1,62 @@
+{
+  "schema": "os20-fixture-interfaces-v1",
+  "disclaimer": "Synthetic educational OS20 fixture. Not a medical device, not a validated ventilator, and not regulatory, clinical, or safety evidence.",
+  "package": "@acme/motor-driver",
+  "native_document": "os20.interfaces.toml",
+  "ports": [
+    {
+      "id": "@acme/motor-driver#iface.dc-in",
+      "local_id": "dc-in",
+      "kind": "core:interface/electrical/power",
+      "direction": "input",
+      "properties": {
+        "voltage": "48 V"
+      },
+      "owner_definition": "@acme/motor-driver#MotorDriver",
+      "note": "Connect by mounted occurrence and port, not by package name alone."
+    },
+    {
+      "id": "@acme/motor-driver#iface.phase-out",
+      "local_id": "phase-out",
+      "kind": "core:interface/electrical/power",
+      "direction": "output",
+      "properties": {
+        "phases": "3"
+      },
+      "owner_definition": "@acme/motor-driver#MotorDriver",
+      "note": "Connect by mounted occurrence and port, not by package name alone."
+    },
+    {
+      "id": "@acme/motor-driver#iface.command",
+      "local_id": "command",
+      "kind": "core:interface/electrical/signal",
+      "direction": "input",
+      "properties": {
+        "protocol": "example-pwm"
+      },
+      "owner_definition": "@acme/motor-driver#MotorDriver",
+      "note": "Connect by mounted occurrence and port, not by package name alone."
+    },
+    {
+      "id": "@acme/motor-driver#iface.telemetry",
+      "local_id": "telemetry",
+      "kind": "core:interface/electrical/signal",
+      "direction": "output",
+      "properties": {
+        "protocol": "example-uart"
+      },
+      "owner_definition": "@acme/motor-driver#MotorDriver",
+      "note": "Connect by mounted occurrence and port, not by package name alone."
+    },
+    {
+      "id": "@acme/motor-driver#iface.heat-sink",
+      "local_id": "heat-sink",
+      "kind": "core:interface/thermal/plate",
+      "direction": "output",
+      "properties": {},
+      "owner_definition": "@acme/motor-driver#MotorDriver",
+      "note": "Connect by mounted occurrence and port, not by package name alone."
+    }
+  ],
+  "sibling_references": []
+}

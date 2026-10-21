@@ -1,0 +1,54 @@
+# Native OS20 interface document for @acme/motor-driver.
+# Synthetic educational OS20 fixture. Not a medical device, not a validated ventilator, and not regulatory, clinical, or safety evidence.
+
+[[interfaces]]
+id = "dc-in"
+package = "@acme/motor-driver"
+owner = "MotorDriver"
+name = "dc-in"
+kind = "core:interface/electrical/power"
+direction = "input"
+
+[interfaces.properties]
+voltage = "48 V"
+
+[[interfaces]]
+id = "phase-out"
+package = "@acme/motor-driver"
+owner = "MotorDriver"
+name = "phase-out"
+kind = "core:interface/electrical/power"
+direction = "output"
+
+[interfaces.properties]
+phases = "3"
+
+[[interfaces]]
+id = "command"
+package = "@acme/motor-driver"
+owner = "MotorDriver"
+name = "command"
+kind = "core:interface/electrical/signal"
+direction = "input"
+
+[interfaces.properties]
+protocol = "example-pwm"
+
+[[interfaces]]
+id = "telemetry"
+package = "@acme/motor-driver"
+owner = "MotorDriver"
+name = "telemetry"
+kind = "core:interface/electrical/signal"
+direction = "output"
+
+[interfaces.properties]
+protocol = "example-uart"
+
+[[interfaces]]
+id = "heat-sink"
+package = "@acme/motor-driver"
+owner = "MotorDriver"
+name = "heat-sink"
+kind = "core:interface/thermal/plate"
+direction = "output"
