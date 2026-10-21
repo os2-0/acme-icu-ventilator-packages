@@ -1,0 +1,53 @@
+{
+  "schema": "os20-fixture-interfaces-v1",
+  "disclaimer": "Synthetic educational OS20 fixture. Not a medical device, not a validated ventilator, and not regulatory, clinical, or safety evidence.",
+  "package": "@acme/power-distribution-board",
+  "native_document": "os20.interfaces.toml",
+  "ports": [
+    {
+      "id": "@acme/power-distribution-board#iface.48-in",
+      "local_id": "48-in",
+      "kind": "core:interface/electrical/power",
+      "direction": "input",
+      "properties": {
+        "voltage": "48 V"
+      },
+      "owner_definition": "@acme/power-distribution-board#PowerDistributionBoard",
+      "note": "Connect by mounted occurrence and port, not by package name alone."
+    },
+    {
+      "id": "@acme/power-distribution-board#iface.48-out",
+      "local_id": "48-out",
+      "kind": "core:interface/electrical/power",
+      "direction": "output",
+      "properties": {
+        "voltage": "48 V"
+      },
+      "owner_definition": "@acme/power-distribution-board#PowerDistributionBoard",
+      "note": "Connect by mounted occurrence and port, not by package name alone."
+    },
+    {
+      "id": "@acme/power-distribution-board#iface.24-out",
+      "local_id": "24-out",
+      "kind": "core:interface/electrical/power",
+      "direction": "output",
+      "properties": {
+        "voltage": "24 V"
+      },
+      "owner_definition": "@acme/power-distribution-board#PowerDistributionBoard",
+      "note": "Connect by mounted occurrence and port, not by package name alone."
+    },
+    {
+      "id": "@acme/power-distribution-board#iface.5-out",
+      "local_id": "5-out",
+      "kind": "core:interface/electrical/power",
+      "direction": "output",
+      "properties": {
+        "voltage": "5 V"
+      },
+      "owner_definition": "@acme/power-distribution-board#PowerDistributionBoard",
+      "note": "Connect by mounted occurrence and port, not by package name alone."
+    }
+  ],
+  "sibling_references": []
+}

@@ -1,0 +1,46 @@
+# Native OS20 interface document for @acme/power-distribution-board.
+# Synthetic educational OS20 fixture. Not a medical device, not a validated ventilator, and not regulatory, clinical, or safety evidence.
+
+[[interfaces]]
+id = "48-in"
+package = "@acme/power-distribution-board"
+owner = "PowerDistributionBoard"
+name = "48-in"
+kind = "core:interface/electrical/power"
+direction = "input"
+
+[interfaces.properties]
+voltage = "48 V"
+
+[[interfaces]]
+id = "48-out"
+package = "@acme/power-distribution-board"
+owner = "PowerDistributionBoard"
+name = "48-out"
+kind = "core:interface/electrical/power"
+direction = "output"
+
+[interfaces.properties]
+voltage = "48 V"
+
+[[interfaces]]
+id = "24-out"
+package = "@acme/power-distribution-board"
+owner = "PowerDistributionBoard"
+name = "24-out"
+kind = "core:interface/electrical/power"
+direction = "output"
+
+[interfaces.properties]
+voltage = "24 V"
+
+[[interfaces]]
+id = "5-out"
+package = "@acme/power-distribution-board"
+owner = "PowerDistributionBoard"
+name = "5-out"
+kind = "core:interface/electrical/power"
+direction = "output"
+
+[interfaces.properties]
+voltage = "5 V"
