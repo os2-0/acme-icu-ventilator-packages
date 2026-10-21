@@ -1,0 +1,20 @@
+[[quantity]]
+id = "expiratory-valve-mass"
+kind = "@os20/core#Mass"
+value = "0.24"
+unit = "kilogram"
+scope = "own"
+policy = "sum"
+owner = "@acme/expiratory-valve#ExpiratoryValve"
+provenance = "authored"
+
+[[quantity]]
+id = "expiratory-valve-cost"
+kind = "@os20/quantity#Cost"
+value = "69"
+unit = "USD"
+scope = "own"
+policy = "sum"
+owner = "@acme/expiratory-valve#ExpiratoryValve"
+basis = "one-time"
+provenance = "authored"

@@ -1,0 +1,38 @@
+{
+  "schema": "os20-fixture-interfaces-v1",
+  "disclaimer": "Synthetic educational OS20 fixture. Not a medical device, not a validated ventilator, and not regulatory, clinical, or safety evidence.",
+  "package": "@acme/expiratory-valve",
+  "native_document": "os20.interfaces.toml",
+  "ports": [
+    {
+      "id": "@acme/expiratory-valve#iface.inlet",
+      "local_id": "inlet",
+      "kind": "core:interface/fluid/gas",
+      "direction": "input",
+      "properties": {},
+      "owner_definition": "@acme/expiratory-valve#ExpiratoryValve",
+      "note": "Connect by mounted occurrence and port, not by package name alone."
+    },
+    {
+      "id": "@acme/expiratory-valve#iface.outlet",
+      "local_id": "outlet",
+      "kind": "core:interface/fluid/gas",
+      "direction": "output",
+      "properties": {},
+      "owner_definition": "@acme/expiratory-valve#ExpiratoryValve",
+      "note": "Connect by mounted occurrence and port, not by package name alone."
+    },
+    {
+      "id": "@acme/expiratory-valve#iface.actuator",
+      "local_id": "actuator",
+      "kind": "core:interface/electrical/power",
+      "direction": "input",
+      "properties": {
+        "voltage": "24 V"
+      },
+      "owner_definition": "@acme/expiratory-valve#ExpiratoryValve",
+      "note": "Connect by mounted occurrence and port, not by package name alone."
+    }
+  ],
+  "sibling_references": []
+}

@@ -1,0 +1,33 @@
+# Synthetic educational OS20 fixture. Not a medical device, not a validated ventilator, and not regulatory, clinical, or safety evidence.
+package: @acme/expiratory-valve
+kind: requirement-definition
+status: authored-unverified
+requirements:
+  - id: REQ-EXPIRATORY_VALVE-001
+    title: "Expiratory valve identity and package boundary"
+    text: "The definition @acme/expiratory-valve#ExpiratoryValve shall be published as package @acme/expiratory-valve@1.0.0."
+    kind: definition
+    evidence: missing
+    verified: false
+    owner: @acme/expiratory-valve#ExpiratoryValve
+  - id: REQ-EXPIRATORY_VALVE-002
+    title: "Expiratory valve interface declaration"
+    text: "Expiratory valve shall declare its ports in os20.interfaces.toml. Connection is by occurrence and port."
+    kind: definition
+    evidence: missing
+    verified: false
+    owner: @acme/expiratory-valve#ExpiratoryValve
+  - id: REQ-EXPIRATORY_VALVE-003
+    title: "Expiratory valve evidence distinction"
+    text: "Verification records in this package are procedure definitions only. They are not test results, certification, or clinical validation."
+    kind: definition
+    evidence: missing
+    verified: false
+    owner: @acme/expiratory-valve#ExpiratoryValve
+  - id: REQ-EXPIRATORY_VALVE-004
+    title: "Expiratory valve mass declaration"
+    text: "Own mass shall be authored as 0.24 kilogram with provenance synthetic-fixture."
+    kind: definition
+    evidence: missing
+    verified: false
+    owner: @acme/expiratory-valve#ExpiratoryValve
