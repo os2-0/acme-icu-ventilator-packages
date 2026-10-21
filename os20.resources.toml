@@ -1,0 +1,50 @@
+# Git resources for @acme/sensor-interface-board. repository = "." is this package Git repo.
+
+[[resource]]
+id = "sysml"
+provider = "git"
+repository = "."
+revision = "e725b63afc59fdcbee53f98ea254e4021f8aaecc"
+path = "sysml/component.sysml"
+
+[[resource]]
+id = "scxml"
+provider = "git"
+repository = "."
+revision = "e725b63afc59fdcbee53f98ea254e4021f8aaecc"
+path = "behavior/lifecycle.scxml"
+
+[[resource]]
+id = "spec"
+provider = "git"
+repository = "."
+revision = "e725b63afc59fdcbee53f98ea254e4021f8aaecc"
+path = "documents/technical-specification.md"
+
+[[resource]]
+id = "step"
+provider = "git"
+repository = "."
+revision = "e725b63afc59fdcbee53f98ea254e4021f8aaecc"
+path = "cad/component.step"
+
+[[resource]]
+id = "svg-block"
+provider = "git"
+repository = "."
+revision = "e725b63afc59fdcbee53f98ea254e4021f8aaecc"
+path = "diagrams/block.svg"
+
+[[resource]]
+id = "datasheet"
+provider = "git"
+repository = "."
+revision = "e725b63afc59fdcbee53f98ea254e4021f8aaecc"
+path = "documents/datasheet.pdf"
+
+[[resource]]
+id = "csv"
+provider = "git"
+repository = "."
+revision = "e725b63afc59fdcbee53f98ea254e4021f8aaecc"
+path = "data/performance.csv"
