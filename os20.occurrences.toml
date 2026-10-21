@@ -1,0 +1,81 @@
+[namespaces]
+acme = "@acme/icu-ontology#"
+os20 = "@os20/core#"
+
+[[definition]]
+id = "@acme/user-interface#UserInterface"
+
+[[definition]]
+id = "@acme/touch-display#TouchDisplay"
+package = "@acme/touch-display"
+version = "1.0.0"
+
+[[definition]]
+id = "@acme/operator-controls#OperatorControls"
+package = "@acme/operator-controls"
+version = "1.0.0"
+
+[[definition]]
+id = "@acme/alarm-indicator#AlarmIndicator"
+package = "@acme/alarm-indicator"
+version = "1.0.0"
+
+[[definition]]
+id = "@acme/buzzer#Buzzer"
+package = "@acme/buzzer"
+version = "1.0.0"
+
+[[occurrence]]
+id = "@acme/user-interface#occ.touch-display"
+role = "touch-display"
+predicate = "os20:HasPart"
+
+[occurrence.definition]
+id = "@acme/touch-display#TouchDisplay"
+package = "@acme/touch-display"
+version = "1.0.0"
+
+[[occurrence]]
+id = "@acme/user-interface#occ.operator-controls"
+role = "operator-controls"
+predicate = "os20:HasPart"
+
+[occurrence.definition]
+id = "@acme/operator-controls#OperatorControls"
+package = "@acme/operator-controls"
+version = "1.0.0"
+
+[[occurrence]]
+id = "@acme/user-interface#occ.alarm-indicator"
+role = "alarm-indicator"
+predicate = "os20:HasPart"
+
+[occurrence.definition]
+id = "@acme/alarm-indicator#AlarmIndicator"
+package = "@acme/alarm-indicator"
+version = "1.0.0"
+
+[[occurrence]]
+id = "@acme/user-interface#occ.buzzer"
+role = "buzzer"
+predicate = "os20:HasPart"
+
+[occurrence.definition]
+id = "@acme/buzzer#Buzzer"
+package = "@acme/buzzer"
+version = "1.0.0"
+
+[[reference]]
+from = "@acme/user-interface#occ.touch-display"
+to = "@acme/user-interface#occ.operator-controls"
+predicate = "acme:connectedTo"
+
+[[reference]]
+from = "@acme/user-interface#occ.operator-controls"
+to = "@acme/user-interface#occ.alarm-indicator"
+predicate = "acme:connectedTo"
+
+[[reference]]
+from = "@acme/user-interface#occ.operator-controls"
+to = "@acme/user-interface#occ.buzzer"
+predicate = "acme:connectedTo"

@@ -1,0 +1,14 @@
+# Companion view of [[reference]] / [[connections]] for @acme/user-interface. OS20 does not read this file.
+connections:
+  - from_occurrence: @acme/user-interface#occ.touch-display
+    to_occurrence: @acme/user-interface#occ.operator-controls
+    predicate: acme:connectedTo
+    note: specific mounted occurrence, not package name
+  - from_occurrence: @acme/user-interface#occ.operator-controls
+    to_occurrence: @acme/user-interface#occ.alarm-indicator
+    predicate: acme:connectedTo
+    note: specific mounted occurrence, not package name
+  - from_occurrence: @acme/user-interface#occ.operator-controls
+    to_occurrence: @acme/user-interface#occ.buzzer
+    predicate: acme:connectedTo
+    note: specific mounted occurrence, not package name

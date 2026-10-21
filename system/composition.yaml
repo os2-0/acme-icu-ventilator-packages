@@ -1,0 +1,23 @@
+# Companion view of os20.occurrences.toml for @acme/user-interface. OS20 does not read this file.
+root: @acme/user-interface#occ-tree
+children:
+  - role: touch-display
+    occurrence: @acme/user-interface#occ.touch-display
+    definition: @acme/touch-display#TouchDisplay
+    package: @acme/touch-display@1.0.0
+    predicate: os20:HasPart
+  - role: operator-controls
+    occurrence: @acme/user-interface#occ.operator-controls
+    definition: @acme/operator-controls#OperatorControls
+    package: @acme/operator-controls@1.0.0
+    predicate: os20:HasPart
+  - role: alarm-indicator
+    occurrence: @acme/user-interface#occ.alarm-indicator
+    definition: @acme/alarm-indicator#AlarmIndicator
+    package: @acme/alarm-indicator@1.0.0
+    predicate: os20:HasPart
+  - role: buzzer
+    occurrence: @acme/user-interface#occ.buzzer
+    definition: @acme/buzzer#Buzzer
+    package: @acme/buzzer@1.0.0
+    predicate: os20:HasPart

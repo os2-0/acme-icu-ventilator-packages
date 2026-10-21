@@ -1,0 +1,15 @@
+[package]
+name = "@acme/user-interface"
+version = "1.0.0"
+edition = "2026"
+description = "User interface subsystem. Synthetic educational OS20 fixture. Not a medical device, not a validated ventilator, and not regulatory, clinical, or safety evidence."
+
+[ontology]
+acme = "@acme/icu-ontology@1.0.0"
+
+[dependencies]
+"@acme/icu-ontology" = { path = "../icu-ontology" }
+"@acme/touch-display" = { path = "../touch-display" }
+"@acme/operator-controls" = { path = "../operator-controls" }
+"@acme/alarm-indicator" = { path = "../alarm-indicator" }
+"@acme/buzzer" = { path = "../buzzer" }

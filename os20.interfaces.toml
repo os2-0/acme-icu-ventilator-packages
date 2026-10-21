@@ -1,0 +1,47 @@
+# Native OS20 interface document for @acme/user-interface.
+# Synthetic educational OS20 fixture. Not a medical device, not a validated ventilator, and not regulatory, clinical, or safety evidence.
+
+[[interfaces]]
+id = "ui-link"
+package = "@acme/user-interface"
+owner = "UserInterface"
+name = "ui-link"
+kind = "core:interface/electrical/signal"
+direction = "bidirectional"
+
+[[interfaces]]
+id = "panel-power"
+package = "@acme/user-interface"
+owner = "UserInterface"
+name = "panel-power"
+kind = "core:interface/electrical/power"
+direction = "input"
+
+[interfaces.properties]
+voltage = "12 V"
+
+[[interfaces]]
+id = "front-panel"
+package = "@acme/user-interface"
+owner = "UserInterface"
+name = "front-panel"
+kind = "core:interface/mechanical/panel"
+direction = "input"
+
+[[connections]]
+from = "TouchDisplay.lvds"
+to = "OperatorControls.keys"
+relation = "core:connectedTo"
+required = true
+
+[[connections]]
+from = "OperatorControls.keys"
+to = "AlarmIndicator.leds"
+relation = "core:connectedTo"
+required = true
+
+[[connections]]
+from = "OperatorControls.keys"
+to = "Buzzer.drive"
+relation = "core:connectedTo"
+required = true

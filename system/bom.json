@@ -1,0 +1,47 @@
+{
+  "schema": "os20-fixture-bom-v1",
+  "disclaimer": "Synthetic educational OS20 fixture. Not a medical device, not a validated ventilator, and not regulatory, clinical, or safety evidence.",
+  "package": "@acme/user-interface",
+  "items": [
+    {
+      "occurrence": "@acme/user-interface#occ.touch-display",
+      "role": "touch-display",
+      "package": "@acme/touch-display",
+      "version": "1.0.0",
+      "definition": "@acme/touch-display#TouchDisplay",
+      "qty": 1,
+      "mass_kg_own": 0.48,
+      "note": "Occurrence count, not dependency-graph count"
+    },
+    {
+      "occurrence": "@acme/user-interface#occ.operator-controls",
+      "role": "operator-controls",
+      "package": "@acme/operator-controls",
+      "version": "1.0.0",
+      "definition": "@acme/operator-controls#OperatorControls",
+      "qty": 1,
+      "mass_kg_own": 0.17,
+      "note": "Occurrence count, not dependency-graph count"
+    },
+    {
+      "occurrence": "@acme/user-interface#occ.alarm-indicator",
+      "role": "alarm-indicator",
+      "package": "@acme/alarm-indicator",
+      "version": "1.0.0",
+      "definition": "@acme/alarm-indicator#AlarmIndicator",
+      "qty": 1,
+      "mass_kg_own": 0.04,
+      "note": "Occurrence count, not dependency-graph count"
+    },
+    {
+      "occurrence": "@acme/user-interface#occ.buzzer",
+      "role": "buzzer",
+      "package": "@acme/buzzer",
+      "version": "1.0.0",
+      "definition": "@acme/buzzer#Buzzer",
+      "qty": 1,
+      "mass_kg_own": 0.03,
+      "note": "Occurrence count, not dependency-graph count"
+    }
+  ]
+}

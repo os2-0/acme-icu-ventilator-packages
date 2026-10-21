@@ -1,0 +1,57 @@
+{
+  "schema": "os20-fixture-interfaces-v1",
+  "disclaimer": "Synthetic educational OS20 fixture. Not a medical device, not a validated ventilator, and not regulatory, clinical, or safety evidence.",
+  "package": "@acme/user-interface",
+  "native_document": "os20.interfaces.toml",
+  "ports": [
+    {
+      "id": "@acme/user-interface#iface.ui-link",
+      "local_id": "ui-link",
+      "kind": "core:interface/electrical/signal",
+      "direction": "bidirectional",
+      "properties": {},
+      "owner_definition": "@acme/user-interface#UserInterface",
+      "note": "Connect by mounted occurrence and port, not by package name alone."
+    },
+    {
+      "id": "@acme/user-interface#iface.panel-power",
+      "local_id": "panel-power",
+      "kind": "core:interface/electrical/power",
+      "direction": "input",
+      "properties": {
+        "voltage": "12 V"
+      },
+      "owner_definition": "@acme/user-interface#UserInterface",
+      "note": "Connect by mounted occurrence and port, not by package name alone."
+    },
+    {
+      "id": "@acme/user-interface#iface.front-panel",
+      "local_id": "front-panel",
+      "kind": "core:interface/mechanical/panel",
+      "direction": "input",
+      "properties": {},
+      "owner_definition": "@acme/user-interface#UserInterface",
+      "note": "Connect by mounted occurrence and port, not by package name alone."
+    }
+  ],
+  "sibling_references": [
+    {
+      "from": "@acme/user-interface#occ.touch-display",
+      "to": "@acme/user-interface#occ.operator-controls",
+      "predicate": "acme:connectedTo",
+      "native": "os20.occurrences.toml [[reference]]"
+    },
+    {
+      "from": "@acme/user-interface#occ.operator-controls",
+      "to": "@acme/user-interface#occ.alarm-indicator",
+      "predicate": "acme:connectedTo",
+      "native": "os20.occurrences.toml [[reference]]"
+    },
+    {
+      "from": "@acme/user-interface#occ.operator-controls",
+      "to": "@acme/user-interface#occ.buzzer",
+      "predicate": "acme:connectedTo",
+      "native": "os20.occurrences.toml [[reference]]"
+    }
+  ]
+}
