@@ -1,0 +1,30 @@
+{
+  "schema": "os20-fixture-properties-v1",
+  "disclaimer": "Synthetic educational OS20 fixture. Not a medical device, not a validated ventilator, and not regulatory, clinical, or safety evidence.",
+  "package": "@acme/icu-ontology",
+  "properties": [
+    {
+      "id": "@acme/icu-ontology#prop.identity",
+      "kind": "identity",
+      "value": "@acme/icu-ontology",
+      "unit": null,
+      "quantity_type": null,
+      "status": "authored",
+      "provenance": "synthetic-fixture",
+      "applicability": "this-definition",
+      "owner": "@acme/icu-ontology#IcuOntology"
+    },
+    {
+      "id": "@acme/icu-ontology#prop.mass",
+      "kind": "@os20/core#Mass",
+      "value": null,
+      "unit": "kilogram",
+      "quantity_type": "mass",
+      "status": "unresolved-derive-from-children",
+      "provenance": "synthetic-fixture",
+      "applicability": "composite; value comes from child occurrences",
+      "owner": "@acme/icu-ontology#IcuOntology",
+      "aggregatable": true
+    }
+  ]
+}

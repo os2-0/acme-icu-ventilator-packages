@@ -1,0 +1,5 @@
+[package]
+name = "@acme/icu-ontology"
+version = "1.0.0"
+edition = "2026"
+description = "ICU ventilator demonstration ontology. Synthetic educational OS20 fixture. Not a medical device, not a validated ventilator, and not regulatory, clinical, or safety evidence."

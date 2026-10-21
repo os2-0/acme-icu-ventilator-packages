@@ -1,0 +1,26 @@
+# Synthetic educational OS20 fixture. Not a medical device, not a validated ventilator, and not regulatory, clinical, or safety evidence.
+package: @acme/icu-ontology
+kind: requirement-definition
+status: authored-unverified
+requirements:
+  - id: REQ-ICU_ONTOLOGY-001
+    title: "ICU ventilator demonstration ontology identity and package boundary"
+    text: "The definition @acme/icu-ontology#IcuOntology shall be published as package @acme/icu-ontology@1.0.0."
+    kind: definition
+    evidence: missing
+    verified: false
+    owner: @acme/icu-ontology#IcuOntology
+  - id: REQ-ICU_ONTOLOGY-002
+    title: "ICU ventilator demonstration ontology interface declaration"
+    text: "ICU ventilator demonstration ontology shall declare its ports in os20.interfaces.toml. Connection is by occurrence and port."
+    kind: definition
+    evidence: missing
+    verified: false
+    owner: @acme/icu-ontology#IcuOntology
+  - id: REQ-ICU_ONTOLOGY-003
+    title: "ICU ventilator demonstration ontology evidence distinction"
+    text: "Verification records in this package are procedure definitions only. They are not test results, certification, or clinical validation."
+    kind: definition
+    evidence: missing
+    verified: false
+    owner: @acme/icu-ontology#IcuOntology

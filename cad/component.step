@@ -1,0 +1,15 @@
+ISO-10303-21;
+HEADER;
+FILE_DESCRIPTION(('OS20 synthetic educational geometry for @acme/icu-ontology'),'2;1');
+FILE_NAME('icu-ontology.step','2026-10-21T00:00:00',('synthetic-fixture'),('OS20 educational example'),'OS20 ventilator-os20','','');
+FILE_SCHEMA(('AUTOMOTIVE_DESIGN'));
+ENDSEC;
+DATA;
+#1=APPLICATION_CONTEXT('automotive design');
+#2=CARTESIAN_POINT('origin',(0.0,0.0,0.0));
+#3=DIRECTION('z',(0.0,0.0,1.0));
+#4=DIRECTION('x',(1.0,0.0,0.0));
+#5=AXIS2_PLACEMENT_3D('icu-ontology-placement',#2,#3,#4);
+#6=BLOCK('icu-ontology-envelope',#5,10.0,10.0,10.0);
+ENDSEC;
+END-ISO-10303-21;
