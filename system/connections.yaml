@@ -1,0 +1,14 @@
+# Companion view of [[reference]] / [[connections]] for @acme/control-system. OS20 does not read this file.
+connections:
+  - from_occurrence: @acme/control-system#occ.control-software
+    to_occurrence: @acme/control-system#occ.main-controller
+    predicate: acme:connectedTo
+    note: specific mounted occurrence, not package name
+  - from_occurrence: @acme/control-system#occ.watchdog-module
+    to_occurrence: @acme/control-system#occ.main-controller
+    predicate: acme:connectedTo
+    note: specific mounted occurrence, not package name
+  - from_occurrence: @acme/control-system#occ.communication-module
+    to_occurrence: @acme/control-system#occ.main-controller
+    predicate: acme:connectedTo
+    note: specific mounted occurrence, not package name

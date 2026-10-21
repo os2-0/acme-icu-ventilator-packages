@@ -1,0 +1,47 @@
+{
+  "schema": "os20-fixture-bom-v1",
+  "disclaimer": "Synthetic educational OS20 fixture. Not a medical device, not a validated ventilator, and not regulatory, clinical, or safety evidence.",
+  "package": "@acme/control-system",
+  "items": [
+    {
+      "occurrence": "@acme/control-system#occ.main-controller",
+      "role": "main-controller",
+      "package": "@acme/main-controller",
+      "version": "1.0.0",
+      "definition": "@acme/main-controller#MainController",
+      "qty": 1,
+      "mass_kg_own": 0.34,
+      "note": "Occurrence count, not dependency-graph count"
+    },
+    {
+      "occurrence": "@acme/control-system#occ.control-software",
+      "role": "control-software",
+      "package": "@acme/control-software",
+      "version": "1.0.0",
+      "definition": "@acme/control-software#ControlSoftware",
+      "qty": 1,
+      "mass_kg_own": 0.02,
+      "note": "Occurrence count, not dependency-graph count"
+    },
+    {
+      "occurrence": "@acme/control-system#occ.watchdog-module",
+      "role": "watchdog-module",
+      "package": "@acme/watchdog-module",
+      "version": "1.0.0",
+      "definition": "@acme/watchdog-module#WatchdogModule",
+      "qty": 1,
+      "mass_kg_own": 0.07,
+      "note": "Occurrence count, not dependency-graph count"
+    },
+    {
+      "occurrence": "@acme/control-system#occ.communication-module",
+      "role": "communication-module",
+      "package": "@acme/communication-module",
+      "version": "1.0.0",
+      "definition": "@acme/communication-module#CommunicationModule",
+      "qty": 1,
+      "mass_kg_own": 0.12,
+      "note": "Occurrence count, not dependency-graph count"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+# Companion view of os20.occurrences.toml for @acme/control-system. OS20 does not read this file.
+root: @acme/control-system#occ-tree
+children:
+  - role: main-controller
+    occurrence: @acme/control-system#occ.main-controller
+    definition: @acme/main-controller#MainController
+    package: @acme/main-controller@1.0.0
+    predicate: os20:HasPart
+  - role: control-software
+    occurrence: @acme/control-system#occ.control-software
+    definition: @acme/control-software#ControlSoftware
+    package: @acme/control-software@1.0.0
+    predicate: os20:HasPart
+  - role: watchdog-module
+    occurrence: @acme/control-system#occ.watchdog-module
+    definition: @acme/watchdog-module#WatchdogModule
+    package: @acme/watchdog-module@1.0.0
+    predicate: os20:HasPart
+  - role: communication-module
+    occurrence: @acme/control-system#occ.communication-module
+    definition: @acme/communication-module#CommunicationModule
+    package: @acme/communication-module@1.0.0
+    predicate: os20:HasPart

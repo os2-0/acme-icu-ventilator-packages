@@ -1,0 +1,81 @@
+[namespaces]
+acme = "@acme/icu-ontology#"
+os20 = "@os20/core#"
+
+[[definition]]
+id = "@acme/control-system#ControlSystem"
+
+[[definition]]
+id = "@acme/main-controller#MainController"
+package = "@acme/main-controller"
+version = "1.0.0"
+
+[[definition]]
+id = "@acme/control-software#ControlSoftware"
+package = "@acme/control-software"
+version = "1.0.0"
+
+[[definition]]
+id = "@acme/watchdog-module#WatchdogModule"
+package = "@acme/watchdog-module"
+version = "1.0.0"
+
+[[definition]]
+id = "@acme/communication-module#CommunicationModule"
+package = "@acme/communication-module"
+version = "1.0.0"
+
+[[occurrence]]
+id = "@acme/control-system#occ.main-controller"
+role = "main-controller"
+predicate = "os20:HasPart"
+
+[occurrence.definition]
+id = "@acme/main-controller#MainController"
+package = "@acme/main-controller"
+version = "1.0.0"
+
+[[occurrence]]
+id = "@acme/control-system#occ.control-software"
+role = "control-software"
+predicate = "os20:HasPart"
+
+[occurrence.definition]
+id = "@acme/control-software#ControlSoftware"
+package = "@acme/control-software"
+version = "1.0.0"
+
+[[occurrence]]
+id = "@acme/control-system#occ.watchdog-module"
+role = "watchdog-module"
+predicate = "os20:HasPart"
+
+[occurrence.definition]
+id = "@acme/watchdog-module#WatchdogModule"
+package = "@acme/watchdog-module"
+version = "1.0.0"
+
+[[occurrence]]
+id = "@acme/control-system#occ.communication-module"
+role = "communication-module"
+predicate = "os20:HasPart"
+
+[occurrence.definition]
+id = "@acme/communication-module#CommunicationModule"
+package = "@acme/communication-module"
+version = "1.0.0"
+
+[[reference]]
+from = "@acme/control-system#occ.control-software"
+to = "@acme/control-system#occ.main-controller"
+predicate = "acme:connectedTo"
+
+[[reference]]
+from = "@acme/control-system#occ.watchdog-module"
+to = "@acme/control-system#occ.main-controller"
+predicate = "acme:connectedTo"
+
+[[reference]]
+from = "@acme/control-system#occ.communication-module"
+to = "@acme/control-system#occ.main-controller"
+predicate = "acme:connectedTo"

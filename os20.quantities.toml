@@ -1,0 +1,37 @@
+[[quantity]]
+id = "control-system-mass-@acme/control-system"
+kind = "@os20/core#Mass"
+scope = "own"
+policy = "derive-from-children"
+owner = "@acme/control-system"
+
+provenance = "authored"
+
+[[quantity]]
+id = "control-system-cost-@acme/control-system"
+kind = "@os20/quantity#Cost"
+scope = "own"
+policy = "derive-from-children"
+owner = "@acme/control-system"
+basis = "one-time"
+
+provenance = "authored"
+
+[[quantity]]
+id = "control-system-mass-controlsystem"
+kind = "@os20/core#Mass"
+scope = "own"
+policy = "derive-from-children"
+owner = "@acme/control-system#ControlSystem"
+
+provenance = "authored"
+
+[[quantity]]
+id = "control-system-cost-controlsystem"
+kind = "@os20/quantity#Cost"
+scope = "own"
+policy = "derive-from-children"
+owner = "@acme/control-system#ControlSystem"
+basis = "one-time"
+
+provenance = "authored"

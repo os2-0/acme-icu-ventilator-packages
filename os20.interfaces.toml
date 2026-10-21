@@ -1,0 +1,55 @@
+# Native OS20 interface document for @acme/control-system.
+# Synthetic educational OS20 fixture. Not a medical device, not a validated ventilator, and not regulatory, clinical, or safety evidence.
+
+[[interfaces]]
+id = "logic-power"
+package = "@acme/control-system"
+owner = "ControlSystem"
+name = "logic-power"
+kind = "core:interface/electrical/power"
+direction = "input"
+
+[interfaces.properties]
+voltage = "5 V"
+
+[[interfaces]]
+id = "sensor-bus"
+package = "@acme/control-system"
+owner = "ControlSystem"
+name = "sensor-bus"
+kind = "core:interface/electrical/signal"
+direction = "input"
+
+[[interfaces]]
+id = "actuator-bus"
+package = "@acme/control-system"
+owner = "ControlSystem"
+name = "actuator-bus"
+kind = "core:interface/electrical/signal"
+direction = "output"
+
+[[interfaces]]
+id = "ui-link"
+package = "@acme/control-system"
+owner = "ControlSystem"
+name = "ui-link"
+kind = "core:interface/electrical/signal"
+direction = "bidirectional"
+
+[[connections]]
+from = "ControlSoftware.image-slot"
+to = "MainController.logic-power"
+relation = "core:connectedTo"
+required = true
+
+[[connections]]
+from = "WatchdogModule.kick"
+to = "MainController.logic-power"
+relation = "core:connectedTo"
+required = true
+
+[[connections]]
+from = "CommunicationModule.host"
+to = "MainController.logic-power"
+relation = "core:connectedTo"
+required = true

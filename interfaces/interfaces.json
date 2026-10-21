@@ -1,0 +1,66 @@
+{
+  "schema": "os20-fixture-interfaces-v1",
+  "disclaimer": "Synthetic educational OS20 fixture. Not a medical device, not a validated ventilator, and not regulatory, clinical, or safety evidence.",
+  "package": "@acme/control-system",
+  "native_document": "os20.interfaces.toml",
+  "ports": [
+    {
+      "id": "@acme/control-system#iface.logic-power",
+      "local_id": "logic-power",
+      "kind": "core:interface/electrical/power",
+      "direction": "input",
+      "properties": {
+        "voltage": "5 V"
+      },
+      "owner_definition": "@acme/control-system#ControlSystem",
+      "note": "Connect by mounted occurrence and port, not by package name alone."
+    },
+    {
+      "id": "@acme/control-system#iface.sensor-bus",
+      "local_id": "sensor-bus",
+      "kind": "core:interface/electrical/signal",
+      "direction": "input",
+      "properties": {},
+      "owner_definition": "@acme/control-system#ControlSystem",
+      "note": "Connect by mounted occurrence and port, not by package name alone."
+    },
+    {
+      "id": "@acme/control-system#iface.actuator-bus",
+      "local_id": "actuator-bus",
+      "kind": "core:interface/electrical/signal",
+      "direction": "output",
+      "properties": {},
+      "owner_definition": "@acme/control-system#ControlSystem",
+      "note": "Connect by mounted occurrence and port, not by package name alone."
+    },
+    {
+      "id": "@acme/control-system#iface.ui-link",
+      "local_id": "ui-link",
+      "kind": "core:interface/electrical/signal",
+      "direction": "bidirectional",
+      "properties": {},
+      "owner_definition": "@acme/control-system#ControlSystem",
+      "note": "Connect by mounted occurrence and port, not by package name alone."
+    }
+  ],
+  "sibling_references": [
+    {
+      "from": "@acme/control-system#occ.control-software",
+      "to": "@acme/control-system#occ.main-controller",
+      "predicate": "acme:connectedTo",
+      "native": "os20.occurrences.toml [[reference]]"
+    },
+    {
+      "from": "@acme/control-system#occ.watchdog-module",
+      "to": "@acme/control-system#occ.main-controller",
+      "predicate": "acme:connectedTo",
+      "native": "os20.occurrences.toml [[reference]]"
+    },
+    {
+      "from": "@acme/control-system#occ.communication-module",
+      "to": "@acme/control-system#occ.main-controller",
+      "predicate": "acme:connectedTo",
+      "native": "os20.occurrences.toml [[reference]]"
+    }
+  ]
+}
