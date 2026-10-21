@@ -1,0 +1,66 @@
+format = 1
+
+[[package]]
+name = "@acme/cooling-fan"
+version = "1.0.0"
+source = "registry"
+repository = "https://github.com/os2-0/acme-icu-ventilator-packages"
+commit = "381868438abdb08b82bf59fe156573665a760e24"
+tree = "a78957fef8a7ab54670da94a4bf3c215f46d8851"
+manifest_digest = "sha256:b29a2a17e9ad199908cb7cbb7e1796472d6a3ffa180fcd79bd41260f496fb58b"
+dependencies = ["@acme/icu-ontology@1.0.0"]
+ontologies = ["@acme/icu-ontology@1.0.0"]
+
+[[package]]
+name = "@acme/enclosure"
+version = "1.0.0"
+source = "registry"
+repository = "https://github.com/os2-0/acme-icu-ventilator-packages"
+commit = "d0174a47db833765d1cdda3eb846aa8f68abcf16"
+tree = "92271a7bbe6d034ba63cb632e88372a392f911ed"
+manifest_digest = "sha256:ef848740bbe251b39946663447556959714ee2520546b6fef1ce123598f36332"
+dependencies = ["@acme/icu-ontology@1.0.0"]
+ontologies = ["@acme/icu-ontology@1.0.0"]
+
+[[package]]
+name = "@acme/fastener-set"
+version = "1.0.0"
+source = "registry"
+repository = "https://github.com/os2-0/acme-icu-ventilator-packages"
+commit = "c7efe625561690f86035b9d2d62af0933c5b5442"
+tree = "7924167aff751fe680670d075c6615d1ec70121e"
+manifest_digest = "sha256:839163f5b19790cebbfede77f234dc5dc53f7f445e4bde942528253fc99a8a96"
+dependencies = ["@acme/icu-ontology@1.0.0"]
+ontologies = ["@acme/icu-ontology@1.0.0"]
+
+[[package]]
+name = "@acme/icu-ontology"
+version = "1.0.0"
+source = "registry"
+repository = "https://github.com/os2-0/acme-icu-ventilator-packages"
+commit = "5898c295243ba16ece4b5203b6eb1beddab7d308"
+tree = "63f8da6f1cee8092931777b5e6936420529e7aa3"
+manifest_digest = "sha256:bdaac3d2756b9c5797a9909252e7134cb7b1c785285c6db97536ee176f317d00"
+dependencies = []
+
+[[package]]
+name = "@acme/internal-frame"
+version = "1.0.0"
+source = "registry"
+repository = "https://github.com/os2-0/acme-icu-ventilator-packages"
+commit = "44bb3306b99f12c288de76308fe5143baca35b3d"
+tree = "a7927f3c058744f3e7dcd048995ac56f9d17b124"
+manifest_digest = "sha256:9e090c5efedd9894aaad8c265a35654a1857b8da2396cac5ee267d69638c8fd5"
+dependencies = ["@acme/icu-ontology@1.0.0"]
+ontologies = ["@acme/icu-ontology@1.0.0"]
+
+[[package]]
+name = "@acme/mounting-bracket"
+version = "1.0.0"
+source = "registry"
+repository = "https://github.com/os2-0/acme-icu-ventilator-packages"
+commit = "a8d6ae2caec97d2f7f3c349ea44882a110140d1f"
+tree = "c5af8bb7aefb120480c87fb814f487de9a655d39"
+manifest_digest = "sha256:a102c881a20847c512131a5c9436f1b4361daf7de0d0af50f754d093a63a4b86"
+dependencies = ["@acme/icu-ontology@1.0.0"]
+ontologies = ["@acme/icu-ontology@1.0.0"]

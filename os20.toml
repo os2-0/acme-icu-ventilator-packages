@@ -8,9 +8,9 @@ description = "Mechanical subsystem. Synthetic educational OS20 fixture. Not a m
 acme = "@acme/icu-ontology@1.0.0"
 
 [dependencies]
-"@acme/icu-ontology" = { path = "../icu-ontology" }
-"@acme/enclosure" = { path = "../enclosure" }
-"@acme/internal-frame" = { path = "../internal-frame" }
-"@acme/cooling-fan" = { path = "../cooling-fan" }
-"@acme/mounting-bracket" = { path = "../mounting-bracket" }
-"@acme/fastener-set" = { path = "../fastener-set" }
+"@acme/cooling-fan" = "@acme/cooling-fan@^1.0"
+"@acme/enclosure" = "@acme/enclosure@^1.0"
+"@acme/fastener-set" = "@acme/fastener-set@^1.0"
+"@acme/icu-ontology" = "@acme/icu-ontology@^1.0"
+"@acme/internal-frame" = "@acme/internal-frame@^1.0"
+"@acme/mounting-bracket" = "@acme/mounting-bracket@^1.0"
