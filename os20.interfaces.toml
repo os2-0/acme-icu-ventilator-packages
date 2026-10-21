@@ -1,0 +1,29 @@
+# Native OS20 interface document for @acme/safety-monitor.
+# Synthetic educational OS20 fixture. Not a medical device, not a validated ventilator, and not regulatory, clinical, or safety evidence.
+
+[[interfaces]]
+id = "sense"
+package = "@acme/safety-monitor"
+owner = "SafetyMonitor"
+name = "sense"
+kind = "core:interface/electrical/signal"
+direction = "input"
+
+[[interfaces]]
+id = "inhibit"
+package = "@acme/safety-monitor"
+owner = "SafetyMonitor"
+name = "inhibit"
+kind = "core:interface/electrical/signal"
+direction = "output"
+
+[[interfaces]]
+id = "logic-power"
+package = "@acme/safety-monitor"
+owner = "SafetyMonitor"
+name = "logic-power"
+kind = "core:interface/electrical/power"
+direction = "input"
+
+[interfaces.properties]
+voltage = "5 V"

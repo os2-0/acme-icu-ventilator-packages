@@ -1,0 +1,20 @@
+[[quantity]]
+id = "safety-monitor-mass"
+kind = "@os20/core#Mass"
+value = "0.14"
+unit = "kilogram"
+scope = "own"
+policy = "sum"
+owner = "@acme/safety-monitor#SafetyMonitor"
+provenance = "authored"
+
+[[quantity]]
+id = "safety-monitor-cost"
+kind = "@os20/quantity#Cost"
+value = "70"
+unit = "USD"
+scope = "own"
+policy = "sum"
+owner = "@acme/safety-monitor#SafetyMonitor"
+basis = "one-time"
+provenance = "authored"

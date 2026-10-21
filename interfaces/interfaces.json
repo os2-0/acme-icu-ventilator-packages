@@ -1,0 +1,38 @@
+{
+  "schema": "os20-fixture-interfaces-v1",
+  "disclaimer": "Synthetic educational OS20 fixture. Not a medical device, not a validated ventilator, and not regulatory, clinical, or safety evidence.",
+  "package": "@acme/safety-monitor",
+  "native_document": "os20.interfaces.toml",
+  "ports": [
+    {
+      "id": "@acme/safety-monitor#iface.sense",
+      "local_id": "sense",
+      "kind": "core:interface/electrical/signal",
+      "direction": "input",
+      "properties": {},
+      "owner_definition": "@acme/safety-monitor#SafetyMonitor",
+      "note": "Connect by mounted occurrence and port, not by package name alone."
+    },
+    {
+      "id": "@acme/safety-monitor#iface.inhibit",
+      "local_id": "inhibit",
+      "kind": "core:interface/electrical/signal",
+      "direction": "output",
+      "properties": {},
+      "owner_definition": "@acme/safety-monitor#SafetyMonitor",
+      "note": "Connect by mounted occurrence and port, not by package name alone."
+    },
+    {
+      "id": "@acme/safety-monitor#iface.logic-power",
+      "local_id": "logic-power",
+      "kind": "core:interface/electrical/power",
+      "direction": "input",
+      "properties": {
+        "voltage": "5 V"
+      },
+      "owner_definition": "@acme/safety-monitor#SafetyMonitor",
+      "note": "Connect by mounted occurrence and port, not by package name alone."
+    }
+  ],
+  "sibling_references": []
+}
