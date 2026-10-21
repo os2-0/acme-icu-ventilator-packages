@@ -1,37 +1,33 @@
 [[quantity]]
-id = "breathing-circuit-mass-@acme/breathing-circuit"
+id = "breathing-circuit-mass-package"
 kind = "@os20/core#Mass"
 scope = "own"
 policy = "derive-from-children"
 owner = "@acme/breathing-circuit"
-
 provenance = "authored"
 
 [[quantity]]
-id = "breathing-circuit-cost-@acme/breathing-circuit"
+id = "breathing-circuit-cost-package"
 kind = "@os20/quantity#Cost"
 scope = "own"
 policy = "derive-from-children"
 owner = "@acme/breathing-circuit"
 basis = "one-time"
-
 provenance = "authored"
 
 [[quantity]]
-id = "breathing-circuit-mass-breathingcircuit"
+id = "breathing-circuit-mass-definition"
 kind = "@os20/core#Mass"
 scope = "own"
 policy = "derive-from-children"
 owner = "@acme/breathing-circuit#BreathingCircuit"
-
 provenance = "authored"
 
 [[quantity]]
-id = "breathing-circuit-cost-breathingcircuit"
+id = "breathing-circuit-cost-definition"
 kind = "@os20/quantity#Cost"
 scope = "own"
 policy = "derive-from-children"
 owner = "@acme/breathing-circuit#BreathingCircuit"
 basis = "one-time"
-
 provenance = "authored"
