@@ -1,0 +1,47 @@
+# Native OS20 interface document for @acme/patient-circuit.
+# Synthetic educational OS20 fixture. Not a medical device, not a validated ventilator, and not regulatory, clinical, or safety evidence.
+
+[[interfaces]]
+id = "machine-insp"
+package = "@acme/patient-circuit"
+owner = "PatientCircuit"
+name = "machine-insp"
+kind = "core:interface/fluid/gas"
+direction = "input"
+
+[interfaces.properties]
+size = "22 mm"
+
+[[interfaces]]
+id = "machine-exp"
+package = "@acme/patient-circuit"
+owner = "PatientCircuit"
+name = "machine-exp"
+kind = "core:interface/fluid/gas"
+direction = "output"
+
+[interfaces.properties]
+size = "22 mm"
+
+[[interfaces]]
+id = "patient"
+package = "@acme/patient-circuit"
+owner = "PatientCircuit"
+name = "patient"
+kind = "core:interface/fluid/gas"
+direction = "bidirectional"
+
+[interfaces.properties]
+size = "22 mm"
+
+[[connections]]
+from = "InspiratoryTube.proximal"
+to = "PatientConnector.insp"
+relation = "core:connectedTo"
+required = true
+
+[[connections]]
+from = "ExpiratoryTube.proximal"
+to = "PatientConnector.insp"
+relation = "core:connectedTo"
+required = true

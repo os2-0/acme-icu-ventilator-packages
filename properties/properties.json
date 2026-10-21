@@ -1,0 +1,47 @@
+{
+  "schema": "os20-fixture-properties-v1",
+  "disclaimer": "Synthetic educational OS20 fixture. Not a medical device, not a validated ventilator, and not regulatory, clinical, or safety evidence.",
+  "package": "@acme/patient-circuit",
+  "properties": [
+    {
+      "id": "@acme/patient-circuit#prop.identity",
+      "kind": "identity",
+      "value": "@acme/patient-circuit",
+      "unit": null,
+      "quantity_type": null,
+      "status": "authored",
+      "provenance": "synthetic-fixture",
+      "applicability": "this-definition",
+      "owner": "@acme/patient-circuit#PatientCircuit"
+    },
+    {
+      "id": "@acme/patient-circuit#prop.mass",
+      "kind": "@os20/core#Mass",
+      "value": null,
+      "unit": "kilogram",
+      "quantity_type": "mass",
+      "status": "unresolved-derive-from-children",
+      "provenance": "synthetic-fixture",
+      "applicability": "composite; value comes from child occurrences",
+      "owner": "@acme/patient-circuit#PatientCircuit",
+      "aggregatable": true
+    },
+    {
+      "id": "@acme/patient-circuit#prop.envelope",
+      "kind": "envelope",
+      "value": {
+        "x": 1800,
+        "y": 22,
+        "z": 22
+      },
+      "unit": "millimetre",
+      "quantity_type": "length",
+      "status": "authored-synthetic",
+      "provenance": "synthetic-fixture",
+      "applicability": "axis-aligned bounding box example",
+      "owner": "@acme/patient-circuit#PatientCircuit",
+      "aggregatable": false,
+      "note": "Envelope lengths are not summed by os20 system run quantity."
+    }
+  ]
+}

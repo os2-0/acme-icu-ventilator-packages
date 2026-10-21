@@ -1,0 +1,61 @@
+[namespaces]
+acme = "@acme/icu-ontology#"
+os20 = "@os20/core#"
+
+[[definition]]
+id = "@acme/patient-circuit#PatientCircuit"
+
+[[definition]]
+id = "@acme/inspiratory-tube#InspiratoryTube"
+package = "@acme/inspiratory-tube"
+version = "1.0.0"
+
+[[definition]]
+id = "@acme/expiratory-tube#ExpiratoryTube"
+package = "@acme/expiratory-tube"
+version = "1.0.0"
+
+[[definition]]
+id = "@acme/patient-connector#PatientConnector"
+package = "@acme/patient-connector"
+version = "1.0.0"
+
+[[occurrence]]
+id = "@acme/patient-circuit#occ.inspiratory-tube"
+role = "inspiratory-tube"
+predicate = "os20:HasPart"
+
+[occurrence.definition]
+id = "@acme/inspiratory-tube#InspiratoryTube"
+package = "@acme/inspiratory-tube"
+version = "1.0.0"
+
+[[occurrence]]
+id = "@acme/patient-circuit#occ.expiratory-tube"
+role = "expiratory-tube"
+predicate = "os20:HasPart"
+
+[occurrence.definition]
+id = "@acme/expiratory-tube#ExpiratoryTube"
+package = "@acme/expiratory-tube"
+version = "1.0.0"
+
+[[occurrence]]
+id = "@acme/patient-circuit#occ.patient-connector"
+role = "patient-connector"
+predicate = "os20:HasPart"
+
+[occurrence.definition]
+id = "@acme/patient-connector#PatientConnector"
+package = "@acme/patient-connector"
+version = "1.0.0"
+
+[[reference]]
+from = "@acme/patient-circuit#occ.inspiratory-tube"
+to = "@acme/patient-circuit#occ.patient-connector"
+predicate = "acme:connectedTo"
+
+[[reference]]
+from = "@acme/patient-circuit#occ.expiratory-tube"
+to = "@acme/patient-circuit#occ.patient-connector"
+predicate = "acme:connectedTo"

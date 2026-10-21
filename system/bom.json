@@ -1,0 +1,37 @@
+{
+  "schema": "os20-fixture-bom-v1",
+  "disclaimer": "Synthetic educational OS20 fixture. Not a medical device, not a validated ventilator, and not regulatory, clinical, or safety evidence.",
+  "package": "@acme/patient-circuit",
+  "items": [
+    {
+      "occurrence": "@acme/patient-circuit#occ.inspiratory-tube",
+      "role": "inspiratory-tube",
+      "package": "@acme/inspiratory-tube",
+      "version": "1.0.0",
+      "definition": "@acme/inspiratory-tube#InspiratoryTube",
+      "qty": 1,
+      "mass_kg_own": 0.15,
+      "note": "Occurrence count, not dependency-graph count"
+    },
+    {
+      "occurrence": "@acme/patient-circuit#occ.expiratory-tube",
+      "role": "expiratory-tube",
+      "package": "@acme/expiratory-tube",
+      "version": "1.0.0",
+      "definition": "@acme/expiratory-tube#ExpiratoryTube",
+      "qty": 1,
+      "mass_kg_own": 0.16,
+      "note": "Occurrence count, not dependency-graph count"
+    },
+    {
+      "occurrence": "@acme/patient-circuit#occ.patient-connector",
+      "role": "patient-connector",
+      "package": "@acme/patient-connector",
+      "version": "1.0.0",
+      "definition": "@acme/patient-connector#PatientConnector",
+      "qty": 1,
+      "mass_kg_own": 0.08,
+      "note": "Occurrence count, not dependency-graph count"
+    }
+  ]
+}

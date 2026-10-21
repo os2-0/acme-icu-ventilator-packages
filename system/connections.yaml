@@ -1,0 +1,10 @@
+# Companion view of [[reference]] / [[connections]] for @acme/patient-circuit. OS20 does not read this file.
+connections:
+  - from_occurrence: @acme/patient-circuit#occ.inspiratory-tube
+    to_occurrence: @acme/patient-circuit#occ.patient-connector
+    predicate: acme:connectedTo
+    note: specific mounted occurrence, not package name
+  - from_occurrence: @acme/patient-circuit#occ.expiratory-tube
+    to_occurrence: @acme/patient-circuit#occ.patient-connector
+    predicate: acme:connectedTo
+    note: specific mounted occurrence, not package name

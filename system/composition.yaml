@@ -1,0 +1,18 @@
+# Companion view of os20.occurrences.toml for @acme/patient-circuit. OS20 does not read this file.
+root: @acme/patient-circuit#occ-tree
+children:
+  - role: inspiratory-tube
+    occurrence: @acme/patient-circuit#occ.inspiratory-tube
+    definition: @acme/inspiratory-tube#InspiratoryTube
+    package: @acme/inspiratory-tube@1.0.0
+    predicate: os20:HasPart
+  - role: expiratory-tube
+    occurrence: @acme/patient-circuit#occ.expiratory-tube
+    definition: @acme/expiratory-tube#ExpiratoryTube
+    package: @acme/expiratory-tube@1.0.0
+    predicate: os20:HasPart
+  - role: patient-connector
+    occurrence: @acme/patient-circuit#occ.patient-connector
+    definition: @acme/patient-connector#PatientConnector
+    package: @acme/patient-connector@1.0.0
+    predicate: os20:HasPart
