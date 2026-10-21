@@ -1,0 +1,50 @@
+# Git resources for @acme/temperature-sensor. repository = "." is this package Git repo.
+
+[[resource]]
+id = "sysml"
+provider = "git"
+repository = "."
+revision = "d25c933c754733b9a84a57a775fa4df537f6ba78"
+path = "sysml/component.sysml"
+
+[[resource]]
+id = "scxml"
+provider = "git"
+repository = "."
+revision = "d25c933c754733b9a84a57a775fa4df537f6ba78"
+path = "behavior/lifecycle.scxml"
+
+[[resource]]
+id = "spec"
+provider = "git"
+repository = "."
+revision = "d25c933c754733b9a84a57a775fa4df537f6ba78"
+path = "documents/technical-specification.md"
+
+[[resource]]
+id = "step"
+provider = "git"
+repository = "."
+revision = "d25c933c754733b9a84a57a775fa4df537f6ba78"
+path = "cad/component.step"
+
+[[resource]]
+id = "svg-block"
+provider = "git"
+repository = "."
+revision = "d25c933c754733b9a84a57a775fa4df537f6ba78"
+path = "diagrams/block.svg"
+
+[[resource]]
+id = "datasheet"
+provider = "git"
+repository = "."
+revision = "d25c933c754733b9a84a57a775fa4df537f6ba78"
+path = "documents/datasheet.pdf"
+
+[[resource]]
+id = "csv"
+provider = "git"
+repository = "."
+revision = "d25c933c754733b9a84a57a775fa4df537f6ba78"
+path = "data/performance.csv"
