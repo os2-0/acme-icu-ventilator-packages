@@ -1,0 +1,78 @@
+# Git resources for @acme/patient-circuit. repository = "." is this package Git repo.
+
+[[resource]]
+id = "sysml"
+provider = "git"
+repository = "."
+revision = "104fde2e751f2bdf00a2860db7871ad4c05c7536"
+path = "sysml/component.sysml"
+
+[[resource]]
+id = "scxml"
+provider = "git"
+repository = "."
+revision = "104fde2e751f2bdf00a2860db7871ad4c05c7536"
+path = "behavior/lifecycle.scxml"
+
+[[resource]]
+id = "spec"
+provider = "git"
+repository = "."
+revision = "104fde2e751f2bdf00a2860db7871ad4c05c7536"
+path = "documents/technical-specification.md"
+
+[[resource]]
+id = "step"
+provider = "git"
+repository = "."
+revision = "104fde2e751f2bdf00a2860db7871ad4c05c7536"
+path = "cad/component.step"
+
+[[resource]]
+id = "svg-block"
+provider = "git"
+repository = "."
+revision = "104fde2e751f2bdf00a2860db7871ad4c05c7536"
+path = "diagrams/block.svg"
+
+[[resource]]
+id = "datasheet"
+provider = "git"
+repository = "."
+revision = "104fde2e751f2bdf00a2860db7871ad4c05c7536"
+path = "documents/datasheet.pdf"
+
+[[resource]]
+id = "csv"
+provider = "git"
+repository = "."
+revision = "104fde2e751f2bdf00a2860db7871ad4c05c7536"
+path = "data/performance.csv"
+
+[[resource]]
+id = "architecture"
+provider = "git"
+repository = "."
+revision = "104fde2e751f2bdf00a2860db7871ad4c05c7536"
+path = "system/architecture.sysml"
+
+[[resource]]
+id = "bom"
+provider = "git"
+repository = "."
+revision = "104fde2e751f2bdf00a2860db7871ad4c05c7536"
+path = "system/bom.json"
+
+[[resource]]
+id = "svg-pneumatic"
+provider = "git"
+repository = "."
+revision = "104fde2e751f2bdf00a2860db7871ad4c05c7536"
+path = "diagrams/pneumatic.svg"
+
+[[resource]]
+id = "svg-electrical"
+provider = "git"
+repository = "."
+revision = "104fde2e751f2bdf00a2860db7871ad4c05c7536"
+path = "diagrams/electrical.svg"

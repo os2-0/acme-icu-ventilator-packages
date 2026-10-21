@@ -1,37 +1,33 @@
 [[quantity]]
-id = "patient-circuit-mass-@acme/patient-circuit"
+id = "patient-circuit-mass-package"
 kind = "@os20/core#Mass"
 scope = "own"
 policy = "derive-from-children"
 owner = "@acme/patient-circuit"
-
 provenance = "authored"
 
 [[quantity]]
-id = "patient-circuit-cost-@acme/patient-circuit"
+id = "patient-circuit-cost-package"
 kind = "@os20/quantity#Cost"
 scope = "own"
 policy = "derive-from-children"
 owner = "@acme/patient-circuit"
 basis = "one-time"
-
 provenance = "authored"
 
 [[quantity]]
-id = "patient-circuit-mass-patientcircuit"
+id = "patient-circuit-mass-definition"
 kind = "@os20/core#Mass"
 scope = "own"
 policy = "derive-from-children"
 owner = "@acme/patient-circuit#PatientCircuit"
-
 provenance = "authored"
 
 [[quantity]]
-id = "patient-circuit-cost-patientcircuit"
+id = "patient-circuit-cost-definition"
 kind = "@os20/quantity#Cost"
 scope = "own"
 policy = "derive-from-children"
 owner = "@acme/patient-circuit#PatientCircuit"
 basis = "one-time"
-
 provenance = "authored"
