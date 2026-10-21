@@ -1,0 +1,10 @@
+# Companion view of [[reference]] / [[connections]] for @acme/oxygen-mixer. OS20 does not read this file.
+connections:
+  - from_occurrence: @acme/oxygen-mixer#occ.regulator
+    to_occurrence: @acme/oxygen-mixer#occ.manifold
+    predicate: acme:connectedTo
+    note: specific mounted occurrence, not package name
+  - from_occurrence: @acme/oxygen-mixer#occ.valve
+    to_occurrence: @acme/oxygen-mixer#occ.manifold
+    predicate: acme:connectedTo
+    note: specific mounted occurrence, not package name

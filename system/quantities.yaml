@@ -1,0 +1,6 @@
+# Companion view of os20.quantities.toml for @acme/oxygen-mixer. OS20 does not read this file.
+mass_kg: derive-from-children
+cost_usd: derive-from-children
+mass_kind: '@os20/core#Mass'
+cost_kind: '@os20/quantity#Cost'
+provenance: synthetic-fixture

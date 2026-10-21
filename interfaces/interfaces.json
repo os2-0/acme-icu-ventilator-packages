@@ -1,0 +1,62 @@
+{
+  "schema": "os20-fixture-interfaces-v1",
+  "disclaimer": "Synthetic educational OS20 fixture. Not a medical device, not a validated ventilator, and not regulatory, clinical, or safety evidence.",
+  "package": "@acme/oxygen-mixer",
+  "native_document": "os20.interfaces.toml",
+  "ports": [
+    {
+      "id": "@acme/oxygen-mixer#iface.o2-in",
+      "local_id": "o2-in",
+      "kind": "core:interface/fluid/gas",
+      "direction": "input",
+      "properties": {
+        "medium": "oxygen"
+      },
+      "owner_definition": "@acme/oxygen-mixer#OxygenMixer",
+      "note": "Connect by mounted occurrence and port, not by package name alone."
+    },
+    {
+      "id": "@acme/oxygen-mixer#iface.air-in",
+      "local_id": "air-in",
+      "kind": "core:interface/fluid/gas",
+      "direction": "input",
+      "properties": {
+        "medium": "air"
+      },
+      "owner_definition": "@acme/oxygen-mixer#OxygenMixer",
+      "note": "Connect by mounted occurrence and port, not by package name alone."
+    },
+    {
+      "id": "@acme/oxygen-mixer#iface.mix-out",
+      "local_id": "mix-out",
+      "kind": "core:interface/fluid/gas",
+      "direction": "output",
+      "properties": {},
+      "owner_definition": "@acme/oxygen-mixer#OxygenMixer",
+      "note": "Connect by mounted occurrence and port, not by package name alone."
+    },
+    {
+      "id": "@acme/oxygen-mixer#iface.valve-command",
+      "local_id": "valve-command",
+      "kind": "core:interface/electrical/signal",
+      "direction": "input",
+      "properties": {},
+      "owner_definition": "@acme/oxygen-mixer#OxygenMixer",
+      "note": "Connect by mounted occurrence and port, not by package name alone."
+    }
+  ],
+  "sibling_references": [
+    {
+      "from": "@acme/oxygen-mixer#occ.regulator",
+      "to": "@acme/oxygen-mixer#occ.manifold",
+      "predicate": "acme:connectedTo",
+      "native": "os20.occurrences.toml [[reference]]"
+    },
+    {
+      "from": "@acme/oxygen-mixer#occ.valve",
+      "to": "@acme/oxygen-mixer#occ.manifold",
+      "predicate": "acme:connectedTo",
+      "native": "os20.occurrences.toml [[reference]]"
+    }
+  ]
+}

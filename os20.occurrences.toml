@@ -1,0 +1,61 @@
+[namespaces]
+acme = "@acme/icu-ontology#"
+os20 = "@os20/core#"
+
+[[definition]]
+id = "@acme/oxygen-mixer#OxygenMixer"
+
+[[definition]]
+id = "@acme/oxygen-valve#OxygenValve"
+package = "@acme/oxygen-valve"
+version = "1.0.0"
+
+[[definition]]
+id = "@acme/gas-manifold#GasManifold"
+package = "@acme/gas-manifold"
+version = "1.0.0"
+
+[[definition]]
+id = "@acme/gas-regulator#GasRegulator"
+package = "@acme/gas-regulator"
+version = "1.0.0"
+
+[[occurrence]]
+id = "@acme/oxygen-mixer#occ.valve"
+role = "valve"
+predicate = "os20:HasPart"
+
+[occurrence.definition]
+id = "@acme/oxygen-valve#OxygenValve"
+package = "@acme/oxygen-valve"
+version = "1.0.0"
+
+[[occurrence]]
+id = "@acme/oxygen-mixer#occ.manifold"
+role = "manifold"
+predicate = "os20:HasPart"
+
+[occurrence.definition]
+id = "@acme/gas-manifold#GasManifold"
+package = "@acme/gas-manifold"
+version = "1.0.0"
+
+[[occurrence]]
+id = "@acme/oxygen-mixer#occ.regulator"
+role = "regulator"
+predicate = "os20:HasPart"
+
+[occurrence.definition]
+id = "@acme/gas-regulator#GasRegulator"
+package = "@acme/gas-regulator"
+version = "1.0.0"
+
+[[reference]]
+from = "@acme/oxygen-mixer#occ.regulator"
+to = "@acme/oxygen-mixer#occ.manifold"
+predicate = "acme:connectedTo"
+
+[[reference]]
+from = "@acme/oxygen-mixer#occ.valve"
+to = "@acme/oxygen-mixer#occ.manifold"
+predicate = "acme:connectedTo"

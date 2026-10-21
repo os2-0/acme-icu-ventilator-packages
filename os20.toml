@@ -1,0 +1,14 @@
+[package]
+name = "@acme/oxygen-mixer"
+version = "1.0.0"
+edition = "2026"
+description = "Oxygen mixer assembly. Synthetic educational OS20 fixture. Not a medical device, not a validated ventilator, and not regulatory, clinical, or safety evidence."
+
+[ontology]
+acme = "@acme/icu-ontology@1.0.0"
+
+[dependencies]
+"@acme/icu-ontology" = { path = "../icu-ontology" }
+"@acme/oxygen-valve" = { path = "../oxygen-valve" }
+"@acme/gas-manifold" = { path = "../gas-manifold" }
+"@acme/gas-regulator" = { path = "../gas-regulator" }

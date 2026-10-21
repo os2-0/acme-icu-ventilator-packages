@@ -1,0 +1,48 @@
+schema = "os20-assembly-v1"
+
+[[geometry]]
+id = "self"
+owner = "@acme/oxygen-mixer#OxygenMixer"
+representation = "step:ap242"
+path = "cad/component.step"
+package = "@acme/oxygen-mixer"
+unit = "millimeter"
+verified = false
+
+[[frame]]
+id = "origin"
+owner = "@acme/oxygen-mixer#OxygenMixer"
+geometry = "self"
+
+[[placement]]
+id = "valve"
+parent = "@acme/oxygen-mixer#OxygenMixer"
+child = "@acme/oxygen-valve#OxygenValve"
+geometry = "self"
+frame = "origin"
+translation = ["0", "0", "20"]
+rotation = ["1", "0", "0", "0"]
+unit = "millimeter"
+required = true
+
+[[placement]]
+id = "manifold"
+parent = "@acme/oxygen-mixer#OxygenMixer"
+child = "@acme/gas-manifold#GasManifold"
+geometry = "self"
+frame = "origin"
+translation = ["0", "0", "40"]
+rotation = ["1", "0", "0", "0"]
+unit = "millimeter"
+required = true
+
+[[placement]]
+id = "regulator"
+parent = "@acme/oxygen-mixer#OxygenMixer"
+child = "@acme/gas-regulator#GasRegulator"
+geometry = "self"
+frame = "origin"
+translation = ["0", "0", "60"]
+rotation = ["1", "0", "0", "0"]
+unit = "millimeter"
+required = true

@@ -1,0 +1,37 @@
+{
+  "schema": "os20-fixture-bom-v1",
+  "disclaimer": "Synthetic educational OS20 fixture. Not a medical device, not a validated ventilator, and not regulatory, clinical, or safety evidence.",
+  "package": "@acme/oxygen-mixer",
+  "items": [
+    {
+      "occurrence": "@acme/oxygen-mixer#occ.valve",
+      "role": "valve",
+      "package": "@acme/oxygen-valve",
+      "version": "1.0.0",
+      "definition": "@acme/oxygen-valve#OxygenValve",
+      "qty": 1,
+      "mass_kg_own": 0.28,
+      "note": "Occurrence count, not dependency-graph count"
+    },
+    {
+      "occurrence": "@acme/oxygen-mixer#occ.manifold",
+      "role": "manifold",
+      "package": "@acme/gas-manifold",
+      "version": "1.0.0",
+      "definition": "@acme/gas-manifold#GasManifold",
+      "qty": 1,
+      "mass_kg_own": 0.67,
+      "note": "Occurrence count, not dependency-graph count"
+    },
+    {
+      "occurrence": "@acme/oxygen-mixer#occ.regulator",
+      "role": "regulator",
+      "package": "@acme/gas-regulator",
+      "version": "1.0.0",
+      "definition": "@acme/gas-regulator#GasRegulator",
+      "qty": 1,
+      "mass_kg_own": 0.39,
+      "note": "Occurrence count, not dependency-graph count"
+    }
+  ]
+}

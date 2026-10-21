@@ -1,0 +1,52 @@
+# Native OS20 interface document for @acme/oxygen-mixer.
+# Synthetic educational OS20 fixture. Not a medical device, not a validated ventilator, and not regulatory, clinical, or safety evidence.
+
+[[interfaces]]
+id = "o2-in"
+package = "@acme/oxygen-mixer"
+owner = "OxygenMixer"
+name = "o2-in"
+kind = "core:interface/fluid/gas"
+direction = "input"
+
+[interfaces.properties]
+medium = "oxygen"
+
+[[interfaces]]
+id = "air-in"
+package = "@acme/oxygen-mixer"
+owner = "OxygenMixer"
+name = "air-in"
+kind = "core:interface/fluid/gas"
+direction = "input"
+
+[interfaces.properties]
+medium = "air"
+
+[[interfaces]]
+id = "mix-out"
+package = "@acme/oxygen-mixer"
+owner = "OxygenMixer"
+name = "mix-out"
+kind = "core:interface/fluid/gas"
+direction = "output"
+
+[[interfaces]]
+id = "valve-command"
+package = "@acme/oxygen-mixer"
+owner = "OxygenMixer"
+name = "valve-command"
+kind = "core:interface/electrical/signal"
+direction = "input"
+
+[[connections]]
+from = "GasRegulator.inlet"
+to = "GasManifold.port-a"
+relation = "core:connectedTo"
+required = true
+
+[[connections]]
+from = "OxygenValve.inlet"
+to = "GasManifold.port-a"
+relation = "core:connectedTo"
+required = true

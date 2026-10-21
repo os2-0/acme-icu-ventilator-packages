@@ -1,0 +1,47 @@
+{
+  "schema": "os20-fixture-properties-v1",
+  "disclaimer": "Synthetic educational OS20 fixture. Not a medical device, not a validated ventilator, and not regulatory, clinical, or safety evidence.",
+  "package": "@acme/oxygen-mixer",
+  "properties": [
+    {
+      "id": "@acme/oxygen-mixer#prop.identity",
+      "kind": "identity",
+      "value": "@acme/oxygen-mixer",
+      "unit": null,
+      "quantity_type": null,
+      "status": "authored",
+      "provenance": "synthetic-fixture",
+      "applicability": "this-definition",
+      "owner": "@acme/oxygen-mixer#OxygenMixer"
+    },
+    {
+      "id": "@acme/oxygen-mixer#prop.mass",
+      "kind": "@os20/core#Mass",
+      "value": null,
+      "unit": "kilogram",
+      "quantity_type": "mass",
+      "status": "unresolved-derive-from-children",
+      "provenance": "synthetic-fixture",
+      "applicability": "composite; value comes from child occurrences",
+      "owner": "@acme/oxygen-mixer#OxygenMixer",
+      "aggregatable": true
+    },
+    {
+      "id": "@acme/oxygen-mixer#prop.envelope",
+      "kind": "envelope",
+      "value": {
+        "x": 140,
+        "y": 80,
+        "z": 60
+      },
+      "unit": "millimetre",
+      "quantity_type": "length",
+      "status": "authored-synthetic",
+      "provenance": "synthetic-fixture",
+      "applicability": "axis-aligned bounding box example",
+      "owner": "@acme/oxygen-mixer#OxygenMixer",
+      "aggregatable": false,
+      "note": "Envelope lengths are not summed by os20 system run quantity."
+    }
+  ]
+}

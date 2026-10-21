@@ -1,0 +1,18 @@
+# Companion view of os20.occurrences.toml for @acme/oxygen-mixer. OS20 does not read this file.
+root: @acme/oxygen-mixer#occ-tree
+children:
+  - role: valve
+    occurrence: @acme/oxygen-mixer#occ.valve
+    definition: @acme/oxygen-valve#OxygenValve
+    package: @acme/oxygen-valve@1.0.0
+    predicate: os20:HasPart
+  - role: manifold
+    occurrence: @acme/oxygen-mixer#occ.manifold
+    definition: @acme/gas-manifold#GasManifold
+    package: @acme/gas-manifold@1.0.0
+    predicate: os20:HasPart
+  - role: regulator
+    occurrence: @acme/oxygen-mixer#occ.regulator
+    definition: @acme/gas-regulator#GasRegulator
+    package: @acme/gas-regulator@1.0.0
+    predicate: os20:HasPart
