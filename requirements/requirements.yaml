@@ -1,0 +1,33 @@
+# Synthetic educational OS20 fixture. Not a medical device, not a validated ventilator, and not regulatory, clinical, or safety evidence.
+package: @acme/pressure-relief-assembly
+kind: requirement-definition
+status: authored-unverified
+requirements:
+  - id: REQ-PRESSURE_RELIEF_ASSEMBLY-001
+    title: "Pressure relief assembly identity and package boundary"
+    text: "The definition @acme/pressure-relief-assembly#PressureReliefAssembly shall be published as package @acme/pressure-relief-assembly@1.0.0."
+    kind: definition
+    evidence: missing
+    verified: false
+    owner: @acme/pressure-relief-assembly#PressureReliefAssembly
+  - id: REQ-PRESSURE_RELIEF_ASSEMBLY-002
+    title: "Pressure relief assembly interface declaration"
+    text: "Pressure relief assembly shall declare its ports in os20.interfaces.toml. Connection is by occurrence and port."
+    kind: definition
+    evidence: missing
+    verified: false
+    owner: @acme/pressure-relief-assembly#PressureReliefAssembly
+  - id: REQ-PRESSURE_RELIEF_ASSEMBLY-003
+    title: "Pressure relief assembly evidence distinction"
+    text: "Verification records in this package are procedure definitions only. They are not test results, certification, or clinical validation."
+    kind: definition
+    evidence: missing
+    verified: false
+    owner: @acme/pressure-relief-assembly#PressureReliefAssembly
+  - id: REQ-PRESSURE_RELIEF_ASSEMBLY-004
+    title: "Pressure relief assembly mass declaration"
+    text: "Own mass shall be authored as 0.36 kilogram with provenance synthetic-fixture."
+    kind: definition
+    evidence: missing
+    verified: false
+    owner: @acme/pressure-relief-assembly#PressureReliefAssembly

@@ -1,0 +1,26 @@
+# Native OS20 interface document for @acme/pressure-relief-assembly.
+# Synthetic educational OS20 fixture. Not a medical device, not a validated ventilator, and not regulatory, clinical, or safety evidence.
+
+[[interfaces]]
+id = "inlet"
+package = "@acme/pressure-relief-assembly"
+owner = "PressureReliefAssembly"
+name = "inlet"
+kind = "core:interface/fluid/gas"
+direction = "input"
+
+[[interfaces]]
+id = "vent"
+package = "@acme/pressure-relief-assembly"
+owner = "PressureReliefAssembly"
+name = "vent"
+kind = "core:interface/fluid/gas"
+direction = "output"
+
+[[interfaces]]
+id = "body-mount"
+package = "@acme/pressure-relief-assembly"
+owner = "PressureReliefAssembly"
+name = "body-mount"
+kind = "core:interface/mechanical/bracket"
+direction = "input"

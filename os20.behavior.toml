@@ -1,0 +1,16 @@
+schema = "os20-behavior-v1"
+
+[[behavior]]
+id = "pressure-relief-assembly"
+owner = "@acme/pressure-relief-assembly#PressureReliefAssembly"
+artifact = "behavior/lifecycle.scxml"
+policy = "concurrent-children"
+
+[[interface]]
+id = "lifecycle"
+owner = "@acme/pressure-relief-assembly#PressureReliefAssembly"
+behavior = "pressure-relief-assembly"
+direction = "input"
+event = "configure"
+semantic_type = "@acme/icu-ontology#LifecycleEvent"
+provenance = "authored"
