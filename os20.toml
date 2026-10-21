@@ -8,7 +8,7 @@ description = "Gas delivery subsystem. Synthetic educational OS20 fixture. Not a
 acme = "@acme/icu-ontology@1.0.0"
 
 [dependencies]
-"@acme/icu-ontology" = { path = "../icu-ontology" }
-"@acme/blower-assembly" = { path = "../blower-assembly" }
-"@acme/oxygen-mixer" = { path = "../oxygen-mixer" }
-"@acme/air-inlet-filter" = { path = "../air-inlet-filter" }
+"@acme/air-inlet-filter" = "@acme/air-inlet-filter@^1.0"
+"@acme/blower-assembly" = "@acme/blower-assembly@^1.0"
+"@acme/icu-ontology" = "@acme/icu-ontology@^1.0"
+"@acme/oxygen-mixer" = "@acme/oxygen-mixer@^1.0"
