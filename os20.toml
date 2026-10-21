@@ -8,12 +8,12 @@ description = "ICU ventilator (synthetic educational system). Synthetic educatio
 acme = "@acme/icu-ontology@1.0.0"
 
 [dependencies]
-"@acme/icu-ontology" = { path = "../icu-ontology" }
-"@acme/gas-delivery" = { path = "../gas-delivery" }
-"@acme/breathing-circuit" = { path = "../breathing-circuit" }
-"@acme/sensor-system" = { path = "../sensor-system" }
-"@acme/control-system" = { path = "../control-system" }
-"@acme/power-system" = { path = "../power-system" }
-"@acme/user-interface" = { path = "../user-interface" }
-"@acme/safety-system" = { path = "../safety-system" }
-"@acme/mechanical-system" = { path = "../mechanical-system" }
+"@acme/breathing-circuit" = "@acme/breathing-circuit@^1.0"
+"@acme/control-system" = "@acme/control-system@^1.0"
+"@acme/gas-delivery" = "@acme/gas-delivery@^1.0"
+"@acme/icu-ontology" = "@acme/icu-ontology@^1.0"
+"@acme/mechanical-system" = "@acme/mechanical-system@^1.0"
+"@acme/power-system" = "@acme/power-system@^1.0"
+"@acme/safety-system" = "@acme/safety-system@^1.0"
+"@acme/sensor-system" = "@acme/sensor-system@^1.0"
+"@acme/user-interface" = "@acme/user-interface@^1.0"

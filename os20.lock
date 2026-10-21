@@ -1,0 +1,625 @@
+format = 1
+
+[[package]]
+name = "@acme/ac-dc-power-supply"
+version = "1.0.0"
+source = "registry"
+repository = "https://github.com/os2-0/acme-icu-ventilator-packages"
+commit = "12bc40349b5a8045d2281fdebc747efc488a0169"
+tree = "19a33ee4e92f7b7737431d1851da0a8ebf58a7e7"
+manifest_digest = "sha256:28aff8f9b88cb1f21080832d28a66be8626efc5c949b2f06b1cb943592e06fd5"
+dependencies = ["@acme/icu-ontology@1.0.0"]
+ontologies = ["@acme/icu-ontology@1.0.0"]
+
+[[package]]
+name = "@acme/air-inlet-filter"
+version = "1.0.0"
+source = "registry"
+repository = "https://github.com/os2-0/acme-icu-ventilator-packages"
+commit = "eca82ffe74fe30f43c8beaf1ab3fae9421f85dcc"
+tree = "c62d954214aa6adc03a3401fde142a333bd6904f"
+manifest_digest = "sha256:383937fcce86c22894278513a832a1f83debc4e65a00f317c439ad025433ce64"
+dependencies = ["@acme/icu-ontology@1.0.0"]
+ontologies = ["@acme/icu-ontology@1.0.0"]
+
+[[package]]
+name = "@acme/alarm-indicator"
+version = "1.0.0"
+source = "registry"
+repository = "https://github.com/os2-0/acme-icu-ventilator-packages"
+commit = "97a84b30ad46b05a45af9cc3470ea3ec041f96cb"
+tree = "5dc53ae790f52a03e5115f8fd733cbbb7072c379"
+manifest_digest = "sha256:1ca4baf6120d75762c81036b5a8871b48be3fbd78ce6a1ec7e6a5151590bc428"
+dependencies = ["@acme/icu-ontology@1.0.0"]
+ontologies = ["@acme/icu-ontology@1.0.0"]
+
+[[package]]
+name = "@acme/battery-management"
+version = "1.0.0"
+source = "registry"
+repository = "https://github.com/os2-0/acme-icu-ventilator-packages"
+commit = "c49759a4fd09906d668633852fd4f3f7a4eb8503"
+tree = "3ef52651b8eb43cb7ca351cb7afe521c1c239931"
+manifest_digest = "sha256:24a593bdb62dfb39bc6d7231a7a40c122071625dae7b425f7511ceba4a17e138"
+dependencies = ["@acme/icu-ontology@1.0.0"]
+ontologies = ["@acme/icu-ontology@1.0.0"]
+
+[[package]]
+name = "@acme/battery-pack"
+version = "1.0.0"
+source = "registry"
+repository = "https://github.com/os2-0/acme-icu-ventilator-packages"
+commit = "6ec7e5cb9931a5d06227c89d63723e310c3f8336"
+tree = "ca0ea8a049d354426f107696d14848af2b75f8b0"
+manifest_digest = "sha256:9de286db2d581fa096551536af7ec692630908a42fc090f03bb4b80b9340aea3"
+dependencies = ["@acme/icu-ontology@1.0.0"]
+ontologies = ["@acme/icu-ontology@1.0.0"]
+
+[[package]]
+name = "@acme/blower-assembly"
+version = "1.0.0"
+source = "registry"
+repository = "https://github.com/os2-0/acme-icu-ventilator-packages"
+commit = "1a52a797b3d9f4763ee45388528de8513bad6cc1"
+tree = "b64505dab0c6beeccf65d5bd921f665c324b5616"
+manifest_digest = "sha256:a0bbf9f67852f072e43b6f2f43bb434b967a88536d5bfc5e88c3c62794fb35f0"
+dependencies = [
+    "@acme/blower-housing@1.0.0",
+    "@acme/brushless-motor@1.0.0",
+    "@acme/icu-ontology@1.0.0",
+    "@acme/impeller@1.0.0",
+    "@acme/motor-driver@1.0.0",
+]
+ontologies = ["@acme/icu-ontology@1.0.0"]
+
+[[package]]
+name = "@acme/blower-housing"
+version = "1.0.0"
+source = "registry"
+repository = "https://github.com/os2-0/acme-icu-ventilator-packages"
+commit = "c1f05ef50f3f962b44df56b46cc4c9910890f9b4"
+tree = "a9cb6c4a13019e141033317ff63432fda8d5eb28"
+manifest_digest = "sha256:a7629e5158b4aaa1c2cd388865b95538f26cc9fce4694f1453ca4a0c645e64ed"
+dependencies = ["@acme/icu-ontology@1.0.0"]
+ontologies = ["@acme/icu-ontology@1.0.0"]
+
+[[package]]
+name = "@acme/breathing-circuit"
+version = "1.0.0"
+source = "registry"
+repository = "https://github.com/os2-0/acme-icu-ventilator-packages"
+commit = "643c6867a80c842776d2711f63255d94e6818822"
+tree = "a83589901f0b8e001520711b5bc910c0cb50f365"
+manifest_digest = "sha256:bf17d8fe957b5b81924854f0ff95b7ef70654458db2df96fe8afab4ad00854b2"
+dependencies = [
+    "@acme/expiratory-valve@1.0.0",
+    "@acme/humidifier-module@1.0.0",
+    "@acme/icu-ontology@1.0.0",
+    "@acme/inspiratory-valve@1.0.0",
+    "@acme/patient-circuit@1.0.0",
+]
+ontologies = ["@acme/icu-ontology@1.0.0"]
+
+[[package]]
+name = "@acme/brushless-motor"
+version = "1.0.0"
+source = "registry"
+repository = "https://github.com/os2-0/acme-icu-ventilator-packages"
+commit = "35147a6a09f3ca9553bf30fc60adef01dc14c71e"
+tree = "cbd013895894c4f602769122fd36cae0652e536a"
+manifest_digest = "sha256:f0606080efc0997142cb6ec3f3a125b5a5651328b75c22cb88eb00f262eabe64"
+dependencies = ["@acme/icu-ontology@1.0.0"]
+ontologies = ["@acme/icu-ontology@1.0.0"]
+
+[[package]]
+name = "@acme/buzzer"
+version = "1.0.0"
+source = "registry"
+repository = "https://github.com/os2-0/acme-icu-ventilator-packages"
+commit = "f0dd9b4ccffe76629279fb880f9be5332136961b"
+tree = "cb77f0adb9b22df4b06491f3e1a1cacc849d42dc"
+manifest_digest = "sha256:eb771f1596ef35ece1d40286cbbbed48ed176cfaf3f058a028d990456a7fa80d"
+dependencies = ["@acme/icu-ontology@1.0.0"]
+ontologies = ["@acme/icu-ontology@1.0.0"]
+
+[[package]]
+name = "@acme/communication-module"
+version = "1.0.0"
+source = "registry"
+repository = "https://github.com/os2-0/acme-icu-ventilator-packages"
+commit = "c7b7e742a8d5e850d5861c29bb2a7f6074b07b87"
+tree = "7aff06e76caefca0a455d10b5f286e9a647b9b35"
+manifest_digest = "sha256:81e606b32d704bbe84c579e7f9d56201747a360c15ee8a1fa2563c9328ecd38d"
+dependencies = ["@acme/icu-ontology@1.0.0"]
+ontologies = ["@acme/icu-ontology@1.0.0"]
+
+[[package]]
+name = "@acme/control-software"
+version = "1.0.0"
+source = "registry"
+repository = "https://github.com/os2-0/acme-icu-ventilator-packages"
+commit = "308ce35835482e7af21e9386dd710e74f3967b48"
+tree = "04097db95c9a3f1011bdc1480e87cdac17aa62cd"
+manifest_digest = "sha256:1d29ec90281ec5954f9905ae7a375a0e3c284d7bd6610728a420059b92295bec"
+dependencies = ["@acme/icu-ontology@1.0.0"]
+ontologies = ["@acme/icu-ontology@1.0.0"]
+
+[[package]]
+name = "@acme/control-system"
+version = "1.0.0"
+source = "registry"
+repository = "https://github.com/os2-0/acme-icu-ventilator-packages"
+commit = "59cb3211615b88bba71052304248bb5ea43b7dcc"
+tree = "a0382cf4bd0ba9c9435ab9c23264aa0a18acac1e"
+manifest_digest = "sha256:ec0e1c6bcf0a452c513f1c98b7b93622d61073118b7b4d1716cb00338304636e"
+dependencies = [
+    "@acme/communication-module@1.0.0",
+    "@acme/control-software@1.0.0",
+    "@acme/icu-ontology@1.0.0",
+    "@acme/main-controller@1.0.0",
+    "@acme/watchdog-module@1.0.0",
+]
+ontologies = ["@acme/icu-ontology@1.0.0"]
+
+[[package]]
+name = "@acme/cooling-fan"
+version = "1.0.0"
+source = "registry"
+repository = "https://github.com/os2-0/acme-icu-ventilator-packages"
+commit = "381868438abdb08b82bf59fe156573665a760e24"
+tree = "a78957fef8a7ab54670da94a4bf3c215f46d8851"
+manifest_digest = "sha256:b29a2a17e9ad199908cb7cbb7e1796472d6a3ffa180fcd79bd41260f496fb58b"
+dependencies = ["@acme/icu-ontology@1.0.0"]
+ontologies = ["@acme/icu-ontology@1.0.0"]
+
+[[package]]
+name = "@acme/emergency-power-monitor"
+version = "1.0.0"
+source = "registry"
+repository = "https://github.com/os2-0/acme-icu-ventilator-packages"
+commit = "d7a833a3741811130d050c6b8044f9dc4ab607a9"
+tree = "b1dcde549bbd4db11f39e50e04893bdc72c02759"
+manifest_digest = "sha256:cafa5e231ee8c2862852dff45c4f17bf6d37442e0c24b29a141bf415fdb7efab"
+dependencies = ["@acme/icu-ontology@1.0.0"]
+ontologies = ["@acme/icu-ontology@1.0.0"]
+
+[[package]]
+name = "@acme/enclosure"
+version = "1.0.0"
+source = "registry"
+repository = "https://github.com/os2-0/acme-icu-ventilator-packages"
+commit = "d0174a47db833765d1cdda3eb846aa8f68abcf16"
+tree = "92271a7bbe6d034ba63cb632e88372a392f911ed"
+manifest_digest = "sha256:ef848740bbe251b39946663447556959714ee2520546b6fef1ce123598f36332"
+dependencies = ["@acme/icu-ontology@1.0.0"]
+ontologies = ["@acme/icu-ontology@1.0.0"]
+
+[[package]]
+name = "@acme/expiratory-tube"
+version = "1.0.0"
+source = "registry"
+repository = "https://github.com/os2-0/acme-icu-ventilator-packages"
+commit = "98ca6c68a01f55856f8a1a4a7f60ea811c785569"
+tree = "051b0a09d4fbda20b4cf12c66913d784cc5f815b"
+manifest_digest = "sha256:072b1f5cd0f815202d66ebe48c8108c6abbb213c1d92794a20f329e3c81cec6c"
+dependencies = ["@acme/icu-ontology@1.0.0"]
+ontologies = ["@acme/icu-ontology@1.0.0"]
+
+[[package]]
+name = "@acme/expiratory-valve"
+version = "1.0.0"
+source = "registry"
+repository = "https://github.com/os2-0/acme-icu-ventilator-packages"
+commit = "6938d3d7b5bb1c48889898e583aa861da823120b"
+tree = "500f12a9857a9de671fd73ef025209e900344ed4"
+manifest_digest = "sha256:1f89ec5d610079e58d45e83366d8d085aa4108a816688dcfefdf6bbb07307314"
+dependencies = ["@acme/icu-ontology@1.0.0"]
+ontologies = ["@acme/icu-ontology@1.0.0"]
+
+[[package]]
+name = "@acme/fastener-set"
+version = "1.0.0"
+source = "registry"
+repository = "https://github.com/os2-0/acme-icu-ventilator-packages"
+commit = "c7efe625561690f86035b9d2d62af0933c5b5442"
+tree = "7924167aff751fe680670d075c6615d1ec70121e"
+manifest_digest = "sha256:839163f5b19790cebbfede77f234dc5dc53f7f445e4bde942528253fc99a8a96"
+dependencies = ["@acme/icu-ontology@1.0.0"]
+ontologies = ["@acme/icu-ontology@1.0.0"]
+
+[[package]]
+name = "@acme/flow-sensor"
+version = "1.0.0"
+source = "registry"
+repository = "https://github.com/os2-0/acme-icu-ventilator-packages"
+commit = "5a3592c4c1e2726d5fd521a8a199c690f5c272d5"
+tree = "b4da114dbc1b0cf76c9f87833e26d21c372263e9"
+manifest_digest = "sha256:34017b76d41532f88063cc9bfa532d2a2fbfac29a3968e8bded2a1544b5fb5c0"
+dependencies = ["@acme/icu-ontology@1.0.0"]
+ontologies = ["@acme/icu-ontology@1.0.0"]
+
+[[package]]
+name = "@acme/gas-delivery"
+version = "1.0.0"
+source = "registry"
+repository = "https://github.com/os2-0/acme-icu-ventilator-packages"
+commit = "fa46a96251d9254563ca21f2e730c5abdcf5a9e6"
+tree = "ec168e58ce9049779b259b47f90610a4fe7ffe3b"
+manifest_digest = "sha256:fc88a5a5e08b05539afdcfc0ab04a774b50b931365dd8d0ac7b560351f403e9a"
+dependencies = [
+    "@acme/air-inlet-filter@1.0.0",
+    "@acme/blower-assembly@1.0.0",
+    "@acme/icu-ontology@1.0.0",
+    "@acme/oxygen-mixer@1.0.0",
+]
+ontologies = ["@acme/icu-ontology@1.0.0"]
+
+[[package]]
+name = "@acme/gas-manifold"
+version = "1.0.0"
+source = "registry"
+repository = "https://github.com/os2-0/acme-icu-ventilator-packages"
+commit = "5d4c4565efc7f0298a6ae4ddd70c4f38072e3ca0"
+tree = "924c1b4b647d734dd2b3ee3af692b4bd7be1f3e9"
+manifest_digest = "sha256:67f87b325328fb3a674032cecd0ede27271383015571c0d539b91761f9e33c8e"
+dependencies = ["@acme/icu-ontology@1.0.0"]
+ontologies = ["@acme/icu-ontology@1.0.0"]
+
+[[package]]
+name = "@acme/gas-regulator"
+version = "1.0.0"
+source = "registry"
+repository = "https://github.com/os2-0/acme-icu-ventilator-packages"
+commit = "085d286fd0a30c32b920241c04cd6da14ccb0c01"
+tree = "466ac2a61469d793b1b91ef344850392d85f81ce"
+manifest_digest = "sha256:3429c8835ec171381ca071bb9647c0a443cdea5f87e9afa82d92387f80fad3cd"
+dependencies = ["@acme/icu-ontology@1.0.0"]
+ontologies = ["@acme/icu-ontology@1.0.0"]
+
+[[package]]
+name = "@acme/humidifier-module"
+version = "1.0.0"
+source = "registry"
+repository = "https://github.com/os2-0/acme-icu-ventilator-packages"
+commit = "b056f913dd1a6ee3bf590f2a13edcd65d7dcace6"
+tree = "b2440c42ae76f17f80aee0a2adb44f938a8dde34"
+manifest_digest = "sha256:57450850b10350f723695cdc3b96265a20203bfa6b51aacfbcb145ae1bfc1870"
+dependencies = ["@acme/icu-ontology@1.0.0"]
+ontologies = ["@acme/icu-ontology@1.0.0"]
+
+[[package]]
+name = "@acme/icu-ontology"
+version = "1.0.0"
+source = "registry"
+repository = "https://github.com/os2-0/acme-icu-ventilator-packages"
+commit = "5898c295243ba16ece4b5203b6eb1beddab7d308"
+tree = "63f8da6f1cee8092931777b5e6936420529e7aa3"
+manifest_digest = "sha256:bdaac3d2756b9c5797a9909252e7134cb7b1c785285c6db97536ee176f317d00"
+dependencies = []
+
+[[package]]
+name = "@acme/impeller"
+version = "1.0.0"
+source = "registry"
+repository = "https://github.com/os2-0/acme-icu-ventilator-packages"
+commit = "f021e7107025a57ac92acffd0afc1303f5b6bfb1"
+tree = "b3138f9b5e0e3d2b9c16d8ebde05c85384542d71"
+manifest_digest = "sha256:38302650b85d01732608b6e21908cacbcf9cfe4dd73c4ae58681d720d93bef76"
+dependencies = ["@acme/icu-ontology@1.0.0"]
+ontologies = ["@acme/icu-ontology@1.0.0"]
+
+[[package]]
+name = "@acme/inspiratory-tube"
+version = "1.0.0"
+source = "registry"
+repository = "https://github.com/os2-0/acme-icu-ventilator-packages"
+commit = "22899718523ae15faef69f0f9c65906fca9bc639"
+tree = "bec66789c2707d6ecfde1ab54ba72dad1b4d8541"
+manifest_digest = "sha256:7cbeb344384035a786def4b5f760e4374d95735c4451cad0ef445db5a9429891"
+dependencies = ["@acme/icu-ontology@1.0.0"]
+ontologies = ["@acme/icu-ontology@1.0.0"]
+
+[[package]]
+name = "@acme/inspiratory-valve"
+version = "1.0.0"
+source = "registry"
+repository = "https://github.com/os2-0/acme-icu-ventilator-packages"
+commit = "04c651a974995d43518f0dc7454ca303ddbfaa8d"
+tree = "c9e05d4c4d33418b5054148c5d048f46929ad870"
+manifest_digest = "sha256:c8ee23e7e169152d213fe927b67f57c551151fc542e8dfb42b7c3a6eb1fec4ce"
+dependencies = ["@acme/icu-ontology@1.0.0"]
+ontologies = ["@acme/icu-ontology@1.0.0"]
+
+[[package]]
+name = "@acme/internal-frame"
+version = "1.0.0"
+source = "registry"
+repository = "https://github.com/os2-0/acme-icu-ventilator-packages"
+commit = "44bb3306b99f12c288de76308fe5143baca35b3d"
+tree = "a7927f3c058744f3e7dcd048995ac56f9d17b124"
+manifest_digest = "sha256:9e090c5efedd9894aaad8c265a35654a1857b8da2396cac5ee267d69638c8fd5"
+dependencies = ["@acme/icu-ontology@1.0.0"]
+ontologies = ["@acme/icu-ontology@1.0.0"]
+
+[[package]]
+name = "@acme/main-controller"
+version = "1.0.0"
+source = "registry"
+repository = "https://github.com/os2-0/acme-icu-ventilator-packages"
+commit = "128e28f21f880ed3019947ca087f8fd58c57f69e"
+tree = "2c3608e7e36a8e3eb3e107d26c7e284bd8ab4d6c"
+manifest_digest = "sha256:eebf362d9deacba780ce23c0e0f2cf107e6708ba8f4dc759c0f194ffa81053bf"
+dependencies = ["@acme/icu-ontology@1.0.0"]
+ontologies = ["@acme/icu-ontology@1.0.0"]
+
+[[package]]
+name = "@acme/mechanical-system"
+version = "1.0.0"
+source = "registry"
+repository = "https://github.com/os2-0/acme-icu-ventilator-packages"
+commit = "a344704f4e4bbd84cd7cecca1c2a80e2474069dc"
+tree = "3a7427ce924cca9012c9eed5179282c653e6814b"
+manifest_digest = "sha256:ebf5f6be88a9bf6e5d2eb5291965c3c0f6021174ceb8cdcbdc8c887efe73e484"
+dependencies = [
+    "@acme/cooling-fan@1.0.0",
+    "@acme/enclosure@1.0.0",
+    "@acme/fastener-set@1.0.0",
+    "@acme/icu-ontology@1.0.0",
+    "@acme/internal-frame@1.0.0",
+    "@acme/mounting-bracket@1.0.0",
+]
+ontologies = ["@acme/icu-ontology@1.0.0"]
+
+[[package]]
+name = "@acme/motor-driver"
+version = "1.0.0"
+source = "registry"
+repository = "https://github.com/os2-0/acme-icu-ventilator-packages"
+commit = "3670a62697399bf22227c8e8f9bae0bb9de6f27f"
+tree = "a0e03c4061e92992f38a1d3d0a6adcec9959aff5"
+manifest_digest = "sha256:bf0d551019f325af79b00381c770a5eede189cf0f161e93a1244a2252999780e"
+dependencies = ["@acme/icu-ontology@1.0.0"]
+ontologies = ["@acme/icu-ontology@1.0.0"]
+
+[[package]]
+name = "@acme/mounting-bracket"
+version = "1.0.0"
+source = "registry"
+repository = "https://github.com/os2-0/acme-icu-ventilator-packages"
+commit = "a8d6ae2caec97d2f7f3c349ea44882a110140d1f"
+tree = "c5af8bb7aefb120480c87fb814f487de9a655d39"
+manifest_digest = "sha256:a102c881a20847c512131a5c9436f1b4361daf7de0d0af50f754d093a63a4b86"
+dependencies = ["@acme/icu-ontology@1.0.0"]
+ontologies = ["@acme/icu-ontology@1.0.0"]
+
+[[package]]
+name = "@acme/operator-controls"
+version = "1.0.0"
+source = "registry"
+repository = "https://github.com/os2-0/acme-icu-ventilator-packages"
+commit = "d3499020c5f82ef24f26829257c9765c6365ba3e"
+tree = "42dc3a2452ecd6969db042cb27eda34b0a1f6bef"
+manifest_digest = "sha256:0717e2c6302d9ad0a5126bc6656a7a9009aa40197ebaeaa9e37eb421939f59bf"
+dependencies = ["@acme/icu-ontology@1.0.0"]
+ontologies = ["@acme/icu-ontology@1.0.0"]
+
+[[package]]
+name = "@acme/oxygen-mixer"
+version = "1.0.0"
+source = "registry"
+repository = "https://github.com/os2-0/acme-icu-ventilator-packages"
+commit = "aa6ca13c7dd1ca62e7243483eb10b7c67f16c7c3"
+tree = "f921704c62905bb86f3e84b1ba29844cc6030a13"
+manifest_digest = "sha256:e95770388032e82821b3814181e4da930252b49a5abb84ef61e72d1760176dad"
+dependencies = [
+    "@acme/gas-manifold@1.0.0",
+    "@acme/gas-regulator@1.0.0",
+    "@acme/icu-ontology@1.0.0",
+    "@acme/oxygen-valve@1.0.0",
+]
+ontologies = ["@acme/icu-ontology@1.0.0"]
+
+[[package]]
+name = "@acme/oxygen-sensor"
+version = "1.0.0"
+source = "registry"
+repository = "https://github.com/os2-0/acme-icu-ventilator-packages"
+commit = "5ed2b6fbf4e8ca06c9c88fb3f6b7b15e9bf6bce4"
+tree = "c04b73678466ea6e141a9f5e1764e4c84340a126"
+manifest_digest = "sha256:e3786a32d8c292a237539dc6f77cc67ca0b2069a22c15a07cdf2e7846e031e69"
+dependencies = ["@acme/icu-ontology@1.0.0"]
+ontologies = ["@acme/icu-ontology@1.0.0"]
+
+[[package]]
+name = "@acme/oxygen-valve"
+version = "1.0.0"
+source = "registry"
+repository = "https://github.com/os2-0/acme-icu-ventilator-packages"
+commit = "b197c533e4f296c12a33d449e55b3fb8e0bd7623"
+tree = "c8cb427e1198aae5eba7a5d561d0d46c4793996e"
+manifest_digest = "sha256:a392990ce7102e97ead493f21e5e79f6a32d45a0f1a4e765580366f1b0f885d4"
+dependencies = ["@acme/icu-ontology@1.0.0"]
+ontologies = ["@acme/icu-ontology@1.0.0"]
+
+[[package]]
+name = "@acme/patient-circuit"
+version = "1.0.0"
+source = "registry"
+repository = "https://github.com/os2-0/acme-icu-ventilator-packages"
+commit = "ce1af4768723cc4ce5bb2486143fff0de6c424f3"
+tree = "f2a7e168de89b2265edcc017efe823cc8105358c"
+manifest_digest = "sha256:f7c418b9d38613ec4efc6560e964ce62e3a4e45adfbc1bd88bac9f4439b87f22"
+dependencies = [
+    "@acme/expiratory-tube@1.0.0",
+    "@acme/icu-ontology@1.0.0",
+    "@acme/inspiratory-tube@1.0.0",
+    "@acme/patient-connector@1.0.0",
+]
+ontologies = ["@acme/icu-ontology@1.0.0"]
+
+[[package]]
+name = "@acme/patient-connector"
+version = "1.0.0"
+source = "registry"
+repository = "https://github.com/os2-0/acme-icu-ventilator-packages"
+commit = "8cf00787c1b3bcc4bdbbc125f210559a4800e2f8"
+tree = "8af5d89a382de063e1b9f329b35d2385d2eee759"
+manifest_digest = "sha256:0b2089370af89abb063568e4fb90df852114fa3feceed21f2b52964ed5d4887d"
+dependencies = ["@acme/icu-ontology@1.0.0"]
+ontologies = ["@acme/icu-ontology@1.0.0"]
+
+[[package]]
+name = "@acme/power-distribution-board"
+version = "1.0.0"
+source = "registry"
+repository = "https://github.com/os2-0/acme-icu-ventilator-packages"
+commit = "339a2527619e0ff7b19bab62191ab199a904d27f"
+tree = "9c7f93b0c9381fb2c7ec5f818909f99ac820fe8d"
+manifest_digest = "sha256:f04a8cf8cab225a7b2082c8fb97d38e5de0dec9e1aa4c3a6e8ee6baf87d9ffe6"
+dependencies = ["@acme/icu-ontology@1.0.0"]
+ontologies = ["@acme/icu-ontology@1.0.0"]
+
+[[package]]
+name = "@acme/power-system"
+version = "1.0.0"
+source = "registry"
+repository = "https://github.com/os2-0/acme-icu-ventilator-packages"
+commit = "ca4e5443c3386ed5c4a5849653079e5ec759a146"
+tree = "b638a4bd36c49eacad9287780d110514b0c2988b"
+manifest_digest = "sha256:5f8b5988a24844029855950cfbe0fb45994591b2535c75febb813566b99d2896"
+dependencies = [
+    "@acme/ac-dc-power-supply@1.0.0",
+    "@acme/battery-management@1.0.0",
+    "@acme/battery-pack@1.0.0",
+    "@acme/icu-ontology@1.0.0",
+    "@acme/power-distribution-board@1.0.0",
+]
+ontologies = ["@acme/icu-ontology@1.0.0"]
+
+[[package]]
+name = "@acme/pressure-relief-assembly"
+version = "1.0.0"
+source = "registry"
+repository = "https://github.com/os2-0/acme-icu-ventilator-packages"
+commit = "e70bb52bab413671e6f295edacf5ca20776ea988"
+tree = "e9d874c03ab49701c5bf7d9cf5bdf7e4f0b3d1d5"
+manifest_digest = "sha256:917b5187d60eb4a37114b7652d96930a3f08364af50aca6d69b773ad5b16aefd"
+dependencies = ["@acme/icu-ontology@1.0.0"]
+ontologies = ["@acme/icu-ontology@1.0.0"]
+
+[[package]]
+name = "@acme/pressure-sensor"
+version = "1.0.0"
+source = "registry"
+repository = "https://github.com/os2-0/acme-icu-ventilator-packages"
+commit = "0ff3923ba2f4724168d9d6e9747f9c207b99d29c"
+tree = "37e4b9e281ca8ad52558008a14792d30c111be50"
+manifest_digest = "sha256:c5b7b0de32f7e8c5beedce0bbdc3016c56542e81689e1b7f2a121aee431bad95"
+dependencies = ["@acme/icu-ontology@1.0.0"]
+ontologies = ["@acme/icu-ontology@1.0.0"]
+
+[[package]]
+name = "@acme/safety-monitor"
+version = "1.0.0"
+source = "registry"
+repository = "https://github.com/os2-0/acme-icu-ventilator-packages"
+commit = "566d434a1b33f15d26ba7f37c76294f69b29f6d9"
+tree = "3327e665511bf6bd6ab876e411960315ebaf532a"
+manifest_digest = "sha256:9d093a17720a8ec51c4b7f5f08cd326e39a9a60147840ea8bffcdb30416406fa"
+dependencies = ["@acme/icu-ontology@1.0.0"]
+ontologies = ["@acme/icu-ontology@1.0.0"]
+
+[[package]]
+name = "@acme/safety-system"
+version = "1.0.0"
+source = "registry"
+repository = "https://github.com/os2-0/acme-icu-ventilator-packages"
+commit = "7ca01f1ae3384f0ba4b38144c8cf55785f29971c"
+tree = "4f9631d4281f93020e83a4807a86cca50e61432a"
+manifest_digest = "sha256:b7d0500481841f1251a584b81bb983a80cf11e2cbc0a933a3f4d65ac4f8c0ec3"
+dependencies = [
+    "@acme/emergency-power-monitor@1.0.0",
+    "@acme/icu-ontology@1.0.0",
+    "@acme/pressure-relief-assembly@1.0.0",
+    "@acme/safety-monitor@1.0.0",
+]
+ontologies = ["@acme/icu-ontology@1.0.0"]
+
+[[package]]
+name = "@acme/sensor-interface-board"
+version = "1.0.0"
+source = "registry"
+repository = "https://github.com/os2-0/acme-icu-ventilator-packages"
+commit = "ddb8ec1574b7d635d7c4b7904b26eae79187716e"
+tree = "268da6a8ca1972693b340c71f1a3b3208e52b875"
+manifest_digest = "sha256:e648f85144f31cef358c0c6b53a24581ad50123ef7cbf69de5445fb9770980d8"
+dependencies = ["@acme/icu-ontology@1.0.0"]
+ontologies = ["@acme/icu-ontology@1.0.0"]
+
+[[package]]
+name = "@acme/sensor-system"
+version = "1.0.0"
+source = "registry"
+repository = "https://github.com/os2-0/acme-icu-ventilator-packages"
+commit = "f2a9d137f650ceddecf53cd0421e99a7b77d9935"
+tree = "4bc39be34671d38886199c8d4870b6b8b25ab1a2"
+manifest_digest = "sha256:941a72f249844ceae173f2ee5bd7910538a38bc5d78eb262d9cfef8946a204f0"
+dependencies = [
+    "@acme/flow-sensor@1.0.0",
+    "@acme/icu-ontology@1.0.0",
+    "@acme/oxygen-sensor@1.0.0",
+    "@acme/pressure-sensor@1.0.0",
+    "@acme/sensor-interface-board@1.0.0",
+    "@acme/temperature-sensor@1.0.0",
+]
+ontologies = ["@acme/icu-ontology@1.0.0"]
+
+[[package]]
+name = "@acme/temperature-sensor"
+version = "1.0.0"
+source = "registry"
+repository = "https://github.com/os2-0/acme-icu-ventilator-packages"
+commit = "fe49b90b7bf626822981a73e669a31f61ee37b9e"
+tree = "ca38bbd27992ff38fb6922068375eafe3510f173"
+manifest_digest = "sha256:5e77b805d903381ae5c24f62e8c51239aaa48d465afa584c94fe1cf67d96a5e1"
+dependencies = ["@acme/icu-ontology@1.0.0"]
+ontologies = ["@acme/icu-ontology@1.0.0"]
+
+[[package]]
+name = "@acme/touch-display"
+version = "1.0.0"
+source = "registry"
+repository = "https://github.com/os2-0/acme-icu-ventilator-packages"
+commit = "ad81fe955a02e32eefbb24ec83959bdd5a4b6950"
+tree = "5b6fc96edba28fad8895776f077d1bd329db17c4"
+manifest_digest = "sha256:a52ac0551657012c0381c03c1811687249b971ec4ce08a14375bff7e04a6d444"
+dependencies = ["@acme/icu-ontology@1.0.0"]
+ontologies = ["@acme/icu-ontology@1.0.0"]
+
+[[package]]
+name = "@acme/user-interface"
+version = "1.0.0"
+source = "registry"
+repository = "https://github.com/os2-0/acme-icu-ventilator-packages"
+commit = "035b77d87a8b23155e3942224bd606f4b60c3d9e"
+tree = "9c561339cbb224ac857f8e841e3b6ffe979ef566"
+manifest_digest = "sha256:15166f2853c542c2edb8e62057231e32249276dbf3b50e88b610ec13280dcea6"
+dependencies = [
+    "@acme/alarm-indicator@1.0.0",
+    "@acme/buzzer@1.0.0",
+    "@acme/icu-ontology@1.0.0",
+    "@acme/operator-controls@1.0.0",
+    "@acme/touch-display@1.0.0",
+]
+ontologies = ["@acme/icu-ontology@1.0.0"]
+
+[[package]]
+name = "@acme/watchdog-module"
+version = "1.0.0"
+source = "registry"
+repository = "https://github.com/os2-0/acme-icu-ventilator-packages"
+commit = "92f9e52a5f0cfed85c227eb0365b0c3b2773dcd2"
+tree = "5f9378ae586ca02c180f70caa60d0b7e98f8484f"
+manifest_digest = "sha256:c01a455267dc02987f547b5cd3f958ff4a066b2783f8cb1aceb403b96878d93e"
+dependencies = ["@acme/icu-ontology@1.0.0"]
+ontologies = ["@acme/icu-ontology@1.0.0"]
