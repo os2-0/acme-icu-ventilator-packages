@@ -1,0 +1,20 @@
+[[quantity]]
+id = "operator-controls-mass"
+kind = "@os20/core#Mass"
+value = "0.17"
+unit = "kilogram"
+scope = "own"
+policy = "sum"
+owner = "@acme/operator-controls#OperatorControls"
+provenance = "authored"
+
+[[quantity]]
+id = "operator-controls-cost"
+kind = "@os20/quantity#Cost"
+value = "35"
+unit = "USD"
+scope = "own"
+policy = "sum"
+owner = "@acme/operator-controls#OperatorControls"
+basis = "one-time"
+provenance = "authored"

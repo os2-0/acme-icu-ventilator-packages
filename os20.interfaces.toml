@@ -1,0 +1,26 @@
+# Native OS20 interface document for @acme/operator-controls.
+# Synthetic educational OS20 fixture. Not a medical device, not a validated ventilator, and not regulatory, clinical, or safety evidence.
+
+[[interfaces]]
+id = "keys"
+package = "@acme/operator-controls"
+owner = "OperatorControls"
+name = "keys"
+kind = "core:interface/electrical/signal"
+direction = "output"
+
+[[interfaces]]
+id = "encoder"
+package = "@acme/operator-controls"
+owner = "OperatorControls"
+name = "encoder"
+kind = "core:interface/electrical/signal"
+direction = "output"
+
+[[interfaces]]
+id = "panel-mount"
+package = "@acme/operator-controls"
+owner = "OperatorControls"
+name = "panel-mount"
+kind = "core:interface/mechanical/panel"
+direction = "input"

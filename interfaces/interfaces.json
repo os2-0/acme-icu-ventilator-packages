@@ -1,0 +1,36 @@
+{
+  "schema": "os20-fixture-interfaces-v1",
+  "disclaimer": "Synthetic educational OS20 fixture. Not a medical device, not a validated ventilator, and not regulatory, clinical, or safety evidence.",
+  "package": "@acme/operator-controls",
+  "native_document": "os20.interfaces.toml",
+  "ports": [
+    {
+      "id": "@acme/operator-controls#iface.keys",
+      "local_id": "keys",
+      "kind": "core:interface/electrical/signal",
+      "direction": "output",
+      "properties": {},
+      "owner_definition": "@acme/operator-controls#OperatorControls",
+      "note": "Connect by mounted occurrence and port, not by package name alone."
+    },
+    {
+      "id": "@acme/operator-controls#iface.encoder",
+      "local_id": "encoder",
+      "kind": "core:interface/electrical/signal",
+      "direction": "output",
+      "properties": {},
+      "owner_definition": "@acme/operator-controls#OperatorControls",
+      "note": "Connect by mounted occurrence and port, not by package name alone."
+    },
+    {
+      "id": "@acme/operator-controls#iface.panel-mount",
+      "local_id": "panel-mount",
+      "kind": "core:interface/mechanical/panel",
+      "direction": "input",
+      "properties": {},
+      "owner_definition": "@acme/operator-controls#OperatorControls",
+      "note": "Connect by mounted occurrence and port, not by package name alone."
+    }
+  ],
+  "sibling_references": []
+}
