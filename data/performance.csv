@@ -1,0 +1,3 @@
+quantity,value,unit,status,provenance
+mass,0.15,kilogram,synthetic,synthetic-fixture
+cost,12,USD,synthetic,synthetic-fixture

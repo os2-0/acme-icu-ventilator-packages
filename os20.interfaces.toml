@@ -1,0 +1,24 @@
+# Native OS20 interface document for @acme/inspiratory-tube.
+# Synthetic educational OS20 fixture. Not a medical device, not a validated ventilator, and not regulatory, clinical, or safety evidence.
+
+[[interfaces]]
+id = "proximal"
+package = "@acme/inspiratory-tube"
+owner = "InspiratoryTube"
+name = "proximal"
+kind = "core:interface/fluid/gas"
+direction = "input"
+
+[interfaces.properties]
+size = "22 mm"
+
+[[interfaces]]
+id = "distal"
+package = "@acme/inspiratory-tube"
+owner = "InspiratoryTube"
+name = "distal"
+kind = "core:interface/fluid/gas"
+direction = "output"
+
+[interfaces.properties]
+size = "22 mm"

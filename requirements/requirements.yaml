@@ -1,0 +1,33 @@
+# Synthetic educational OS20 fixture. Not a medical device, not a validated ventilator, and not regulatory, clinical, or safety evidence.
+package: @acme/inspiratory-tube
+kind: requirement-definition
+status: authored-unverified
+requirements:
+  - id: REQ-INSPIRATORY_TUBE-001
+    title: "Inspiratory limb tube identity and package boundary"
+    text: "The definition @acme/inspiratory-tube#InspiratoryTube shall be published as package @acme/inspiratory-tube@1.0.0."
+    kind: definition
+    evidence: missing
+    verified: false
+    owner: @acme/inspiratory-tube#InspiratoryTube
+  - id: REQ-INSPIRATORY_TUBE-002
+    title: "Inspiratory limb tube interface declaration"
+    text: "Inspiratory limb tube shall declare its ports in os20.interfaces.toml. Connection is by occurrence and port."
+    kind: definition
+    evidence: missing
+    verified: false
+    owner: @acme/inspiratory-tube#InspiratoryTube
+  - id: REQ-INSPIRATORY_TUBE-003
+    title: "Inspiratory limb tube evidence distinction"
+    text: "Verification records in this package are procedure definitions only. They are not test results, certification, or clinical validation."
+    kind: definition
+    evidence: missing
+    verified: false
+    owner: @acme/inspiratory-tube#InspiratoryTube
+  - id: REQ-INSPIRATORY_TUBE-004
+    title: "Inspiratory limb tube mass declaration"
+    text: "Own mass shall be authored as 0.15 kilogram with provenance synthetic-fixture."
+    kind: definition
+    evidence: missing
+    verified: false
+    owner: @acme/inspiratory-tube#InspiratoryTube
