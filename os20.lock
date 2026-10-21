@@ -1,0 +1,44 @@
+format = 1
+
+[[package]]
+name = "@acme/gas-manifold"
+version = "1.0.0"
+source = "registry"
+repository = "https://github.com/os2-0/acme-icu-ventilator-packages"
+commit = "5d4c4565efc7f0298a6ae4ddd70c4f38072e3ca0"
+tree = "924c1b4b647d734dd2b3ee3af692b4bd7be1f3e9"
+manifest_digest = "sha256:67f87b325328fb3a674032cecd0ede27271383015571c0d539b91761f9e33c8e"
+dependencies = ["@acme/icu-ontology@1.0.0"]
+ontologies = ["@acme/icu-ontology@1.0.0"]
+
+[[package]]
+name = "@acme/gas-regulator"
+version = "1.0.0"
+source = "registry"
+repository = "https://github.com/os2-0/acme-icu-ventilator-packages"
+commit = "085d286fd0a30c32b920241c04cd6da14ccb0c01"
+tree = "466ac2a61469d793b1b91ef344850392d85f81ce"
+manifest_digest = "sha256:3429c8835ec171381ca071bb9647c0a443cdea5f87e9afa82d92387f80fad3cd"
+dependencies = ["@acme/icu-ontology@1.0.0"]
+ontologies = ["@acme/icu-ontology@1.0.0"]
+
+[[package]]
+name = "@acme/icu-ontology"
+version = "1.0.0"
+source = "registry"
+repository = "https://github.com/os2-0/acme-icu-ventilator-packages"
+commit = "5898c295243ba16ece4b5203b6eb1beddab7d308"
+tree = "63f8da6f1cee8092931777b5e6936420529e7aa3"
+manifest_digest = "sha256:bdaac3d2756b9c5797a9909252e7134cb7b1c785285c6db97536ee176f317d00"
+dependencies = []
+
+[[package]]
+name = "@acme/oxygen-valve"
+version = "1.0.0"
+source = "registry"
+repository = "https://github.com/os2-0/acme-icu-ventilator-packages"
+commit = "b197c533e4f296c12a33d449e55b3fb8e0bd7623"
+tree = "c8cb427e1198aae5eba7a5d561d0d46c4793996e"
+manifest_digest = "sha256:a392990ce7102e97ead493f21e5e79f6a32d45a0f1a4e765580366f1b0f885d4"
+dependencies = ["@acme/icu-ontology@1.0.0"]
+ontologies = ["@acme/icu-ontology@1.0.0"]
