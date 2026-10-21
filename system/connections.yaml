@@ -1,0 +1,22 @@
+# Companion view of [[reference]] / [[connections]] for @acme/sensor-system. OS20 does not read this file.
+connections:
+  - from_occurrence: @acme/sensor-system#occ.inspiratory-pressure-sensor
+    to_occurrence: @acme/sensor-system#occ.sensor-interface-board
+    predicate: acme:connectedTo
+    note: specific mounted occurrence, not package name
+  - from_occurrence: @acme/sensor-system#occ.expiratory-pressure-sensor
+    to_occurrence: @acme/sensor-system#occ.sensor-interface-board
+    predicate: acme:connectedTo
+    note: specific mounted occurrence, not package name
+  - from_occurrence: @acme/sensor-system#occ.flow-sensor
+    to_occurrence: @acme/sensor-system#occ.sensor-interface-board
+    predicate: acme:connectedTo
+    note: specific mounted occurrence, not package name
+  - from_occurrence: @acme/sensor-system#occ.oxygen-sensor
+    to_occurrence: @acme/sensor-system#occ.sensor-interface-board
+    predicate: acme:connectedTo
+    note: specific mounted occurrence, not package name
+  - from_occurrence: @acme/sensor-system#occ.temperature-sensor
+    to_occurrence: @acme/sensor-system#occ.sensor-interface-board
+    predicate: acme:connectedTo
+    note: specific mounted occurrence, not package name

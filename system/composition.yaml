@@ -1,0 +1,33 @@
+# Companion view of os20.occurrences.toml for @acme/sensor-system. OS20 does not read this file.
+root: @acme/sensor-system#occ-tree
+children:
+  - role: inspiratory-pressure-sensor
+    occurrence: @acme/sensor-system#occ.inspiratory-pressure-sensor
+    definition: @acme/pressure-sensor#PressureSensor
+    package: @acme/pressure-sensor@1.0.0
+    predicate: os20:HasPart
+  - role: expiratory-pressure-sensor
+    occurrence: @acme/sensor-system#occ.expiratory-pressure-sensor
+    definition: @acme/pressure-sensor#PressureSensor
+    package: @acme/pressure-sensor@1.0.0
+    predicate: os20:HasPart
+  - role: flow-sensor
+    occurrence: @acme/sensor-system#occ.flow-sensor
+    definition: @acme/flow-sensor#FlowSensor
+    package: @acme/flow-sensor@1.0.0
+    predicate: os20:HasPart
+  - role: oxygen-sensor
+    occurrence: @acme/sensor-system#occ.oxygen-sensor
+    definition: @acme/oxygen-sensor#OxygenSensor
+    package: @acme/oxygen-sensor@1.0.0
+    predicate: os20:HasPart
+  - role: temperature-sensor
+    occurrence: @acme/sensor-system#occ.temperature-sensor
+    definition: @acme/temperature-sensor#TemperatureSensor
+    package: @acme/temperature-sensor@1.0.0
+    predicate: os20:HasPart
+  - role: sensor-interface-board
+    occurrence: @acme/sensor-system#occ.sensor-interface-board
+    definition: @acme/sensor-interface-board#SensorInterfaceBoard
+    package: @acme/sensor-interface-board@1.0.0
+    predicate: os20:HasPart

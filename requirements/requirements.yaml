@@ -1,0 +1,33 @@
+# Synthetic educational OS20 fixture. Not a medical device, not a validated ventilator, and not regulatory, clinical, or safety evidence.
+package: @acme/sensor-system
+kind: requirement-definition
+status: authored-unverified
+requirements:
+  - id: REQ-SENSOR_SYSTEM-001
+    title: "Sensor subsystem identity and package boundary"
+    text: "The definition @acme/sensor-system#SensorSystem shall be published as package @acme/sensor-system@1.0.0."
+    kind: definition
+    evidence: missing
+    verified: false
+    owner: @acme/sensor-system#SensorSystem
+  - id: REQ-SENSOR_SYSTEM-002
+    title: "Sensor subsystem interface declaration"
+    text: "Sensor subsystem shall declare its ports in os20.interfaces.toml. Connection is by occurrence and port."
+    kind: definition
+    evidence: missing
+    verified: false
+    owner: @acme/sensor-system#SensorSystem
+  - id: REQ-SENSOR_SYSTEM-003
+    title: "Sensor subsystem evidence distinction"
+    text: "Verification records in this package are procedure definitions only. They are not test results, certification, or clinical validation."
+    kind: definition
+    evidence: missing
+    verified: false
+    owner: @acme/sensor-system#SensorSystem
+  - id: REQ-SENSOR_SYSTEM-004
+    title: "Sensor subsystem mass rollup"
+    text: "Composite mass shall be derived from structural child occurrences. Duplicate package dependencies shall not be counted twice."
+    kind: definition
+    evidence: missing
+    verified: false
+    owner: @acme/sensor-system#SensorSystem

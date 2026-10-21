@@ -1,0 +1,80 @@
+{
+  "schema": "os20-fixture-interfaces-v1",
+  "disclaimer": "Synthetic educational OS20 fixture. Not a medical device, not a validated ventilator, and not regulatory, clinical, or safety evidence.",
+  "package": "@acme/sensor-system",
+  "native_document": "os20.interfaces.toml",
+  "ports": [
+    {
+      "id": "@acme/sensor-system#iface.insp-pressure-tap",
+      "local_id": "insp-pressure-tap",
+      "kind": "core:interface/fluid/gas",
+      "direction": "input",
+      "properties": {},
+      "owner_definition": "@acme/sensor-system#SensorSystem",
+      "note": "Connect by mounted occurrence and port, not by package name alone."
+    },
+    {
+      "id": "@acme/sensor-system#iface.exp-pressure-tap",
+      "local_id": "exp-pressure-tap",
+      "kind": "core:interface/fluid/gas",
+      "direction": "input",
+      "properties": {},
+      "owner_definition": "@acme/sensor-system#SensorSystem",
+      "note": "Connect by mounted occurrence and port, not by package name alone."
+    },
+    {
+      "id": "@acme/sensor-system#iface.sensor-bus",
+      "local_id": "sensor-bus",
+      "kind": "core:interface/electrical/signal",
+      "direction": "output",
+      "properties": {
+        "protocol": "example-spi"
+      },
+      "owner_definition": "@acme/sensor-system#SensorSystem",
+      "note": "Connect by mounted occurrence and port, not by package name alone."
+    },
+    {
+      "id": "@acme/sensor-system#iface.board-power",
+      "local_id": "board-power",
+      "kind": "core:interface/electrical/power",
+      "direction": "input",
+      "properties": {
+        "voltage": "5 V"
+      },
+      "owner_definition": "@acme/sensor-system#SensorSystem",
+      "note": "Connect by mounted occurrence and port, not by package name alone."
+    }
+  ],
+  "sibling_references": [
+    {
+      "from": "@acme/sensor-system#occ.inspiratory-pressure-sensor",
+      "to": "@acme/sensor-system#occ.sensor-interface-board",
+      "predicate": "acme:connectedTo",
+      "native": "os20.occurrences.toml [[reference]]"
+    },
+    {
+      "from": "@acme/sensor-system#occ.expiratory-pressure-sensor",
+      "to": "@acme/sensor-system#occ.sensor-interface-board",
+      "predicate": "acme:connectedTo",
+      "native": "os20.occurrences.toml [[reference]]"
+    },
+    {
+      "from": "@acme/sensor-system#occ.flow-sensor",
+      "to": "@acme/sensor-system#occ.sensor-interface-board",
+      "predicate": "acme:connectedTo",
+      "native": "os20.occurrences.toml [[reference]]"
+    },
+    {
+      "from": "@acme/sensor-system#occ.oxygen-sensor",
+      "to": "@acme/sensor-system#occ.sensor-interface-board",
+      "predicate": "acme:connectedTo",
+      "native": "os20.occurrences.toml [[reference]]"
+    },
+    {
+      "from": "@acme/sensor-system#occ.temperature-sensor",
+      "to": "@acme/sensor-system#occ.sensor-interface-board",
+      "predicate": "acme:connectedTo",
+      "native": "os20.occurrences.toml [[reference]]"
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+[namespaces]
+acme = "@acme/icu-ontology#"
+os20 = "@os20/core#"
+
+[[definition]]
+id = "@acme/sensor-system#SensorSystem"
+
+[[definition]]
+id = "@acme/pressure-sensor#PressureSensor"
+package = "@acme/pressure-sensor"
+version = "1.0.0"
+
+[[definition]]
+id = "@acme/pressure-sensor#PressureSensor"
+package = "@acme/pressure-sensor"
+version = "1.0.0"
+
+[[definition]]
+id = "@acme/flow-sensor#FlowSensor"
+package = "@acme/flow-sensor"
+version = "1.0.0"
+
+[[definition]]
+id = "@acme/oxygen-sensor#OxygenSensor"
+package = "@acme/oxygen-sensor"
+version = "1.0.0"
+
+[[definition]]
+id = "@acme/temperature-sensor#TemperatureSensor"
+package = "@acme/temperature-sensor"
+version = "1.0.0"
+
+[[definition]]
+id = "@acme/sensor-interface-board#SensorInterfaceBoard"
+package = "@acme/sensor-interface-board"
+version = "1.0.0"
+
+[[occurrence]]
+id = "@acme/sensor-system#occ.inspiratory-pressure-sensor"
+role = "inspiratory-pressure-sensor"
+predicate = "os20:HasPart"
+
+[occurrence.definition]
+id = "@acme/pressure-sensor#PressureSensor"
+package = "@acme/pressure-sensor"
+version = "1.0.0"
+
+[[occurrence]]
+id = "@acme/sensor-system#occ.expiratory-pressure-sensor"
+role = "expiratory-pressure-sensor"
+predicate = "os20:HasPart"
+
+[occurrence.definition]
+id = "@acme/pressure-sensor#PressureSensor"
+package = "@acme/pressure-sensor"
+version = "1.0.0"
+
+[[occurrence]]
+id = "@acme/sensor-system#occ.flow-sensor"
+role = "flow-sensor"
+predicate = "os20:HasPart"
+
+[occurrence.definition]
+id = "@acme/flow-sensor#FlowSensor"
+package = "@acme/flow-sensor"
+version = "1.0.0"
+
+[[occurrence]]
+id = "@acme/sensor-system#occ.oxygen-sensor"
+role = "oxygen-sensor"
+predicate = "os20:HasPart"
+
+[occurrence.definition]
+id = "@acme/oxygen-sensor#OxygenSensor"
+package = "@acme/oxygen-sensor"
+version = "1.0.0"
+
+[[occurrence]]
+id = "@acme/sensor-system#occ.temperature-sensor"
+role = "temperature-sensor"
+predicate = "os20:HasPart"
+
+[occurrence.definition]
+id = "@acme/temperature-sensor#TemperatureSensor"
+package = "@acme/temperature-sensor"
+version = "1.0.0"
+
+[[occurrence]]
+id = "@acme/sensor-system#occ.sensor-interface-board"
+role = "sensor-interface-board"
+predicate = "os20:HasPart"
+
+[occurrence.definition]
+id = "@acme/sensor-interface-board#SensorInterfaceBoard"
+package = "@acme/sensor-interface-board"
+version = "1.0.0"
+
+[[reference]]
+from = "@acme/sensor-system#occ.inspiratory-pressure-sensor"
+to = "@acme/sensor-system#occ.sensor-interface-board"
+predicate = "acme:connectedTo"
+
+[[reference]]
+from = "@acme/sensor-system#occ.expiratory-pressure-sensor"
+to = "@acme/sensor-system#occ.sensor-interface-board"
+predicate = "acme:connectedTo"
+
+[[reference]]
+from = "@acme/sensor-system#occ.flow-sensor"
+to = "@acme/sensor-system#occ.sensor-interface-board"
+predicate = "acme:connectedTo"
+
+[[reference]]
+from = "@acme/sensor-system#occ.oxygen-sensor"
+to = "@acme/sensor-system#occ.sensor-interface-board"
+predicate = "acme:connectedTo"
+
+[[reference]]
+from = "@acme/sensor-system#occ.temperature-sensor"
+to = "@acme/sensor-system#occ.sensor-interface-board"
+predicate = "acme:connectedTo"

@@ -1,0 +1,47 @@
+{
+  "schema": "os20-fixture-properties-v1",
+  "disclaimer": "Synthetic educational OS20 fixture. Not a medical device, not a validated ventilator, and not regulatory, clinical, or safety evidence.",
+  "package": "@acme/sensor-system",
+  "properties": [
+    {
+      "id": "@acme/sensor-system#prop.identity",
+      "kind": "identity",
+      "value": "@acme/sensor-system",
+      "unit": null,
+      "quantity_type": null,
+      "status": "authored",
+      "provenance": "synthetic-fixture",
+      "applicability": "this-definition",
+      "owner": "@acme/sensor-system#SensorSystem"
+    },
+    {
+      "id": "@acme/sensor-system#prop.mass",
+      "kind": "@os20/core#Mass",
+      "value": null,
+      "unit": "kilogram",
+      "quantity_type": "mass",
+      "status": "unresolved-derive-from-children",
+      "provenance": "synthetic-fixture",
+      "applicability": "composite; value comes from child occurrences",
+      "owner": "@acme/sensor-system#SensorSystem",
+      "aggregatable": true
+    },
+    {
+      "id": "@acme/sensor-system#prop.envelope",
+      "kind": "envelope",
+      "value": {
+        "x": 180,
+        "y": 90,
+        "z": 40
+      },
+      "unit": "millimetre",
+      "quantity_type": "length",
+      "status": "authored-synthetic",
+      "provenance": "synthetic-fixture",
+      "applicability": "axis-aligned bounding box example",
+      "owner": "@acme/sensor-system#SensorSystem",
+      "aggregatable": false,
+      "note": "Envelope lengths are not summed by os20 system run quantity."
+    }
+  ]
+}

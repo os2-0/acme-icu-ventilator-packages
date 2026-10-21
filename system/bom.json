@@ -1,0 +1,67 @@
+{
+  "schema": "os20-fixture-bom-v1",
+  "disclaimer": "Synthetic educational OS20 fixture. Not a medical device, not a validated ventilator, and not regulatory, clinical, or safety evidence.",
+  "package": "@acme/sensor-system",
+  "items": [
+    {
+      "occurrence": "@acme/sensor-system#occ.inspiratory-pressure-sensor",
+      "role": "inspiratory-pressure-sensor",
+      "package": "@acme/pressure-sensor",
+      "version": "1.0.0",
+      "definition": "@acme/pressure-sensor#PressureSensor",
+      "qty": 1,
+      "mass_kg_own": 0.09,
+      "note": "Occurrence count, not dependency-graph count"
+    },
+    {
+      "occurrence": "@acme/sensor-system#occ.expiratory-pressure-sensor",
+      "role": "expiratory-pressure-sensor",
+      "package": "@acme/pressure-sensor",
+      "version": "1.0.0",
+      "definition": "@acme/pressure-sensor#PressureSensor",
+      "qty": 1,
+      "mass_kg_own": 0.09,
+      "note": "Occurrence count, not dependency-graph count"
+    },
+    {
+      "occurrence": "@acme/sensor-system#occ.flow-sensor",
+      "role": "flow-sensor",
+      "package": "@acme/flow-sensor",
+      "version": "1.0.0",
+      "definition": "@acme/flow-sensor#FlowSensor",
+      "qty": 1,
+      "mass_kg_own": 0.11,
+      "note": "Occurrence count, not dependency-graph count"
+    },
+    {
+      "occurrence": "@acme/sensor-system#occ.oxygen-sensor",
+      "role": "oxygen-sensor",
+      "package": "@acme/oxygen-sensor",
+      "version": "1.0.0",
+      "definition": "@acme/oxygen-sensor#OxygenSensor",
+      "qty": 1,
+      "mass_kg_own": 0.13,
+      "note": "Occurrence count, not dependency-graph count"
+    },
+    {
+      "occurrence": "@acme/sensor-system#occ.temperature-sensor",
+      "role": "temperature-sensor",
+      "package": "@acme/temperature-sensor",
+      "version": "1.0.0",
+      "definition": "@acme/temperature-sensor#TemperatureSensor",
+      "qty": 1,
+      "mass_kg_own": 0.05,
+      "note": "Occurrence count, not dependency-graph count"
+    },
+    {
+      "occurrence": "@acme/sensor-system#occ.sensor-interface-board",
+      "role": "sensor-interface-board",
+      "package": "@acme/sensor-interface-board",
+      "version": "1.0.0",
+      "definition": "@acme/sensor-interface-board#SensorInterfaceBoard",
+      "qty": 1,
+      "mass_kg_own": 0.21,
+      "note": "Occurrence count, not dependency-graph count"
+    }
+  ]
+}

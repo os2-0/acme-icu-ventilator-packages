@@ -1,0 +1,37 @@
+[[quantity]]
+id = "sensor-system-mass-@acme/sensor-system"
+kind = "@os20/core#Mass"
+scope = "own"
+policy = "derive-from-children"
+owner = "@acme/sensor-system"
+
+provenance = "authored"
+
+[[quantity]]
+id = "sensor-system-cost-@acme/sensor-system"
+kind = "@os20/quantity#Cost"
+scope = "own"
+policy = "derive-from-children"
+owner = "@acme/sensor-system"
+basis = "one-time"
+
+provenance = "authored"
+
+[[quantity]]
+id = "sensor-system-mass-sensorsystem"
+kind = "@os20/core#Mass"
+scope = "own"
+policy = "derive-from-children"
+owner = "@acme/sensor-system#SensorSystem"
+
+provenance = "authored"
+
+[[quantity]]
+id = "sensor-system-cost-sensorsystem"
+kind = "@os20/quantity#Cost"
+scope = "own"
+policy = "derive-from-children"
+owner = "@acme/sensor-system#SensorSystem"
+basis = "one-time"
+
+provenance = "authored"

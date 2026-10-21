@@ -1,0 +1,70 @@
+# Native OS20 interface document for @acme/sensor-system.
+# Synthetic educational OS20 fixture. Not a medical device, not a validated ventilator, and not regulatory, clinical, or safety evidence.
+
+[[interfaces]]
+id = "insp-pressure-tap"
+package = "@acme/sensor-system"
+owner = "SensorSystem"
+name = "insp-pressure-tap"
+kind = "core:interface/fluid/gas"
+direction = "input"
+
+[[interfaces]]
+id = "exp-pressure-tap"
+package = "@acme/sensor-system"
+owner = "SensorSystem"
+name = "exp-pressure-tap"
+kind = "core:interface/fluid/gas"
+direction = "input"
+
+[[interfaces]]
+id = "sensor-bus"
+package = "@acme/sensor-system"
+owner = "SensorSystem"
+name = "sensor-bus"
+kind = "core:interface/electrical/signal"
+direction = "output"
+
+[interfaces.properties]
+protocol = "example-spi"
+
+[[interfaces]]
+id = "board-power"
+package = "@acme/sensor-system"
+owner = "SensorSystem"
+name = "board-power"
+kind = "core:interface/electrical/power"
+direction = "input"
+
+[interfaces.properties]
+voltage = "5 V"
+
+[[connections]]
+from = "PressureSensor.port-plus"
+to = "SensorInterfaceBoard.analog-in"
+relation = "core:connectedTo"
+required = true
+
+[[connections]]
+from = "PressureSensor.port-plus"
+to = "SensorInterfaceBoard.analog-in"
+relation = "core:connectedTo"
+required = true
+
+[[connections]]
+from = "FlowSensor.flow-in"
+to = "SensorInterfaceBoard.analog-in"
+relation = "core:connectedTo"
+required = true
+
+[[connections]]
+from = "OxygenSensor.sample"
+to = "SensorInterfaceBoard.analog-in"
+relation = "core:connectedTo"
+required = true
+
+[[connections]]
+from = "TemperatureSensor.probe"
+to = "SensorInterfaceBoard.analog-in"
+relation = "core:connectedTo"
+required = true
