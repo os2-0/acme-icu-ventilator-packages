@@ -8,8 +8,8 @@ description = "Breathing circuit subsystem. Synthetic educational OS20 fixture. 
 acme = "@acme/icu-ontology@1.0.0"
 
 [dependencies]
-"@acme/icu-ontology" = { path = "../icu-ontology" }
-"@acme/inspiratory-valve" = { path = "../inspiratory-valve" }
-"@acme/expiratory-valve" = { path = "../expiratory-valve" }
-"@acme/patient-circuit" = { path = "../patient-circuit" }
-"@acme/humidifier-module" = { path = "../humidifier-module" }
+"@acme/expiratory-valve" = "@acme/expiratory-valve@^1.0"
+"@acme/humidifier-module" = "@acme/humidifier-module@^1.0"
+"@acme/icu-ontology" = "@acme/icu-ontology@^1.0"
+"@acme/inspiratory-valve" = "@acme/inspiratory-valve@^1.0"
+"@acme/patient-circuit" = "@acme/patient-circuit@^1.0"

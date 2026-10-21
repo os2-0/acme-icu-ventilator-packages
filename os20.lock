@@ -1,0 +1,93 @@
+format = 1
+
+[[package]]
+name = "@acme/expiratory-tube"
+version = "1.0.0"
+source = "registry"
+repository = "https://github.com/os2-0/acme-icu-ventilator-packages"
+commit = "98ca6c68a01f55856f8a1a4a7f60ea811c785569"
+tree = "051b0a09d4fbda20b4cf12c66913d784cc5f815b"
+manifest_digest = "sha256:072b1f5cd0f815202d66ebe48c8108c6abbb213c1d92794a20f329e3c81cec6c"
+dependencies = ["@acme/icu-ontology@1.0.0"]
+ontologies = ["@acme/icu-ontology@1.0.0"]
+
+[[package]]
+name = "@acme/expiratory-valve"
+version = "1.0.0"
+source = "registry"
+repository = "https://github.com/os2-0/acme-icu-ventilator-packages"
+commit = "6938d3d7b5bb1c48889898e583aa861da823120b"
+tree = "500f12a9857a9de671fd73ef025209e900344ed4"
+manifest_digest = "sha256:1f89ec5d610079e58d45e83366d8d085aa4108a816688dcfefdf6bbb07307314"
+dependencies = ["@acme/icu-ontology@1.0.0"]
+ontologies = ["@acme/icu-ontology@1.0.0"]
+
+[[package]]
+name = "@acme/humidifier-module"
+version = "1.0.0"
+source = "registry"
+repository = "https://github.com/os2-0/acme-icu-ventilator-packages"
+commit = "b056f913dd1a6ee3bf590f2a13edcd65d7dcace6"
+tree = "b2440c42ae76f17f80aee0a2adb44f938a8dde34"
+manifest_digest = "sha256:57450850b10350f723695cdc3b96265a20203bfa6b51aacfbcb145ae1bfc1870"
+dependencies = ["@acme/icu-ontology@1.0.0"]
+ontologies = ["@acme/icu-ontology@1.0.0"]
+
+[[package]]
+name = "@acme/icu-ontology"
+version = "1.0.0"
+source = "registry"
+repository = "https://github.com/os2-0/acme-icu-ventilator-packages"
+commit = "5898c295243ba16ece4b5203b6eb1beddab7d308"
+tree = "63f8da6f1cee8092931777b5e6936420529e7aa3"
+manifest_digest = "sha256:bdaac3d2756b9c5797a9909252e7134cb7b1c785285c6db97536ee176f317d00"
+dependencies = []
+
+[[package]]
+name = "@acme/inspiratory-tube"
+version = "1.0.0"
+source = "registry"
+repository = "https://github.com/os2-0/acme-icu-ventilator-packages"
+commit = "22899718523ae15faef69f0f9c65906fca9bc639"
+tree = "bec66789c2707d6ecfde1ab54ba72dad1b4d8541"
+manifest_digest = "sha256:7cbeb344384035a786def4b5f760e4374d95735c4451cad0ef445db5a9429891"
+dependencies = ["@acme/icu-ontology@1.0.0"]
+ontologies = ["@acme/icu-ontology@1.0.0"]
+
+[[package]]
+name = "@acme/inspiratory-valve"
+version = "1.0.0"
+source = "registry"
+repository = "https://github.com/os2-0/acme-icu-ventilator-packages"
+commit = "04c651a974995d43518f0dc7454ca303ddbfaa8d"
+tree = "c9e05d4c4d33418b5054148c5d048f46929ad870"
+manifest_digest = "sha256:c8ee23e7e169152d213fe927b67f57c551151fc542e8dfb42b7c3a6eb1fec4ce"
+dependencies = ["@acme/icu-ontology@1.0.0"]
+ontologies = ["@acme/icu-ontology@1.0.0"]
+
+[[package]]
+name = "@acme/patient-circuit"
+version = "1.0.0"
+source = "registry"
+repository = "https://github.com/os2-0/acme-icu-ventilator-packages"
+commit = "ce1af4768723cc4ce5bb2486143fff0de6c424f3"
+tree = "f2a7e168de89b2265edcc017efe823cc8105358c"
+manifest_digest = "sha256:f7c418b9d38613ec4efc6560e964ce62e3a4e45adfbc1bd88bac9f4439b87f22"
+dependencies = [
+    "@acme/expiratory-tube@1.0.0",
+    "@acme/icu-ontology@1.0.0",
+    "@acme/inspiratory-tube@1.0.0",
+    "@acme/patient-connector@1.0.0",
+]
+ontologies = ["@acme/icu-ontology@1.0.0"]
+
+[[package]]
+name = "@acme/patient-connector"
+version = "1.0.0"
+source = "registry"
+repository = "https://github.com/os2-0/acme-icu-ventilator-packages"
+commit = "8cf00787c1b3bcc4bdbbc125f210559a4800e2f8"
+tree = "8af5d89a382de063e1b9f329b35d2385d2eee759"
+manifest_digest = "sha256:0b2089370af89abb063568e4fb90df852114fa3feceed21f2b52964ed5d4887d"
+dependencies = ["@acme/icu-ontology@1.0.0"]
+ontologies = ["@acme/icu-ontology@1.0.0"]
