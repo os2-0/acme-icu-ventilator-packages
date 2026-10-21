@@ -1,0 +1,50 @@
+# Native OS20 interface document for @acme/mechanical-system.
+# Synthetic educational OS20 fixture. Not a medical device, not a validated ventilator, and not regulatory, clinical, or safety evidence.
+
+[[interfaces]]
+id = "floor-feet"
+package = "@acme/mechanical-system"
+owner = "MechanicalSystem"
+name = "floor-feet"
+kind = "core:interface/mechanical/support"
+direction = "output"
+
+[[interfaces]]
+id = "cart-mount"
+package = "@acme/mechanical-system"
+owner = "MechanicalSystem"
+name = "cart-mount"
+kind = "core:interface/mechanical/bracket"
+direction = "input"
+
+[[interfaces]]
+id = "front-panel-cutout"
+package = "@acme/mechanical-system"
+owner = "MechanicalSystem"
+name = "front-panel-cutout"
+kind = "core:interface/mechanical/panel"
+direction = "output"
+
+[[connections]]
+from = "InternalFrame.blower-mount"
+to = "Enclosure.frame-bosses"
+relation = "core:connectedTo"
+required = true
+
+[[connections]]
+from = "MountingBracket.frame-face"
+to = "InternalFrame.blower-mount"
+relation = "core:connectedTo"
+required = true
+
+[[connections]]
+from = "FastenerSet.kit"
+to = "InternalFrame.blower-mount"
+relation = "core:connectedTo"
+required = true
+
+[[connections]]
+from = "CoolingFan.air-in"
+to = "Enclosure.frame-bosses"
+relation = "core:connectedTo"
+required = true

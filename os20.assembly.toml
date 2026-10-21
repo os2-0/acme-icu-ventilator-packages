@@ -1,0 +1,70 @@
+schema = "os20-assembly-v1"
+
+[[geometry]]
+id = "self"
+owner = "@acme/mechanical-system#MechanicalSystem"
+representation = "step:ap242"
+path = "cad/component.step"
+package = "@acme/mechanical-system"
+unit = "millimeter"
+verified = false
+
+[[frame]]
+id = "origin"
+owner = "@acme/mechanical-system#MechanicalSystem"
+geometry = "self"
+
+[[placement]]
+id = "enclosure"
+parent = "@acme/mechanical-system#MechanicalSystem"
+child = "@acme/enclosure#Enclosure"
+geometry = "self"
+frame = "origin"
+translation = ["0", "0", "20"]
+rotation = ["1", "0", "0", "0"]
+unit = "millimeter"
+required = true
+
+[[placement]]
+id = "internal-frame"
+parent = "@acme/mechanical-system#MechanicalSystem"
+child = "@acme/internal-frame#InternalFrame"
+geometry = "self"
+frame = "origin"
+translation = ["0", "0", "40"]
+rotation = ["1", "0", "0", "0"]
+unit = "millimeter"
+required = true
+
+[[placement]]
+id = "cooling-fan"
+parent = "@acme/mechanical-system#MechanicalSystem"
+child = "@acme/cooling-fan#CoolingFan"
+geometry = "self"
+frame = "origin"
+translation = ["0", "0", "60"]
+rotation = ["1", "0", "0", "0"]
+unit = "millimeter"
+required = true
+
+[[placement]]
+id = "mounting-bracket"
+parent = "@acme/mechanical-system#MechanicalSystem"
+child = "@acme/mounting-bracket#MountingBracket"
+geometry = "self"
+frame = "origin"
+translation = ["0", "0", "80"]
+rotation = ["1", "0", "0", "0"]
+unit = "millimeter"
+required = true
+
+[[placement]]
+id = "fastener-set"
+parent = "@acme/mechanical-system#MechanicalSystem"
+child = "@acme/fastener-set#FastenerSet"
+geometry = "self"
+frame = "origin"
+translation = ["0", "0", "100"]
+rotation = ["1", "0", "0", "0"]
+unit = "millimeter"
+required = true

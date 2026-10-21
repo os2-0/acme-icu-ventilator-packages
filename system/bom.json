@@ -1,0 +1,57 @@
+{
+  "schema": "os20-fixture-bom-v1",
+  "disclaimer": "Synthetic educational OS20 fixture. Not a medical device, not a validated ventilator, and not regulatory, clinical, or safety evidence.",
+  "package": "@acme/mechanical-system",
+  "items": [
+    {
+      "occurrence": "@acme/mechanical-system#occ.enclosure",
+      "role": "enclosure",
+      "package": "@acme/enclosure",
+      "version": "1.0.0",
+      "definition": "@acme/enclosure#Enclosure",
+      "qty": 1,
+      "mass_kg_own": 4.2,
+      "note": "Occurrence count, not dependency-graph count"
+    },
+    {
+      "occurrence": "@acme/mechanical-system#occ.internal-frame",
+      "role": "internal-frame",
+      "package": "@acme/internal-frame",
+      "version": "1.0.0",
+      "definition": "@acme/internal-frame#InternalFrame",
+      "qty": 1,
+      "mass_kg_own": 3.1,
+      "note": "Occurrence count, not dependency-graph count"
+    },
+    {
+      "occurrence": "@acme/mechanical-system#occ.cooling-fan",
+      "role": "cooling-fan",
+      "package": "@acme/cooling-fan",
+      "version": "1.0.0",
+      "definition": "@acme/cooling-fan#CoolingFan",
+      "qty": 1,
+      "mass_kg_own": 0.29,
+      "note": "Occurrence count, not dependency-graph count"
+    },
+    {
+      "occurrence": "@acme/mechanical-system#occ.mounting-bracket",
+      "role": "mounting-bracket",
+      "package": "@acme/mounting-bracket",
+      "version": "1.0.0",
+      "definition": "@acme/mounting-bracket#MountingBracket",
+      "qty": 1,
+      "mass_kg_own": 0.33,
+      "note": "Occurrence count, not dependency-graph count"
+    },
+    {
+      "occurrence": "@acme/mechanical-system#occ.fastener-set",
+      "role": "fastener-set",
+      "package": "@acme/fastener-set",
+      "version": "1.0.0",
+      "definition": "@acme/fastener-set#FastenerSet",
+      "qty": 1,
+      "mass_kg_own": 0.25,
+      "note": "Occurrence count, not dependency-graph count"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "schema": "os20-fixture-materials-v1",
+  "disclaimer": "Synthetic educational OS20 fixture. Not a medical device, not a validated ventilator, and not regulatory, clinical, or safety evidence.",
+  "package": "@acme/mechanical-system",
+  "definition": "@acme/mechanical-system#MechanicalSystem",
+  "provenance": {
+    "source": "os20-ventilator-fixture-v1",
+    "kind": "synthetic-fixture",
+    "date": "2026-10-21"
+  },
+  "usage_note": "Assemblies list constituent materials. OS20 does not aggregate materials.json; mass rollup uses os20.quantities.toml by mounted occurrence.",
+  "materials": [
+    {
+      "id": "abs-fixture",
+      "classification": "thermoplastic",
+      "usage": "enclosures-and-bezels",
+      "density_kg_m3": 1040,
+      "notes": "Synthetic ABS-like polymer for demonstration enclosure parts.",
+      "synthetic": true,
+      "confidence": "synthetic-fixture",
+      "source": "os20-ventilator-fixture-v1",
+      "max_service_c": 80
+    },
+    {
+      "id": "al-6061-t6-fixture",
+      "classification": "aluminum-alloy",
+      "usage": "structural-housing",
+      "density_kg_m3": 2700,
+      "notes": "Synthetic 6061-T6-like alloy used for demonstration housings.",
+      "synthetic": true,
+      "confidence": "synthetic-fixture",
+      "source": "os20-ventilator-fixture-v1",
+      "yield_mpa": 276,
+      "thermal_conductivity_w_mk": 167
+    },
+    {
+      "id": "stainless-304-fixture",
+      "classification": "austenitic-stainless-steel",
+      "usage": "fasteners-and-shafts",
+      "density_kg_m3": 8000,
+      "notes": "Synthetic 304-like stainless for demonstration fasteners and shafts.",
+      "synthetic": true,
+      "confidence": "synthetic-fixture",
+      "source": "os20-ventilator-fixture-v1",
+      "yield_mpa": 215
+    }
+  ]
+}

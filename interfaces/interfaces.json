@@ -1,0 +1,61 @@
+{
+  "schema": "os20-fixture-interfaces-v1",
+  "disclaimer": "Synthetic educational OS20 fixture. Not a medical device, not a validated ventilator, and not regulatory, clinical, or safety evidence.",
+  "package": "@acme/mechanical-system",
+  "native_document": "os20.interfaces.toml",
+  "ports": [
+    {
+      "id": "@acme/mechanical-system#iface.floor-feet",
+      "local_id": "floor-feet",
+      "kind": "core:interface/mechanical/support",
+      "direction": "output",
+      "properties": {},
+      "owner_definition": "@acme/mechanical-system#MechanicalSystem",
+      "note": "Connect by mounted occurrence and port, not by package name alone."
+    },
+    {
+      "id": "@acme/mechanical-system#iface.cart-mount",
+      "local_id": "cart-mount",
+      "kind": "core:interface/mechanical/bracket",
+      "direction": "input",
+      "properties": {},
+      "owner_definition": "@acme/mechanical-system#MechanicalSystem",
+      "note": "Connect by mounted occurrence and port, not by package name alone."
+    },
+    {
+      "id": "@acme/mechanical-system#iface.front-panel-cutout",
+      "local_id": "front-panel-cutout",
+      "kind": "core:interface/mechanical/panel",
+      "direction": "output",
+      "properties": {},
+      "owner_definition": "@acme/mechanical-system#MechanicalSystem",
+      "note": "Connect by mounted occurrence and port, not by package name alone."
+    }
+  ],
+  "sibling_references": [
+    {
+      "from": "@acme/mechanical-system#occ.internal-frame",
+      "to": "@acme/mechanical-system#occ.enclosure",
+      "predicate": "acme:connectedTo",
+      "native": "os20.occurrences.toml [[reference]]"
+    },
+    {
+      "from": "@acme/mechanical-system#occ.mounting-bracket",
+      "to": "@acme/mechanical-system#occ.internal-frame",
+      "predicate": "acme:connectedTo",
+      "native": "os20.occurrences.toml [[reference]]"
+    },
+    {
+      "from": "@acme/mechanical-system#occ.fastener-set",
+      "to": "@acme/mechanical-system#occ.internal-frame",
+      "predicate": "acme:connectedTo",
+      "native": "os20.occurrences.toml [[reference]]"
+    },
+    {
+      "from": "@acme/mechanical-system#occ.cooling-fan",
+      "to": "@acme/mechanical-system#occ.enclosure",
+      "predicate": "acme:connectedTo",
+      "native": "os20.occurrences.toml [[reference]]"
+    }
+  ]
+}

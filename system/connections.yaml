@@ -1,0 +1,18 @@
+# Companion view of [[reference]] / [[connections]] for @acme/mechanical-system. OS20 does not read this file.
+connections:
+  - from_occurrence: @acme/mechanical-system#occ.internal-frame
+    to_occurrence: @acme/mechanical-system#occ.enclosure
+    predicate: acme:connectedTo
+    note: specific mounted occurrence, not package name
+  - from_occurrence: @acme/mechanical-system#occ.mounting-bracket
+    to_occurrence: @acme/mechanical-system#occ.internal-frame
+    predicate: acme:connectedTo
+    note: specific mounted occurrence, not package name
+  - from_occurrence: @acme/mechanical-system#occ.fastener-set
+    to_occurrence: @acme/mechanical-system#occ.internal-frame
+    predicate: acme:connectedTo
+    note: specific mounted occurrence, not package name
+  - from_occurrence: @acme/mechanical-system#occ.cooling-fan
+    to_occurrence: @acme/mechanical-system#occ.enclosure
+    predicate: acme:connectedTo
+    note: specific mounted occurrence, not package name

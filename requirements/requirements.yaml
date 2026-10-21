@@ -1,0 +1,33 @@
+# Synthetic educational OS20 fixture. Not a medical device, not a validated ventilator, and not regulatory, clinical, or safety evidence.
+package: @acme/mechanical-system
+kind: requirement-definition
+status: authored-unverified
+requirements:
+  - id: REQ-MECHANICAL_SYSTEM-001
+    title: "Mechanical subsystem identity and package boundary"
+    text: "The definition @acme/mechanical-system#MechanicalSystem shall be published as package @acme/mechanical-system@1.0.0."
+    kind: definition
+    evidence: missing
+    verified: false
+    owner: @acme/mechanical-system#MechanicalSystem
+  - id: REQ-MECHANICAL_SYSTEM-002
+    title: "Mechanical subsystem interface declaration"
+    text: "Mechanical subsystem shall declare its ports in os20.interfaces.toml. Connection is by occurrence and port."
+    kind: definition
+    evidence: missing
+    verified: false
+    owner: @acme/mechanical-system#MechanicalSystem
+  - id: REQ-MECHANICAL_SYSTEM-003
+    title: "Mechanical subsystem evidence distinction"
+    text: "Verification records in this package are procedure definitions only. They are not test results, certification, or clinical validation."
+    kind: definition
+    evidence: missing
+    verified: false
+    owner: @acme/mechanical-system#MechanicalSystem
+  - id: REQ-MECHANICAL_SYSTEM-004
+    title: "Mechanical subsystem mass rollup"
+    text: "Composite mass shall be derived from structural child occurrences. Duplicate package dependencies shall not be counted twice."
+    kind: definition
+    evidence: missing
+    verified: false
+    owner: @acme/mechanical-system#MechanicalSystem

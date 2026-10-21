@@ -1,0 +1,28 @@
+# Companion view of os20.occurrences.toml for @acme/mechanical-system. OS20 does not read this file.
+root: @acme/mechanical-system#occ-tree
+children:
+  - role: enclosure
+    occurrence: @acme/mechanical-system#occ.enclosure
+    definition: @acme/enclosure#Enclosure
+    package: @acme/enclosure@1.0.0
+    predicate: os20:HasPart
+  - role: internal-frame
+    occurrence: @acme/mechanical-system#occ.internal-frame
+    definition: @acme/internal-frame#InternalFrame
+    package: @acme/internal-frame@1.0.0
+    predicate: os20:HasPart
+  - role: cooling-fan
+    occurrence: @acme/mechanical-system#occ.cooling-fan
+    definition: @acme/cooling-fan#CoolingFan
+    package: @acme/cooling-fan@1.0.0
+    predicate: os20:HasPart
+  - role: mounting-bracket
+    occurrence: @acme/mechanical-system#occ.mounting-bracket
+    definition: @acme/mounting-bracket#MountingBracket
+    package: @acme/mounting-bracket@1.0.0
+    predicate: os20:HasPart
+  - role: fastener-set
+    occurrence: @acme/mechanical-system#occ.fastener-set
+    definition: @acme/fastener-set#FastenerSet
+    package: @acme/fastener-set@1.0.0
+    predicate: os20:HasPart

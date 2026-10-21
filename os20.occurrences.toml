@@ -1,0 +1,101 @@
+[namespaces]
+acme = "@acme/icu-ontology#"
+os20 = "@os20/core#"
+
+[[definition]]
+id = "@acme/mechanical-system#MechanicalSystem"
+
+[[definition]]
+id = "@acme/enclosure#Enclosure"
+package = "@acme/enclosure"
+version = "1.0.0"
+
+[[definition]]
+id = "@acme/internal-frame#InternalFrame"
+package = "@acme/internal-frame"
+version = "1.0.0"
+
+[[definition]]
+id = "@acme/cooling-fan#CoolingFan"
+package = "@acme/cooling-fan"
+version = "1.0.0"
+
+[[definition]]
+id = "@acme/mounting-bracket#MountingBracket"
+package = "@acme/mounting-bracket"
+version = "1.0.0"
+
+[[definition]]
+id = "@acme/fastener-set#FastenerSet"
+package = "@acme/fastener-set"
+version = "1.0.0"
+
+[[occurrence]]
+id = "@acme/mechanical-system#occ.enclosure"
+role = "enclosure"
+predicate = "os20:HasPart"
+
+[occurrence.definition]
+id = "@acme/enclosure#Enclosure"
+package = "@acme/enclosure"
+version = "1.0.0"
+
+[[occurrence]]
+id = "@acme/mechanical-system#occ.internal-frame"
+role = "internal-frame"
+predicate = "os20:HasPart"
+
+[occurrence.definition]
+id = "@acme/internal-frame#InternalFrame"
+package = "@acme/internal-frame"
+version = "1.0.0"
+
+[[occurrence]]
+id = "@acme/mechanical-system#occ.cooling-fan"
+role = "cooling-fan"
+predicate = "os20:HasPart"
+
+[occurrence.definition]
+id = "@acme/cooling-fan#CoolingFan"
+package = "@acme/cooling-fan"
+version = "1.0.0"
+
+[[occurrence]]
+id = "@acme/mechanical-system#occ.mounting-bracket"
+role = "mounting-bracket"
+predicate = "os20:HasPart"
+
+[occurrence.definition]
+id = "@acme/mounting-bracket#MountingBracket"
+package = "@acme/mounting-bracket"
+version = "1.0.0"
+
+[[occurrence]]
+id = "@acme/mechanical-system#occ.fastener-set"
+role = "fastener-set"
+predicate = "os20:HasPart"
+
+[occurrence.definition]
+id = "@acme/fastener-set#FastenerSet"
+package = "@acme/fastener-set"
+version = "1.0.0"
+
+[[reference]]
+from = "@acme/mechanical-system#occ.internal-frame"
+to = "@acme/mechanical-system#occ.enclosure"
+predicate = "acme:connectedTo"
+
+[[reference]]
+from = "@acme/mechanical-system#occ.mounting-bracket"
+to = "@acme/mechanical-system#occ.internal-frame"
+predicate = "acme:connectedTo"
+
+[[reference]]
+from = "@acme/mechanical-system#occ.fastener-set"
+to = "@acme/mechanical-system#occ.internal-frame"
+predicate = "acme:connectedTo"
+
+[[reference]]
+from = "@acme/mechanical-system#occ.cooling-fan"
+to = "@acme/mechanical-system#occ.enclosure"
+predicate = "acme:connectedTo"
