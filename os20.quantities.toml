@@ -1,37 +1,33 @@
 [[quantity]]
-id = "blower-assembly-mass-@acme/blower-assembly"
+id = "blower-assembly-mass-package"
 kind = "@os20/core#Mass"
 scope = "own"
 policy = "derive-from-children"
 owner = "@acme/blower-assembly"
-
 provenance = "authored"
 
 [[quantity]]
-id = "blower-assembly-cost-@acme/blower-assembly"
+id = "blower-assembly-cost-package"
 kind = "@os20/quantity#Cost"
 scope = "own"
 policy = "derive-from-children"
 owner = "@acme/blower-assembly"
 basis = "one-time"
-
 provenance = "authored"
 
 [[quantity]]
-id = "blower-assembly-mass-blowerassembly"
+id = "blower-assembly-mass-definition"
 kind = "@os20/core#Mass"
 scope = "own"
 policy = "derive-from-children"
 owner = "@acme/blower-assembly#BlowerAssembly"
-
 provenance = "authored"
 
 [[quantity]]
-id = "blower-assembly-cost-blowerassembly"
+id = "blower-assembly-cost-definition"
 kind = "@os20/quantity#Cost"
 scope = "own"
 policy = "derive-from-children"
 owner = "@acme/blower-assembly#BlowerAssembly"
 basis = "one-time"
-
 provenance = "authored"
